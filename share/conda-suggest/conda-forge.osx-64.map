@@ -280,11 +280,13 @@ GraphicsMagickWand-config:graphicsmagick
 Gstat:gooseslurm
 Gsub:gooseslurm
 HEN2xspec:hendrics
+HENaccelsearch:hendrics
 HENbaseline:hendrics
 HENbinary:hendrics
 HENcalibrate:hendrics
 HENcolors:hendrics
 HENcreategti:hendrics
+HENdeorbit:hendrics
 HENdumpdyn:hendrics
 HENefsearch:hendrics
 HENexcvar:hendrics
@@ -292,6 +294,7 @@ HENexposure:hendrics
 HENfake:hendrics
 HENfold:hendrics
 HENfspec:hendrics
+HENjoinevents:hendrics
 HENlags:hendrics
 HENlcurve:hendrics
 HENmodel:hendrics
@@ -301,9 +304,12 @@ HENplot:hendrics
 HENreadevents:hendrics
 HENreadfile:hendrics
 HENrebin:hendrics
+HENscramble:hendrics
 HENscrunchlc:hendrics
+HENsplitevents:hendrics
 HENsumfspec:hendrics
 HENvarenergy:hendrics
+HENz2vspf:hendrics
 HENzsearch:hendrics
 HPXcvt:wcslib
 HelloU3DWorld:u3d
@@ -365,6 +371,7 @@ Nion UI Launcher.app:nionui-tool
 OQMD2PyChemia.py:pychemia
 OSSolverService:pyomo
 ObjectDump:cctools
+ObjectDump:clang_bootstrap_osx-64
 ObjectDump:cxx-compiler
 OptC4.py:ambertools
 OrbitalDFTU_Evaluator.py:pychemia
@@ -455,11 +462,6 @@ XrayPrep:ambertools
 XrdCnsd:xrootd
 [:coreutils
 __init__.py:eqcorrscan
-__pycache__:bayeswaveutils
-__pycache__:cysignals
-__pycache__:pillow
-__pycache__:qds-sdk
-__pycache__:wordcloud
 a2p:perl
 a2ping:texlive-core
 a2x:asciidoc
@@ -673,6 +675,7 @@ apu-1-config:libaprutil
 ar:binutils
 ar:binutils-meta
 ar:cctools
+ar:clang_bootstrap_osx-64
 ar:cxx-compiler
 arara:texlive-core
 arc:go-archiver
@@ -712,6 +715,7 @@ aria_ftdump:libtiledb-sql
 aria_pack:libtiledb-sql
 aria_read_log:libtiledb-sql
 arlatex:texlive-core
+arm64-apple-darwin20.0.0-gfortran:gfortran_impl_osx-arm64
 artview:artview
 aruco_batch_processing:aruco
 aruco_calibration:aruco
@@ -728,6 +732,7 @@ aruco_tracker:aruco
 as:binutils
 as:binutils-meta
 as:cctools
+as:clang_bootstrap_osx-64
 as:cxx-compiler
 asap-python:asap3
 asap-qsub:asap
@@ -924,6 +929,7 @@ biplabg:nauty
 bison:bison
 bison++:bisonpp
 bitcode_strip:cctools
+bitcode_strip:clang_bootstrap_osx-64
 bitcode_strip:cxx-compiler
 bkr2ipynb:beakerx
 black:black
@@ -1246,6 +1252,7 @@ check_calib:pyfai-base
 check_cfradial:arm_pyart
 check_cfradial:pyart_mch
 check_dylib:cctools
+check_dylib:clang_bootstrap_osx-64
 check_dylib:cxx-compiler
 check_urdf:urdfdom
 check_watertight:dagmc
@@ -1256,6 +1263,7 @@ checksign:alps
 checksyms:binutils
 checksyms:binutils-meta
 checksyms:cctools
+checksyms:clang_bootstrap_osx-64
 checksyms:cxx-compiler
 cheetah:cheetah3
 cheetah-analyze:cheetah3
@@ -1439,6 +1447,7 @@ cleanlinks:xorg-imake
 clear:ncurses
 clease:clease
 clhep-config:clhep
+clhsdb:openjdk
 cli_mt:zookeeper-c
 cli_st:zookeeper-c
 clinfo:clinfo
@@ -1461,6 +1470,7 @@ cmark:commonmark
 cmfgen2tardis:tardis-sn
 cmp:diffutils
 cmpdylib:cctools
+cmpdylib:clang_bootstrap_osx-64
 cmpdylib:cxx-compiler
 cmpfillin:metis
 cmpfillin:suitesparse
@@ -1543,6 +1553,7 @@ codes_ui_grib.x:codes-ui
 codesign_allocate:binutils
 codesign_allocate:binutils-meta
 codesign_allocate:cctools
+codesign_allocate:clang_bootstrap_osx-64
 codesign_allocate:cxx-compiler
 cog:cogapp
 cog.py:cogapp
@@ -1861,6 +1872,7 @@ ctanupload:texlive-core
 ctest:cmake
 ctest:cmake-no-system
 ctf_insert:cctools
+ctf_insert:clang_bootstrap_osx-64
 ctf_insert:cxx-compiler
 cth_pressure_map:pytrilinos
 cth_pressure_map:trilinos
@@ -2307,6 +2319,7 @@ dworker:distributed
 dxf2dwg:libredwg
 dxfwrite:libredwg
 dyldinfo:cctools
+dyldinfo:clang_bootstrap_osx-64
 dyldinfo:cxx-compiler
 dynamic_scene:embree
 dynamic_scene_ispc:embree
@@ -3941,6 +3954,7 @@ hpftodit:groff
 hpsplit:astrometry
 hpxtest:healpix_cxx
 hrepack:hdf4
+hsdb:openjdk
 htmlmin:htmlmin
 htop:htop
 htpasswd:circuits
@@ -4068,6 +4082,7 @@ iio_genxml:libiio
 iio_info:libiio
 iio_readdev:libiio
 iio_reg:libiio
+iio_stresstest:libiio
 iio_writedev:libiio
 ikdasm:mono
 ilamb-doctor:ilamb
@@ -4114,6 +4129,7 @@ in2csv:csvkit
 indr:binutils
 indr:binutils-meta
 indr:cctools
+indr:clang_bootstrap_osx-64
 indr:cxx-compiler
 indxbib:groff
 inflow:sedflux
@@ -4136,6 +4152,7 @@ innochecksum:libtiledb-sql
 innochecksum:mysql
 innochecksum:mysql-server
 inout:cctools
+inout:clang_bootstrap_osx-64
 inout:cxx-compiler
 insert_errors:codec2
 insertgrid:gridutils
@@ -4152,6 +4169,7 @@ install_ferret_links:pyferret
 install_name_tool:binutils
 install_name_tool:binutils-meta
 install_name_tool:cctools
+install_name_tool:clang_bootstrap_osx-64
 install_name_tool:cxx-compiler
 installcheck:libsolv
 installcheck:libsolv-static
@@ -4772,6 +4790,7 @@ lconvert:qt
 lcov:lcov
 ld:binutils
 ld:binutils-meta
+ld:clang_bootstrap_osx-64
 ld:cxx-compiler
 ld:ld64
 ld.lld:lld
@@ -4839,6 +4858,7 @@ libtar:libtar
 libtool:binutils
 libtool:binutils-meta
 libtool:cctools
+libtool:clang_bootstrap_osx-64
 libtool:cxx-compiler
 libtool:libtool
 libtoolize:libtool
@@ -4915,6 +4935,7 @@ lintel_test:lintel
 lipo:binutils
 lipo:binutils-meta
 lipo:cctools
+lipo:clang_bootstrap_osx-64
 lipo:cxx-compiler
 liquidprompt:liquidprompt
 lispmtopgm:netpbm
@@ -5253,6 +5274,7 @@ mac2unix:dos2unix
 macchangeqt:qt
 macdeployqt:qt
 machocheck:cctools
+machocheck:clang_bootstrap_osx-64
 machocheck:cxx-compiler
 macnrn.term:neuron
 macos-codesign-gdb.sh:gdb
@@ -5353,6 +5375,7 @@ makeglossaries:texlive-core
 makeglossaries-lite:texlive-core
 makeinfo:texinfo
 makerelocs:cctools
+makerelocs:clang_bootstrap_osx-64
 makerelocs:cxx-compiler
 mako-render:mako
 mamba:mamba
@@ -5858,8 +5881,10 @@ mtSet_preprocess:limix
 mtSet_simPheno:limix
 mtest:parmetis
 mtoc:cctools
+mtoc:clang_bootstrap_osx-64
 mtoc:cxx-compiler
 mtor:cctools
+mtor:clang_bootstrap_osx-64
 mtor:cxx-compiler
 mtp:pyferret
 mtset_analyze:limix
@@ -6220,11 +6245,13 @@ nlp-cli:nlp
 nm:binutils
 nm:binutils-meta
 nm:cctools
+nm:clang_bootstrap_osx-64
 nm:cxx-compiler
 nmanal:ambertools
 nmedit:binutils
 nmedit:binutils-meta
 nmedit:cctools
+nmedit:clang_bootstrap_osx-64
 nmedit:cxx-compiler
 nmode:ambertools
 nnalg:ncl
@@ -6584,6 +6611,7 @@ otangle:texlive-core
 otool:binutils
 otool:binutils-meta
 otool:cctools
+otool:clang_bootstrap_osx-64
 otool:cxx-compiler
 otp2ocp:texlive-core
 out123:mpg123
@@ -6605,6 +6633,7 @@ padel:padel
 pagestuff:binutils
 pagestuff:binutils-meta
 pagestuff:cctools
+pagestuff:clang_bootstrap_osx-64
 pagestuff:cxx-compiler
 painter.py:pillow
 painter.pyc:pillow
@@ -8202,6 +8231,7 @@ ranlabg:nauty
 ranlib:binutils
 ranlib:binutils-meta
 ranlib:cctools
+ranlib:clang_bootstrap_osx-64
 ranlib:cxx-compiler
 rapidpe_calculate_overlap:python-lalinference
 rapidpe_compute_intrinsic_fisher:python-lalinference
@@ -8270,6 +8300,7 @@ redcheck_gmp:cddlib
 redo_prebinding:binutils
 redo_prebinding:binutils-meta
 redo_prebinding:cctools
+redo_prebinding:clang_bootstrap_osx-64
 redo_prebinding:cxx-compiler
 reduce:ambertools
 reducer:reducer
@@ -8785,16 +8816,19 @@ sedwheeler:sedflux
 seg_addr_table:binutils
 seg_addr_table:binutils-meta
 seg_addr_table:cctools
+seg_addr_table:clang_bootstrap_osx-64
 seg_addr_table:cxx-compiler
 seg_hack:binutils
 seg_hack:binutils-meta
 seg_hack:cctools
+seg_hack:clang_bootstrap_osx-64
 seg_hack:cxx-compiler
 segdb_coalesce:lscsoft-glue
 segdiff:ligotools-scripts
 segedit:binutils
 segedit:binutils-meta
 segedit:cctools
+segedit:clang_bootstrap_osx-64
 segedit:cxx-compiler
 segexpr:ligotools-scripts
 segno:segno
@@ -8920,6 +8954,7 @@ sixs:sixs
 size:binutils
 size:binutils-meta
 size:cctools
+size:clang_bootstrap_osx-64
 size:cxx-compiler
 size222:rubiks
 skan-gui:skan
@@ -9163,10 +9198,12 @@ stream:imagemagick
 strings:binutils
 strings:binutils-meta
 strings:cctools
+strings:clang_bootstrap_osx-64
 strings:cxx-compiler
 strip:binutils
 strip:binutils-meta
 strip:cctools
+strip:clang_bootstrap_osx-64
 strip:cxx-compiler
 stty:coreutils
 stubgen:mypy
@@ -9466,10 +9503,12 @@ terraform-provider-aws_v3.1.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.9.0_x4:terraform-provider-azuread
+terraform-provider-azuread_v1.0.0_x4:terraform-provider-azuread
 terraform-provider-azurerm_v1.11.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v1.13.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v1.14.0_x4:terraform-provider-azurerm
@@ -9515,6 +9554,7 @@ terraform-provider-azurerm_v2.22.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.23.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.24.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
@@ -9790,6 +9830,7 @@ terraform-provider-helm_v1.2.1_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.2_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.3_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.4_x4:terraform-provider-helm
+terraform-provider-helm_v1.3.0_x4:terraform-provider-helm
 terraform-provider-heroku_v0.1.2_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.0_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.1_x4:terraform-provider-heroku
@@ -9848,6 +9889,8 @@ terraform-provider-kubernetes_v1.11.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.3_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.4_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.12.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4:terraform-provider-kubernetes
@@ -10262,6 +10305,7 @@ terraform-provider-vsphere_v1.21.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.21.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.22.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.23.0_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.3.3_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.1_x4:terraform-provider-vsphere
@@ -10610,6 +10654,7 @@ unprocessed_raw:libraw
 unsquashfs:squashfs-tools
 unsteadyaero_driver:openfast
 unwinddump:cctools
+unwinddump:clang_bootstrap_osx-64
 unwinddump:cxx-compiler
 unxz:xz
 unzip:unzip
@@ -10861,6 +10906,7 @@ vtkWrapTclInit-8.1:vtk
 vtkprotoc-pv5.8:paraview
 vtkpython:vtk
 vtool:cctools
+vtool:clang_bootstrap_osx-64
 vtool:cxx-compiler
 vtu2ncu.py:pymt
 vulture:vulture
@@ -11576,6 +11622,7 @@ zipcmp:libzip
 zipdetails:perl
 zipgrep:unzip
 zipinfo:unzip
+zipline:zipline
 zipmerge:libzip
 ziptool:libzip
 zkboom:zetcd

@@ -88,6 +88,11 @@ bilby_pipe_create_injection_file:bilby_pipe
 bilby_pipe_generation:bilby_pipe
 bilby_pipe_gracedb:bilby_pipe
 bilby_pipe_plot:bilby_pipe
+bilby_pipe_plot_calibration:bilby_pipe
+bilby_pipe_plot_corner:bilby_pipe
+bilby_pipe_plot_marginal:bilby_pipe
+bilby_pipe_plot_skymap:bilby_pipe
+bilby_pipe_plot_waveform:bilby_pipe
 bilby_pipe_pp_test:bilby_pipe
 bilby_pipe_review:bilby_pipe
 bilby_pipe_write_default_ini:bilby_pipe
@@ -224,6 +229,7 @@ conda-mirror:conda-mirror
 conda-pack:conda-pack
 conda-server:anaconda-client
 conda-smithy:conda-smithy
+conda-suggest:conda-suggest
 conda-tmpenv:conda-execute
 conda-tree:conda-tree
 conda-workon:conda-workon
@@ -762,6 +768,7 @@ latex2text:pylatexenc
 latexencode:pylatexenc
 latexwalker:pylatexenc
 lb-add-copyright:lbdevtools
+lb-ap:lbaplocal
 lb-check-copyright:lbdevtools
 lb-clang-format:lbdevtools
 lb-completion-helper:lbenv
@@ -1103,6 +1110,7 @@ plip:plip
 plot_features:geometric_features
 plotlydash-tornado-cmd:plotlydash-tornado-cmd
 png2mp4:pysw4
+podman-compose:podman-compose
 poly-intersect:maxrect
 portable_db_server:xpdan
 post-knitty:knitty
@@ -1281,6 +1289,7 @@ resample_geotiff.py:hyp3lib
 resample_image:fslpy
 responder:responder
 restructuredtext-lint:restructuredtext_lint
+restview:restview
 retrieve_config:atomic-hpc
 retriever:retriever
 retype:retype
@@ -1293,6 +1302,7 @@ rioscalcstats.py:rios
 riosprintstats.py:rios
 ro:spacy-lookups-data
 robot:robotframework
+robotframework_ls:robotframework-lsp
 roifile:roifile
 rollbar:rollbar
 rosinstall_generator:rosinstall_generator
@@ -1302,6 +1312,7 @@ rougify:rb-rouge
 rq:rq
 rqinfo:rq
 rqworker:rq
+rshiny-server-cmd:rshiny-server-cmd
 rst-lint:restructuredtext_lint
 rst2pdf:rst2pdf
 rstcheck:rstcheck
@@ -1455,6 +1466,7 @@ tabulator:tabulator
 tabulator:tabulator-py
 tag_features:geometric_features
 tagmaps:tagmaps
+tcal:trading-calendars
 tconvert:ligotools-tconvert
 tdameritrade-auth:tdameritrade
 tdmsinfo:nptdms
@@ -1471,6 +1483,7 @@ tifffile:tifffile
 tika-python:tika
 tileList2shape.py:hyp3lib
 timechart:timechart
+titlecase:titlecase
 tl:spacy-lookups-data
 tldextract:tldextract
 tokenize-rt:tokenize-rt

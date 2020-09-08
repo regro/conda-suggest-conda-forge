@@ -252,6 +252,7 @@ ar:binutils
 ar:binutils-meta
 arara:texlive-core
 arlatex:texlive-core
+arm64-apple-darwin20.0.0-gfortran:gfortran_impl_osx-arm64
 as:binutils
 as:binutils-meta
 aserver:alsa-lib
@@ -1046,6 +1047,7 @@ hp2ps:ghc
 hpc:ghc
 hpftodit:groff
 hsc2hs:ghc
+htop:htop
 hub:hub
 hwloc-annotate:libhwloc
 hwloc-assembler:libhwloc

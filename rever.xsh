@@ -3,7 +3,7 @@ $ACTIVITIES = [
     'tag',
     'push_tag',
     'ghrelease',
-    #'conda_forge',
+    'conda_forge',
 ]
 
 $GITHUB_ORG = 'regro'

@@ -287,11 +287,13 @@ GraphicsMagickWand-config:graphicsmagick
 Gstat:gooseslurm
 Gsub:gooseslurm
 HEN2xspec:hendrics
+HENaccelsearch:hendrics
 HENbaseline:hendrics
 HENbinary:hendrics
 HENcalibrate:hendrics
 HENcolors:hendrics
 HENcreategti:hendrics
+HENdeorbit:hendrics
 HENdumpdyn:hendrics
 HENefsearch:hendrics
 HENexcvar:hendrics
@@ -299,6 +301,7 @@ HENexposure:hendrics
 HENfake:hendrics
 HENfold:hendrics
 HENfspec:hendrics
+HENjoinevents:hendrics
 HENlags:hendrics
 HENlcurve:hendrics
 HENmodel:hendrics
@@ -308,9 +311,12 @@ HENplot:hendrics
 HENreadevents:hendrics
 HENreadfile:hendrics
 HENrebin:hendrics
+HENscramble:hendrics
 HENscrunchlc:hendrics
+HENsplitevents:hendrics
 HENsumfspec:hendrics
 HENvarenergy:hendrics
+HENz2vspf:hendrics
 HENzsearch:hendrics
 HPXcvt:wcslib
 HelloU3DWorld:u3d
@@ -468,12 +474,6 @@ XrayPrep:ambertools
 XrdCnsd:xrootd
 [:coreutils
 __init__.py:eqcorrscan
-__pycache__:bayeswaveutils
-__pycache__:cysignals
-__pycache__:django
-__pycache__:pillow
-__pycache__:qds-sdk
-__pycache__:wordcloud
 a2p:perl
 a2ping:texlive-core
 a2x:asciidoc
@@ -879,6 +879,7 @@ aria_ftdump:libtiledb-sql
 aria_pack:libtiledb-sql
 aria_read_log:libtiledb-sql
 arlatex:texlive-core
+arm64-apple-darwin20.0.0-gfortran:gfortran_impl_osx-arm64
 arpa-to-const-arpa:kaldi
 arpa2fst:kaldi
 arpa2fst.cc:kaldi
@@ -1641,6 +1642,7 @@ clear:ncurses
 clearh5.py:proteus
 clease:clease
 clhep-config:clhep
+clhsdb:openjdk
 cli_mt:zookeeper-c
 cli_st:zookeeper-c
 clinfo:clinfo
@@ -4853,6 +4855,7 @@ hpxtest:healpix_cxx
 hrepack:hdf4
 hsc2hs:ghc
 hsc2hs:ghc-bootstrap
+hsdb:openjdk
 htmlmin:htmlmin
 htop:htop
 htpasswd:circuits
@@ -4990,6 +4993,7 @@ iio_genxml:libiio
 iio_info:libiio
 iio_readdev:libiio
 iio_reg:libiio
+iio_stresstest:libiio
 iio_writedev:libiio
 iiod:libiio
 ikdasm:mono
@@ -10944,6 +10948,7 @@ sxharmpottst:sphinxdft
 sxinterpol:sphinxdft
 sxkpprint:sphinxdft
 sxlocalenergy:sphinxdft
+sxmeshiso:sphinxdft
 sxmeshline:sphinxdft
 sxmeshtrace:sphinxdft
 sxmies:sphinxdft
@@ -11212,10 +11217,12 @@ terraform-provider-aws_v3.1.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.9.0_x4:terraform-provider-azuread
+terraform-provider-azuread_v1.0.0_x4:terraform-provider-azuread
 terraform-provider-azurerm_v1.11.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v1.13.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v1.14.0_x4:terraform-provider-azurerm
@@ -11262,6 +11269,7 @@ terraform-provider-azurerm_v2.22.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.23.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.24.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
@@ -11540,6 +11548,7 @@ terraform-provider-helm_v1.2.1_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.2_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.3_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.4_x4:terraform-provider-helm
+terraform-provider-helm_v1.3.0_x4:terraform-provider-helm
 terraform-provider-heroku_v0.1.2_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.0_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.1_x4:terraform-provider-heroku
@@ -11600,6 +11609,8 @@ terraform-provider-kubernetes_v1.11.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.3_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.4_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.12.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4:terraform-provider-kubernetes
@@ -12016,6 +12027,7 @@ terraform-provider-vsphere_v1.21.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.21.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.22.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.23.0_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.3.3_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.1_x4:terraform-provider-vsphere
@@ -13585,6 +13597,7 @@ zipcmp:libzip
 zipdetails:perl
 zipgrep:unzip
 zipinfo:unzip
+zipline:zipline
 zipmerge:libzip
 ziptool:libzip
 zkboom:zetcd

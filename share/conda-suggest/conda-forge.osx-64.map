@@ -146,6 +146,7 @@
 .westpa-post-link.sh:westpa
 .widgetsnbextension-post-link.sh:widgetsnbextension
 .widgetsnbextension-pre-unlink.sh:widgetsnbextension
+21cmfast:21cmfast
 2dfatmic:2dfatmic
 2to3:python
 2to3-3.4:python
@@ -1149,6 +1150,7 @@ catkin_make:ros-catkin
 catkin_make_isolated:ros-catkin
 catkin_test_results:ros-catkin
 catkin_topological_order:ros-catkin
+cbc:coin-or-cbc
 cbc:coincbc
 cbc:coinmp
 cbcBayesBurstPPAnalysis:python-lalinference
@@ -1457,6 +1459,7 @@ clingo:clingo
 clipfits:fitstools
 clippy-driver:rust
 cloog:cloog
+clp:coin-or-clp
 clp:coincbc
 clp:coinmp
 cluster:graphviz
@@ -2110,6 +2113,9 @@ dipy_align_affine:dipy
 dipy_align_syn:dipy
 dipy_apply_transform:dipy
 dipy_ba:dipy
+dipy_buan_lmm:dipy
+dipy_buan_profiles:dipy
+dipy_buan_shapes:dipy
 dipy_denoise_lpca:dipy
 dipy_denoise_mppca:dipy
 dipy_denoise_nlmeans:dipy
@@ -2141,6 +2147,7 @@ dipy_sh_estimate:dipy
 dipy_slr:dipy
 dipy_snr_in_cc:dipy
 dipy_split:dipy
+dipy_track:dipy
 dipy_track_det:dipy
 dipy_track_local:dipy
 dipy_track_pft:dipy
@@ -2484,6 +2491,7 @@ eval_octree_accuracy:octomap
 evaluate_xhat:pyomo
 event_optimize:pint-pulsar
 event_optimize_multiple:pint-pulsar
+evol:prody
 ex:vim
 ex_casA_image_cat.py:pyvo
 ex_get_cutouts.py:pyvo
@@ -3383,6 +3391,7 @@ go:go-core
 go:go-nocgo
 go-bindata:go-bindata
 go-bindata-assetfs:go-bindata-assetfs
+go-licenses:go-licenses
 go-licenses:tilt
 go-spatial:go-spatial
 go2:go2
@@ -4947,6 +4956,7 @@ listgeo:geotiff
 listhead:astrometry
 listings-ext.sh:texlive-core
 liststruc:astrometry
+lit:lit-nlp
 livereload:livereload
 lkbib:groff
 llc:clang_bootstrap_osx-64
@@ -6888,6 +6898,7 @@ pcl_vfh_estimation:pcl
 pcl_voxel_grid:pcl
 pcl_xyz2pcd:pcl
 pcluster:aws-parallelcluster
+pcluster-config:aws-parallelcluster
 pcm_abinit_launcher.py:pychemia
 pcm_mechanical_properties.py:pychemia
 pcm_vasp_relaxator.py:pychemia
@@ -7127,6 +7138,7 @@ pilfont.py:pillow
 pilfont.pyc:pillow
 pilprint.py:pillow
 pilprint.pyc:pillow
+pin-it:rubinenv
 pinky:coreutils
 pintbary:pint-pulsar
 pintempo:pint-pulsar
@@ -7161,6 +7173,7 @@ planar_hex:mpas_tools
 planarg:nauty
 planarity:planarity
 planet:planet
+plannerarena:ompl
 plasma-store-server:arrow-cpp
 plasma_store:arrow-cpp
 plasma_store:pyarrow
@@ -7505,6 +7518,7 @@ procar:pyprocar
 process:gmprocess
 process_mdout.perl:ambertools
 process_minout.perl:ambertools
+prody:prody
 profile2mat.pl:openmpi
 proj:proj
 proj:proj4
@@ -8366,6 +8380,7 @@ rewrite_monitoring.py:pyrad_mch
 rfc_calc:dynaphopy
 rfi-file-monitor:rfi-file-monitor
 rfi_diagnostic.py:aipy
+rfnoc_image_builder:uhd
 rg:ripgrep
 rgb2pct.py:gdal
 rgb2ycbcr:libtiff
@@ -8493,6 +8508,7 @@ roswtf:ros-roswtf
 rotalm_cxx:healpix_cxx
 rotrevfits:fitstools
 roundtrip:openbabel
+route_runoff.exe:mizuroute
 rp_inspect:radical.analytics
 rpdfcrop:texlive-core
 rpfex:rpfits
@@ -9504,6 +9520,7 @@ terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
@@ -9555,6 +9572,7 @@ terraform-provider-azurerm_v2.23.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.24.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.27.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
@@ -9742,6 +9760,7 @@ terraform-provider-github_v2.8.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.0_x4:terraform-provider-github
 terraform-provider-github_v2.9.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.2_x4:terraform-provider-github
+terraform-provider-github_v3.0.0_x4:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4:terraform-provider-gitlab
@@ -9812,6 +9831,8 @@ terraform-provider-google_v3.34.0_x4:terraform-provider-google
 terraform-provider-google_v3.35.0_x4:terraform-provider-google
 terraform-provider-google_v3.36.0_x4:terraform-provider-google
 terraform-provider-google_v3.37.0_x4:terraform-provider-google
+terraform-provider-google_v3.38.0_x4:terraform-provider-google
+terraform-provider-google_v3.39.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -9891,6 +9912,7 @@ terraform-provider-kubernetes_v1.11.4_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.12.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.1_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4:terraform-provider-kubernetes
@@ -10278,6 +10300,7 @@ terraform-provider-vault_v2.12.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.12.1_x4:terraform-provider-vault
 terraform-provider-vault_v2.12.2_x4:terraform-provider-vault
 terraform-provider-vault_v2.13.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.14.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
@@ -10772,6 +10795,7 @@ vcf_filter.py:pyvcf
 vcf_melt:pyvcf
 vcf_sample_filter.py:pyvcf
 vcolg:nauty
+vcpkg:vcpkg
 vd:visidata
 vdir:coreutils
 vec2mat.py:dolfyn
@@ -11482,13 +11506,19 @@ xon.sh:xonsh
 xonsh:xonsh
 xonsh-cat:xonsh
 xonsh.bat:xonsh
+xpaaccess:imexam
 xpaaccess:xpa
+xpaget:imexam
 xpaget:xpa
+xpainfo:imexam
 xpainfo:xpa
+xpamb:imexam
 xpamb:xpa
+xpans:imexam
 xpans:xpa
 xparmed:ambertools
 xparmed:parmed
+xpaset:imexam
 xpaset:xpa
 xpdtest:root
 xpdtest:root-binaries

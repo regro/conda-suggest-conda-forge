@@ -1249,6 +1249,15 @@ dipy_apply_transform.exe:dipy
 dipy_ba-script.py:dipy
 dipy_ba.bat:dipy
 dipy_ba.exe:dipy
+dipy_buan_lmm-script.py:dipy
+dipy_buan_lmm.bat:dipy
+dipy_buan_lmm.exe:dipy
+dipy_buan_profiles-script.py:dipy
+dipy_buan_profiles.bat:dipy
+dipy_buan_profiles.exe:dipy
+dipy_buan_shapes-script.py:dipy
+dipy_buan_shapes.bat:dipy
+dipy_buan_shapes.exe:dipy
 dipy_denoise_lpca-script.py:dipy
 dipy_denoise_lpca.bat:dipy
 dipy_denoise_lpca.exe:dipy
@@ -1342,6 +1351,9 @@ dipy_snr_in_cc.exe:dipy
 dipy_split-script.py:dipy
 dipy_split.bat:dipy
 dipy_split.exe:dipy
+dipy_track-script.py:dipy
+dipy_track.bat:dipy
+dipy_track.exe:dipy
 dipy_track_det-script.py:dipy
 dipy_track_det.bat:dipy
 dipy_track_det.exe:dipy
@@ -1564,6 +1576,8 @@ etexdef.bat:miktex
 etexdef.exe:miktex
 evaluate_xhat-script.py:pyomo
 evaluate_xhat.exe:pyomo
+evol-script.py:prody
+evol.exe:prody
 ex_casA_image_cat.py:pyvo
 ex_get_cutouts.py:pyvo
 example_obj_lib.py:aospy
@@ -2010,6 +2024,7 @@ gnuradio-companion.exe:gnuradio-grc
 gnutls.txt:ffmpeg
 go-bindata-assetfs.exe:go-bindata-assetfs
 go-bindata.exe:go-bindata
+go-licenses.exe:go-licenses
 go-licenses.exe:tilt
 go.exe:go
 go.exe:go-cgo
@@ -2766,6 +2781,8 @@ ligolw_veto_sngl_trigger.exe:lscsoft-glue
 liknorm.dll:liknorm
 list_instances-script.py:gensim
 list_instances.exe:gensim
+lit-script.py:lit-nlp
+lit.exe:lit-nlp
 livereload-script.py:livereload
 livereload.exe:livereload
 load-spark-env.cmd:pyspark
@@ -3655,6 +3672,7 @@ pbr-script.py:pbr
 pbr-script.pyc:pbr
 pbr.exe:pbr
 pbs_helpers.sh:datacube
+pcluster-config.exe:aws-parallelcluster
 pcluster-script.py:aws-parallelcluster
 pcluster.exe:aws-parallelcluster
 pcm_abinit_launcher.py:pychemia
@@ -3960,6 +3978,8 @@ preprocess-script.py:preprocess
 preprocess.exe:preprocess
 procar-script.py:pyprocar
 procar.exe:pyprocar
+prody-script.py:prody
+prody.exe:prody
 progressbar.dll:c-progressbar
 propka3-script.py:propka
 propka3.exe:propka
@@ -5169,6 +5189,7 @@ terraform-provider-aws_v3.2.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4.exe:terraform-provider-azuread
@@ -5212,6 +5233,7 @@ terraform-provider-azurerm_v2.23.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.24.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.27.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5372,6 +5394,7 @@ terraform-provider-github_v2.8.1_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.0_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.1_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.2_x4.exe:terraform-provider-github
+terraform-provider-github_v3.0.0_x4.exe:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4.exe:terraform-provider-gitlab
@@ -5430,6 +5453,8 @@ terraform-provider-google_v3.34.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.35.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.36.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.37.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.38.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.39.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -5493,6 +5518,7 @@ terraform-provider-kubernetes_v1.11.4_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.12.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.1_x4.exe:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.2_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.5.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.5.1_x4.exe:terraform-provider-kubernetes
@@ -5819,6 +5845,7 @@ terraform-provider-vault_v2.12.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.12.1_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.12.2_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.13.0_x4.exe:terraform-provider-vault
+terraform-provider-vault_v2.14.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4.exe:terraform-provider-vault

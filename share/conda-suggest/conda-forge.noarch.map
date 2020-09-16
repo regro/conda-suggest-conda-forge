@@ -23,6 +23,7 @@ Single Cell:orange3-singlecell
 UTscapy:scapy
 ablog:ablog
 academic:academic
+acme_diags:e3sm_diags
 acpype:acpype
 ads2inspire:ads2inspire
 advbumpversion:advbumpversion
@@ -68,6 +69,7 @@ autowrap:autowrap
 aws.rb:rb-aws-sdk-core
 aws_okta_keyman:aws-okta-keyman
 awslogs:awslogs
+babelize:babelizer
 backtrace:python-backtrace
 bandit:bandit
 bandit-baseline:bandit
@@ -172,6 +174,7 @@ cfchecks:cfchecker
 cfgrib:cfgrib
 cfn-flip:cfn-flip
 cfn-lint:cfn-lint
+cget:cget
 chalice:pytest-chalice
 change_tz:vobject
 chardetect:chardet
@@ -387,6 +390,8 @@ dtool_serve_directory:dtool_http
 dw:datadotworld-py
 dxfaudit:ezdxf
 dxfpp:ezdxf
+e3sm_diags:e3sm_diags
+e3sm_diags_vars:e3sm_diags
 earthengine:earthengine-api
 earthsim:earthsim
 easydev_buildPackage:easydev
@@ -430,6 +435,8 @@ fa:spacy-lookups-data
 fab:fabric
 fab:fabric3
 fabmanager:flask-appbuilder
+face_detection:face_recognition
+face_recognition:face_recognition
 faker:faker
 fanstatic-compile:fanstatic
 fast_dp:fast_dp
@@ -757,6 +764,7 @@ kramdown:rb-kramdown
 label-maker:label-maker
 labours:labours
 lambda-builders:aws_lambda_builders
+lantz-config:lantz
 larray-editor:larray-editor
 lascopy:laspy
 lasexplorer:laspy
@@ -776,6 +784,7 @@ lb-conda:lbcondawrappers
 lb-conda-dev:lbcondawrappers
 lb-create-all-lcg-meta-specs:lbadmin
 lb-create-one-lcg-meta-spec:lbadmin
+lb-debug-platform:lbplatformutils
 lb-deployment-updatesdb:lbadmin
 lb-describe-platform:lbplatformutils
 lb-dev:lbdevtools
@@ -1047,6 +1056,7 @@ owlrl:owlrl
 p2cif:pdielec
 p_astro_compute_means:p_astro
 p_astro_histogram_by_bin:p_astro
+pabot:robotframework-pabot
 package-docs:documenteer
 paintera:paintera
 paintera-conversion-helper:paintera-conversion-helper
@@ -1186,10 +1196,12 @@ pygmentize:pygments
 pyhf:pyhf
 pyhocon:pyhocon
 pyinstrument:pyinstrument
+pyiron:pyiron_base
 pyjson5:json5
 pyjwt:pyjwt
 pykwalify:pykwalify
 pylama:pylama
+pyls:python-language-server
 pymedphys:pymedphys
 pymodbus.console:pymodbus
 pymorphy:pymorphy2
@@ -1292,6 +1304,7 @@ restructuredtext-lint:restructuredtext_lint
 restview:restview
 retrieve_config:atomic-hpc
 retriever:retriever
+retry:redo
 retype:retype
 reuse:fsfe-reuse
 reuse:reuse
@@ -1478,6 +1491,7 @@ test.pyutilib:pyutilib
 testflo:testflo
 testrios.py:rios
 texplain:texplain
+textnets:textnets
 thor:rb-thor
 tifffile:tifffile
 tika-python:tika
@@ -1523,6 +1537,7 @@ typer:typer-cli
 typestubs:pytypes
 typhon:typhos
 typhos:typhos
+ucs-detect:ucs-detect
 uglifyjs:uglify-js
 ukbparse:ukbparse
 ukbparse_compare_tables:ukbparse

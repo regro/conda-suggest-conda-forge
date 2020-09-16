@@ -152,6 +152,7 @@
 .westpa-post-link.sh:westpa
 .widgetsnbextension-post-link.sh:widgetsnbextension
 .widgetsnbextension-pre-unlink.sh:widgetsnbextension
+21cmfast:21cmfast
 2dfatmic:2dfatmic
 2to3:python
 2to3-3.4:python
@@ -191,6 +192,10 @@ CovidSim:covid-sim
 CreateDOMDocument:xerces-c
 CreateDatabaseFromCIFs.py:pychemia
 Cy14HwMeanVar.py:ps2ff
+DADF5_postResults:damask
+DADF5toDREAM3D:damask
+DAMASK_grid:damask
+DAMASK_mesh:damask
 DAMASK_spectral:damask
 DOMCount:xerces-c
 DOMPrint:xerces-c
@@ -389,6 +394,7 @@ POSSPS:stir
 PParse:xerces-c
 PSVIWriter:xerces-c
 PTAInterpolate:libpano13
+PTBatcherGUI:hugin
 PTblender:libpano13
 PTcrop:libpano13
 PTinfo:libpano13
@@ -710,6 +716,7 @@ align-equal:kaldi
 align-equal-compiled:kaldi
 align-mapped:kaldi
 align-text:kaldi
+align_image_stack:hugin
 allcm:texlive-core
 allec:texlive-core
 allennlp:allennlp
@@ -976,6 +983,7 @@ automake-1.14:automake
 automake-1.15:automake
 automake-1.16:automake
 automat-visualize:automat
+autooptimiser:hugin
 autopep8:autopep8
 autopoint:gettext
 autoreconf:autoconf
@@ -1103,6 +1111,7 @@ bibtex:texlive-core
 biburl2doi:texlive-core
 bibzbladd:texlive-core
 big2gribex:ecmwf_grib
+bin:damask
 binO:esmp
 binXY:damask
 binXY.py:damask
@@ -1311,6 +1320,7 @@ calcite-1.0-SNAPSHOT-jar-with-dependencies.jar:mapd-core-cpu
 calcite-1.0-SNAPSHOT-jar-with-dependencies.jar:omniscidb-cpu
 calculateIdMD5:fwlite
 calculate_attenuation_coefficients:stir
+calibrate_lens_gui:hugin
 calink:ambertools
 callgrind_annotate:valgrind
 callgrind_control:valgrind
@@ -1358,6 +1368,7 @@ catkin_make:ros-catkin
 catkin_make_isolated:ros-catkin
 catkin_test_results:ros-catkin
 catkin_topological_order:ros-catkin
+cbc:coin-or-cbc
 cbc:coincbc
 cbc:coinmp
 cbcBayesBurstPPAnalysis:python-lalinference
@@ -1409,6 +1420,7 @@ celery:celery
 celerybeat:celery
 celeryd:celery
 celeryd-multi:celery
+celeste_standalone:hugin
 cell2ibrav.x:qe
 cem:cem
 cement:cement
@@ -1473,6 +1485,7 @@ checkcites:texlive-core
 checkcopyright:pyutilib
 checklistings:texlive-core
 checkmk:check
+checkpto:hugin
 checksign:alps
 checksyms:cctools
 cheetah:cheetah3
@@ -1653,6 +1666,7 @@ clipfits:fitstools
 clippy-driver:rust
 cloog:cloog
 cloud-controller-manager:kubernetes
+clp:coin-or-clp
 clp:coincbc
 clp:coinmp
 cluster:graphviz
@@ -2101,7 +2115,9 @@ cp_rs:triqs
 cpack:cmake
 cpack:cmake-no-system
 cpan:perl
+cpclean:hugin
 cpeinutil.py:ambertools
+cpfind:hugin
 cph:conda-package-handling
 cphstats:ambertools
 cpinutil.py:ambertools
@@ -2462,6 +2478,7 @@ decorate:datamash
 define_cullMask.py:mpas_tools
 defncopy:freetds
 deformQuoc2D:match-series
+deghosting_mask:hugin
 degtohms:astrometry
 deicode:deicode
 delaunay:gts
@@ -2542,6 +2559,9 @@ dipy_align_affine:dipy
 dipy_align_syn:dipy
 dipy_apply_transform:dipy
 dipy_ba:dipy
+dipy_buan_lmm:dipy
+dipy_buan_profiles:dipy
+dipy_buan_shapes:dipy
 dipy_denoise_lpca:dipy
 dipy_denoise_mppca:dipy
 dipy_denoise_nlmeans:dipy
@@ -2573,6 +2593,7 @@ dipy_sh_estimate:dipy
 dipy_slr:dipy
 dipy_snr_in_cc:dipy
 dipy_split:dipy
+dipy_track:dipy
 dipy_track_det:dipy
 dipy_track_local:dipy
 dipy_track_pft:dipy
@@ -2986,6 +3007,7 @@ eval_octree_accuracy:octomap
 evaluate_xhat:pyomo
 event_optimize:pint-pulsar
 event_optimize_multiple:pint-pulsar
+evol:prody
 ex:vim
 ex_casA_image_cat.py:pyvo
 ex_get_cutouts.py:pyvo
@@ -3550,6 +3572,7 @@ ftfy:ftfy
 ftpbench:pyftpdlib
 ftpfetch:amptools
 ftpfetch:gmprocess
+fulla:hugin
 fulldiag:alps
 fulldiag_evaluate:alps
 funpack:cfitsio
@@ -3757,6 +3780,7 @@ gentreeg:nauty
 gentrigrams:sonnet
 genxs:mono
 geoToH3:h3
+geocpset:hugin
 geod:proj
 geod:proj4
 geodesic.py:pymesh2
@@ -4187,6 +4211,7 @@ go:go-core
 go:go-nocgo
 go-bindata:go-bindata
 go-bindata-assetfs:go-bindata-assetfs
+go-licenses:go-licenses
 go-licenses:tilt
 go-spatial:go-spatial
 go2:go2
@@ -4865,6 +4890,12 @@ httpok:superlance
 https:httpie
 hub:hub
 hug:hug
+hugin:hugin
+hugin_executor:hugin
+hugin_hdrmerge:hugin
+hugin_lensdb:hugin
+hugin_stacker:hugin
+hugin_stitch_project:hugin
 humanfriendly:humanfriendly
 hunspell:hunspell
 hunzip:hunspell
@@ -4936,6 +4967,7 @@ icesheet:scorec
 icontopbm:netpbm
 iconv:libiconv
 icosphere_gen.py:pymesh2
+icpfind:hugin
 ics_diff:vobject
 ictrans:ncl
 icu-config:icu
@@ -6032,6 +6064,7 @@ limix_converter:limix
 limix_runner:limix
 linbox-config:linbox
 linear-to-nbest:kaldi
+linefind:hugin
 linegraphg:nauty
 linguist:qt
 link:coreutils
@@ -6058,6 +6091,7 @@ listhead:astrometry
 listings-ext.sh:texlive-core
 listplugins:ladspa
 liststruc:astrometry
+lit:lit-nlp
 livereload:livereload
 lkbib:groff
 llc:llvm-tools
@@ -6764,6 +6798,7 @@ mktopomodel:scorec
 mlflow:mlflow
 mlpack_adaboost:mlpack
 mlpack_approx_kfn:mlpack
+mlpack_bayesian_linear_regression:mlpack
 mlpack_cf:mlpack
 mlpack_dbscan:mlpack
 mlpack_decision_stump:mlpack
@@ -6801,6 +6836,7 @@ mlpack_perceptron:mlpack
 mlpack_preprocess_binarize:mlpack
 mlpack_preprocess_describe:mlpack
 mlpack_preprocess_imputer:mlpack
+mlpack_preprocess_one_hot_encoding:mlpack
 mlpack_preprocess_scale:mlpack
 mlpack_preprocess_split:mlpack
 mlpack_radical:mlpack
@@ -7525,6 +7561,7 @@ node-nbin:nbin
 nodesize_dbg:foonathan-memory
 nohup:coreutils
 nokogiri:rb-nokogiri
+nona:hugin
 nop:graphviz
 normalform:4ti2
 normaliz:normaliz
@@ -8030,6 +8067,8 @@ pandoctools:pandoctools
 pandoctools-resolve:pandoctools
 pango-list:pango
 pango-view:pango
+pano_modify:hugin
+pano_trafo:hugin
 panoinfo:libpano13
 paperboy:jupyter_paperboy
 paperboy-worker:jupyter_paperboy
@@ -8210,6 +8249,7 @@ pcl_vfh_estimation:pcl
 pcl_voxel_grid:pcl
 pcl_xyz2pcd:pcl
 pcluster:aws-parallelcluster
+pcluster-config:aws-parallelcluster
 pcm_abinit_launcher.py:pychemia
 pcm_mechanical_properties.py:pychemia
 pcm_vasp_relaxator.py:pychemia
@@ -8461,6 +8501,7 @@ pilfont.py:pillow
 pilfont.pyc:pillow
 pilprint.py:pillow
 pilprint.pyc:pillow
+pin-it:rubinenv
 pinky:coreutils
 pintbary:pint-pulsar
 pintempo:pint-pulsar
@@ -8909,6 +8950,7 @@ process-kaldi-pitch-feats:kaldi
 process-pitch-feats:kaldi
 process_mdout.perl:ambertools
 process_minout.perl:ambertools
+prody:prody
 profile2mat.pl:openmpi
 proj:proj
 proj:proj4
@@ -9018,6 +9060,13 @@ ptex:texlive-core
 ptex2pdf:texlive-core
 ptftopl:texlive-core
 ptnParma:scorec
+pto_gen:hugin
+pto_lensstack:hugin
+pto_mask:hugin
+pto_merge:hugin
+pto_move:hugin
+pto_template:hugin
+pto_var:hugin
 ptrac_to_hdf5:pyne
 ptrepack:pytables
 pttree:pytables
@@ -9856,6 +9905,7 @@ rewrite_monitoring.py:pyrad_mch
 rfc_calc:dynaphopy
 rfi-file-monitor:rfi-file-monitor
 rfi_diagnostic.py:aipy
+rfnoc_image_builder:uhd
 rg:ripgrep
 rgb2pct.py:gdal
 rgb2ycbcr:libtiff
@@ -9997,6 +10047,7 @@ rotconverter:gmt
 rotrevfits:fitstools
 rotsmoother:gmt
 roundtrip:openbabel
+route_runoff.exe:mizuroute
 rp_inspect:radical.analytics
 rpdfcrop:texlive-core
 rpfex:rpfits
@@ -11034,6 +11085,7 @@ tatsu:tatsu
 tbl:groff
 tbtrans:siesta
 tbtrans_old:siesta
+tca_correct:hugin
 tcamgr:tokyocabinet
 tcamttest:tokyocabinet
 tcatest:tokyocabinet
@@ -11218,6 +11270,7 @@ terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
@@ -11270,6 +11323,7 @@ terraform-provider-azurerm_v2.23.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.24.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.27.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
@@ -11459,6 +11513,7 @@ terraform-provider-github_v2.8.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.0_x4:terraform-provider-github
 terraform-provider-github_v2.9.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.2_x4:terraform-provider-github
+terraform-provider-github_v3.0.0_x4:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4:terraform-provider-gitlab
@@ -11530,6 +11585,8 @@ terraform-provider-google_v3.34.0_x4:terraform-provider-google
 terraform-provider-google_v3.35.0_x4:terraform-provider-google
 terraform-provider-google_v3.36.0_x4:terraform-provider-google
 terraform-provider-google_v3.37.0_x4:terraform-provider-google
+terraform-provider-google_v3.38.0_x4:terraform-provider-google
+terraform-provider-google_v3.39.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -11611,6 +11668,7 @@ terraform-provider-kubernetes_v1.11.4_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.12.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.1_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4:terraform-provider-kubernetes
@@ -12000,6 +12058,7 @@ terraform-provider-vault_v2.12.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.12.1_x4:terraform-provider-vault
 terraform-provider-vault_v2.12.2_x4:terraform-provider-vault
 terraform-provider-vault_v2.13.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.14.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
@@ -12546,6 +12605,7 @@ vcf_filter.py:pyvcf
 vcf_melt:pyvcf
 vcf_sample_filter.py:pyvcf
 vcolg:nauty
+vcpkg:vcpkg
 vd:visidata
 vdir:coreutils
 vdw_kernelgen:abinit
@@ -12554,6 +12614,7 @@ vecs_to_binpos:ambertools
 vector-scale:kaldi
 vector-sum:kaldi
 velocity2xmf:proteus
+verdandi:hugin
 verdi:aiida-core
 verdi-plug:aiida-core
 verify:embree
@@ -12592,6 +12653,7 @@ viewer_stream:embree
 viewer_stream_ispc:embree
 viewer_xeonphi:embree
 viewer_xeonphi_device:embree
+vig_optimize:hugin
 vigpg:byobu
 vigra-config:vigra
 vim:vim
@@ -13427,6 +13489,7 @@ xgettext:gettext
 xhtml2pdf:xhtml2pdf
 ximtoppm:netpbm
 xjc:openjdk
+xkbcli:libxkbcommon
 xleap:ambertools
 xmaxima:maxima
 xmbind:openmotif
@@ -13448,13 +13511,19 @@ xon.sh:xonsh
 xonsh:xonsh
 xonsh-cat:xonsh
 xonsh.bat:xonsh
+xpaaccess:imexam
 xpaaccess:xpa
+xpaget:imexam
 xpaget:xpa
+xpainfo:imexam
 xpainfo:xpa
+xpamb:imexam
 xpamb:xpa
+xpans:imexam
 xpans:xpa
 xparmed:ambertools
 xparmed:parmed
+xpaset:imexam
 xpaset:xpa
 xpdtest:root
 xpdtest:root-binaries

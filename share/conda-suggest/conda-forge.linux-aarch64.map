@@ -2380,6 +2380,7 @@ xdvipdfmx:texlive-core
 xenv:xenv
 xetex:texlive-core
 xgettext:gettext
+xkbcli:libxkbcommon
 xmaxima:maxima
 xml2-config:libxml2
 xmlcatalog:libxml2

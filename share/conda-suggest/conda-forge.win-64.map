@@ -2603,6 +2603,8 @@ komkindex.bat:miktex
 komkindex.exe:miktex
 kpsewhich.bat:miktex
 kpsewhich.exe:miktex
+kubelogin:kubelogin
+kubelogin.exe:kubelogin
 kuyruk-script.py:kuyruk
 kuyruk.exe:kuyruk
 l3build.exe:miktex
@@ -3265,6 +3267,8 @@ mturk-script.py:gensim
 mturk.exe:gensim
 mu-script.py:mu_repo
 mu.exe:mu_repo
+multigifview-script.py:multigifview
+multigifview.exe:multigifview
 multigit-script.py:easydev
 multigit.exe:easydev
 musixflx.bat:miktex
@@ -5190,6 +5194,7 @@ terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.7.0_x4.exe:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4.exe:terraform-provider-azuread
@@ -5234,6 +5239,7 @@ terraform-provider-azurerm_v2.24.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.28.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5278,6 +5284,7 @@ terraform-provider-cloudstack_v0.2.0_x4.exe:terraform-provider-cloudstack
 terraform-provider-cloudstack_v0.3.0_x4.exe:terraform-provider-cloudstack
 terraform-provider-cobbler_v1.0.1_x4.exe:terraform-provider-cobbler
 terraform-provider-cobbler_v1.1.0_x4.exe:terraform-provider-cobbler
+terraform-provider-consul_v2.10.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.2.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.3.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.5.0_x4.exe:terraform-provider-consul
@@ -5455,6 +5462,7 @@ terraform-provider-google_v3.36.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.37.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.38.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.39.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.40.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -5510,6 +5518,7 @@ terraform-provider-keycloak_v1.17.1_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v1.18.0_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v1.19.0_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v1.20.0_x4.exe:terraform-provider-keycloak
+terraform-provider-keycloak_v2.0.0_x4.exe:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.11.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.1_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.2_x4.exe:terraform-provider-kubernetes
@@ -5749,6 +5758,8 @@ terraform-provider-profitbricks_v1.5.2_x4.exe:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.3_x4.exe:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.4_x4.exe:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.5_x4.exe:terraform-provider-profitbricks
+terraform-provider-profitbricks_v1.5.6_x4.exe:terraform-provider-profitbricks
+terraform-provider-profitbricks_v1.5.7_x4.exe:terraform-provider-profitbricks
 terraform-provider-rabbitmq_v1.0.0_x4.exe:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.1.0_x4.exe:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.3.0_x4.exe:terraform-provider-rabbitmq
@@ -5989,6 +6000,8 @@ tlsdb.py:tlslite
 tlsdb.pyc:tlslite
 toad-script.py:toad
 toad.exe:toad
+toasty-script.py:toasty
+toasty.exe:toasty
 toco-script.py:tensorflow
 toco-script.py:tensorflow-base
 toco.exe:tensorflow

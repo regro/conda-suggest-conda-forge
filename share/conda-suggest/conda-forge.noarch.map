@@ -20,7 +20,9 @@ QUBEKit-pro:qubekit
 SEIR:seir
 SLC_copy_S1_fullSW.py:hyp3lib
 Single Cell:orange3-singlecell
+Text2Vest:fslpy
 UTscapy:scapy
+Vest2Text:fslpy
 ablog:ablog
 academic:academic
 acme_diags:e3sm_diags
@@ -109,12 +111,14 @@ black:black
 blackbook:blackbook
 blackd:black
 blackd:blackd
+blackdoc:blackdoc
 blacken-docs:blacken-docs
 blark:blark
 blpk:bloscpack
 bmi-test:bmi-tester
 bmipy-render:bmipy
 bn:spacy-lookups-data
+boa:boa
 bokeh-root-cmd:bokeh-root-cmd
 bowler:bowler
 browse:easydev
@@ -227,6 +231,7 @@ conda-docker:conda-docker
 conda-execute:conda-execute
 conda-gitenv:conda-gitenv
 conda-lock:conda-lock
+conda-mambabuild:boa
 conda-merge:conda-merge
 conda-mirror:conda-mirror
 conda-pack:conda-pack
@@ -243,6 +248,7 @@ conf_page_maker:confluence-publisher
 conf_publisher:confluence-publisher
 connexion:connexion
 console:rb-wisper
+consolemd:consolemd
 converge_geometry:custodian
 converge_kpoints:custodian
 convertfflcache.pl:ligotools-cache
@@ -365,6 +371,7 @@ dmyp:mypy
 dmypy:mypy
 doc2dash:doc2dash
 doc8:doc8
+docformatter:docformatter
 doctr:doctr
 doctr-versions-menu:doctr-versions-menu
 doesitcache:cachecontrol
@@ -416,6 +423,7 @@ email_validator:email-validator
 email_validator:email_validator
 en:spacy-lookups-data
 enh_lee_filter.py:hyp3lib
+ensureconda:ensureconda
 envs:envs
 epacems_to_parquet:catalystcoop.pudl
 ephyviewer:ephyviewer
@@ -548,6 +556,7 @@ fr:spacy-lookups-data
 freegenes:freegenes
 frosted:frosted
 fsdump:zodb
+fsl_abspath:fslpy
 fsl_apply_x5:fslpy
 fsl_convert_x5:fslpy
 fsl_ents:fslpy
@@ -575,6 +584,7 @@ geodb:xcube_geodb
 geojsonio:geojsonio
 geometric-optimize:geometric
 geotiff_lut.py:hyp3lib
+geotransform_footprints:solaris
 geoviews:geoviews-core
 get-image-size:opsdroid-get-image-size
 getDemFor.py:hyp3lib
@@ -589,6 +599,7 @@ getmags:libcomcat
 getpager:libcomcat
 getphases:libcomcat
 getproduct:libcomcat
+gettext-extract:jupyterlab-translate
 ggrc:ginga
 ghp-import:ghp-import
 gilt:python-gilt
@@ -686,8 +697,11 @@ imageio_download_bin:imageio
 imageio_remove_bin:imageio
 imcp:fslpy
 imglob:fslpy
+imln:fslpy
 immv:fslpy
 import-timeseries:ixmp
+imrm:fslpy
+imtest:fslpy
 imtool:pwkit
 in2csv:csvkit
 inline-html:inline-html
@@ -751,6 +765,7 @@ jupyter-troubleshoot:jupyter_core
 jupyter-trust:nbformat
 jupyter_to_medium:jupyter_to_medium
 jupyterhub-idle-culler:jupyterhub-idle-culler
+jupyterlab-translate:jupyterlab-translate
 jupytext:jupytext
 kedro:kedro
 kernda:kernda
@@ -908,6 +923,8 @@ makeColorPhase.py:hyp3lib
 makeKml.py:hyp3lib
 make_arc_thumb.py:hyp3lib
 make_cogs.py:hyp3lib
+make_graphs:solaris
+make_masks:solaris
 mako-render:mako
 manila:python-manilaclient
 margins:xlutils
@@ -915,6 +932,7 @@ markdown-it:markdown-it-py
 markdown-it-bench:markdown-it-py
 markdown2:markdown2
 markdown_py:markdown
+mask_to_polygons:solaris
 max-rect:maxrect
 md_toc:md-toc
 memestra:memestra
@@ -1290,6 +1308,7 @@ reducer:reducer
 refresh-lsst-bib:documenteer
 regex-replace:pandoctools
 rehttpfs:htmllistparse
+remove_ext:fslpy
 removestar:removestar
 render:fsleyes
 replacecopyright:pyutilib
@@ -1407,10 +1426,12 @@ sndump:standard_names
 snscrape:standard_names
 snsql:standard_names
 snvalidate:standard_names
+solaris_run_ml:solaris
 sort_files.py:msumastro
 sort_wsdl:spyne
 sos:sos
 sos-runner:sos
+spacenet_eval:solaris
 spec2nii:spec2nii
 sphinx-apidoc:sphinx
 sphinx-autobuild:sphinx-autobuild
@@ -1620,6 +1641,7 @@ workdir:pyworkdir
 wormhole:magic-wormhole
 wrapout:pwkit
 wt-tree:wrighttools
+wwtdatatool:wwt_data_formats
 xcover:nosexcover
 xcube:xcube
 xcube-gen:xcube

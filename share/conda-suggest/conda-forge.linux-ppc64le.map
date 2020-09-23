@@ -18,6 +18,7 @@
 4channels:libraw
 AddToBox:ambertools
 CartHess2FC.py:ambertools
+Cast-config:clhep
 ChBox:ambertools
 CheckMD:ambertools
 CreateDOMDocument:xerces-c
@@ -25,8 +26,12 @@ DOMCount:xerces-c
 DOMPrint:xerces-c
 ESingular:singular
 EnumVal:xerces-c
+Evaluator-config:clhep
+Exceptions-config:clhep
 FEW.pl:ambertools
 GDSIIConvert:libgdsii
+GenericFunctions-config:clhep
+Geometry-config:clhep
 HepMC2_reader_example.exe:hepmc3
 HepMC3-config:hepmc3
 HepMC3_fileIO_example.exe:hepmc3
@@ -39,6 +44,7 @@ LHEF_example_cmp.lhe:hepmc3
 LHEF_example_env.sh:hepmc3
 MCPB.py:ambertools
 MMPBSA.py:ambertools
+Matrix-config:clhep
 MemParse:xerces-c
 NRswitchg:nauty
 OptC4.py:ambertools
@@ -49,7 +55,10 @@ ProScrs.py:ambertools
 PropPDB:ambertools
 QuadraticSieve:flintqs
 R:r-base
+Random-config:clhep
+RandomObjects-config:clhep
 Redirect:xerces-c
+RefCount-config:clhep
 Rscript:r-base
 SAX2Count:xerces-c
 SAX2Print:xerces-c
@@ -61,6 +70,9 @@ Singular:singular
 StdInParse:xerces-c
 TSingular:singular
 UnitCell:ambertools
+Units-config:clhep
+Utility-config:clhep
+Vector-config:clhep
 XInclude:xerces-c
 XrayPrep:ambertools
 XrdCnsd:xrootd
@@ -355,6 +367,7 @@ class-5d.x:palp
 class-6d.x:palp
 class.x:palp
 clear:ncurses
+clhep-config:clhep
 clinfo:clinfo
 clippy-driver:rust
 cluster:graphviz
@@ -2288,6 +2301,7 @@ texosquery-jre5:texlive-core
 texosquery-jre8:texlive-core
 tfmtodit:groff
 tftopl:texlive-core
+thrift:thrift-compiler
 thrift:thrift-cpp
 thumbpdf:texlive-core
 tic:ncurses

@@ -3728,8 +3728,11 @@ gdlib-config:libgd
 gdparttopng:libgd
 gdrive:gdrive
 gdtopng:libgd
+geant4-config:geant4
 geant4-config:geant4-base
+geant4.csh:geant4
 geant4.csh:geant4-base
+geant4.sh:geant4
 geant4.sh:geant4-base
 geckodriver:geckodriver
 gem:ruby
@@ -4212,6 +4215,7 @@ go:go-nocgo
 go-bindata:go-bindata
 go-bindata-assetfs:go-bindata-assetfs
 go-licenses:go-licenses
+go-licenses:kubelogin
 go-licenses:tilt
 go-spatial:go-spatial
 go2:go2
@@ -5508,6 +5512,7 @@ kubefed:kubernetes
 kubefed:kubernetes-federation
 kubelet:kubernetes
 kubelet:kubernetes-node
+kubelogin:kubelogin
 kuyruk:kuyruk
 kvno:krb5
 kwallet-query:kwallet
@@ -6449,6 +6454,7 @@ makegeo:geotiff
 makeglossaries:texlive-core
 makeglossaries-lite:texlive-core
 makeinfo:texinfo
+makensis:nsis
 makerelocs:cctools
 mako-render:mako
 mamba:mamba
@@ -7009,6 +7015,7 @@ mraptor3:oletools
 mrbob:mr.bob
 mrcfile-header:mrcfile
 mrcfile-validate:mrcfile
+mrcpp-tests:mrcpp
 mrftopbm:netpbm
 mrgddb:abinit
 mrgdv:abinit
@@ -7091,6 +7098,7 @@ multibibliography:texlive-core
 multibinit:abinit
 multicolumnmaker:lhcb-simpletools
 multig:nauty
+multigifview:multigifview
 multigit:easydev
 multinest_marginals.py:pymultinest
 multinest_marginals_corner.py:pymultinest
@@ -9453,6 +9461,41 @@ pyomo_ns:pyomo
 pyomo_nsc:pyomo
 pyomo_old:pyomo
 pyomo_python:pyomo
+pypeit_arcid_plot:pypeit
+pypeit_c_enabled:pypeit
+pypeit_chk_2dslits:pypeit
+pypeit_chk_alignments:pypeit
+pypeit_chk_edges:pypeit
+pypeit_chk_flats:pypeit
+pypeit_chk_for_calibs:pypeit
+pypeit_chk_plugins:pypeit
+pypeit_chk_tilts:pypeit
+pypeit_clean:pypeit
+pypeit_coadd_1dspec:pypeit
+pypeit_coadd_2dspec:pypeit
+pypeit_coadd_datacube:pypeit
+pypeit_compare_sky:pypeit
+pypeit_find_objects:pypeit
+pypeit_flux_calib:pypeit
+pypeit_flux_setup:pypeit
+pypeit_identify:pypeit
+pypeit_lowrdx_pixflat:pypeit
+pypeit_lowrdx_skyspec:pypeit
+pypeit_qa_html:pypeit
+pypeit_ql_keck_mosfire:pypeit
+pypeit_ql_keck_nires:pypeit
+pypeit_ql_mos:pypeit
+pypeit_sensfunc:pypeit
+pypeit_setup:pypeit
+pypeit_show_1dspec:pypeit
+pypeit_show_2dspec:pypeit
+pypeit_show_arxiv:pypeit
+pypeit_show_wvcalib:pypeit
+pypeit_skysub_regions:pypeit
+pypeit_tellfit:pypeit
+pypeit_trace_edges:pypeit
+pypeit_version:pypeit
+pypeit_view_fits:pypeit
 pyperf:perf
 pyperf:pyperf
 pypi_downloads:pyutilib
@@ -9828,6 +9871,7 @@ reducer:reducer
 redund:lrslib
 reentry:reentry
 refer:groff
+refine:openrefine
 refine2x:scorec
 refine_mesh.py:pymesh2
 refnx:refnx
@@ -10145,6 +10189,7 @@ run_inputs.py:cycamore
 run_ps2ff:ps2ff
 run_ps2ff_single_event:ps2ff
 run_pycbc_inference:pycbc
+run_pypeit:pypeit
 run_python_with_conduit.sh:conduit
 run_script_diamond:proteus
 run_script_garnet:proteus
@@ -11271,6 +11316,7 @@ terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
@@ -11324,6 +11370,7 @@ terraform-provider-azurerm_v2.24.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.28.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
@@ -11383,6 +11430,7 @@ terraform-provider-consul_v1.0.0_x4:terraform-provider-consul
 terraform-provider-consul_v1.1.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.0.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.1.0_x4:terraform-provider-consul
+terraform-provider-consul_v2.10.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.2.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.3.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.5.0_x4:terraform-provider-consul
@@ -11587,6 +11635,7 @@ terraform-provider-google_v3.36.0_x4:terraform-provider-google
 terraform-provider-google_v3.37.0_x4:terraform-provider-google
 terraform-provider-google_v3.38.0_x4:terraform-provider-google
 terraform-provider-google_v3.39.0_x4:terraform-provider-google
+terraform-provider-google_v3.40.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -11658,6 +11707,7 @@ terraform-provider-keycloak_v1.17.1_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v1.18.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v1.19.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v1.20.0_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v2.0.0_x4:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.0.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.1.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.0_x4:terraform-provider-kubernetes
@@ -11939,6 +11989,8 @@ terraform-provider-profitbricks_v1.5.2_x4:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.3_x4:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.4_x4:terraform-provider-profitbricks
 terraform-provider-profitbricks_v1.5.5_x4:terraform-provider-profitbricks
+terraform-provider-profitbricks_v1.5.6_x4:terraform-provider-profitbricks
+terraform-provider-profitbricks_v1.5.7_x4:terraform-provider-profitbricks
 terraform-provider-rabbitmq_v0.2.0_x4:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.0.0_x4:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.1.0_x4:terraform-provider-rabbitmq
@@ -12212,6 +12264,7 @@ threshold:scorec
 thresholdeffs:lhcb-simpletools
 thresholder.py:pillow
 thresholder.pyc:pillow
+thrift:thrift-compiler
 thrift:thrift-cpp
 thumbnail:libtiff
 thumbpdf:texlive-core
@@ -12296,6 +12349,7 @@ toast_ground_sim_simple.py:toast
 toast_mpi_test:toast
 toast_satellite_sim.py:toast
 toast_test:toast
+toasty:toasty
 tobin:cspice
 toco:tensorflow
 toco:tensorflow-base

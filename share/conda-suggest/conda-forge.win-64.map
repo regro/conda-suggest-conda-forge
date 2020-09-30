@@ -422,6 +422,7 @@ arctrl.bat:miktex
 arctrl.exe:miktex
 arlatex.bat:miktex
 arlatex.exe:miktex
+arosics_cli.py:arosics
 artview-script.py:artview
 artview.exe:artview
 as.exe:mingwpy
@@ -1804,6 +1805,8 @@ freeze_graph.exe:tensorflow
 freeze_graph.exe:tensorflow-base
 frei0r.txt:ffmpeg
 fribidixetex.exe:miktex
+frictionless-script.py:frictionless
+frictionless.exe:frictionless
 from-template.exe:numpy
 frosted-script.py:frosted
 frosted.exe:frosted
@@ -1931,7 +1934,9 @@ get_geonet_events.py:eqcorrscan
 get_juldate-script.py:pydl
 get_juldate.exe:pydl
 get_objgraph-script.py:dill
+get_objgraph-script.py:minian
 get_objgraph.exe:dill
+get_objgraph.exe:minian
 get_objgraph.py:dill
 get_pyomo_extras-script.py:pyomo
 get_pyomo_extras.exe:pyomo
@@ -3134,6 +3139,11 @@ miktex-zip.bat:miktex
 miktex-zip.exe:miktex
 miktexsetup.exe:miktex
 mingw32-make.exe:mingwpy
+minian-install-demo-script.py:minian
+minian-install-demo.exe:minian
+minian-install-pipeline-script.py:minian
+minian-install-pipeline.exe:minian
+minian-install.exe:minian
 minikube.exe:minikube
 miniterm.py:pyserial
 misaka-script.py:misaka
@@ -5195,6 +5205,7 @@ terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.8.0_x4.exe:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4.exe:terraform-provider-azuread
@@ -5240,6 +5251,7 @@ terraform-provider-azurerm_v2.25.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.28.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.29.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5463,6 +5475,7 @@ terraform-provider-google_v3.37.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.38.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.39.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.40.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.41.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -5478,6 +5491,7 @@ terraform-provider-helm_v1.2.2_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.2.3_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.2.4_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.3.0_x4.exe:terraform-provider-helm
+terraform-provider-helm_v1.3.1_x4.exe:terraform-provider-helm
 terraform-provider-heroku_v1.6.0_x4.exe:terraform-provider-heroku
 terraform-provider-heroku_v1.7.0_x4.exe:terraform-provider-heroku
 terraform-provider-heroku_v1.7.1_x4.exe:terraform-provider-heroku
@@ -5765,6 +5779,7 @@ terraform-provider-rabbitmq_v1.1.0_x4.exe:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.3.0_x4.exe:terraform-provider-rabbitmq
 terraform-provider-rabbitmq_v1.4.0_x4.exe:terraform-provider-rabbitmq
 terraform-provider-rancher2_v1.8.3_x4.exe:terraform-provider-rancher2
+terraform-provider-rancher2_v1.9.0_x4.exe:terraform-provider-rancher2
 terraform-provider-rancher_v1.2.1_x4.exe:terraform-provider-rancher
 terraform-provider-rancher_v1.3.0_x4.exe:terraform-provider-rancher
 terraform-provider-rancher_v1.4.0_x4.exe:terraform-provider-rancher
@@ -6098,7 +6113,9 @@ uhdtodrf.py:digital_rf
 uncommitted-script.py:uncommitted
 uncommitted.exe:uncommitted
 undill-script.py:dill
+undill-script.py:minian
 undill.exe:dill
+undill.exe:minian
 unidecode-script.py:unidecode
 unidecode.exe:unidecode
 uninstall_docker_service.ps1:docker

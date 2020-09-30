@@ -212,6 +212,7 @@ cmake-lint:cmake-format
 cmakelint:cmakelint
 cmark:commonmark
 cmr:cmasher
+coco:country_converter
 codebraid:codebraid
 codecov:codecov
 codedeploy-agent:rb-aws-codedeploy-agent
@@ -754,6 +755,7 @@ jupyter-lab:jupyterlab
 jupyter-labextension:jupyterlab
 jupyter-labhub:jupyterlab
 jupyter-migrate:jupyter_core
+jupyter-nbclassic:nbclassic
 jupyter-nbconvert:nbconvert
 jupyter-nteract:nteract_on_jupyter
 jupyter-qtconsole:qtconsole
@@ -779,7 +781,11 @@ kramdown:rb-kramdown
 label-maker:label-maker
 labours:labours
 lambda-builders:aws_lambda_builders
+lantz:lantz
 lantz-config:lantz
+lantz-ino:lantz
+lantz-qtdemo:lantz
+lantz-sims:lantz
 larray-editor:larray-editor
 lascopy:laspy
 lasexplorer:laspy
@@ -1003,6 +1009,7 @@ nbdiff-web:nbdime
 nbdime:nbdime
 nbgrep:nbcommands
 nbhead:nbcommands
+nbjuniper:nbjuniper
 nblibdoc:robotkernel
 nbmerge:nbdime
 nbmerge-web:nbdime
@@ -1042,6 +1049,10 @@ notedown:notedown
 nova:python-novaclient
 nox:nox
 nr:nr.cli
+nspyre:nspyre
+nspyre-config:nspyre
+nspyre-inserv:nspyre
+nspyre-mongodb:nspyre
 nuitka:nuitka
 nuitka-run:nuitka
 nvd3:python-nvd3
@@ -1088,6 +1099,7 @@ pandoctools-resolve:pandoctools
 panel:panel
 panfl:panflute
 panflute:panflute
+papermill:papermill
 param:earthsim
 parrec2nii:nibabel
 parsl-globus-auth:parsl

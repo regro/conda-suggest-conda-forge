@@ -160,6 +160,7 @@
 2to3-3.6:python
 2to3-3.7:python
 2to3-3.8:python
+2to3-3.9:python
 411toppm:netpbm
 4channels:libraw
 4ti2gmp:4ti2
@@ -173,6 +174,7 @@ AnalyzeMap:tempest-remap
 ApplyOfflineMap:tempest-remap
 BayesWave:bayeswave
 BayesWaveCleanFrame:bayeswave
+BayesWaveFpeak:bayeswave
 BayesWavePost:bayeswave
 BayesWaveToLALPSD:bayeswave
 BlackBoxAuditing-repair:blackboxauditing
@@ -570,6 +572,8 @@ abq_addUserOutput.py:damask
 abs_image:stir
 acc-lda:kaldi
 acc-tree-stats:kaldi
+accd8flowdir:acctaudem
+accdinfflowdir:acctaudem
 aceviewer:pyne
 ackley:multinest
 aclocal:automake
@@ -1365,6 +1369,9 @@ cargo:rust
 cargo-clippy:rust
 cargo-fmt:rust
 cargo-miri:rust
+cartographer_autogenerate_ground_truth:cartographer
+cartographer_compute_relations_metrics:cartographer
+cartographer_migrate_serialization_format:cartographer
 carve.py:pymesh2
 cas_help:giac
 casahdf5support:casacore
@@ -2007,6 +2014,7 @@ conf_page_dumper:confluence-publisher
 conf_page_maker:confluence-publisher
 conf_publisher:confluence-publisher
 config_data:perl
+config_template.py:pdspy
 config_yank.py:rift
 configurable-http-proxy:configurable-http-proxy
 configure-public-wrappers:public-wrappers
@@ -2427,6 +2435,7 @@ d8hdisttostrm:taudem
 dacdif:ambertools
 dagmc_preproc:moab
 dagster:dagster
+dagster-scheduler:dagster
 dakota:dakota
 dakota.input.nspec:dakota
 dakota.input.summary:dakota
@@ -2677,6 +2686,8 @@ dirmngr-client:gnupg
 dirname:coreutils
 disco:mono
 disk_allocator:ndcctools
+disk_model.py:pdspy
+disk_model_powerlaw.py:pdspy
 diskcache:ldas-tools-diskcacheapi
 dispatch_srvr:pyutilib
 displacement_geometry:embree
@@ -3400,6 +3411,7 @@ find_similar_images.py:imagehash
 find_spark_home.py:pyspark
 findcode.sh:hip
 finddgref.py:ambertools
+findent:findent
 findg:ncl
 findhyph:texlive-core
 findid:libcomcat
@@ -3451,6 +3463,9 @@ flang1:flang
 flang2:flang
 flann_example_c:flann
 flann_example_cpp:flann
+flared_model.py:pdspy
+flared_model_nested.py:pdspy
+flared_model_ptsampler.py:pdspy
 flask:flask
 flask:flask-creole
 flask:flask-rest-orm
@@ -5079,6 +5094,7 @@ idle3.5:python
 idle3.6:python
 idle3.7:python
 idle3.8:python
+idle3.9:python
 idlj:openjdk
 idn:libidn11
 idn2:libidn2
@@ -6116,6 +6132,7 @@ ldc-prune-cache:ldc
 ldc2:ldc
 ldd.fakechroot:fakechroot
 ldg_submit_dax:lscsoft-glue
+ldid:ldid
 ldmd2:ldc
 leaftoppm:netpbm
 ledger:ledger
@@ -7978,6 +7995,7 @@ nxdir:nexus
 nxsummary:nexus
 nxtranslate:nexus
 nxtraverse:nexus
+oauth2-proxy:oauth2-proxy
 ob2aam.py:faunus
 obabel:openbabel
 obchiral:openbabel
@@ -8852,6 +8870,7 @@ pilfont.py:pillow
 pilfont.pyc:pillow
 pilprint.py:pillow
 pilprint.pyc:pillow
+pin-it:rubin-env
 pin-it:rubinenv
 pinky:coreutils
 pintbary:pint-pulsar
@@ -9706,6 +9725,7 @@ pydoc3.5:python
 pydoc3.6:python
 pydoc3.7:python
 pydoc3.8:python
+pydoc3.9:python
 pydocstyle:pydocstyle
 pydruid:pydruid
 pyemir-apply_rectification_only:pyemir
@@ -9848,10 +9868,12 @@ pyprepro:dakota
 pyprepro.py:dakota
 pypublish:pweave
 pypy:pypy2.7
+pypy:pypy3.6
 pypy:python
 pypy.debug:pypy2.7
 pypy3:pypy3.5
 pypy3:pypy3.6
+pypy3.6:pypy3.6
 pyquil-config-setup:pyquil
 pyrcc4:pyqt
 pyrcc5:pyqt
@@ -9956,6 +9978,8 @@ python3.7m:python
 python3.7m-config:python
 python3.8:python
 python3.8-config:python
+python3.9:python
+python3.9-config:python
 python_package_analyze:ndcctools
 python_package_create:ndcctools
 python_package_run:ndcctools
@@ -11695,6 +11719,7 @@ terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.9.0_x4:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4:terraform-provider-azuread
@@ -11749,6 +11774,7 @@ terraform-provider-azurerm_v2.25.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.28.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.30.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
@@ -12015,6 +12041,7 @@ terraform-provider-google_v3.38.0_x4:terraform-provider-google
 terraform-provider-google_v3.39.0_x4:terraform-provider-google
 terraform-provider-google_v3.40.0_x4:terraform-provider-google
 terraform-provider-google_v3.41.0_x4:terraform-provider-google
+terraform-provider-google_v3.42.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -13578,6 +13605,7 @@ weighted_alpha_complex_3d_persistence:gudhi
 weighted_periodic_alpha_complex_3d_persistence:gudhi
 wfck2r.x:qe
 wfevent:mdsplus
+wfindent:findent
 wfs2wfsx:siesta
 wfsx2wfs:siesta
 wftopfa:ghostscript
@@ -13995,6 +14023,7 @@ xrdsssadmin:xrootd
 xrdstagetool:xrootd
 xrfi.py:aipy
 xrfi_simple.py:aipy
+xrobot:xeus-robot
 xrootd:xrootd
 xrootd-config:xrootd
 xsd:mono

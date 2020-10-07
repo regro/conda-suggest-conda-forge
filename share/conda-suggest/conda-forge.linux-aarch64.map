@@ -263,6 +263,7 @@ amk_m2:scotch
 amk_p2:scotch
 amtog:nauty
 annotate:libgd
+applygeo:geotiff
 apr-1-config:libapr
 apriconv:libapriconv
 apu-1-config:libaprutil
@@ -373,6 +374,9 @@ cargo:rust
 cargo-clippy:rust
 cargo-fmt:rust
 cargo-miri:rust
+cartographer_autogenerate_ground_truth:cartographer
+cartographer_compute_relations_metrics:cartographer
+cartographer_migrate_serialization_format:cartographer
 cas_help:giac
 cast:glimpse
 cat:coreutils
@@ -391,9 +395,11 @@ cddexec:cddlib
 cddexec_gmp:cddlib
 certtool:gnutls
 certutil:nss
+cfn-lint:cfn-lint
 cftp:twisted
 chardetect:chardet
 chcon:coreutils
+check_urdf:urdfdom
 checkcites:texlive-core
 checklistings:texlive-core
 cheetah:cheetah3
@@ -560,6 +566,8 @@ cygdb:cython
 cysignals-CSI:cysignals
 cython:cython
 cythonize:cython
+dap-config:libdap4
+dap-config-pkgconfig:libdap4
 dask-scheduler:distributed
 dask-ssh:distributed
 dask-worker:distributed
@@ -749,6 +757,7 @@ file:libmagic
 fileinfo:leptonica
 fincore:util-linux
 find-all-symbols:clang-tools
+findent:findent
 findhyph:texlive-core
 findmnt:util-linux
 fits2bitmap:astropy
@@ -841,8 +850,12 @@ genbgL:nauty
 genbrk:icu
 gencfu:icu
 gencnval:icu
+gendesc:lcov
 gendict:icu
 geng:nauty
+genhtml:lcov
+geninfo:lcov
+genpng:lcov
 genquarticg:nauty
 genrang:nauty
 genrb:icu
@@ -850,13 +863,31 @@ genspecialg:nauty
 gentourng:nauty
 gentreeg:nauty
 geod:proj
+geotifcp:geotiff
 get_objgraph:dill
+getdap:libdap4
+getdap4:libdap4
 getfattr:attr
 getmapdl:texlive-core
 getopt:util-linux
 gettext:gettext
 gettext.sh:gettext
 gettextize:gettext
+gfal-cat:gfal2-util
+gfal-chmod:gfal2-util
+gfal-copy:gfal2-util
+gfal-legacy-bringonline:gfal2-util
+gfal-legacy-register:gfal2-util
+gfal-legacy-replicas:gfal2-util
+gfal-legacy-unregister:gfal2-util
+gfal-ls:gfal2-util
+gfal-mkdir:gfal2-util
+gfal-rename:gfal2-util
+gfal-rm:gfal2-util
+gfal-save:gfal2-util
+gfal-stat:gfal2-util
+gfal-sum:gfal2-util
+gfal-xattr:gfal2-util
 gfal2_version:gfal2
 gfal_srm_ifce_version:srm-ifce
 gfan:gfan
@@ -955,6 +986,7 @@ git-upload-pack:git
 gitk:git
 givaro-config:givaro
 givaro-makefile:givaro
+glewinfo:glew
 glib-compile-resources:glib
 glib-compile-schemas:glib
 glib-genmarshal:glib
@@ -1339,6 +1371,7 @@ lb-run:lbenv
 lcalc:lcalc
 lcdd:cddlib
 lcdd_gmp:cddlib
+lcov:lcov
 ld:binutils
 ld:binutils-meta
 ld.bfd:binutils
@@ -1357,6 +1390,7 @@ ldappasswd:openldap
 ldapsearch:openldap
 ldapurl:openldap
 ldapwhoami:openldap
+ldid:ldid
 libAnalysis.so:hepmc3
 libassuan-config:libassuan
 libnetcfg:perl
@@ -1379,6 +1413,7 @@ linux32:util-linux
 linux64:util-linux
 listbib:texlive-core
 listg:nauty
+listgeo:geotiff
 listings-ext.sh:texlive-core
 lkbib:groff
 llc:llvm-tools
@@ -1512,7 +1547,9 @@ lstopo-no-graphics:libhwloc
 ltx2crossrefxml:texlive-core
 ltxfileinfo:texlive-core
 ltximg:texlive-core
+lua:lua
 lua2dox_filter:texlive-core
+luac:lua
 luaotfload-tool:texlive-core
 luatex53:texlive-core
 luatools:texlive-core
@@ -1544,6 +1581,7 @@ make4ht:texlive-core
 make_build_number:conda-forge-ci-setup
 makeconv:icu
 makedtx:texlive-core
+makegeo:geotiff
 makeglossaries:texlive-core
 makeglossaries-lite:texlive-core
 makeinfo:texinfo
@@ -2033,8 +2071,10 @@ pyi-set_version:pyinstaller
 pyinstaller:pyinstaller
 pylint:pylint
 pyls:python-language-server
+pypy:pypy3.6
 pypy:python
 pypy3:pypy3.6
+pypy3.6:pypy3.6
 pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
@@ -2063,7 +2103,12 @@ pyvenv-3.6:python
 pyvenv-3.7:python
 pyvisa-info:pyvisa
 pyvisa-shell:pyvisa
+qconvex:qhull
 qd-config:qd
+qdelaunay:qhull
+qhalf:qhull
+qhull:qhull
+qvoronoi:qhull
 rake:ruby
 ranlabg:nauty
 ranlib:binutils
@@ -2071,6 +2116,7 @@ ranlib:binutils-meta
 raw-identify:libraw
 raw2tiff:libtiff
 rawtextdump:libraw
+rbox:qhull
 rdjpgcom:jpeg
 rdjpgcom:libjpeg-turbo
 rdoc:ruby
@@ -2090,6 +2136,7 @@ repo2solv:libsolv-static
 repstopdf:texlive-core
 reset:ncurses
 rev:util-linux
+rfi-file-monitor:rfi-file-monitor
 rg:ripgrep
 rhash:rhash
 ri:ruby
@@ -2115,6 +2162,12 @@ rosdistro_migrate_to_rep_141:rosdistro
 rosdistro_migrate_to_rep_143:rosdistro
 rosdistro_reformat:rosdistro
 rpdfcrop:texlive-core
+rrdcached:rrdtool
+rrdcgi:rrdtool
+rrdcreate:rrdtool
+rrdinfo:rrdtool
+rrdtool:rrdtool
+rrdupdate:rrdtool
 rst2html.py:docutils
 rst2html4.py:docutils
 rst2html5.py:docutils
@@ -2153,6 +2206,7 @@ sancov:llvm-tools
 sancov:llvmdev
 sanstats:llvm-tools
 sanstats:llvmdev
+sbcl:sbcl
 scan-build:clang-tools
 scan-build:clangdev
 scan-view:clang-tools
@@ -2164,6 +2218,7 @@ scdd_gmp:cddlib
 schubmult:lrcalc
 sclient:krb5
 scotch_esmumps:scotch
+scp:openssh
 script:util-linux
 scriptlive:util-linux
 scriptreplay:util-linux
@@ -2179,6 +2234,7 @@ setterm:util-linux
 setup_conda_rc:conda-forge-ci-setup
 sexp-conv:nettle
 sfdp:graphviz
+sftp:openssh
 sfv-hash:rhash
 sha1sum:coreutils
 sha224sum:coreutils
@@ -2231,6 +2287,12 @@ sqlite3:sqlite
 sqlite3_analyzer:tk
 srcredact:texlive-core
 srptool:gnutls
+ssh:openssh
+ssh-add:openssh
+ssh-agent:openssh
+ssh-keygen:openssh
+ssh-keyscan:openssh
+sshd:openssh
 sst_conn_tool:adios2
 stat:coreutils
 stdbuf:coreutils
@@ -2265,6 +2327,7 @@ tcsh:tcsh
 teckit_compile:texlive-core
 tee:coreutils
 teensy_loader_cli:teensy_loader_cli
+tesseract:tesseract
 test:coreutils
 testcdd1:cddlib
 testcdd1_gmp:cddlib
@@ -2407,6 +2470,8 @@ updmap-user:texlive-core
 upload_or_check_non_existence:conda-forge-ci-setup
 upload_package:conda-forge-ci-setup
 uptime:coreutils
+urdf_mem_test:urdfdom
+urdf_to_graphiz:urdfdom
 urlbst:texlive-core
 users:coreutils
 utmpdump:util-linux
@@ -2422,6 +2487,7 @@ verify-uselistorder:llvm-tools
 verify-uselistorder:llvmdev
 vftovp:texlive-core
 virtualenv:virtualenv
+visualinfo:glew
 volint:astropy
 voms-proxy-destroy:voms
 voms-proxy-fake:voms
@@ -2450,6 +2516,7 @@ webpinfo:libwebp-base
 webpmux:libwebp
 webpmux:libwebp-base
 webpng:libgd
+wfindent:findent
 wgconvert:glimpse
 wget:wget
 wheel:wheel

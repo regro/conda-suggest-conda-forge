@@ -623,6 +623,7 @@ buildbot_windows_service-script.py:buildbot
 buildbot_windows_service.exe:buildbot
 buildbot_worker_windows_service-script.py:buildbot-worker
 buildbot_worker_windows_service.exe:buildbot-worker
+buildvars:esys-escript
 bumpversion-script.py:bumpversion
 bumpversion.exe:bumpversion
 bundle_image-script.py:gensim
@@ -1137,6 +1138,8 @@ cythonize-script.py:cython
 cythonize.exe:cython
 dad-to-utf8.bat:miktex
 dad-to-utf8.exe:miktex
+dagster-scheduler-script.py:dagster
+dagster-scheduler.exe:dagster
 dagster-script.py:dagster
 dagster.exe:dagster
 dandi.exe:dandi
@@ -1427,6 +1430,9 @@ dscheduler-script.py:distributed
 dscheduler.exe:distributed
 dtw-script.py:dtw-python
 dtw.exe:dtw-python
+dudley.dll:esys-escript
+dudley.exp:esys-escript
+dudley.lib:esys-escript
 dukpy-install-script.py:dukpy
 dukpy-install.exe:dukpy
 dukpy-script.py:dukpy
@@ -1556,6 +1562,12 @@ epylint-script.py:pylint
 epylint.bat:pylint
 epylint.exe:pylint
 eqcorrscan_base.py:eqcorrscan
+escript.dll:esys-escript
+escript.exp:esys-escript
+escript.lib:esys-escript
+escriptreader.dll:esys-escript
+escriptreader.exp:esys-escript
+escriptreader.lib:esys-escript
 espefuse.exe:esptool
 espefuse.py-script.py:esptool
 espefuse.py.exe:esptool
@@ -1702,6 +1714,9 @@ findid-script.py:libcomcat
 findid.exe:libcomcat
 findtexmf.bat:miktex
 findtexmf.exe:miktex
+finley.dll:esys-escript
+finley.exp:esys-escript
+finley.lib:esys-escript
 fio-script.py:fiona
 fio.exe:fiona
 fits2bitmap-script.py:astropy
@@ -3499,6 +3514,7 @@ numina-ximshow.exe:numina
 numina.exe:numina
 nvd3-script.py:python-nvd3
 nvd3.exe:python-nvd3
+oauth2-proxy.exe:oauth2-proxy
 objcopy.exe:mingwpy
 objdump.exe:mingwpy
 objectpath-script.py:objectpath
@@ -3672,6 +3688,9 @@ parrec2nii.exe:dcmstack
 parrec2nii.exe:dipy
 parrec2nii.exe:nibabel
 parrec2nii.exe:nipy
+paso.dll:esys-escript
+paso.exp:esys-escript
+paso.lib:esys-escript
 paster-script.py:pastescript
 paster.exe:pastescript
 pasteurize-script.py:future
@@ -4631,6 +4650,9 @@ rioscalcstats.py.exe:rios
 riosprintstats.py:rios
 riosprintstats.py-script.py:rios
 riosprintstats.py.exe:rios
+ripley.dll:esys-escript
+ripley.exp:esys-escript
+ripley.lib:esys-escript
 rosdep-script.py:rosdep
 rosdep-source-script.py:rosdep
 rosdep-source.exe:rosdep
@@ -4949,6 +4971,9 @@ spark-submit2.cmd:pyspark
 sparkR:pyspark
 sparkR.cmd:pyspark
 sparkR2.cmd:pyspark
+speckley.dll:esys-escript
+speckley.exp:esys-escript
+speckley.lib:esys-escript
 speclite_benchmark-script.py:speclite
 speclite_benchmark.exe:speclite
 speex.txt:ffmpeg
@@ -5206,6 +5231,7 @@ terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.9.0_x4.exe:terraform-provider-aws
 terraform-provider-azuread_v0.10.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.11.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4.exe:terraform-provider-azuread
@@ -5252,6 +5278,7 @@ terraform-provider-azurerm_v2.26.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.28.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.29.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.30.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5476,6 +5503,7 @@ terraform-provider-google_v3.38.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.39.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.40.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.41.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.42.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6258,6 +6286,9 @@ webassets.exe:dukpy
 webassets.exe:signac-dashboard
 websockify-script.py:websockify
 websockify.exe:websockify
+weipa.dll:esys-escript
+weipa.exp:esys-escript
+weipa.lib:esys-escript
 wfastcgi-disable-script.py:wfastcgi
 wfastcgi-disable.exe:wfastcgi
 wfastcgi-enable-script.py:wfastcgi

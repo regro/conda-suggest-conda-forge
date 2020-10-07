@@ -196,6 +196,7 @@ chevron:chevron
 cinder:python-cinderclient
 ciocheck:ciocheck
 cleanlatex:ligotools-scripts
+cliche:cliche
 closure:closure
 cm2html:recommonmark
 cm2latex:recommonmark
@@ -316,6 +317,7 @@ czifile:czifile
 da:spacy-lookups-data
 dagit:dagit
 dagit-cli:dagit
+dagit-debug:dagit
 dagster-airflow:dagster-airflow
 dagster-aws:dagster-aws
 dagster-aws:dagster_aws
@@ -357,6 +359,7 @@ dem2isce.py:hyp3lib
 depfinder:depfinder
 descarteslabs:descarteslabs
 dials.data:dials-data
+diceware:diceware
 diff-cover:diff-cover
 diff-quality:diff-cover
 difference_features:geometric_features
@@ -426,6 +429,7 @@ en:spacy-lookups-data
 enh_lee_filter.py:hyp3lib
 ensureconda:ensureconda
 envs:envs
+eof:sentineleof
 epacems_to_parquet:catalystcoop.pudl
 ephyviewer:ephyviewer
 es:spacy-lookups-data
@@ -555,6 +559,7 @@ fonttools:fonttools
 fparser2:fparser
 fr:spacy-lookups-data
 freegenes:freegenes
+frictionless:frictionless
 frosted:frosted
 fsdump:zodb
 fsl_abspath:fslpy
@@ -583,6 +588,7 @@ geocode:geocoder
 geocube:geocube
 geodb:xcube_geodb
 geojsonio:geojsonio
+geomet:geomet
 geometric-optimize:geometric
 geotiff_lut.py:hyp3lib
 geotransform_footprints:solaris
@@ -664,6 +670,7 @@ hg-nbdiffweb:nbdime
 hg-nbmerge:nbdime
 hg-nbmergeweb:nbdime
 hist:bashplotlib
+hist:hist
 histoprint:histoprint
 holoviews:holoviews
 hookee:hookee
@@ -1222,6 +1229,7 @@ pygcn-listen:pygcn
 pygcn-serve:pygcn
 pygeoapi:pygeoapi
 pygeometa:pygeometa
+pyglotaran:pyglotaran-alias
 pygmentize:pygments
 pyhf:pyhf
 pyhocon:pyhocon
@@ -1413,6 +1421,7 @@ sentinelhub:sentinelhub
 sentinelhub.aws:sentinelhub
 sentinelhub.config:sentinelhub
 sentinelhub.download:sentinelhub
+sentinelsat:sentinelsat
 serve:sagemaker-mxnet-serving-container
 serve:sagemaker-pytorch-serving-container
 set_group_name:geometric_features
@@ -1498,6 +1507,7 @@ summaryreview:pesummary
 summarytest:pesummary
 summaryversion:pesummary
 supermercado:supermercado
+superset:superset
 sv:spacy-lookups-data
 swagger-flex:flex-swagger
 swift:python-swiftclient

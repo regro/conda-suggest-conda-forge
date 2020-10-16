@@ -68,6 +68,9 @@ autoflake:autoflake
 automat-visualize:automat
 autopep8:autopep8
 autowrap:autowrap
+aws-configure-sso-profile:aws-sso-credential-process
+aws-sso-configure-profile:aws-sso-credential-process
+aws-sso-credential-process:aws-sso-credential-process
 aws.rb:rb-aws-sdk-core
 aws_okta_keyman:aws-okta-keyman
 awslogs:awslogs
@@ -370,6 +373,7 @@ dispatch_srvr:pyutilib
 distro:distro
 django-admin:django
 django-admin:libcomcat
+django-cadmin:django-configurations
 dmf-chip:dmf-chip
 dmyp:mypy
 dmypy:mypy
@@ -378,6 +382,7 @@ doc8:doc8
 docformatter:docformatter
 doctr:doctr
 doctr-versions-menu:doctr-versions-menu
+dods:pydap
 doesitcache:cachecontrol
 dog:datadog
 dogwrap:datadog
@@ -555,6 +560,9 @@ fluiddump:fluiddyn
 fluidinfo:fluiddyn
 fluidmat2py:fluiddyn
 fluidnbstripout:fluiddyn
+fmpy:fmpy
+fmpy-script.py:fmpy
+fmpy.exe:fmpy
 fonttools:fonttools
 fparser2:fparser
 fr:spacy-lookups-data
@@ -648,6 +656,7 @@ grayskull:grayskull
 great_expectations:great-expectations
 greyskull:grayskull
 gridio:gridgeo
+gridmap_web:gridmap
 gridtest:gridtest
 grin:grin
 grind:grin
@@ -691,6 +700,7 @@ hyperspyui:hyperspyui
 hypnotoad-gui:hypnotoad
 hypnotoad_geqdsk:hypnotoad
 hypnotoad_torpex:hypnotoad
+hypothesis:hypothesis
 iapsg:apsg
 ibrowse:easydev
 icdiff:icdiff
@@ -731,6 +741,7 @@ ipynb-py-convert:ipynb-py-convert
 iscan:iscan
 iscegeo2geotif.py:hyp3lib
 isodatetime:metomi-isodatetime
+isort:isort
 issho:issho
 it:spacy-lookups-data
 ixmp:ixmp
@@ -747,6 +758,7 @@ jp2dump:glymur
 jsondiff:jsondiff
 jsonpath.py:jsonpath-ng
 jsonrpc:jsonrpcclient
+jsonschema:jsonschema
 jt:jupyterthemes
 jug:jug
 jump:jump
@@ -1052,6 +1064,7 @@ nl:spacy-lookups-data
 nodeenv:nodeenv
 nose2:nose2
 nose2-3.6:nose2
+nosetests:nose
 notedown:notedown
 nova:python-novaclient
 nox:nox
@@ -1212,6 +1225,7 @@ pybidi:python-bidi
 pyboat:pyboat
 pycodestyle:pycodestyle
 pycondor:pycondor
+pydap:pydap
 pydm:pydm
 pydocstyle:pydocstyle
 pydruid:pydruid
@@ -1328,6 +1342,7 @@ reducer:reducer
 refresh-lsst-bib:documenteer
 regex-replace:pandoctools
 rehttpfs:htmllistparse
+reindent:reindent
 remove_ext:fslpy
 removestar:removestar
 render:fsleyes
@@ -1403,6 +1418,7 @@ saws:saws
 scald:ligo-scald
 scapy:scapy
 scatter:bashplotlib
+scattertext:scattertext
 sceptre:sceptre
 schema-salad-doc:schema-salad
 schema-salad-tool:schema-salad
@@ -1569,6 +1585,7 @@ tr:spacy-lookups-data
 tranquilizer:tranquilizer
 transformers:transformers
 transonic:transonic
+travis-encrypt:travis-encrypt
 tsc:typescript
 tsserver:typescript
 tsunzip:tszip
@@ -1624,6 +1641,7 @@ vcs-svn:vcstool
 vcs-validate:vcstool
 vcsh:vcsh
 venv-pack:venv-pack
+verdi:aiida-core
 verify_opod.py:hyp3lib
 versioneer:versioneer
 vipaccess:vipaccess
@@ -1707,6 +1725,10 @@ yaqd-thorlabs-k10cr1:yaqd-thorlabs
 yaqd-thorlabs-kdc101:yaqd-thorlabs
 yaqd-thorlabs-lts150:yaqd-thorlabs
 yaqd-thorlabs-lts300:yaqd-thorlabs
+yaqd-wright-aerotech:yaqd-wright
+yaqd-wright-filter-wheel:yaqd-wright
+yaqd-wright-ingaas:yaqd-wright
+yaqd-wright-wl-motor:yaqd-wright
 yarn:yarn
 yarn.cmd:yarn
 yarn.js:yarn

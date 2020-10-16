@@ -834,6 +834,10 @@ coconut-py3.8-run-script.py:coconut
 coconut-py3.8-run.exe:coconut
 coconut-py3.8-script.py:coconut
 coconut-py3.8.exe:coconut
+coconut-py3.9-run-script.py:coconut
+coconut-py3.9-run.exe:coconut
+coconut-py3.9-script.py:coconut
+coconut-py3.9.exe:coconut
 coconut-py3.exe:coconut
 coconut-py35-run-script.py:coconut
 coconut-py35-run.exe:coconut
@@ -1198,6 +1202,8 @@ ddsp_prepare_tfrecord-script.py:ddsp
 ddsp_prepare_tfrecord.exe:ddsp
 ddsp_run-script.py:ddsp
 ddsp_run.exe:ddsp
+ddtrace-run-script.py:ddtrace
+ddtrace-run.exe:ddtrace
 deactivate:conda
 deactivate.bat:conda
 dec2-script.py:dec2
@@ -1950,8 +1956,10 @@ get_juldate-script.py:pydl
 get_juldate.exe:pydl
 get_objgraph-script.py:dill
 get_objgraph-script.py:minian
+get_objgraph-script.py:multiprocess
 get_objgraph.exe:dill
 get_objgraph.exe:minian
+get_objgraph.exe:multiprocess
 get_objgraph.py:dill
 get_pyomo_extras-script.py:pyomo
 get_pyomo_extras.exe:pyomo
@@ -2093,6 +2101,8 @@ green3.7-script.py:green
 green3.7.exe:green
 green3.8-script.py:green
 green3.8.exe:green
+green3.9-script.py:green
+green3.9.exe:green
 green3.exe:green
 gregorio.exe:miktex
 grib_list-script.py:pygrib
@@ -3158,6 +3168,7 @@ minian-install-demo-script.py:minian
 minian-install-demo.exe:minian
 minian-install-pipeline-script.py:minian
 minian-install-pipeline.exe:minian
+minian-install-script.py:minian
 minian-install.exe:minian
 minikube.exe:minikube
 miniterm.py:pyserial
@@ -4065,6 +4076,8 @@ pst2pdf.bat:miktex
 pst2pdf.exe:miktex
 pstops.bat:miktex
 pstops.exe:miktex
+psy-view-script.py:psy-view
+psy-view.exe:psy-view
 psychopy-script.py:psychopy
 psychopy.exe:psychopy
 psyplot-plugin-script.py:psyplot
@@ -4195,6 +4208,8 @@ pycrust.exe:wxpython
 pycsw-admin.py:pycsw
 pydap-script.py:pydap
 pydap.exe:pydap
+pyddprofile-script.py:ddtrace
+pyddprofile.exe:ddtrace
 pydoc-script.py:arm_pyart
 pydoc-script.py:arrow
 pydoc-script.py:awscli
@@ -4471,6 +4486,8 @@ pyslices-script.py:wxpython
 pyslices.exe:wxpython
 pyslicesshell-script.py:wxpython
 pyslicesshell.exe:wxpython
+pysmu-script.py:libsmu
+pysmu.exe:libsmu
 pysp2smps-script.py:pyomo
 pysp2smps.exe:pyomo
 pyspark:pyspark
@@ -5179,6 +5196,7 @@ terraform-provider-archive_v1.2.0_x4.exe:terraform-provider-archive
 terraform-provider-archive_v1.2.1_x4.exe:terraform-provider-archive
 terraform-provider-archive_v1.2.2_x4.exe:terraform-provider-archive
 terraform-provider-archive_v1.3.0_x4.exe:terraform-provider-archive
+terraform-provider-archive_v2.0.0_x4.exe:terraform-provider-archive
 terraform-provider-arukas_v0.1.0_x4.exe:terraform-provider-arukas
 terraform-provider-arukas_v1.0.0_x4.exe:terraform-provider-arukas
 terraform-provider-arukas_v1.1.0_x4.exe:terraform-provider-arukas
@@ -5224,6 +5242,8 @@ terraform-provider-aws_v2.70.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v2.8.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.0.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.1.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.10.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.11.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
@@ -5279,6 +5299,9 @@ terraform-provider-azurerm_v2.27.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.28.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.29.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.30.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.31.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.31.1_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.32.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5377,6 +5400,7 @@ terraform-provider-dns_v2.0.0_x4.exe:terraform-provider-dns
 terraform-provider-dns_v2.1.0_x4.exe:terraform-provider-dns
 terraform-provider-dns_v2.1.1_x4.exe:terraform-provider-dns
 terraform-provider-dns_v2.2.0_x4.exe:terraform-provider-dns
+terraform-provider-dns_v3.0.0_x4.exe:terraform-provider-dns
 terraform-provider-dnsimple_v0.1.0_x4.exe:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.2.0_x4.exe:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.3.0_x4.exe:terraform-provider-dnsimple
@@ -5406,6 +5430,7 @@ terraform-provider-external_v1.1.0_x4.exe:terraform-provider-external
 terraform-provider-external_v1.1.1_x4.exe:terraform-provider-external
 terraform-provider-external_v1.1.2_x4.exe:terraform-provider-external
 terraform-provider-external_v1.2.0_x4.exe:terraform-provider-external
+terraform-provider-external_v2.0.0_x4.exe:terraform-provider-external
 terraform-provider-fastly_v0.10.0_x4.exe:terraform-provider-fastly
 terraform-provider-fastly_v0.11.0_x4.exe:terraform-provider-fastly
 terraform-provider-fastly_v0.13.0_x4.exe:terraform-provider-fastly
@@ -5441,6 +5466,7 @@ terraform-provider-github_v2.9.0_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.1_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.2_x4.exe:terraform-provider-github
 terraform-provider-github_v3.0.0_x4.exe:terraform-provider-github
+terraform-provider-github_v3.1.0_x4.exe:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4.exe:terraform-provider-gitlab
@@ -5504,6 +5530,7 @@ terraform-provider-google_v3.39.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.40.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.41.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.42.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.43.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -5520,6 +5547,7 @@ terraform-provider-helm_v1.2.3_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.2.4_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.3.0_x4.exe:terraform-provider-helm
 terraform-provider-helm_v1.3.1_x4.exe:terraform-provider-helm
+terraform-provider-helm_v1.3.2_x4.exe:terraform-provider-helm
 terraform-provider-heroku_v1.6.0_x4.exe:terraform-provider-heroku
 terraform-provider-heroku_v1.7.0_x4.exe:terraform-provider-heroku
 terraform-provider-heroku_v1.7.1_x4.exe:terraform-provider-heroku
@@ -5543,6 +5571,7 @@ terraform-provider-http_v1.0.1_x4.exe:terraform-provider-http
 terraform-provider-http_v1.1.0_x4.exe:terraform-provider-http
 terraform-provider-http_v1.1.1_x4.exe:terraform-provider-http
 terraform-provider-http_v1.2.0_x4.exe:terraform-provider-http
+terraform-provider-http_v2.0.0_x4.exe:terraform-provider-http
 terraform-provider-icinga2_v0.1.1_x4.exe:terraform-provider-icinga2
 terraform-provider-icinga2_v0.2.0_x4.exe:terraform-provider-icinga2
 terraform-provider-icinga2_v0.3.0_x4.exe:terraform-provider-icinga2
@@ -5586,6 +5615,7 @@ terraform-provider-local_v1.2.1_x4.exe:terraform-provider-local
 terraform-provider-local_v1.2.2_x4.exe:terraform-provider-local
 terraform-provider-local_v1.3.0_x4.exe:terraform-provider-local
 terraform-provider-local_v1.4.0_x4.exe:terraform-provider-local
+terraform-provider-local_v2.0.0_x4.exe:terraform-provider-local
 terraform-provider-logentries_v1.0.0_x4.exe:terraform-provider-logentries
 terraform-provider-logicmonitor_v1.2.0_x4.exe:terraform-provider-logicmonitor
 terraform-provider-logicmonitor_v1.3.0_x4.exe:terraform-provider-logicmonitor
@@ -5819,6 +5849,7 @@ terraform-provider-random_v2.1.2_x4.exe:terraform-provider-random
 terraform-provider-random_v2.2.0_x4.exe:terraform-provider-random
 terraform-provider-random_v2.2.1_x4.exe:terraform-provider-random
 terraform-provider-random_v2.3.0_x4.exe:terraform-provider-random
+terraform-provider-random_v3.0.0_x4.exe:terraform-provider-random
 terraform-provider-rundeck_v0.1.0_x4.exe:terraform-provider-rundeck
 terraform-provider-rundeck_v0.2.0_x4.exe:terraform-provider-rundeck
 terraform-provider-rundeck_v0.2.1_x4.exe:terraform-provider-rundeck
@@ -5879,6 +5910,7 @@ terraform-provider-tls_v2.0.1_x4.exe:terraform-provider-tls
 terraform-provider-tls_v2.1.0_x4.exe:terraform-provider-tls
 terraform-provider-tls_v2.1.1_x4.exe:terraform-provider-tls
 terraform-provider-tls_v2.2.0_x4.exe:terraform-provider-tls
+terraform-provider-tls_v3.0.0_x4.exe:terraform-provider-tls
 terraform-provider-triton_v0.5.1_x4.exe:terraform-provider-triton
 terraform-provider-triton_v0.6.0_x4.exe:terraform-provider-triton
 terraform-provider-triton_v0.7.0_x4.exe:terraform-provider-triton
@@ -5928,6 +5960,8 @@ terraform-provider-vsphere_v1.21.1_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.22.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.23.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.24.0_x4.exe:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.1_x4.exe:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.2_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.1_x4.exe:terraform-provider-vsphere
 terraform.exe:terraform
@@ -6142,8 +6176,10 @@ uncommitted-script.py:uncommitted
 uncommitted.exe:uncommitted
 undill-script.py:dill
 undill-script.py:minian
+undill-script.py:multiprocess
 undill.exe:dill
 undill.exe:minian
+undill.exe:multiprocess
 unidecode-script.py:unidecode
 unidecode.exe:unidecode
 uninstall_docker_service.ps1:docker

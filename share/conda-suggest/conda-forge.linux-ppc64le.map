@@ -15,6 +15,7 @@
 2to3-3.6:python
 2to3-3.7:python
 2to3-3.8:python
+2to3-3.9:python
 4channels:libraw
 AddToBox:ambertools
 CartHess2FC.py:ambertools
@@ -273,8 +274,12 @@ c++filt:binutils
 c++filt:binutils-meta
 c-index-test:clang-tools
 c-index-test:clangdev
+c89:c-compiler
+c89:fortran-compiler
 c89:gcc_bootstrap_linux-ppc64le
 c89:gcc_impl_linux-ppc64le
+c99:c-compiler
+c99:fortran-compiler
 c99:gcc_bootstrap_linux-ppc64le
 c99:gcc_impl_linux-ppc64le
 c_rehash:openssl
@@ -341,6 +346,8 @@ clang:clangdev
 clang++:clangdev
 clang++:clangxx
 clang-10:clang
+clang-11:clang
+clang-5.0:clangdev
 clang-6.0:clangdev
 clang-8:clangdev
 clang-9:clang
@@ -389,6 +396,7 @@ cmake:cmake
 cmake:cmake-no-system
 cmpfillin:metis
 cmsd:xrootd
+cnitool:cni
 cns_ssi:xrootd
 coin-config:coin3d
 col:util-linux
@@ -654,6 +662,7 @@ f2py3:numpy
 f2py3.6:numpy
 f2py3.7:numpy
 f2py3.8:numpy
+f2py3.9:numpy
 f95:fortran-compiler
 factor:coreutils
 fallocate:util-linux
@@ -738,6 +747,7 @@ g-ir-inspect:gobject-introspection
 g-ir-scanner:gobject-introspection
 gap:gap-core
 gapplication:glib
+gapplication:libglib
 gawk:gawk
 gawk-4.2.1:gawk
 gawk-5.0.0:gawk
@@ -1137,6 +1147,7 @@ idle3:python
 idle3.6:python
 idle3.7:python
 idle3.8:python
+idle3.9:python
 idn:libidn11
 idn2:libidn2
 imagecodecs:imagecodecs
@@ -1382,6 +1393,7 @@ llvm-exegesis:llvm-tools
 llvm-exegesis:llvmdev
 llvm-extract:llvm-tools
 llvm-extract:llvmdev
+llvm-gsymutil:llvm-tools
 llvm-ifs:llvm-tools
 llvm-install-name-tool:llvm-tools
 llvm-jitlink:llvm-tools
@@ -1401,6 +1413,7 @@ llvm-mc:llvmdev
 llvm-mca:llvm-tools
 llvm-mca:llvmdev
 llvm-mcmarkup:llvmdev
+llvm-ml:llvm-tools
 llvm-modextract:llvm-tools
 llvm-modextract:llvmdev
 llvm-mt:llvm-tools
@@ -1546,6 +1559,7 @@ mknod:coreutils
 mkocp:texlive-core
 mkofm:texlive-core
 mkpic:texlive-core
+mksquashfs:squashfs-tools
 mkt1font:texlive-core
 mktemp:coreutils
 mktexfmt:texlive-core
@@ -1678,6 +1692,7 @@ nasm:nasm
 nbgrader:nbgrader
 nc-config:libnetcdf
 nccopy:libnetcdf
+ncdu:ncdu
 ncdump:libnetcdf
 ncgen:libnetcdf
 ncgen3:libnetcdf
@@ -1991,6 +2006,7 @@ powerpc64le-conda-linux-gnu-objcopy:binutils_impl_linux-ppc64le
 powerpc64le-conda-linux-gnu-objcopy:gcc_bootstrap_linux-ppc64le
 powerpc64le-conda-linux-gnu-objdump:binutils_impl_linux-ppc64le
 powerpc64le-conda-linux-gnu-objdump:gcc_bootstrap_linux-ppc64le
+powerpc64le-conda-linux-gnu-pkg-config:pkg-config
 powerpc64le-conda-linux-gnu-ranlib:binutils_impl_linux-ppc64le
 powerpc64le-conda-linux-gnu-ranlib:gcc_bootstrap_linux-ppc64le
 powerpc64le-conda-linux-gnu-readelf:binutils_impl_linux-ppc64le
@@ -2135,6 +2151,7 @@ pydoc3:python
 pydoc3.6:python
 pydoc3.7:python
 pydoc3.8:python
+pydoc3.9:python
 pygmentex:texlive-core
 pyhtmlizer:twisted
 pyi-archive_viewer:pyinstaller
@@ -2146,8 +2163,10 @@ pyinstaller:pyinstaller
 pylint:pylint
 pyls:python-language-server
 pymdpbsa:ambertools
+pypy:pypy3.6
 pypy:python
 pypy3:pypy3.6
+pypy3.6:pypy3.6
 pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
@@ -2170,6 +2189,8 @@ python3.7m:python
 python3.7m-config:python
 python3.8:python
 python3.8-config:python
+python3.9:python
+python3.9-config:python
 pythontex:texlive-core
 pytleap:ambertools
 pyvenv:python
@@ -2304,6 +2325,9 @@ scdd:cddlib
 scdd_gmp:cddlib
 schubmult:lrcalc
 sclient:krb5
+scons:scons
+scons-configure-cache:scons
+sconsign:scons
 scotch_esmumps:scotch
 scp:openssh
 script:util-linux
@@ -2555,6 +2579,7 @@ unlzma:xz
 unpack200:openjdk
 unprocessed_raw:libraw
 unshare:util-linux
+unsquashfs:squashfs-tools
 unxz:xz
 unzip:unzip
 unzip-mem:zziplib

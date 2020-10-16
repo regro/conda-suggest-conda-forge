@@ -894,7 +894,43 @@ aria_ftdump:libtiledb-sql
 aria_pack:libtiledb-sql
 aria_read_log:libtiledb-sql
 arlatex:texlive-core
+arm64-apple-darwin20.0.0-ObjectDump:ld64_osx-arm64
+arm64-apple-darwin20.0.0-ar:cctools_osx-arm64
+arm64-apple-darwin20.0.0-as:cctools_osx-arm64
+arm64-apple-darwin20.0.0-bitcode_strip:cctools_osx-arm64
+arm64-apple-darwin20.0.0-check_dylib:cctools_osx-arm64
+arm64-apple-darwin20.0.0-checksyms:cctools_osx-arm64
+arm64-apple-darwin20.0.0-clang:clang_osx-arm64
+arm64-apple-darwin20.0.0-clang++:clangxx_osx-arm64
+arm64-apple-darwin20.0.0-cmpdylib:cctools_osx-arm64
+arm64-apple-darwin20.0.0-codesign_allocate:cctools_osx-arm64
+arm64-apple-darwin20.0.0-ctf_insert:cctools_osx-arm64
+arm64-apple-darwin20.0.0-dyldinfo:ld64_osx-arm64
 arm64-apple-darwin20.0.0-gfortran:gfortran_impl_osx-arm64
+arm64-apple-darwin20.0.0-indr:cctools_osx-arm64
+arm64-apple-darwin20.0.0-inout:cctools_osx-arm64
+arm64-apple-darwin20.0.0-install_name_tool:cctools_osx-arm64
+arm64-apple-darwin20.0.0-ld:ld64_osx-arm64
+arm64-apple-darwin20.0.0-libtool:cctools_osx-arm64
+arm64-apple-darwin20.0.0-lipo:cctools_osx-arm64
+arm64-apple-darwin20.0.0-machocheck:ld64_osx-arm64
+arm64-apple-darwin20.0.0-makerelocs:cctools_osx-arm64
+arm64-apple-darwin20.0.0-mtoc:cctools_osx-arm64
+arm64-apple-darwin20.0.0-mtor:cctools_osx-arm64
+arm64-apple-darwin20.0.0-nm:cctools_osx-arm64
+arm64-apple-darwin20.0.0-nmedit:cctools_osx-arm64
+arm64-apple-darwin20.0.0-otool:cctools_osx-arm64
+arm64-apple-darwin20.0.0-pagestuff:cctools_osx-arm64
+arm64-apple-darwin20.0.0-ranlib:cctools_osx-arm64
+arm64-apple-darwin20.0.0-redo_prebinding:cctools_osx-arm64
+arm64-apple-darwin20.0.0-seg_addr_table:cctools_osx-arm64
+arm64-apple-darwin20.0.0-seg_hack:cctools_osx-arm64
+arm64-apple-darwin20.0.0-segedit:cctools_osx-arm64
+arm64-apple-darwin20.0.0-size:cctools_osx-arm64
+arm64-apple-darwin20.0.0-strings:cctools_osx-arm64
+arm64-apple-darwin20.0.0-strip:cctools_osx-arm64
+arm64-apple-darwin20.0.0-unwinddump:ld64_osx-arm64
+arm64-apple-darwin20.0.0-vtool:cctools_osx-arm64
 arosics_cli.py:arosics
 arpa-to-const-arpa:kaldi
 arpa2fst:kaldi
@@ -919,6 +955,7 @@ as:cctools
 asap-python:asap3
 asap-qsub:asap
 asap-qsub:asap3
+asap-sbatch:asap
 asap-sbatch:asap3
 asc2eph:openorb-eph-builder
 asc2map:pcraster
@@ -982,8 +1019,13 @@ aubio:aubio
 aubiocut:aubio
 audiogrep:audiogrep
 auditwheel:auditwheel
+austin:austin
+austin-tui:austin
+austin-web:austin
+austin2speedscope:austin
 authorindex:texlive-core
 autoconf:autoconf
+autoexpect:expect
 autoheader:autoconf
 autoinst:texlive-core
 autom4te:autoconf
@@ -993,6 +1035,7 @@ automake-1.15:automake
 automake-1.16:automake
 automat-visualize:automat
 autooptimiser:hugin
+autopasswd:expect
 autopep8:autopep8
 autopoint:gettext
 autoreconf:autoconf
@@ -1304,8 +1347,14 @@ c-index-test:clangdev
 c2dec:codec2
 c2enc:codec2
 c2ph:perl
+c89:c-compiler
+c89:cxx-compiler
+c89:fortran-compiler
 c89:gcc_bootstrap_linux-64
 c89:gcc_impl_linux-64
+c99:c-compiler
+c99:cxx-compiler
+c99:fortran-compiler
 c99:gcc_bootstrap_linux-64
 c99:gcc_impl_linux-64
 c_rehash:openssl
@@ -1645,6 +1694,7 @@ clang:clangdev
 clang++:clangdev
 clang++:clangxx
 clang-10:clang
+clang-11:clang
 clang-3.8:clangdev
 clang-3.9:clangdev
 clang-4.0:clangdev
@@ -1783,6 +1833,8 @@ coconut-py3.7:coconut
 coconut-py3.7-run:coconut
 coconut-py3.8:coconut
 coconut-py3.8-run:coconut
+coconut-py3.9:coconut
+coconut-py3.9-run:coconut
 coconut-py35:coconut
 coconut-py35-run:coconut
 coconut-py36:coconut
@@ -2204,6 +2256,7 @@ crashsms:superlance
 create-split-from-vad:kaldi
 create-wrappers:exec-wrappers
 create_SCRIP_file_from_MPAS_mesh.py:mpas_tools
+create_clone:fates-emerald
 create_event_dag_via_grid:rift
 create_event_parameter_pipeline_BasicIteration:rift
 create_event_parameter_pipeline_BasicMultiApproxIteration:rift
@@ -2211,6 +2264,7 @@ create_hydro:sedflux
 create_landice_grid_from_generic_MPAS_grid.py:mpas_tools
 create_landscapes:gudhi
 create_landscapes_on_grid:gudhi
+create_newcase:fates-emerald
 create_p_h_m_weighted_by_arctan_of_their_persistence:gudhi
 create_p_h_m_weighted_by_distance_from_diagonal:gudhi
 create_p_h_m_weighted_by_squared_diag_distance:gudhi
@@ -2221,6 +2275,7 @@ create_projdata_template:stir
 create_pssk:gudhi
 create_surface.py:pychemia
 create_tail_mask_from_ACFs:stir
+create_test:fates-emerald
 createdb:postgres-xl
 createdb:postgresql
 createfontdatachunk.py:pillow
@@ -2241,6 +2296,7 @@ croco-0.6-config:libcroco
 cromwell:cromwell
 crop:lhcb-simpletools
 cross_compile_support.sh:conda-forge-ci-setup
+cryptdir:expect
 cryptominisat:cryptominisat
 cryptominisat5:cryptominisat
 cryptominisat5_simple:cryptominisat
@@ -2538,6 +2594,7 @@ ddemangle:dmd
 ddls:deepdish
 ddsp_prepare_tfrecord:ddsp
 ddsp_run:ddsp
+ddtrace-run:ddtrace
 de-macro:texlive-core
 deactivate:conda
 dec2:dec2
@@ -2546,6 +2603,7 @@ decode-faster-mapped:kaldi
 decomp:pytrilinos
 decomp:trilinos
 decorate:datamash
+decryptdir:expect
 define_cullMask.py:mpas_tools
 defncopy:freetds
 deformQuoc2D:match-series
@@ -2689,6 +2747,7 @@ disk_allocator:ndcctools
 disk_model.py:pdspy
 disk_model_powerlaw.py:pdspy
 diskcache:ldas-tools-diskcacheapi
+dislocate:expect
 dispatch_srvr:pyutilib
 displacement_geometry:embree
 displacement_geometry_ispc:embree
@@ -3120,6 +3179,7 @@ exomatlab:trilinos
 expand:coreutils
 expand_tags.py:pyne
 expandfits:fitstools
+expect:expect
 explode.py:pillow
 explode.pyc:pillow
 expr:coreutils
@@ -3166,6 +3226,7 @@ f2py3:numpy
 f2py3.6:numpy
 f2py3.7:numpy
 f2py3.8:numpy
+f2py3.9:numpy
 f90doc:f90wrap
 f90nml:f90nml
 f90wrap:f90wrap
@@ -3670,6 +3731,7 @@ fsu_latinize_standalone:dakota
 fsu_quality_standalone:dakota
 fswatch:fswatch
 ftfy:ftfy
+ftp-rfc:expect
 ftpbench:pyftpdlib
 ftpfetch:amptools
 ftpfetch:gmprocess
@@ -3729,6 +3791,7 @@ gammapy-test:gammapy
 gap:gap
 gap:gap-core
 gapplication:glib
+gapplication:libglib
 gatherArchives.py:proteus
 gatherTimes:proteus
 gauss_shell:multinest
@@ -4472,6 +4535,7 @@ green3.5:green
 green3.6:green
 green3.7:green
 green3.8:green
+green3.9:green
 greenspline:gmt
 gresource:glib
 grib1to2:ecmwf_grib
@@ -5575,6 +5639,7 @@ jupyterhub-singleuser:jupyterhub-base
 jwt:pyjwt
 jx2env:ndcctools
 jx2json:ndcctools
+jy1sat_ssdv:gnuradio-satellites
 jy1sat_ssdv.py:gnuradio-satellites
 k5srvutil:krb5
 kRing:h3
@@ -5620,6 +5685,7 @@ keycloak-gatekeeper:keycloak-gatekeeper
 keyring:keyring
 keytool:openjdk
 kglobalaccel5:kglobalaccel
+kibitz:expect
 kiconfinder5:kiconthemes
 kill:coreutils
 kill:procps-ng
@@ -6432,6 +6498,7 @@ llvm-exegesis:llvm-tools
 llvm-exegesis:llvmdev
 llvm-extract:llvm-tools
 llvm-extract:llvmdev
+llvm-gsymutil:llvm-tools
 llvm-ifs:llvm-tools
 llvm-install-name-tool:llvm-tools
 llvm-jitlink:llvm-tools
@@ -6451,6 +6518,7 @@ llvm-mc:llvmdev
 llvm-mca:llvm-tools
 llvm-mca:llvmdev
 llvm-mcmarkup:llvmdev
+llvm-ml:llvm-tools
 llvm-modextract:llvm-tools
 llvm-modextract:llvmdev
 llvm-mt:llvm-tools
@@ -6536,6 +6604,7 @@ lp_solve:lp_solve
 lpconvert:clingo
 lpl:hip
 lprsetup.sh:ghostscript
+lpunlock:expect
 lpython:pyutilib
 lrcalc:lrcalc
 lrelease:qt
@@ -6585,6 +6654,9 @@ luarocks-admin:luarocks
 luarocks-admin-5.2:luarocks
 luatex53:texlive-core
 luatools:texlive-core
+lue_translate:lue
+lue_validate:lue
+lue_view:lue
 luigi:luigi
 luigi-deps:luigi
 luigi-deps-tree:luigi
@@ -6626,6 +6698,7 @@ m-tx:texlive-core
 m2.conf:maven
 m2gmetis:metis
 m2gmetis:suitesparse
+m2kcli:libm2k
 m4:m4
 mac2unix:dos2unix
 machocheck:cctools
@@ -7069,6 +7142,7 @@ mkocp:texlive-core
 mkoctfile:octave
 mkoctfile-4.2.1:octave
 mkofm:texlive-core
+mkpasswd:expect
 mkpasswd:whois
 mkpic:texlive-core
 mkspk:cspice
@@ -7462,6 +7536,7 @@ multinest_marginals_corner.py:pymultinest
 multinest_marginals_fancy.py:pymultinest
 multiplyfits:fitstools
 multirender_test:libraw
+multixterm:expect
 munch:hunspell
 munge:munge
 mupdf-gl:mupdf
@@ -7958,6 +8033,7 @@ ns_process_traj:pymatnest
 ns_profile_analyse:pymatnest
 ns_run:pymatnest
 ns_set_analysis_weights:pymatnest
+nsenter:util-linux
 nspr-config:nspr
 nss-config:nss
 nss_wrapper.pl:nss_wrapper
@@ -8472,6 +8548,7 @@ parsplice:parsplice
 parsplice-label:parsplice
 parsplice-md:parsplice
 parun:proteus
+passmass:expect
 paste:coreutils
 paste-feats:kaldi
 paste-post:kaldi
@@ -9308,6 +9385,7 @@ prismatic-double:prismatic_cli
 prismatic-gui:prismatic_gui
 priv-net-run.sh:cni
 prj2make:mono
+prlimit:util-linux
 prm2input.py:pymt
 prm2template.py:pymt
 prmon:prmon
@@ -9416,6 +9494,7 @@ pswhite:ncl
 pswiggle:gmt
 psxy:gmt
 psxyz:gmt
+psy-view:psy-view
 psychopy:psychopy
 psyplot:psyplot
 psyplot-plugin:psyplot
@@ -9718,6 +9797,7 @@ pycraf-gui:pycraf
 pycrust:wxpython
 pycsw-admin.py:pycsw
 pydap:pydap
+pyddprofile:ddtrace
 pydoc:python
 pydoc3:python
 pydoc3.4:python
@@ -9920,6 +10000,7 @@ pyside2-uic:pyside2
 pyside_tool.py:pyside2
 pyslices:wxpython
 pyslicesshell:wxpython
+pysmu:libsmu
 pysp2smps:pyomo
 pyspark:pyspark
 pyspark.cmd:pyspark
@@ -10084,6 +10165,8 @@ qttracereplay:qt
 quad_to_tri.py:pymesh2
 quasih:ambertools
 query-starkd:astrometry
+query_config:fates-emerald
+query_testlists:fates-emerald
 quest:xapian-core
 quickstart.py:pymt
 quickview.py:lagranto
@@ -10321,6 +10404,7 @@ rfc_calc:dynaphopy
 rfi-file-monitor:rfi-file-monitor
 rfi_diagnostic.py:aipy
 rfnoc_image_builder:uhd
+rftp:expect
 rg:ripgrep
 rgb2pct.py:gdal
 rgb2ycbcr:libtiff
@@ -10346,6 +10430,7 @@ ristosds:hdf4
 rlatopam:netpbm
 rletopnm:netpbm
 rlibmap:root5
+rlogin-cwd:expect
 rls:rust
 rm:coreutils
 rm_imt_images:image-meta-tag
@@ -11057,6 +11142,7 @@ smartypants:smartypants
 smem:cfitsio
 smif:smif
 smith.pyre:pyre
+smog_p_spectrum:gnuradio-satellites
 smog_p_spectrum.py:gnuradio-satellites
 smoothfits:fitstools
 smoothing_cxx:healpix_cxx
@@ -11069,6 +11155,7 @@ smtbx.python:cctbx-base
 smtbx.refine:cctbx-base
 smtpd.py:python
 smtpd.pyc:python
+smu:libsmu
 sn:mono
 snakebite:snakebite
 snap2vtk:alps
@@ -11645,6 +11732,7 @@ terraform-provider-archive_v1.2.0_x4:terraform-provider-archive
 terraform-provider-archive_v1.2.1_x4:terraform-provider-archive
 terraform-provider-archive_v1.2.2_x4:terraform-provider-archive
 terraform-provider-archive_v1.3.0_x4:terraform-provider-archive
+terraform-provider-archive_v2.0.0_x4:terraform-provider-archive
 terraform-provider-arukas_v0.1.0_x4:terraform-provider-arukas
 terraform-provider-arukas_v1.0.0_x4:terraform-provider-arukas
 terraform-provider-arukas_v1.1.0_x4:terraform-provider-arukas
@@ -11712,6 +11800,8 @@ terraform-provider-aws_v2.70.0_x4:terraform-provider-aws
 terraform-provider-aws_v2.8.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.0.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.1.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.10.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.11.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
@@ -11775,6 +11865,9 @@ terraform-provider-azurerm_v2.26.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.27.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.28.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.30.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.31.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.31.1_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.32.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
@@ -11896,6 +11989,7 @@ terraform-provider-dns_v2.0.0_x4:terraform-provider-dns
 terraform-provider-dns_v2.1.0_x4:terraform-provider-dns
 terraform-provider-dns_v2.1.1_x4:terraform-provider-dns
 terraform-provider-dns_v2.2.0_x4:terraform-provider-dns
+terraform-provider-dns_v3.0.0_x4:terraform-provider-dns
 terraform-provider-dnsimple_v0.1.0_x4:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.2.0_x4:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.3.0_x4:terraform-provider-dnsimple
@@ -11926,6 +12020,7 @@ terraform-provider-external_v1.1.0_x4:terraform-provider-external
 terraform-provider-external_v1.1.1_x4:terraform-provider-external
 terraform-provider-external_v1.1.2_x4:terraform-provider-external
 terraform-provider-external_v1.2.0_x4:terraform-provider-external
+terraform-provider-external_v2.0.0_x4:terraform-provider-external
 terraform-provider-fastly_v0.1.4_x4:terraform-provider-fastly
 terraform-provider-fastly_v0.10.0_x4:terraform-provider-fastly
 terraform-provider-fastly_v0.11.0_x4:terraform-provider-fastly
@@ -11966,6 +12061,7 @@ terraform-provider-github_v2.9.0_x4:terraform-provider-github
 terraform-provider-github_v2.9.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.2_x4:terraform-provider-github
 terraform-provider-github_v3.0.0_x4:terraform-provider-github
+terraform-provider-github_v3.1.0_x4:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4:terraform-provider-gitlab
@@ -12042,6 +12138,7 @@ terraform-provider-google_v3.39.0_x4:terraform-provider-google
 terraform-provider-google_v3.40.0_x4:terraform-provider-google
 terraform-provider-google_v3.41.0_x4:terraform-provider-google
 terraform-provider-google_v3.42.0_x4:terraform-provider-google
+terraform-provider-google_v3.43.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -12062,6 +12159,7 @@ terraform-provider-helm_v1.2.3_x4:terraform-provider-helm
 terraform-provider-helm_v1.2.4_x4:terraform-provider-helm
 terraform-provider-helm_v1.3.0_x4:terraform-provider-helm
 terraform-provider-helm_v1.3.1_x4:terraform-provider-helm
+terraform-provider-helm_v1.3.2_x4:terraform-provider-helm
 terraform-provider-heroku_v0.1.2_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.0_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.1_x4:terraform-provider-heroku
@@ -12094,6 +12192,7 @@ terraform-provider-http_v1.0.1_x4:terraform-provider-http
 terraform-provider-http_v1.1.0_x4:terraform-provider-http
 terraform-provider-http_v1.1.1_x4:terraform-provider-http
 terraform-provider-http_v1.2.0_x4:terraform-provider-http
+terraform-provider-http_v2.0.0_x4:terraform-provider-http
 terraform-provider-icinga2_v0.1.1_x4:terraform-provider-icinga2
 terraform-provider-icinga2_v0.2.0_x4:terraform-provider-icinga2
 terraform-provider-icinga2_v0.3.0_x4:terraform-provider-icinga2
@@ -12144,6 +12243,7 @@ terraform-provider-local_v1.2.1_x4:terraform-provider-local
 terraform-provider-local_v1.2.2_x4:terraform-provider-local
 terraform-provider-local_v1.3.0_x4:terraform-provider-local
 terraform-provider-local_v1.4.0_x4:terraform-provider-local
+terraform-provider-local_v2.0.0_x4:terraform-provider-local
 terraform-provider-logentries_v0.1.0_x4:terraform-provider-logentries
 terraform-provider-logentries_v1.0.0_x4:terraform-provider-logentries
 terraform-provider-logicmonitor_v1.0.0_x4:terraform-provider-logicmonitor
@@ -12421,6 +12521,7 @@ terraform-provider-random_v2.1.2_x4:terraform-provider-random
 terraform-provider-random_v2.2.0_x4:terraform-provider-random
 terraform-provider-random_v2.2.1_x4:terraform-provider-random
 terraform-provider-random_v2.3.0_x4:terraform-provider-random
+terraform-provider-random_v3.0.0_x4:terraform-provider-random
 terraform-provider-rundeck_v0.1.0_x4:terraform-provider-rundeck
 terraform-provider-rundeck_v0.2.0_x4:terraform-provider-rundeck
 terraform-provider-rundeck_v0.2.1_x4:terraform-provider-rundeck
@@ -12492,6 +12593,7 @@ terraform-provider-tls_v2.0.1_x4:terraform-provider-tls
 terraform-provider-tls_v2.1.0_x4:terraform-provider-tls
 terraform-provider-tls_v2.1.1_x4:terraform-provider-tls
 terraform-provider-tls_v2.2.0_x4:terraform-provider-tls
+terraform-provider-tls_v3.0.0_x4:terraform-provider-tls
 terraform-provider-triton_v0.4.2_x4:terraform-provider-triton
 terraform-provider-triton_v0.5.1_x4:terraform-provider-triton
 terraform-provider-triton_v0.6.0_x4:terraform-provider-triton
@@ -12547,6 +12649,8 @@ terraform-provider-vsphere_v1.21.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.22.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.23.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.24.0_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.1_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v1.24.2_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.3.3_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.4.1_x4:terraform-provider-vsphere
@@ -12717,6 +12821,8 @@ tile-join:tippecanoe
 tiller:kubernetes-helm
 tilt:tilt
 time:time
+timed-read:expect
+timed-run:expect
 timeout:coreutils
 timer:dakota
 tini:tini
@@ -12727,6 +12833,8 @@ tippecanoe-enumerate:tippecanoe
 tippecanoe-json-tool:tippecanoe
 tjbench:libjpeg-turbo
 tkconch:twisted
+tknewsbiff:expect
+tkpasswd:expect
 tlcockpit:texlive-core
 tldextract:tldextract
 tleap:ambertools
@@ -12747,6 +12855,7 @@ tnameserv:openjdk
 to_be_dispatched:ambertools
 to_erl:erlang
 toad:toad
+toast_benchmark.py:toast
 toast_cache_test.py:toast
 toast_cov_invert.py:toast
 toast_cov_rcond.py:toast
@@ -12847,6 +12956,7 @@ tuplesampler:lhcb-simpletools
 tuplescrambler:lhcb-simpletools
 turbsim:openfast
 tutorial.ipynb:aospy
+tvmc:tvm-py
 tvtk_doc:mayavi
 twine:twine
 twist:twisted
@@ -12910,6 +13020,7 @@ ulqda:texlive-core
 umount:util-linux
 uname:coreutils
 uname26:util-linux
+unbuffer:expect
 uncast:glimpse
 uncommitted:uncommitted
 uncrustify:uncrustify
@@ -13591,6 +13702,7 @@ wdctl:util-linux
 wdltools:wdltools
 wdq-batch:gwdetchar
 weasyprint:weasyprint
+weather:expect
 weave:texlive-core
 webassets:signac-dashboard
 webpinfo:libwebp
@@ -13613,6 +13725,8 @@ wgconvert:glimpse
 wget:wget
 wgrib:wgrib
 wgrib2:wgrib2
+wham:grwham
+wham-2d:grwham
 wheel:wheel
 whereis:util-linux
 which:which
@@ -13793,6 +13907,10 @@ x86_64-conda-linux-gnu-c99:gcc_bootstrap_linux-64
 x86_64-conda-linux-gnu-c99:gcc_impl_linux-64
 x86_64-conda-linux-gnu-cc:gcc_bootstrap_linux-64
 x86_64-conda-linux-gnu-cc:gcc_impl_linux-64
+x86_64-conda-linux-gnu-clang:clang_osx-64
+x86_64-conda-linux-gnu-clang:clang_osx-arm64
+x86_64-conda-linux-gnu-clang++:clangxx_osx-64
+x86_64-conda-linux-gnu-clang++:clangxx_osx-arm64
 x86_64-conda-linux-gnu-cpp:gcc_bootstrap_linux-64
 x86_64-conda-linux-gnu-cpp:gcc_impl_linux-64
 x86_64-conda-linux-gnu-ct-ng.config:gcc_bootstrap_linux-64
@@ -13838,6 +13956,7 @@ x86_64-conda-linux-gnu-objcopy:binutils_impl_linux-64
 x86_64-conda-linux-gnu-objcopy:gcc_bootstrap_linux-64
 x86_64-conda-linux-gnu-objdump:binutils_impl_linux-64
 x86_64-conda-linux-gnu-objdump:gcc_bootstrap_linux-64
+x86_64-conda-linux-gnu-pkg-config:pkg-config
 x86_64-conda-linux-gnu-ranlib:binutils_impl_linux-64
 x86_64-conda-linux-gnu-ranlib:gcc_bootstrap_linux-64
 x86_64-conda-linux-gnu-readelf:binutils_impl_linux-64
@@ -13962,6 +14081,7 @@ xhtml2pdf:xhtml2pdf
 ximtoppm:netpbm
 xjc:openjdk
 xkbcli:libxkbcommon
+xkibitz:expect
 xleap:ambertools
 xmaxima:maxima
 xmbind:openmotif
@@ -14000,9 +14120,11 @@ xpaset:xpa
 xpdtest:root
 xpdtest:root-binaries
 xpmtoppm:netpbm
+xppaut:xppaut
 xprep:xrootd
 xproofd:root
 xproofd:root-binaries
+xpstat:expect
 xpython:xeus-python
 xq:yq
 xraylib:xraylib

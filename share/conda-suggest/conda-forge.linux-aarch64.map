@@ -16,6 +16,7 @@
 2to3-3.6:python
 2to3-3.7:python
 2to3-3.8:python
+2to3-3.9:python
 4channels:libraw
 Cast-config:clhep
 CreateDOMDocument:xerces-c
@@ -128,6 +129,7 @@ aarch64-conda-linux-gnu-objcopy:binutils_impl_linux-aarch64
 aarch64-conda-linux-gnu-objcopy:gcc_bootstrap_linux-aarch64
 aarch64-conda-linux-gnu-objdump:binutils_impl_linux-aarch64
 aarch64-conda-linux-gnu-objdump:gcc_bootstrap_linux-aarch64
+aarch64-conda-linux-gnu-pkg-config:pkg-config
 aarch64-conda-linux-gnu-ranlib:binutils_impl_linux-aarch64
 aarch64-conda-linux-gnu-ranlib:gcc_bootstrap_linux-aarch64
 aarch64-conda-linux-gnu-readelf:binutils_impl_linux-aarch64
@@ -359,8 +361,12 @@ c++filt:binutils
 c++filt:binutils-meta
 c-index-test:clang-tools
 c-index-test:clangdev
+c89:c-compiler
+c89:fortran-compiler
 c89:gcc_bootstrap_linux-aarch64
 c89:gcc_impl_linux-aarch64
+c99:c-compiler
+c99:fortran-compiler
 c99:gcc_bootstrap_linux-aarch64
 c99:gcc_impl_linux-aarch64
 c_rehash:openssl
@@ -425,6 +431,8 @@ clang:clangdev
 clang++:clangdev
 clang++:clangxx
 clang-10:clang
+clang-11:clang
+clang-5.0:clangdev
 clang-6.0:clangdev
 clang-8:clangdev
 clang-9:clang
@@ -473,6 +481,7 @@ cmake:cmake
 cmake:cmake-no-system
 cmpfillin:metis
 cmsd:xrootd
+cnitool:cni
 cns_ssi:xrootd
 coin-config:coin3d
 col:util-linux
@@ -726,6 +735,7 @@ f2py3:numpy
 f2py3.6:numpy
 f2py3.7:numpy
 f2py3.8:numpy
+f2py3.9:numpy
 f95:fortran-compiler
 factor:coreutils
 fallocate:util-linux
@@ -804,6 +814,7 @@ g-ir-inspect:gobject-introspection
 g-ir-scanner:gobject-introspection
 gap:gap-core
 gapplication:glib
+gapplication:libglib
 gawk:gawk
 gawk-4.2.1:gawk
 gawk-5.0.0:gawk
@@ -859,6 +870,7 @@ genpng:lcov
 genquarticg:nauty
 genrang:nauty
 genrb:icu
+genreflex:root-binaries
 genspecialg:nauty
 gentourng:nauty
 gentreeg:nauty
@@ -1161,6 +1173,7 @@ h5repart:hdf5
 h5stat:hdf5
 h5unjam:hdf5
 h5watch:hdf5
+hadd:root-binaries
 haddock:ghc
 haddock-ghc-8.2.2:ghc
 half_mt:libraw
@@ -1177,6 +1190,7 @@ help2man:help2man
 hevea2mml:giac
 hexdump:util-linux
 hexyl:hexyl
+hist2workspace:root-binaries
 hmaptool:clang-tools
 hmaptool:clangdev
 hostid:coreutils
@@ -1215,6 +1229,7 @@ idle3:python
 idle3.6:python
 idle3.7:python
 idle3.8:python
+idle3.9:python
 idn:libidn11
 idn2:libidn2
 ifnames:autoconf
@@ -1463,6 +1478,7 @@ llvm-exegesis:llvm-tools
 llvm-exegesis:llvmdev
 llvm-extract:llvm-tools
 llvm-extract:llvmdev
+llvm-gsymutil:llvm-tools
 llvm-ifs:llvm-tools
 llvm-install-name-tool:llvm-tools
 llvm-jitlink:llvm-tools
@@ -1482,6 +1498,7 @@ llvm-mc:llvmdev
 llvm-mca:llvm-tools
 llvm-mca:llvmdev
 llvm-mcmarkup:llvmdev
+llvm-ml:llvm-tools
 llvm-modextract:llvm-tools
 llvm-modextract:llvmdev
 llvm-mt:llvm-tools
@@ -1596,6 +1613,7 @@ mcube:rubiks
 mcv:scotch
 md5sum:coreutils
 mem_image:libraw
+memprobe:root-binaries
 mergesolv:libsolv
 mergesolv:libsolv-static
 mesg:util-linux
@@ -1617,6 +1635,7 @@ mknod:coreutils
 mkocp:texlive-core
 mkofm:texlive-core
 mkpic:texlive-core
+mksquashfs:squashfs-tools
 mkt1font:texlive-core
 mktemp:coreutils
 mktexfmt:texlive-core
@@ -1738,6 +1757,7 @@ nano:nano
 nasm:nasm
 nc-config:libnetcdf
 nccopy:libnetcdf
+ncdu:ncdu
 ncdump:libnetcdf
 ncgen:libnetcdf
 ncgen3:libnetcdf
@@ -2018,6 +2038,7 @@ ppm2tiff:libtiff
 pr:coreutils
 pre-grohtml:groff
 preconv:groff
+prepareHistFactory:root-binaries
 prerr.properties:nspr
 printenv:coreutils
 printf:coreutils
@@ -2028,6 +2049,8 @@ projection:cddlib
 projection_gmp:cddlib
 projinfo:proj
 projsync:proj
+proofserv:root-binaries
+proofserv.exe:root-binaries
 protoc:libprotobuf
 protoc-gen-go:protoc-gen-go
 prove:perl
@@ -2061,6 +2084,7 @@ pydoc3:python
 pydoc3.6:python
 pydoc3.7:python
 pydoc3.8:python
+pydoc3.9:python
 pygmentex:texlive-core
 pyhtmlizer:twisted
 pyi-archive_viewer:pyinstaller
@@ -2097,6 +2121,8 @@ python3.7m:python
 python3.7m-config:python
 python3.8:python
 python3.8-config:python
+python3.9:python
+python3.9-config:python
 pythontex:texlive-core
 pyvenv:python
 pyvenv-3.6:python
@@ -2147,6 +2173,7 @@ rmdir:coreutils
 rmic:openjdk
 rmid:openjdk
 rmiregistry:openjdk
+rmkdepend:root-binaries
 rnano:nano
 roff2dvi:groff
 roff2html:groff
@@ -2154,6 +2181,25 @@ roff2pdf:groff
 roff2ps:groff
 roff2text:groff
 roff2x:groff
+root:root-binaries
+root-config:root-binaries
+root.exe:root-binaries
+rootbrowse:root-binaries
+rootcint:root-binaries
+rootcling:root-binaries
+rootcp:root-binaries
+rootdrawtree:root-binaries
+rooteventselector:root-binaries
+rootls:root-binaries
+rootmkdir:root-binaries
+rootmv:root-binaries
+rootn.exe:root-binaries
+rootnb.exe:root-binaries
+rootprint:root-binaries
+rootrm:root-binaries
+roots:root-binaries
+roots.exe:root-binaries
+rootslimtree:root-binaries
 rosdep:rosdep
 rosdep-source:rosdep
 rosdistro_build_cache:rosdistro
@@ -2217,6 +2263,9 @@ scdd:cddlib
 scdd_gmp:cddlib
 schubmult:lrcalc
 sclient:krb5
+scons:scons
+scons-configure-cache:scons
+sconsign:scons
 scotch_esmumps:scotch
 scp:openssh
 script:util-linux
@@ -2232,6 +2281,8 @@ setfattr:attr
 setsid:util-linux
 setterm:util-linux
 setup_conda_rc:conda-forge-ci-setup
+setxrd.csh:root-binaries
+setxrd.sh:root-binaries
 sexp-conv:nettle
 sfdp:graphviz
 sftp:openssh
@@ -2371,6 +2422,9 @@ texosquery-jre5:texlive-core
 texosquery-jre8:texlive-core
 tfmtodit:groff
 tftopl:texlive-core
+thisroot.csh:root-binaries
+thisroot.fish:root-binaries
+thisroot.sh:root-binaries
 thrift:thrift-compiler
 thrift:thrift-cpp
 thumbpdf:texlive-core
@@ -2455,6 +2509,7 @@ unlzma:xz
 unpack200:openjdk
 unprocessed_raw:libraw
 unshare:util-linux
+unsquashfs:squashfs-tools
 unxz:xz
 unzip:unzip
 unzip-mem:zziplib
@@ -2585,7 +2640,9 @@ xml2-config:libxml2
 xmlcatalog:libxml2
 xmllint:libxml2
 xmlwf:expat
+xpdtest:root-binaries
 xprep:xrootd
+xproofd:root-binaries
 xpython:xeus-python
 xrd:xrootd
 xrdacctest:xrootd

@@ -38,6 +38,7 @@ anaconda:anaconda-client
 anaconda-project:anaconda-project
 anaconda-verify:anaconda-verify
 analysis_server:xpdan
+andes:andes
 angreal:angreal
 ansible-bender:ansible-bender
 ansible-lint:ansible-lint
@@ -125,6 +126,8 @@ boa:boa
 bokeh-root-cmd:bokeh-root-cmd
 bowler:bowler
 browse:easydev
+bse:basis_set_exchange
+bsecurate:basis_set_exchange
 build-stack-docs:documenteer
 buildbot:buildbot
 buildbot-worker:buildbot-worker
@@ -615,6 +618,7 @@ getpager:libcomcat
 getphases:libcomcat
 getproduct:libcomcat
 gettext-extract:jupyterlab-translate
+gflex:gflex
 ggrc:ginga
 ghp-import:ghp-import
 gilt:python-gilt
@@ -1011,6 +1015,7 @@ multigit:easydev
 multimech-gridgui:multi-mechanize
 multimech-newproject:multi-mechanize
 multimech-run:multi-mechanize
+multisheller:multisheller
 mutatest:mutatest
 mv_regex:mv_regex
 mycli:mycli
@@ -1056,6 +1061,8 @@ nib-dicomfs:nibabel
 nib-diff:nibabel
 nib-ls:nibabel
 nib-nifti-dx:nibabel
+nib-roi:nibabel
+nib-stats:nibabel
 nib-tck2trk:nibabel
 nib-trk2tck:nibabel
 nionswift:nionswift
@@ -1261,6 +1268,7 @@ pyngrok:pyngrok
 pyperformance:performance
 pypi_downloads:pyutilib
 pyppdf:pyppdf
+pyppdf-install:pyppdf
 pyppdf-replace-mathjax:pyppdf
 pyppeteer-install:pyppeteer
 pyprof2calltree:pyprof2calltree
@@ -1302,6 +1310,7 @@ pytest:pytest
 pytest-bdd:pytest-bdd
 pytest-check-links:pytest-check-links
 python-barcode:python-barcode
+python-build:python-build
 python-codacy-coverage:codacy-coverage
 python-modernize:modernize
 python-smp:smp

@@ -1,3 +1,4 @@
+-clang++:clangxx
 -pkg-config:pkg-config
 .appmode-post-link.sh:appmode
 .appmode-pre-unlink.sh:appmode
@@ -143,6 +144,7 @@
 .waf3-1.9.12-5c91e93b7dcde5823a6c381614002130:pyinstaller
 .waf3-2.0.8-2fa287d8a2b1b8416cb61d15687c5501:pyinstaller
 .waf3-2.0.8-82ec32c6fa828cd2994fea917a835ee1:pyinstaller
+.waf3-2.0.8-9477ed0f5027fca19a50b97daef3bc0c:pyinstaller
 .westpa-post-link.sh:westpa
 .widgetsnbextension-post-link.sh:widgetsnbextension
 .widgetsnbextension-pre-unlink.sh:widgetsnbextension
@@ -1491,6 +1493,7 @@ clang++:clangxx
 clang-10:clang
 clang-10:clang_bootstrap_osx-64
 clang-11:clang
+clang-11:clang-11
 clang-11:clang_bootstrap_osx-64
 clang-11:clang_bootstrap_osx-arm64
 clang-3.8:clangdev
@@ -1830,9 +1833,14 @@ convert-caffe2-to-onnx:pytorch-cpu
 convert-json:oslo.log
 convert-onnx-to-caffe2:onnx-caffe2
 convert-onnx-to-caffe2:pytorch-cpu
+convert2DPGMTo8Bit:match-series
 convert2html:alps
 convert2text:alps
 convert2xml:alps
+convertDM3ToQuoc:match-series
+convertQuocToTIFF:match-series
+convertSERToQuoc:match-series
+convertTIFFToQuoc:match-series
 convert_clim.py:seapy
 convert_dat_to_hdf5.py:rift
 convert_documentation_tutorials.py:halotools
@@ -1889,6 +1897,7 @@ coqwc:coq
 coqworkmgr:coq
 coredns:coredns
 corelist:perl
+coremlconverter:coremltools
 corr:lhcb-simpletools
 corr2:treecorr
 corr3:treecorr
@@ -2180,6 +2189,7 @@ decomp:trilinos
 decorate:datamash
 define_cullMask.py:mpas_tools
 defncopy:freetds
+deformQuoc2D:match-series
 degtohms:astrometry
 deicode:deicode
 delaunay:gts
@@ -3272,6 +3282,7 @@ gendesc:lcov
 gendict:icu
 gendiff:rpm-tools
 generate_cert:omniscidb-cpu
+genesis2:genesis2
 geng:nauty
 gengetopt:gengetopt
 genhtml:lcov
@@ -4132,6 +4143,7 @@ hmac256:libgcrypt
 hmaptool:clang-tools
 hmaptool:clang_bootstrap_osx-64
 hmaptool:clangdev
+hmm:cpp-hmm
 hmstodeg:astrometry
 hogg_iau_name:pydl
 holoviews:holoviews
@@ -5859,6 +5871,8 @@ markov:4ti2
 maskfits:fitstools
 mat2exo:pytrilinos
 mat2exo:trilinos
+matchSeismicSeries:match-series
+matchSeries:match-series
 match_filter.py:eqcorrscan
 match_parens:texlive-core
 matdump:libmatio
@@ -6406,6 +6420,7 @@ mtxrun:texlive-core
 mtxrunjit:texlive-core
 mu:mu_repo
 muds:sedflux
+multShiftImg:match-series
 mult_alm:healpix_cxx
 multibibliography:texlive-core
 multicolumnmaker:lhcb-simpletools
@@ -6778,6 +6793,7 @@ nosetests:nose
 nosetests-3.4:jupyter_kernel_test
 not:llvm-utils
 notred:bake
+nox:nox
 npm:nodejs
 nproc:coreutils
 npth-config:npth
@@ -9874,6 +9890,7 @@ svnserve:subversion
 svnsync:subversion
 svnversion:subversion
 swagger-flex:flex-swagger
+swapCoordinates:match-series
 swarp:astromatic-swarp
 swashes:swashes
 swift:python-swiftclient
@@ -10607,6 +10624,7 @@ terraform-provider-null_v2.0.0_x4:terraform-provider-null
 terraform-provider-null_v2.1.0_x4:terraform-provider-null
 terraform-provider-null_v2.1.1_x4:terraform-provider-null
 terraform-provider-null_v2.1.2_x4:terraform-provider-null
+terraform-provider-null_v3.0.0_x4:terraform-provider-null
 terraform-provider-oneandone_v1.0.0_x4:terraform-provider-oneandone
 terraform-provider-oneandone_v1.1.0_x4:terraform-provider-oneandone
 terraform-provider-oneandone_v1.2.0_x4:terraform-provider-oneandone
@@ -11149,6 +11167,11 @@ toco:tensorflow-base
 toco_from_protos:tensorflow
 toco_from_protos:tensorflow-base
 toe:ncurses
+tofu:tofu
+tofu-custom:tofu
+tofu-version:tofu
+tofucalc:tofu
+tofuplot:tofu
 tokei:tokei
 tokenize-rt:tokenize-rt
 tomf:casacore
@@ -11157,6 +11180,7 @@ torque_submit_workers:ndcctools
 touch:coreutils
 tox:tox
 tox-quickstart:tox
+tox-to-nox:nox
 toxfr:cspice
 tpocket:fpocket
 tpot:tpot

@@ -1,3 +1,4 @@
+-clang++:clangxx
 .dbus-post-link.sh:dbus
 .gdk-pixbuf-post-link.sh:gdk-pixbuf
 .librsvg-post-link.sh:librsvg
@@ -7,6 +8,8 @@
 .ocl-icd-system-post-link.sh:ocl-icd-system
 .ocl-icd-system-pre-unlink.sh:ocl-icd-system
 .r-base-post-link.sh:r-base
+.waf3-2.0.8-2a5016f9911b7a14551f5a099c0c639d:pyinstaller
+.waf3-2.0.8-b8ef2ceffd61859a2e255ecda49a589c:pyinstaller
 .waf3-2.0.8-ba1afb5fff301ec68a4fb6c54339db19:pyinstaller
 .waf3-2.0.8-c78b1d04fa72c4b7cd3a498a14509518:pyinstaller
 .widgetsnbextension-post-link.sh:widgetsnbextension
@@ -347,6 +350,7 @@ clang++:clangdev
 clang++:clangxx
 clang-10:clang
 clang-11:clang
+clang-11:clang-11
 clang-5.0:clangdev
 clang-6.0:clangdev
 clang-8:clangdev
@@ -898,6 +902,7 @@ gfortran.bin:fortran-compiler
 gftodvi:texlive-core
 gftopk:texlive-core
 gftype:texlive-core
+gh:gh
 giac:giac
 gie:proj
 gif2h5:hdf5

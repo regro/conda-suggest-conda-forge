@@ -409,6 +409,7 @@ dtool_serve_directory:dtool_http
 dw:datadotworld-py
 dxfaudit:ezdxf
 dxfpp:ezdxf
+dynaconf:dynaconf
 e3sm_diags:e3sm_diags
 e3sm_diags_vars:e3sm_diags
 earthengine:earthengine-api
@@ -585,6 +586,7 @@ ftfy:ftfy
 funpack:fmrib-unpack
 funpack_demo:fmrib-unpack
 fypp:fypp
+g2e:tatsu
 gcovr:gcovr
 gdown:gdown
 geeadd:geeadd
@@ -800,6 +802,7 @@ knitty:knitty
 knockknock:knockknock
 knotedown:knitty
 knotr:knitty
+konfik:konfik
 kramdown:rb-kramdown
 label-maker:label-maker
 labours:labours
@@ -975,6 +978,7 @@ message-ix:message-ix
 messageix-config:message-ix
 messageix-dl:message-ix
 metaflow:metaflow
+mike:mike
 minitar:rb-archive-tar-minitar
 miniwdl:miniwdl
 mistletoe:mistletoe-ebp
@@ -1004,6 +1008,8 @@ moses-tokenizer:mosestokenizer
 moto_server:moto
 mpas_analysis:mpas-analysis
 mprof:memory_profiler
+mrcfile-header:mrcfile
+mrcfile-validate:mrcfile
 mrjob:mrjob
 mrjob-3:mrjob
 mrjob-3.6:mrjob
@@ -1039,6 +1045,7 @@ nbmerge:nbdime
 nbmerge-web:nbdime
 nbpresent:ipypublish
 nbpublish:ipypublish
+nbqa:nbqa
 nbrobot:robotkernel
 nbrr:nbrr
 nbshow:nbdime
@@ -1314,6 +1321,7 @@ python-build:python-build
 python-codacy-coverage:codacy-coverage
 python-modernize:modernize
 python-smp:smp
+pytkdocs:pytkdocs
 pytmc:pytmc
 pyupgrade:pyupgrade
 pyutilib_test_driver:pyutilib
@@ -1350,6 +1358,7 @@ redbiom:redbiom
 reducer:reducer
 refresh-lsst-bib:documenteer
 regex-replace:pandoctools
+register-runner:gitlab-runner-api
 rehttpfs:htmllistparse
 reindent:reindent
 remove_ext:fslpy
@@ -1435,6 +1444,7 @@ scour:scour
 screed:screed
 scss:rb-sass
 seabird:seabird
+search_zenodo:pyzenodo3
 seed-isort-config:seed-isort-config
 segdiff:ligotools-scripts
 segexpr:ligotools-scripts
@@ -1458,6 +1468,7 @@ signac:signac
 silx:silx
 simplify_features:geometric_features
 simplify_shapefile.py:hyp3lib
+sina:llnl-sina
 singularity-compose:singularity-compose
 skan-gui:skan
 skein:skein
@@ -1547,6 +1558,7 @@ tabulator:tabulator
 tabulator:tabulator-py
 tag_features:geometric_features
 tagmaps:tagmaps
+tatsu:tatsu
 tcal:trading-calendars
 tconvert:ligotools-tconvert
 tdameritrade-auth:tdameritrade
@@ -1561,6 +1573,7 @@ testrios.py:rios
 texplain:texplain
 textnets:textnets
 thor:rb-thor
+tibanna:tibanna
 tifffile:tifffile
 tika-python:tika
 tileList2shape.py:hyp3lib
@@ -1624,6 +1637,7 @@ unidecode:unidecode
 unit2:unittest2
 unittest2pytest:unittest2pytest
 universions:universions
+upload_zenodo:pyzenodo3
 ur:spacy-lookups-data
 urlchecker:urlchecker
 ursabot:ursabot
@@ -1686,6 +1700,7 @@ whitebox:whitebox
 windse:windse
 windse_driver:windse
 wingproj:openmdao
+woodwork:woodwork
 workdir:pyworkdir
 wormhole:magic-wormhole
 wrapout:pwkit
@@ -1717,6 +1732,7 @@ yaqd-base:yaqd-core
 yaqd-continuous-hardware:yaqd-core
 yaqd-fake-continuous-hardware:yaqd-fakes
 yaqd-fake-discrete-hardware:yaqd-fakes
+yaqd-fake-triggered-sensor:yaqd-fakes
 yaqd-gdrive:yaqd-gdrive
 yaqd-hardware:yaqd-core
 yaqd-lightcon-topas4-motor:yaqd-lightcon

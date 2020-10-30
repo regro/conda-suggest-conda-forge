@@ -537,6 +537,7 @@ add_land_locked_cells_to_mask.py:mpas_tools
 add_pdb:ambertools
 add_xray:ambertools
 addedgeg:nauty
+addfips:addfips
 addfits:fitstools
 addftinfo:groff
 addkeys:fitstools
@@ -992,6 +993,7 @@ behave:behave
 bench_udatetime.py:udatetime
 benchmark:embree
 bfg:bfg
+bgenix:bgenix
 bib2gls:texlive-core
 bibdoiadd:texlive-core
 bibexport:texlive-core
@@ -1030,6 +1032,7 @@ bmipy-render:bmipy
 bmp2tiff:libtiff
 bmptopnm:netpbm
 bmptoppm:netpbm
+boa:boa
 bokeh:bokeh
 bondtype:ambertools
 bondtype.orig:ambertools
@@ -1234,6 +1237,7 @@ caspol:mono
 cassandra.exe:cassandra
 cast:glimpse
 cat:coreutils
+cat-bgen:bgenix
 cat-md:pandoctools
 catalog_query:ndcctools
 catalog_server:ndcctools
@@ -1773,6 +1777,7 @@ conda-execute:conda-execute
 conda-gitenv:conda-gitenv
 conda-index:conda-build
 conda-inspect:conda-build
+conda-mambabuild:boa
 conda-metapackage:conda-build
 conda-mirror:conda-mirror
 conda-pack:conda-pack
@@ -2465,7 +2470,9 @@ dumppdf.pyc:pdfminer
 dumpsexp:libgcrypt
 dumpsolv:libsolv
 dumpsolv:libsolv-static
+dvc:_dvc
 dvc:dvc
+dvc:dvc-base
 dvi2fax:texlive-core
 dviasm:texlive-core
 dvicopy:texlive-core
@@ -2550,6 +2557,7 @@ ecpg:postgresql
 ed2k-link:rhash
 edfviewer:pymca
 edgepaint:graphviz
+edit-bgen:bgenix
 edit_octree:octomap
 edmBranchStorageSize:fwlite
 edmClassStorageSize:fwlite
@@ -2659,6 +2667,11 @@ eval_octree_accuracy:octomap
 evaluate_xhat:pyomo
 event_optimize:pint-pulsar
 event_optimize_multiple:pint-pulsar
+eventio_cut_file:eventio
+eventio_plot_histograms:eventio
+eventio_print_object_information:eventio
+eventio_print_simtel_history:eventio
+eventio_print_structure:eventio
 evol:prody
 ex:vim
 ex_casA_image_cat.py:pyvo
@@ -3188,6 +3201,7 @@ gawk-5.0.1:gawk
 gawk-5.1.0:gawk
 gazebo:gazebo
 gazebo-11.0.0:gazebo
+gazebo-11.1.0:gazebo
 gbase:ptscotch
 gbase:scotch
 gbnsr6:ambertools
@@ -3283,6 +3297,7 @@ gendict:icu
 gendiff:rpm-tools
 generate_cert:omniscidb-cpu
 genesis2:genesis2
+genesis2-mpi:genesis2
 geng:nauty
 gengetopt:gengetopt
 genhtml:lcov
@@ -3320,6 +3335,7 @@ geojsonio:geojsonio
 geojsonio:geojsonio.py
 geos-config:geos
 geotifcp:geotiff
+gepetto-gui:gepetto-viewer
 get-healpix:astrometry
 get-wcs:astrometry
 getBC430:openorb-eph-builder
@@ -3996,6 +4012,7 @@ gvmap:graphviz
 gvmap.sh:graphviz
 gvpack:graphviz
 gvpr:graphviz
+gvtools:gepetto-viewer
 gw_data_find:lscsoft-glue
 gw_scan_loudest:gwsumm
 gw_summary:gwsumm
@@ -4017,11 +4034,14 @@ gxl2dot:graphviz
 gxl2gv:graphviz
 gz:gazebo
 gz-11.0.0:gazebo
+gz-11.1.0:gazebo
 gzclient:gazebo
 gzclient-11.0.0:gazebo
+gzclient-11.1.0:gazebo
 gzprop:gazebo
 gzserver:gazebo
 gzserver-11.0.0:gazebo
+gzserver-11.1.0:gazebo
 h264dec:openh264
 h264enc:openh264
 h2load:libnghttp2
@@ -4054,6 +4074,7 @@ h5jam:hdf5
 h5ls:hdf5
 h5minfo:moab
 h5mkgrp:hdf5
+h5mtoscrip:moab
 h5mvalidate:moab
 h5pcc:hdf5
 h5perf:hdf5
@@ -5883,6 +5904,8 @@ maturin:maturin
 maxent:alps
 maxima:maxima
 mayavi2:mayavi
+mbaddchunk:moab
+mbaddnc:moab
 mbconvert:moab
 mbdepth:moab
 mbgsets:moab
@@ -5899,6 +5922,7 @@ mbsolve-tool:mbsolve
 mbstream:libtiledb-sql
 mbsurfplot:moab
 mbtagprop:moab
+mbtempest:moab
 mbumr:moab
 mca2edf:pymca
 mcat_analyze:numcosmo
@@ -7148,6 +7172,7 @@ outocp:texlive-core
 output:4ti2
 overlap_check:dagmc
 ovf2ovp:texlive-core
+ovito:ovito
 ovp2ovf:texlive-core
 p2h5:alps
 p2n:py2neo
@@ -8159,6 +8184,7 @@ py2neo:py2neo
 py36-framecpp-dump:python-ldas-tools-framecpp
 py37-framecpp-dump:python-ldas-tools-framecpp
 py38-framecpp-dump:python-ldas-tools-framecpp
+py39-framecpp-dump:python-ldas-tools-framecpp
 py3smi:py3nvml
 pyFAI-average:pyfai
 pyFAI-average:pyfai-base
@@ -8191,6 +8217,7 @@ pybamm_list_parameters:pybamm
 pybamm_rm_parameter:pybamm
 pybase64:pybase64
 pybidi:python-bidi
+pybind11-config:pybind11
 pybtex:pybtex
 pybtex-convert:pybtex
 pybtex-format:pybtex
@@ -8271,6 +8298,7 @@ pycbc_inference_plot_samples:pycbc
 pycbc_inference_plot_skymap:pycbc
 pycbc_inference_plot_thermodynamic_integrand:pycbc
 pycbc_inference_pp_table_summary:pycbc
+pycbc_inference_start_from_samples:pycbc
 pycbc_inference_table_summary:pycbc
 pycbc_inj_cut:pycbc
 pycbc_injection_minifollowup:pycbc
@@ -8757,6 +8785,8 @@ r8tohdf:hdf4
 rabbitmq-plugins:rabbitmq-server
 rabbitmq-server:rabbitmq-server
 rabbitmqctl:rabbitmq-server
+racc:ruby
+racc2y:ruby
 racket:racket
 raco:racket
 radar_info:arm_pyart
@@ -10118,6 +10148,8 @@ terraform-provider-aws_v3.0.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.1.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.10.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.11.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.12.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.13.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
@@ -10183,6 +10215,8 @@ terraform-provider-azurerm_v2.30.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.31.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.31.1_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.32.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.33.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.34.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
@@ -10241,6 +10275,7 @@ terraform-provider-consul_v1.1.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.0.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.1.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.10.0_x4:terraform-provider-consul
+terraform-provider-consul_v2.10.1_x4:terraform-provider-consul
 terraform-provider-consul_v2.2.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.3.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.5.0_x4:terraform-provider-consul
@@ -10451,6 +10486,7 @@ terraform-provider-google_v3.40.0_x4:terraform-provider-google
 terraform-provider-google_v3.41.0_x4:terraform-provider-google
 terraform-provider-google_v3.42.0_x4:terraform-provider-google
 terraform-provider-google_v3.43.0_x4:terraform-provider-google
+terraform-provider-google_v3.45.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -10535,6 +10571,7 @@ terraform-provider-kubernetes_v1.12.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.13.2_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v1.13.3_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.4.0_x4:terraform-provider-kubernetes
@@ -10930,6 +10967,7 @@ terraform-provider-vault_v2.12.1_x4:terraform-provider-vault
 terraform-provider-vault_v2.12.2_x4:terraform-provider-vault
 terraform-provider-vault_v2.13.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.14.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.15.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
@@ -10985,6 +11023,7 @@ test_data_admin.py:ibis-framework
 test_eqcorrscan.py:eqcorrscan
 test_filesdb.py:filesdb
 test_geom:dagmc
+test_pdalc:pdal-c
 test_uvfits_equal.py:pyuvdata
 testament:nim
 testc:libmed
@@ -11342,6 +11381,7 @@ upload_package:conda-forge-ci-setup
 upload_sphinx:sphinx-pypi-upload
 uptime:coreutils
 urdf_mem_test:urdfdom
+urdf_to_blender.py:gepetto-viewer-corba
 urdf_to_graphiz:urdfdom
 urlbst:texlive-core
 use_local_stylesheet:alps
@@ -12241,6 +12281,7 @@ xzfgrep:xz
 xzgrep:xz
 xzless:xz
 xzmore:xz
+y2racc:ruby
 yaafe:yaafe
 yaafe-engine:yaafe
 yacc:bison

@@ -1193,6 +1193,7 @@ iptest3:ipython
 ipython:ipython
 ipython3:ipython
 irb:ruby
+irqtop:util-linux
 isort:isort
 isosize:util-linux
 isql:unixodbc
@@ -1476,6 +1477,7 @@ ls:coreutils
 lsblk:util-linux
 lscpu:util-linux
 lsipc:util-linux
+lsirq:util-linux
 lslocks:util-linux
 lslogins:util-linux
 lsmem:util-linux
@@ -1545,6 +1547,7 @@ mem_image:libraw
 memembed:ambertools
 mergesolv:libsolv
 mergesolv:libsolv-static
+merlin:pyre
 mesg:util-linux
 metaflac:libflac
 metalpdb2mol2.py:ambertools
@@ -2181,12 +2184,15 @@ pypy:pypy3.6
 pypy:python
 pypy3:pypy3.6
 pypy3.6:pypy3.6
+pyre:pyre
+pyre-config:pyre
 pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
 pythia8-config:pythia8
 python:python
 python-config:python
+python.pyre:pyre
 python2:python
 python2-config:python
 python2.7:python
@@ -2384,6 +2390,7 @@ scdd:cddlib
 scdd_gmp:cddlib
 schubmult:lrcalc
 sclient:krb5
+scmp_sys_resolver:libseccomp
 scons:scons
 scons-configure-cache:scons
 sconsign:scons
@@ -2439,6 +2446,7 @@ skivi:scikit-image
 sleep:coreutils
 slencheck:unixodbc
 smem:cfitsio
+smith.pyre:pyre
 smtpd.py:python
 sndfile-cmp:libsndfile
 sndfile-concat:libsndfile

@@ -64,6 +64,7 @@
 .mathjax-post-link.bat:mathjax
 .mathjax-pre-unlink.bat:mathjax
 .miktex-post-link.bat:miktex
+.minian-post-link.bat:minian
 .nb_anacondacloud-post-link.bat:nb_anacondacloud
 .nb_anacondacloud-pre-unlink.bat:nb_anacondacloud
 .nb_conda-post-link.bat:nb_conda
@@ -2446,6 +2447,7 @@ install_compas_rhino-script.py:compas
 install_compas_rhino.exe:compas
 install_compas_sublime-script.py:compas
 install_compas_sublime.exe:compas
+install_cuda.bat:conda-forge-ci-setup
 install_docker_service.ps1:docker
 instance_events-script.py:gensim
 instance_events.exe:gensim
@@ -3954,6 +3956,8 @@ pilfont.py:pillow
 pilfont.pyc:pillow
 pilprint.py:pillow
 pilprint.pyc:pillow
+pint-convert-script.py:jaws
+pint-convert.exe:jaws
 pip-script.py:pip
 pip.exe:pip
 pip2.7.exe:compas
@@ -4265,6 +4269,7 @@ pybase64-script.py:pybase64
 pybase64.exe:pybase64
 pybidi-script.py:python-bidi
 pybidi.exe:python-bidi
+pybind11-config-script.py:george
 pybind11-config.exe:pybind11
 pybtex-convert-script.py:pybtex
 pybtex-convert.exe:pybtex
@@ -4575,6 +4580,8 @@ pypi_downloads-script.py:pyutilib
 pypi_downloads.exe:pyutilib
 pypprint-script.py:pprintpp
 pypprint.exe:pprintpp
+pyproj-script.py:pyproj
+pyproj.exe:pyproj
 pypublish-script.py:pweave
 pypublish.exe:pweave
 pyresttest-script.py:pyresttest
@@ -5693,6 +5700,7 @@ terraform-provider-google_v3.41.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.42.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.43.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.45.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.46.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -5808,6 +5816,7 @@ terraform-provider-newrelic_v2.0.0_x4.exe:terraform-provider-newrelic
 terraform-provider-newrelic_v2.1.0_x4.exe:terraform-provider-newrelic
 terraform-provider-nomad_v1.2.0_x4.exe:terraform-provider-nomad
 terraform-provider-nomad_v1.3.0_x4.exe:terraform-provider-nomad
+terraform-provider-nomad_v1.4.10_x4.exe:terraform-provider-nomad
 terraform-provider-nomad_v1.4.1_x4.exe:terraform-provider-nomad
 terraform-provider-nomad_v1.4.2_x4.exe:terraform-provider-nomad
 terraform-provider-nomad_v1.4.5_x4.exe:terraform-provider-nomad

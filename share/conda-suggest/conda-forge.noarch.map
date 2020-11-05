@@ -301,6 +301,19 @@ csvsort:csvkit
 csvsql:csvkit
 csvstack:csvkit
 csvstat:csvkit
+ctapipe-camdemo:ctapipe
+ctapipe-chargeres-extract:ctapipe
+ctapipe-chargeres-plot:ctapipe
+ctapipe-display-dl1:ctapipe
+ctapipe-display-imagesums:ctapipe
+ctapipe-display-integration:ctapipe
+ctapipe-display-tel-events:ctapipe
+ctapipe-dump-instrument:ctapipe
+ctapipe-dump-triggers:ctapipe
+ctapipe-event-viewer:ctapipe
+ctapipe-info:ctapipe
+ctapipe-reconstruct-muons:ctapipe
+ctapipe-stage1-process:ctapipe
 ctest-to:cmake-format
 cull_idle_servers.py:jupyterhub-idle-culler
 cursor_hide:cursor
@@ -672,6 +685,7 @@ gsutil:gsutil
 gulp:gulp
 gw_data_find:gwdatafind
 gwcelery:gwcelery
+gwinc:gwinc
 gwpy-plot:gwpy
 gwtrigfind:gwtrigfind
 handlebars:handlebars.js
@@ -758,9 +772,11 @@ jdiff:jsondiff
 jekyll:rb-jekyll
 jhsingle-native-proxy:jhsingle-native-proxy
 jirashell:jira
+jlab-forward:jupyter-forward
 jlpm:jupyterlab
 jobs_done:jobs_done10
 jp2dump:glymur
+json:json-spec
 jsondiff:jsondiff
 jsonpath.py:jsonpath-ng
 jsonrpc:jsonrpcclient
@@ -773,6 +789,7 @@ jupyter:jupyter_core
 jupyter-console:jupyter_console
 jupyter-contrib:jupyter_contrib_core
 jupyter-enterprisegateway:jupyter_enterprise_gateway
+jupyter-forward:jupyter-forward
 jupyter-kernel:jupyter_client
 jupyter-kernelgateway:jupyter_kernel_gateway
 jupyter-kernelspec:jupyter_client
@@ -983,6 +1000,7 @@ minitar:rb-archive-tar-minitar
 miniwdl:miniwdl
 mistletoe:mistletoe-ebp
 mistletoe-bench:mistletoe-ebp
+mkapi:mkapi
 mkdocs:mkdocs
 mlconjug:mlconjug
 mlflow:mlflow
@@ -1134,6 +1152,9 @@ panel:panel
 panfl:panflute
 panflute:panflute
 papermill:papermill
+parallel_bilby_analysis:parallel-bilby
+parallel_bilby_generation:parallel-bilby
+parallel_bilby_ptemcee_analysis:parallel-bilby
 param:earthsim
 parrec2nii:nibabel
 parsl-globus-auth:parsl
@@ -1151,6 +1172,7 @@ pdgui:pdielec
 pdistreport:pyramid
 pdoc:pdoc3
 pdoc3:pdoc3
+pdocs:pdocs
 peak_server:xpdan
 pelican:pelican
 pelican-import:pelican
@@ -1498,6 +1520,7 @@ sphinx-quickstart:sphinx
 sphinx-versioning:sphinxcontrib-versioning
 spleeter:spleeter-gpu
 split_features:geometric_features
+spyder-remote-server:spyder-remote-server
 spython:spython
 sql2csv:csvkit
 sqlacodegen:sqlacodegen
@@ -1702,6 +1725,7 @@ windse_driver:windse
 wingproj:openmdao
 woodwork:woodwork
 workdir:pyworkdir
+workflows.validate_recipe:workflows
 wormhole:magic-wormhole
 wrapout:pwkit
 wt-tree:wrighttools

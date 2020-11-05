@@ -1,3 +1,5 @@
+-clang++:clang_bootstrap_osx-64
+-clang++:clang_bootstrap_osx-arm64
 -clang++:clangxx
 -pkg-config:pkg-config
 .appmode-post-link.sh:appmode
@@ -79,6 +81,7 @@
 .lua-luaposix-pre-unlink.sh:lua-luaposix
 .mathjax-post-link.sh:mathjax
 .mathjax-pre-unlink.sh:mathjax
+.minian-post-link.sh:minian
 .mss-post-link.sh:mss
 .mss-pre-unlink.sh:mss
 .nb_anacondacloud-post-link.sh:nb_anacondacloud
@@ -1230,6 +1233,9 @@ cargo:rust
 cargo-clippy:rust
 cargo-fmt:rust
 cargo-miri:rust
+cartographer_autogenerate_ground_truth:cartographer
+cartographer_compute_relations_metrics:cartographer
+cartographer_migrate_serialization_format:cartographer
 cas_help:giac
 casahdf5support:casacore
 casatask:pwkit
@@ -3202,6 +3208,8 @@ gawk-5.1.0:gawk
 gazebo:gazebo
 gazebo-11.0.0:gazebo
 gazebo-11.1.0:gazebo
+gazebo-11.2.0:gazebo
+gazebo-9.15.0:gazebo
 gbase:ptscotch
 gbase:scotch
 gbnsr6:ambertools
@@ -3224,6 +3232,7 @@ gdal2xyz.py:gdal
 gdal_auth.py:gdal
 gdal_calc.py:gdal
 gdal_contour:libgdal
+gdal_create:libgdal
 gdal_edit.py:gdal
 gdal_fillnodata.py:gdal
 gdal_grid:libgdal
@@ -3600,6 +3609,7 @@ go-bindata-assetfs:go-bindata-assetfs
 go-licenses:go-licenses
 go-licenses:kubelogin
 go-licenses:tilt
+go-md2man:go-md2man
 go-spatial:go-spatial
 go2:go2
 gobject-query:glib
@@ -4035,13 +4045,19 @@ gxl2gv:graphviz
 gz:gazebo
 gz-11.0.0:gazebo
 gz-11.1.0:gazebo
+gz-11.2.0:gazebo
+gz-9.15.0:gazebo
 gzclient:gazebo
 gzclient-11.0.0:gazebo
 gzclient-11.1.0:gazebo
+gzclient-11.2.0:gazebo
+gzclient-9.15.0:gazebo
 gzprop:gazebo
 gzserver:gazebo
 gzserver-11.0.0:gazebo
 gzserver-11.1.0:gazebo
+gzserver-11.2.0:gazebo
+gzserver-9.15.0:gazebo
 h264dec:openh264
 h264enc:openh264
 h2load:libnghttp2
@@ -5937,6 +5953,8 @@ mcv:ptscotch
 mcv:scotch
 md-to-godoc:jaeger
 md5sum:coreutils
+mdal_translate:mdal
+mdalinfo:mdal
 mdassembler:mono
 mdatopbm:netpbm
 mdb_copy:lmdb
@@ -8562,6 +8580,7 @@ pyperf:perf
 pyperf:pyperf
 pypi_downloads:pyutilib
 pypprint:pprintpp
+pyproj:pyproj
 pypublish:pweave
 pypy:pypy3.6
 pypy:python
@@ -8881,6 +8900,7 @@ rd_info:richdem
 rd_terrain_attribute:richdem
 rdf2dot:rdflib
 rdfgraphisomorphism:rdflib
+rdfind:rdfind
 rdfpipe:rdflib
 rdfs2dot:rdflib
 rdjpgcom:jpeg
@@ -10487,6 +10507,7 @@ terraform-provider-google_v3.41.0_x4:terraform-provider-google
 terraform-provider-google_v3.42.0_x4:terraform-provider-google
 terraform-provider-google_v3.43.0_x4:terraform-provider-google
 terraform-provider-google_v3.45.0_x4:terraform-provider-google
+terraform-provider-google_v3.46.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -10627,6 +10648,7 @@ terraform-provider-newrelic_v2.1.0_x4:terraform-provider-newrelic
 terraform-provider-nomad_v1.2.0_x4:terraform-provider-nomad
 terraform-provider-nomad_v1.3.0_x4:terraform-provider-nomad
 terraform-provider-nomad_v1.4.0_x4:terraform-provider-nomad
+terraform-provider-nomad_v1.4.10_x4:terraform-provider-nomad
 terraform-provider-nomad_v1.4.1_x4:terraform-provider-nomad
 terraform-provider-nomad_v1.4.2_x4:terraform-provider-nomad
 terraform-provider-nomad_v1.4.5_x4:terraform-provider-nomad

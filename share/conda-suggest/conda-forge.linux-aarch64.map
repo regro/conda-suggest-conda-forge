@@ -1276,6 +1276,7 @@ iptest3:ipython
 ipython:ipython
 ipython3:ipython
 irb:ruby
+irqtop:util-linux
 isort:isort
 isosize:util-linux
 isql:unixodbc
@@ -1560,6 +1561,7 @@ ls:coreutils
 lsblk:util-linux
 lscpu:util-linux
 lsipc:util-linux
+lsirq:util-linux
 lslocks:util-linux
 lslogins:util-linux
 lsmem:util-linux
@@ -2322,6 +2324,7 @@ scdd:cddlib
 scdd_gmp:cddlib
 schubmult:lrcalc
 sclient:krb5
+scmp_sys_resolver:libseccomp
 scons:scons
 scons-configure-cache:scons
 sconsign:scons

@@ -1046,6 +1046,7 @@ gnutls-cli:gnutls
 gnutls-cli-debug:gnutls
 gnutls-serv:gnutls
 go:go
+go-licenses:go-licenses
 gobject-query:glib
 gofmt:go
 gold:binutils
@@ -1924,6 +1925,7 @@ pedigree:texlive-core
 perl:perl
 perl5.26.2:perl
 perl5.30.3:perl
+perl5.32.0:perl
 perlbug:perl
 perldoc:perl
 perlivp:perl
@@ -2410,6 +2412,7 @@ sshd:openssh
 sst_conn_tool:adios2
 stat:coreutils
 stdbuf:coreutils
+streamzip:perl
 strings:binutils
 strings:binutils-meta
 strip:binutils

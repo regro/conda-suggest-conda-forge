@@ -202,6 +202,7 @@ chevron:chevron
 cinder:python-cinderclient
 ciocheck:ciocheck
 cleanlatex:ligotools-scripts
+cli4:cloudflare
 cliche:cliche
 closure:closure
 cm2html:recommonmark
@@ -659,6 +660,7 @@ gitpuller:nbgitpuller
 gj2ascii:gj2ascii
 glance:python-glanceclient
 glances:glances
+glassmap:opticalglass
 gli:rb-gli
 gliderdac:cc-plugin-glider
 globus:globus-cli
@@ -692,6 +694,7 @@ handlebars:handlebars.js
 happi:happi
 hdfscli:python-hdfs
 hdfscli-avro:python-hdfs
+helpdev:helpdev
 heudiconv:heudiconv
 heudiconv_monitor:heudiconv
 hg-nbdiff:nbdime
@@ -738,6 +741,8 @@ imglob:fslpy
 imln:fslpy
 immv:fslpy
 import-timeseries:ixmp
+importnb-install:importnb
+importnb-uninstall:importnb
 imrm:fslpy
 imtest:fslpy
 imtool:pwkit
@@ -821,6 +826,7 @@ knotedown:knitty
 knotr:knitty
 konfik:konfik
 kramdown:rb-kramdown
+kubessh:kubessh
 label-maker:label-maker
 labours:labours
 lambda-builders:aws_lambda_builders
@@ -1055,6 +1061,7 @@ nbcat:nbcommands
 nbdiff:nbdime
 nbdiff-web:nbdime
 nbdime:nbdime
+nbdoctest:importnb
 nbgrep:nbcommands
 nbhead:nbcommands
 nbjuniper:nbjuniper
@@ -1354,6 +1361,7 @@ qcfractal-dashboard:qcfractal
 qcfractal-manager:qcfractal
 qcfractal-server:qcfractal
 qcfractal-template:qcfractal
+qhub:qhub
 qiime2.plugins:mmvec
 qiime2.plugins:rhapsody
 qme:qme
@@ -1370,6 +1378,7 @@ rafem:rafem
 rasterMask.py:hyp3lib
 raster_boundary2shape.py:hyp3lib
 raven:raven
+rayoptics:rayoptics
 rdf2dot:neurdflib
 rdfgraphisomorphism:neurdflib
 rdfpipe:neurdflib
@@ -1386,6 +1395,7 @@ reindent:reindent
 remove_ext:fslpy
 removestar:removestar
 render:fsleyes
+render-from-template:lume-epics
 replacecopyright:pyutilib
 repo2docker:jupyter-repo2docker
 repozo:zodb
@@ -1419,6 +1429,7 @@ rougify:rb-rouge
 rq:rq
 rqinfo:rq
 rqworker:rq
+rse:rse
 rshiny-server-cmd:rshiny-server-cmd
 rst-lint:restructuredtext_lint
 rst2pdf:rst2pdf
@@ -1481,6 +1492,7 @@ sentinelhub.download:sentinelhub
 sentinelsat:sentinelsat
 serve:sagemaker-mxnet-serving-container
 serve:sagemaker-pytorch-serving-container
+serve-from-template:lume-epics
 set_group_name:geometric_features
 setup:rb-wisper
 shtab:shtab
@@ -1715,9 +1727,11 @@ watchgod:watchgod
 watchme:watchme
 watchmedo:watchdog
 wb:wandb
+wddump:wetterdienst
 wdl-aid:wdl-aid
 wdl-packager:wdl-packager
 webview:openmdao
+wetterdienst:wetterdienst
 wheel:wheel
 whitebox:whitebox
 windse:windse

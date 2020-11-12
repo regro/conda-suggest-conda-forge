@@ -200,10 +200,16 @@ atomtype:ambertools
 atst:scotch
 attr:attr
 authorindex:texlive-core
+autoconf:autoconf
+autoheader:autoconf
 autoinst:texlive-core
+autom4te:autoconf
 automake:automake
 automake-1.16:automake
 autopoint:gettext
+autoreconf:autoconf
+autoscan:autoconf
+autoupdate:autoconf
 awk:gawk
 aws:awscli
 aws.cmd:awscli
@@ -975,6 +981,7 @@ gnutls-cli:gnutls
 gnutls-cli-debug:gnutls
 gnutls-serv:gnutls
 go:go
+go-licenses:go-licenses
 gobject-query:glib
 gofmt:go
 gold:binutils
@@ -1155,6 +1162,7 @@ idle3.8:python
 idle3.9:python
 idn:libidn11
 idn2:libidn2
+ifnames:autoconf
 imagecodecs:imagecodecs
 imageio_download_bin:imageio
 imageio_remove_bin:imageio
@@ -1877,6 +1885,7 @@ pedigree:texlive-core
 perl:perl
 perl5.26.2:perl
 perl5.30.3:perl
+perl5.32.0:perl
 perlbug:perl
 perldoc:perl
 perlivp:perl
@@ -2481,6 +2490,7 @@ sshd:openssh
 sst_conn_tool:adios2
 stat:coreutils
 stdbuf:coreutils
+streamzip:perl
 strings:binutils
 strings:binutils-meta
 strip:binutils

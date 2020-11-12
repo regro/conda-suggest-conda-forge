@@ -1193,6 +1193,8 @@ cythonize-script.py:cython
 cythonize.exe:cython
 dad-to-utf8.bat:miktex
 dad-to-utf8.exe:miktex
+dagster-daemon-script.py:dagster
+dagster-daemon.exe:dagster
 dagster-scheduler-script.py:dagster
 dagster-scheduler.exe:dagster
 dagster-script.py:dagster
@@ -5129,6 +5131,7 @@ snowflake-export-certs.exe:snowflake-connector-python
 socetnet2isis-script.py:plio
 socetnet2isis.exe:plio
 songidx.exe:miktex
+sops.exe:go-sops
 sort_wsdl-script.py:spyne
 sort_wsdl.exe:spyne
 sourmash-script.py:sourmash-minimal
@@ -5409,6 +5412,7 @@ terraform-provider-aws_v3.10.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.11.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.12.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.13.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.14.1_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
@@ -5469,6 +5473,7 @@ terraform-provider-azurerm_v2.31.1_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.32.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.33.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.34.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.35.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5635,6 +5640,7 @@ terraform-provider-github_v2.9.1_x4.exe:terraform-provider-github
 terraform-provider-github_v2.9.2_x4.exe:terraform-provider-github
 terraform-provider-github_v3.0.0_x4.exe:terraform-provider-github
 terraform-provider-github_v3.1.0_x4.exe:terraform-provider-github
+terraform-provider-github_v4.0.0_x4.exe:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4.exe:terraform-provider-gitlab
@@ -5701,6 +5707,7 @@ terraform-provider-google_v3.42.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.43.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.45.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.46.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.47.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6090,6 +6097,7 @@ terraform-provider-triton_v0.7.0_x4.exe:terraform-provider-triton
 terraform-provider-triton_v0.7.1_x4.exe:terraform-provider-triton
 terraform-provider-ultradns_v0.1.0_x4.exe:terraform-provider-ultradns
 terraform-provider-ultradns_v0.1.1_x4.exe:terraform-provider-ultradns
+terraform-provider-ultradns_v0.2.0_x4.exe:terraform-provider-ultradns
 terraform-provider-vault_v1.3.1_x4.exe:terraform-provider-vault
 terraform-provider-vault_v1.4.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v1.4.1_x4.exe:terraform-provider-vault

@@ -661,6 +661,7 @@ ansible-pull:ansible
 ansible-runner:ansible-runner
 ansible-test:ansible
 ansible-vault:ansible
+ansifilter:ansifilter
 ante-MMPBSA.py:ambertools
 antechamber:ambertools
 anticosmicfits:fitstools
@@ -2095,6 +2096,7 @@ cython:cython
 cythonize:cython
 dagmc_preproc:moab
 dagster:dagster
+dagster-daemon:dagster
 dagster-scheduler:dagster
 dandi:dandi
 dap-config:libdap4
@@ -6245,6 +6247,7 @@ mock_properties17:aiida-crystal17
 mock_runcry17:aiida-crystal17
 mod:mono
 mod2net:modflow2netcdf
+mod_wsgi-express:mod_wsgi
 modelInfo:scorec
 models:embree
 modes:dftbplus
@@ -6387,6 +6390,8 @@ mraptor3:oletools
 mrbob:mr.bob
 mrcfile-header:mrcfile
 mrcfile-validate:mrcfile
+mrchem:mrchem
+mrchem.x:mrchem
 mrcpp-tests:mrcpp
 mrftopbm:netpbm
 mrjob:mrjob
@@ -7551,6 +7556,7 @@ perl5.22.0:perl
 perl5.22.2:perl
 perl5.26.2:perl
 perl5.30.3:perl
+perl5.32.0:perl
 perlbug:perl
 perldoc:perl
 perlivp:perl
@@ -7876,6 +7882,7 @@ postmaster:postgresql
 postprocess:cosmosis-standalone
 postprocess-py3:cosmosis-standalone
 postprocessing_benchmark:libraw
+postw90.x:wannier90
 poutput:alps
 powerline:powerline-status
 powerline-config:powerline-status
@@ -9857,6 +9864,7 @@ stoken-gui:stoken
 stokes_rotate.py:aipy
 straditize:straditize
 stream:imagemagick
+streamzip:perl
 strings:binutils
 strings:binutils-meta
 strings:cctools
@@ -10170,6 +10178,7 @@ terraform-provider-aws_v3.10.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.11.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.12.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.13.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.14.1_x4:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
@@ -10237,6 +10246,7 @@ terraform-provider-azurerm_v2.31.1_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.32.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.33.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.34.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.35.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
@@ -10430,6 +10440,7 @@ terraform-provider-github_v2.9.1_x4:terraform-provider-github
 terraform-provider-github_v2.9.2_x4:terraform-provider-github
 terraform-provider-github_v3.0.0_x4:terraform-provider-github
 terraform-provider-github_v3.1.0_x4:terraform-provider-github
+terraform-provider-github_v4.0.0_x4:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4:terraform-provider-gitlab
@@ -10508,6 +10519,7 @@ terraform-provider-google_v3.42.0_x4:terraform-provider-google
 terraform-provider-google_v3.43.0_x4:terraform-provider-google
 terraform-provider-google_v3.45.0_x4:terraform-provider-google
 terraform-provider-google_v3.46.0_x4:terraform-provider-google
+terraform-provider-google_v3.47.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -10969,6 +10981,7 @@ terraform-provider-triton_v0.7.0_x4:terraform-provider-triton
 terraform-provider-triton_v0.7.1_x4:terraform-provider-triton
 terraform-provider-ultradns_v0.1.0_x4:terraform-provider-ultradns
 terraform-provider-ultradns_v0.1.1_x4:terraform-provider-ultradns
+terraform-provider-ultradns_v0.2.0_x4:terraform-provider-ultradns
 terraform-provider-vault_v1.0.0_x4:terraform-provider-vault
 terraform-provider-vault_v1.1.0_x4:terraform-provider-vault
 terraform-provider-vault_v1.1.1_x4:terraform-provider-vault
@@ -11642,12 +11655,14 @@ vulture:vulture
 vvp:iverilog
 w3m:w3m
 w3mman:w3m
+w90chk2chk.x:wannier90
 waf:waf
 wagtail:wagtail
 wait41:xrootd
 waitforit:go-waitforit
 wakatime:wakatime
 walk:4ti2
+wannier90.x:wannier90
 warc2warc:warctools
 warcdump:warctools
 warcextract:warctools

@@ -550,6 +550,7 @@ awsbstat.exe:aws-parallelcluster
 awsbsub-script.py:aws-parallelcluster
 awsbsub.exe:aws-parallelcluster
 axohelp.exe:miktex
+azcopy.exe:azcopy
 backend-test-tools-script.py:onnx
 backend-test-tools.exe:onnx
 bagit.py:bagit
@@ -3335,6 +3336,8 @@ mrjob-3.7-script.py:mrjob
 mrjob-3.7.exe:mrjob
 mrjob-3.8-script.py:mrjob
 mrjob-3.8.exe:mrjob
+mrjob-3.9-script.py:mrjob
+mrjob-3.9.exe:mrjob
 mrjob-3.exe:mrjob
 mrjob-script.py:mrjob
 mrjob.exe:mrjob
@@ -3435,6 +3438,8 @@ nc4tonc3.exe:netcdf4
 ncdiff.exe:xarray-extras
 ncinfo-script.py:netcdf4
 ncinfo.exe:netcdf4
+ncplot.exe:ncplot
+ndd.exe:ndd
 ndg_httpclient-script.py:ndg-httpsclient
 ndg_httpclient.exe:ndg-httpsclient
 neokit-script.py:py2neo
@@ -4812,6 +4817,7 @@ retype-script.py:retype
 retype.exe:retype
 rever-script.py:rever
 rever.exe:rever
+rfbrowser.exe:robotframework-browser
 rfi-file-monitor-script.py:rfi-file-monitor
 rfi-file-monitor.exe:rfi-file-monitor
 rg.exe:ripgrep
@@ -5413,6 +5419,9 @@ terraform-provider-aws_v3.11.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.12.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.13.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.14.1_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.15.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.16.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.17.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.2.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
@@ -5426,6 +5435,7 @@ terraform-provider-azuread_v0.11.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.8.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v0.9.0_x4.exe:terraform-provider-azuread
 terraform-provider-azuread_v1.0.0_x4.exe:terraform-provider-azuread
+terraform-provider-azuread_v1.1.0_x4.exe:terraform-provider-azuread
 terraform-provider-azurerm_v1.13.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v1.14.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v1.15.0_x4.exe:terraform-provider-azurerm
@@ -5474,6 +5484,8 @@ terraform-provider-azurerm_v2.32.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.33.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.34.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.35.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.36.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.37.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
@@ -5641,6 +5653,7 @@ terraform-provider-github_v2.9.2_x4.exe:terraform-provider-github
 terraform-provider-github_v3.0.0_x4.exe:terraform-provider-github
 terraform-provider-github_v3.1.0_x4.exe:terraform-provider-github
 terraform-provider-github_v4.0.0_x4.exe:terraform-provider-github
+terraform-provider-github_v4.0.1_x4.exe:terraform-provider-github
 terraform-provider-gitlab_v1.0.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.1.0_x4.exe:terraform-provider-gitlab
 terraform-provider-gitlab_v1.3.0_x4.exe:terraform-provider-gitlab
@@ -5708,6 +5721,8 @@ terraform-provider-google_v3.43.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.45.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.46.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.47.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.48.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.49.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6114,6 +6129,7 @@ terraform-provider-vault_v2.12.2_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.13.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.14.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.15.0_x4.exe:terraform-provider-vault
+terraform-provider-vault_v2.16.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4.exe:terraform-provider-vault
@@ -6473,6 +6489,7 @@ waf.exe:waf
 waf3-1.8.21-8b4f9a91ea0de6c8eb86c8d9066b72c7:pyinstaller
 waf3-1.9.12-c07dba0d26dcbb44f99712ed56ea243a:pyinstaller
 waf3-2.0.8-18a001015786bd495c6d30d57e6a9ed4:pyinstaller
+waf3-2.0.8-22b8989ee6e4afc830bae43ee0a4e888:pyinstaller
 waf3-2.0.8-8d59fa1b3242b9cf61451d7ea3668faa:pyinstaller
 wagtail-script.py:wagtail
 wagtail.exe:wagtail

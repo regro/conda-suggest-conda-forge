@@ -1,6 +1,7 @@
 -clang++:clangxx
 .dbus-post-link.sh:dbus
 .gdk-pixbuf-post-link.sh:gdk-pixbuf
+.gtk3-post-link.sh:gtk3
 .librsvg-post-link.sh:librsvg
 .librsvg-pre-unlink.sh:librsvg
 .nbgrader-post-link.sh:nbgrader
@@ -9,6 +10,7 @@
 .ocl-icd-system-pre-unlink.sh:ocl-icd-system
 .r-base-post-link.sh:r-base
 .waf3-2.0.8-2a5016f9911b7a14551f5a099c0c639d:pyinstaller
+.waf3-2.0.8-6fc15a5b2226ae9475d9adbeb82f6e44:pyinstaller
 .waf3-2.0.8-b8ef2ceffd61859a2e255ecda49a589c:pyinstaller
 .waf3-2.0.8-ba1afb5fff301ec68a4fb6c54339db19:pyinstaller
 .waf3-2.0.8-c78b1d04fa72c4b7cd3a498a14509518:pyinstaller
@@ -931,6 +933,7 @@ git:git
 git-clang-format:clang-tools
 git-clang-format:clangdev
 git-cvsserver:git
+git-lfs:git-lfs
 git-receive-pack:git
 git-shell:git
 git-upload-archive:git
@@ -1063,9 +1066,15 @@ gst-typefind-1.0:gstreamer
 gtester:glib
 gtester-report:glib
 gtk-builder-convert:gtk2
+gtk-builder-tool:gtk3
 gtk-demo:gtk2
+gtk-encode-symbolic-svg:gtk3
+gtk-launch:gtk3
 gtk-query-immodules-2.0:gtk2
+gtk-query-immodules-3.0:gtk3
+gtk-query-settings:gtk3
 gtk-update-icon-cache:gtk2
+gtk-update-icon-cache:gtk3
 gtst:scotch
 gunicorn:gunicorn
 gunicorn_paster:gunicorn
@@ -1342,6 +1351,7 @@ libpng-config:libpng
 libpng16-config:libpng
 libpolys-config:singular
 libpypy3-c.so.debug:pypy3.6
+libpypy3-c.so.debug:pypy3.7
 libsingular-config:singular
 libtool:libtool
 libtoolize:libtool
@@ -2190,9 +2200,12 @@ pylint:pylint
 pyls:python-language-server
 pymdpbsa:ambertools
 pypy:pypy3.6
+pypy:pypy3.7
 pypy:python
 pypy3:pypy3.6
+pypy3:pypy3.7
 pypy3.6:pypy3.6
+pypy3.7:pypy3.7
 pyre:pyre
 pyre-config:pyre
 pyreverse:pylint
@@ -2428,6 +2441,7 @@ sgldinfo.sh:ambertools
 sgldwt.sh:ambertools
 sha1sum:coreutils
 sha224sum:coreutils
+sha256_profile:aws-c-cal
 sha256sum:coreutils
 sha384sum:coreutils
 sha512sum:coreutils
@@ -2472,6 +2486,7 @@ soelim:groff
 softcore_setup.py:ambertools
 sort:coreutils
 sourmash:sourmash-minimal
+spacy:spacy
 splain:perl
 split:coreutils
 splitindex:texlive-core
@@ -2708,6 +2723,9 @@ vsyasm:yasm
 waf:waf
 wait41:xrootd
 wall:util-linux
+warpx.2d.MPI.OMP.DP.OPMD.QED:warpx
+warpx.3d.MPI.OMP.DP.OPMD.QED:warpx
+warpx.RZ.MPI.OMP.DP.OPMD.QED:warpx
 wasm-ld:lld
 watercluster2:nauty
 waveplot:dftbplus

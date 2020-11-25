@@ -10,6 +10,7 @@
 .r-base-post-link.sh:r-base
 .waf3-2.0.8-2a5016f9911b7a14551f5a099c0c639d:pyinstaller
 .waf3-2.0.8-308e67c37c2eb159339f01481ffb20cb:pyinstaller
+.waf3-2.0.8-6fc15a5b2226ae9475d9adbeb82f6e44:pyinstaller
 .waf3-2.0.8-b8ef2ceffd61859a2e255ecda49a589c:pyinstaller
 .waf3-2.0.8-ba1afb5fff301ec68a4fb6c54339db19:pyinstaller
 .waf3-2.0.8-c78b1d04fa72c4b7cd3a498a14509518:pyinstaller
@@ -996,6 +997,7 @@ git:git
 git-clang-format:clang-tools
 git-clang-format:clangdev
 git-cvsserver:git
+git-lfs:git-lfs
 git-receive-pack:git
 git-shell:git
 git-upload-archive:git
@@ -1420,6 +1422,7 @@ libpng-config:libpng
 libpng16-config:libpng
 libpolys-config:singular
 libpypy3-c.so.debug:pypy3.6
+libpypy3-c.so.debug:pypy3.7
 libsingular-config:singular
 libtool:libtool
 libtoolize:libtool
@@ -2114,9 +2117,12 @@ pyinstaller:pyinstaller
 pylint:pylint
 pyls:python-language-server
 pypy:pypy3.6
+pypy:pypy3.7
 pypy:python
 pypy3:pypy3.6
+pypy3:pypy3.7
 pypy3.6:pypy3.6
+pypy3.7:pypy3.7
 pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
@@ -2354,6 +2360,7 @@ sftp:openssh
 sfv-hash:rhash
 sha1sum:coreutils
 sha224sum:coreutils
+sha256_profile:aws-c-cal
 sha256sum:coreutils
 sha384sum:coreutils
 sha512sum:coreutils
@@ -2395,6 +2402,7 @@ soapcpp2:gsoap
 soelim:groff
 sort:coreutils
 sourmash:sourmash-minimal
+spacy:spacy
 splain:perl
 split:coreutils
 splitindex:texlive-core
@@ -2624,6 +2632,9 @@ vsyasm:yasm
 waf:waf
 wait41:xrootd
 wall:util-linux
+warpx.2d.MPI.OMP.DP.OPMD.QED:warpx
+warpx.3d.MPI.OMP.DP.OPMD.QED:warpx
+warpx.RZ.MPI.OMP.DP.OPMD.QED:warpx
 wasm-ld:lld
 watchmedo:watchdog
 watercluster2:nauty

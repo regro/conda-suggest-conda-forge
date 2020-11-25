@@ -28,6 +28,7 @@ academic:academic
 acme_diags:e3sm_diags
 acpype:acpype
 ads2inspire:ads2inspire
+adstex:adstex
 advbumpversion:advbumpversion
 aiozmq-proxy:aiozmq
 alchemical_analysis:alchemical-analysis
@@ -124,8 +125,10 @@ bmipy-render:bmipy
 bn:spacy-lookups-data
 boa:boa
 bokeh-root-cmd:bokeh-root-cmd
+boss:aalto-boss
 bowler:bowler
 browse:easydev
+bruker:brukerapi
 bse:basis_set_exchange
 bsecurate:basis_set_exchange
 build-stack-docs:documenteer
@@ -163,6 +166,7 @@ caproto-put:caproto
 caproto-repeater:caproto
 caproto-spoof-beamline:caproto
 casatask:pwkit
+cashocs-convert:cashocs
 cat-md:pandoctools
 catkin_create_pkg:catkin_pkg
 catkin_find_pkg:catkin_pkg
@@ -179,6 +183,7 @@ cde:chemdataextractor
 cdp-distrib:cdp
 cdsutils:cdsutils
 celery:celery
+cellpy:cellpy
 certipy:certipy
 cfchecks:cfchecker
 cfgrib:cfgrib
@@ -441,6 +446,7 @@ elastic:elastic
 element.py:mendeleev
 eliot-tree:eliot-tree
 elyra-metadata:elyra
+elyra-metadata:elyra-server
 em_bright_categorize:p_astro
 em_bright_dag_writer:p_astro
 em_bright_extract:p_astro
@@ -681,6 +687,7 @@ gridmap_web:gridmap
 gridtest:gridtest
 grin:grin
 grind:grin
+gro_client:groclient
 grunt:grunt
 gsheetsdb:gsheetsdb
 gsutil:gsutil
@@ -1030,6 +1037,7 @@ moses-punct-normalizer:mosestokenizer
 moses-sent-splitter:mosestokenizer
 moses-tokenizer:mosestokenizer
 moto_server:moto
+motuclient:motuclient
 mpas_analysis:mpas-analysis
 mprof:memory_profiler
 mrcfile-header:mrcfile
@@ -1118,6 +1126,7 @@ nvd3:python-nvd3
 nwebassets:webassets
 nxduplicate:nexusformat
 nxstack:nexusformat
+obspyck:obspyck
 offset_xml.py:hyp3lib
 oidc-register:flask-oidc
 omicron-hdf5-merge:pyomicron
@@ -1134,6 +1143,7 @@ opensesamerun:opensesame
 openstack:python-openstackclient
 openstack-inventory:openstacksdk
 opsdroid:opsdroid
+optimade-validator:optimade
 optuna:optuna
 orator:orator
 orca:plotly-orca
@@ -1164,6 +1174,7 @@ parallel_bilby_generation:parallel-bilby
 parallel_bilby_ptemcee_analysis:parallel-bilby
 param:earthsim
 parrec2nii:nibabel
+parselglossy:parselglossy
 parsl-globus-auth:parsl
 patch-ng:patch-ng
 pbr:pbr
@@ -1191,6 +1202,7 @@ pfinterp:pyfesom2
 pfplot:pyfesom2
 pgcli:pgcli
 pheasant:pheasant
+phil:freephil
 pio:platformio
 piodebuggdb:platformio
 pip:pip
@@ -1232,6 +1244,7 @@ profimp:profimp
 propka31:propka
 proselint:proselint
 prospector:prospector
+protoc-gen-mypy:mypy-protobuf
 proutes:pyramid
 ps2dem.py:hyp3lib
 pserve:pyramid
@@ -1333,6 +1346,8 @@ pyrsa-priv2pub:rsa
 pyrsa-sign:rsa
 pyrsa-verify:rsa
 pysemver:semver
+pyserial-miniterm:pyserial
+pyserial-ports:pyserial
 pyshacl:pyshacl
 pyspark_yarn_client_conda:spylon
 pyspark_yarn_cluster_conda:spylon
@@ -1495,6 +1510,15 @@ serve:sagemaker-pytorch-serving-container
 serve-from-template:lume-epics
 set_group_name:geometric_features
 setup:rb-wisper
+shelephant_checksum:shelephant
+shelephant_dump:shelephant
+shelephant_extract:shelephant
+shelephant_get:shelephant
+shelephant_hash:shelephant
+shelephant_merge:shelephant
+shelephant_remote:shelephant
+shelephant_rm:shelephant
+shelephant_send:shelephant
 shtab:shtab
 shyaml:shyaml
 sidewind:shedsidewinder
@@ -1639,6 +1663,7 @@ tpot:tpot
 tq:yq
 tqdm:tqdm
 tr:spacy-lookups-data
+traceback-with-variables:traceback-with-variables
 tranquilizer:tranquilizer
 transformers:transformers
 transonic:transonic
@@ -1755,6 +1780,7 @@ xenv:xenv
 xnat_cp_project:xnat
 xo:xo
 xq:yq
+xsdata:xsdata
 yacron:yacron
 yagmail:yagmail
 yamale:yamale

@@ -426,6 +426,7 @@ clang-5.0:clangdev
 clang-6.0:clangdev
 clang-8:clangdev
 clang-9:clang
+clang-9:clang-9
 clang-apply-replacements:clang-tools
 clang-change-namespace:clang-tools
 clang-check:clang-tools
@@ -1072,6 +1073,7 @@ git-cvsserver:git
 git-lfs:git-lfs
 git-receive-pack:git
 git-shell:git
+git-sizer:git-sizer
 git-upload-archive:git
 git-upload-pack:git
 gitk:git
@@ -1279,6 +1281,7 @@ hb-ot-shape-closure:harfbuzz
 hb-shape:harfbuzz
 hb-subset:harfbuzz
 hb-view:harfbuzz
+hcc:clangxx
 hcp_getpdb:ambertools
 head:coreutils
 help2man:help2man
@@ -2533,6 +2536,7 @@ pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
 pythia8-config:pythia8
+python:pypy3.7
 python:python
 python-config:python
 python.pyre:pyre
@@ -2540,12 +2544,14 @@ python2:python
 python2-config:python
 python2.7:python
 python2.7-config:python
+python3:pypy3.7
 python3:python
 python3-config:python
 python3.6:python
 python3.6-config:python
 python3.6m:python
 python3.6m-config:python
+python3.7:pypy3.7
 python3.7:python
 python3.7-config:python
 python3.7m:python

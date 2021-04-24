@@ -59,6 +59,7 @@ apply_wb_mask.py:hyp3lib
 arc2warc:warctools
 archspec:archspec
 argparse-manpage:argparse-manpage
+arq:arq
 arxiv-collector:arxiv-collector
 asammdf:asammdf
 asciidoctor:asciidoctor
@@ -358,6 +359,7 @@ ctapipe-info:ctapipe
 ctapipe-reconstruct-muons:ctapipe
 ctapipe-stage1-process:ctapipe
 ctest-to:cmake-format
+ctypesgen:ctypesgen
 cull_idle_servers.py:jupyterhub-idle-culler
 cursor_hide:cursor
 cursor_show:cursor
@@ -390,6 +392,7 @@ dagster-graphql:dagster_graphql
 dagstermill:dagstermill
 daphne:daphne
 darglint:darglint
+dask-cuda-worker:dask-cuda
 dask-drmaa:dask-drmaa
 dask-ec2:dask-ec2
 dask-ecs:dask-cloudprovider
@@ -412,6 +415,7 @@ datalad:datalad
 datapackage:datapackage
 datapane:datapane
 datapkg_to_sqlite:catalystcoop.pudl
+datasette:datasette
 datashader:datashader
 dateadd:dateutils
 datediff:dateutils
@@ -542,6 +546,7 @@ dp-runner:datapane
 dpgen:dpgen
 dramatiq:dramatiq
 draw_polygon_on_raster.py:hyp3lib
+dremio_client:python-dremio-client
 dsc:dsc
 dsc-io:dsc
 dsc-query:dsc
@@ -577,6 +582,8 @@ elfpatch:pwntools
 eliot-tree:eliot-tree
 elyra-metadata:elyra
 elyra-metadata:elyra-server
+elyra-pipeline:elyra
+elyra-pipeline:elyra-server
 em_bright_categorize:p_astro
 em_bright_dag_writer:p_astro
 em_bright_extract:p_astro
@@ -885,6 +892,7 @@ huey_consumer:huey
 huggingface-cli:huggingface_hub
 humanfriendly:humanfriendly
 hupper:hupper
+hydromt:hydromt
 hypercorn:hypercorn
 hyperspyui:hyperspyui
 hypnotoad-gui:hypnotoad
@@ -894,6 +902,8 @@ hypothesis:hypothesis
 iapsg:apsg
 ibrowse:easydev
 icdiff:icdiff
+icepap:icepap
+icepapctl:icepap
 ics_diff:vobject
 id:spacy-lookups-data
 identify-cli:identify
@@ -917,6 +927,8 @@ in2csv:csvkit
 inline-html:inline-html
 inputgen:pdb2pqr
 inspiral-range:inspiral-range
+install_cmdstan:cmdstanpy
+install_cxx_toolchain:cmdstanpy
 intake:intake
 intake-server:intake
 intensity_server:xpdan
@@ -1215,6 +1227,7 @@ mistletoe-bench:mistletoe-ebp
 mkapi:mkapi
 mkdocs:mkdocs
 mlconjug:mlconjug
+mlconjug3:mlconjug3
 mlflow:mlflow
 mlhub:radiant-mlhub
 mmd:model_metadata
@@ -1560,6 +1573,7 @@ pyjwt:pyjwt
 pykwalify:pykwalify
 pylama:pylama
 pyls:python-language-server
+pylsp:python-lsp-server
 pymedphys:pymedphys
 pymodbus.console:pymodbus
 pymorphy:pymorphy2
@@ -1687,6 +1701,7 @@ rflint:robotframework-lint
 rioscalcstats.py:rios
 riosprintstats.py:rios
 ro:spacy-lookups-data
+robocop:robotframework-robocop
 robocrys:robocrys
 robot:robotframework
 robotframework_ls:robotframework-lsp
@@ -1825,6 +1840,7 @@ sphinx-apidoc:sphinx
 sphinx-autobuild:sphinx-autobuild
 sphinx-autogen:sphinx
 sphinx-build:sphinx
+sphinx-build-confluence:sphinxcontrib-confluencebuilder
 sphinx-quickstart:sphinx
 sphinx-versioning:sphinxcontrib-versioning
 spleeter:spleeter-gpu
@@ -1835,6 +1851,7 @@ spython:spython
 sql2csv:csvkit
 sqlacodegen:sqlacodegen
 sqlformat:sqlparse
+sqlite-utils:sqlite-utils
 sr:spacy-lookups-data
 sregistry:sregistry
 sridentify:sridentify
@@ -1964,6 +1981,7 @@ tszip:tszip
 ttx:fonttools
 tuna:tuna
 twine:twine
+twoncrier:towncrier
 typer:typer-cli
 typestubs:pytypes
 typhon:typhos
@@ -2086,6 +2104,7 @@ xrspatial:xarray-spatial
 xsdata:xsdata
 yacron:yacron
 yagmail:yagmail
+yake:yake
 yamale:yamale
 yaml-lsp:yaml-lsp
 yaml2cli:yaml2cli

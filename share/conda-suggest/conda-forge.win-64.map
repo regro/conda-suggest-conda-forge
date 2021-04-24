@@ -1486,6 +1486,7 @@ dipy_track_local.exe:dipy
 dipy_track_pft-script.py:dipy
 dipy_track_pft.bat:dipy
 dipy_track_pft.exe:dipy
+direnv.exe:direnv
 dispatch_srvr-script.py:pyutilib
 dispatch_srvr.exe:pyutilib
 dispmanager-script.py:phonopy
@@ -1718,6 +1719,17 @@ etex.bat:miktex
 etex.exe:miktex
 etexdef.bat:miktex
 etexdef.exe:miktex
+euphonic-dispersion-script.py:euphonic
+euphonic-dispersion.exe:euphonic
+euphonic-dos-script.py:euphonic
+euphonic-dos.exe:euphonic
+euphonic-intensity-map-script.py:euphonic
+euphonic-intensity-map.exe:euphonic
+euphonic-optimise-eta-script.py:euphonic
+euphonic-optimise-eta.exe:euphonic
+euphonic-powder-map.exe:euphonic
+euphonic-show-sampling-script.py:euphonic
+euphonic-show-sampling.exe:euphonic
 evaluate_xhat-script.py:pyomo
 evaluate_xhat.exe:pyomo
 eventio_cut_file.exe:eventio
@@ -1875,6 +1887,7 @@ fitsinfo.exe:astropy
 flake8-script.py:flake8
 flake8.exe:flake8
 flamegraph.pl:pyspark-flame
+flash.exe:flash
 flask-script.py:flask
 flask.exe:flask
 flask.exe:flask-creole
@@ -3197,6 +3210,7 @@ metaknowledge-mdToNb-script.py:metaknowledge
 metaknowledge-mdToNb.exe:metaknowledge
 metaknowledge-script.py:metaknowledge
 metaknowledge.exe:metaknowledge
+metamorpheus.cmd:metamorpheus
 mex.bat:miktex
 mex.exe:miktex
 mf.bat:miktex
@@ -3401,6 +3415,8 @@ mkt1font.bat:miktex
 mkt1font.exe:miktex
 mktexlsr.bat:miktex
 mktexlsr.exe:miktex
+mlconjug3-script.py:mlconjug3
+mlconjug3.exe:mlconjug3
 mlflow.exe:mlflow
 mlflow.exe:mlflow-skinny
 mllatex.bat:miktex
@@ -4732,6 +4748,7 @@ pypeit_coadd_2dspec-script.py:pypeit
 pypeit_coadd_2dspec.exe:pypeit
 pypeit_coadd_datacube-script.py:pypeit
 pypeit_coadd_datacube.exe:pypeit
+pypeit_collate_1d.exe:pypeit
 pypeit_compare_sky-script.py:pypeit
 pypeit_compare_sky.exe:pypeit
 pypeit_cp_spec1d:pypeit
@@ -5677,6 +5694,8 @@ terraform-provider-aws_v3.29.1_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.3.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.30.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.31.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.35.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.37.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
@@ -5763,6 +5782,7 @@ terraform-provider-azurerm_v2.5.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.50.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.54.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.55.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.56.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4.exe:terraform-provider-azurerm
@@ -6019,6 +6039,7 @@ terraform-provider-google_v3.61.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.62.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.63.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.64.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.65.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6449,6 +6470,7 @@ terraform-provider-vault_v2.16.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.17.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.18.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.19.0_x4.exe:terraform-provider-vault
+terraform-provider-vault_v2.19.1_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4.exe:terraform-provider-vault
@@ -6481,6 +6503,7 @@ terraform-provider-vsphere_v1.24.1_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.24.2_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.24.3_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.25.0_x4.exe:terraform-provider-vsphere
+terraform-provider-vsphere_v1.26.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.1_x4.exe:terraform-provider-vsphere
 terraform.exe:terraform

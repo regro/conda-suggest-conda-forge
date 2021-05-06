@@ -429,6 +429,8 @@ c++filt:binutils
 c++filt:binutils-meta
 c-index-test:clang-tools
 c-index-test:clangdev
+c2dec:codec2
+c2enc:codec2
 c89:c-compiler
 c89:fortran-compiler
 c89:gcc_bootstrap_linux-aarch64
@@ -770,6 +772,8 @@ dretodot:nauty
 dretog:nauty
 dropdb:postgresql
 dropuser:postgresql
+drs232:codec2
+drs232_ldpc:codec2
 dsdp5:dsdp
 dskbrief:cspice
 dskexp:cspice
@@ -870,6 +874,10 @@ fc-pattern:fontconfig
 fc-query:fontconfig
 fc-scan:fontconfig
 fc-validate:fontconfig
+fdmdv_demod:codec2
+fdmdv_get_test_bits:codec2
+fdmdv_mod:codec2
+fdmdv_put_test_bits:codec2
 fdp:graphviz
 ff_ci_pr_build:conda-forge-ci-setup
 fflas-ffpack-config:fflas-ffpack
@@ -905,6 +913,7 @@ flock:util-linux
 fltk-config:fltk
 fluid:fltk
 flux:dftbplus
+fm_demod:codec2
 fmt:coreutils
 fmtutil:texlive-core
 fmtutil-sys:texlive-core
@@ -926,6 +935,7 @@ frm_purged:xrootd
 frm_xfragent:xrootd
 frm_xfrd:xrootd
 frmdiff:cspice
+fsk_mod:codec2
 funpack:cfitsio
 funzip:unzip
 futurize:future
@@ -1452,6 +1462,7 @@ infotocap:ncurses
 initdb:postgresql
 initex:texlive-core
 innochecksum:mysql-server
+insert_errors:codec2
 inspekt:cspice
 install:coreutils
 install-info:texinfo
@@ -1650,6 +1661,7 @@ link:coreutils
 linkicc:lcms2
 linux32:util-linux
 linux64:util-linux
+list_cpu_features:volk
 listbib:texlive-core
 listg:nauty
 listgeo:geotiff
@@ -1770,6 +1782,7 @@ llvm-xray:llvm-tools
 llvm-xray:llvmdev
 ln:coreutils
 log2graph:octomap
+log4cpp-config:log4cpp
 logger:util-linux
 logname:coreutils
 look:util-linux
@@ -2175,10 +2188,12 @@ ompi_info:openmpi
 ompl_benchmark_statistics.py:ompl
 onelab.py:gmsh
 onig-config:oniguruma
+onnxruntime_test:onnxruntime
 opal_wrapper:openmpi
 openai:openai
 opencv_annotation:libopencv
 opencv_interactive-calibration:libopencv
+opencv_model_diagnostics:libopencv
 opencv_version:libopencv
 opencv_visualisation:libopencv
 opencv_waldboost_detector:libopencv
@@ -2555,18 +2570,21 @@ pyreverse:pylint
 pytest:pytest
 pytest-benchmark:pytest-benchmark
 pythia8-config:pythia8
+python:pypy3.7
 python:python
 python-config:python
 python2:python
 python2-config:python
 python2.7:python
 python2.7-config:python
+python3:pypy3.7
 python3:python
 python3-config:python
 python3.6:python
 python3.6-config:python
 python3.6m:python
 python3.6m-config:python
+python3.7:pypy3.7
 python3.7:python
 python3.7-config:python
 python3.7m:python
@@ -2652,6 +2670,7 @@ resgen:mono
 resgen2:mono
 rev:util-linux
 rfi-file-monitor:rfi-file-monitor
+rfnoc_image_builder:uhd
 rg:ripgrep
 rgb2pct.py:gdal
 rhash:rhash
@@ -3108,6 +3127,14 @@ uaserver:opcua
 uasubscribe:opcua
 uawrite:opcua
 udunits2:udunits2
+uhd_cal_rx_iq_balance:uhd
+uhd_cal_tx_dc_offset:uhd
+uhd_cal_tx_iq_balance:uhd
+uhd_config_info:uhd
+uhd_find_devices:uhd
+uhd_image_loader:uhd
+uhd_images_downloader:uhd
+uhd_usrp_probe:uhd
 uic:qt
 ul:util-linux
 ulqda:texlive-core
@@ -3149,6 +3176,7 @@ urdf_mem_test:urdfdom
 urdf_to_graphiz:urdfdom
 urlbst:texlive-core
 users:coreutils
+usrp2_card_burner:uhd
 utmpdump:util-linux
 uuclient:krb5
 uuidgen:util-linux
@@ -3171,6 +3199,9 @@ viztracer:viztracer
 vizviewer:viztracer
 vmstat:procps-ng
 volint:astropy
+volk-config-info:volk
+volk_modtool:volk
+volk_profile:volk
 voms-proxy-destroy:voms
 voms-proxy-fake:voms
 voms-proxy-info:voms

@@ -73,6 +73,7 @@ LHEF_example_cmp.lhe:hepmc3
 LHEF_example_env.sh:hepmc3
 MCPB.py:ambertools
 MMPBSA.py:ambertools
+MMPBSA.py.MPI:ambertools
 MagneticField:geographiclib-cpp
 Matrix-config:clhep
 MemParse:xerces-c
@@ -269,6 +270,7 @@ aws_completer:awscli
 aws_zsh_completer.sh:awscli
 b2sum:coreutils
 backend-test-tools:onnx
+bar_pbsa.py:ambertools
 base32:coreutils
 base64:coreutils
 basename:coreutils
@@ -341,6 +343,8 @@ c++filt:binutils
 c++filt:binutils-meta
 c-index-test:clang-tools
 c-index-test:clangdev
+c2dec:codec2
+c2enc:codec2
 c89:c-compiler
 c89:fortran-compiler
 c89:gcc_bootstrap_linux-ppc64le
@@ -674,6 +678,8 @@ dretodot:nauty
 dretog:nauty
 dropdb:postgresql
 dropuser:postgresql
+drs232:codec2
+drs232_ldpc:codec2
 dsdp5:dsdp
 dsymutil:llvm-tools
 dsymutil:llvmdev
@@ -780,6 +786,10 @@ fc-pattern:fontconfig
 fc-query:fontconfig
 fc-scan:fontconfig
 fc-validate:fontconfig
+fdmdv_demod:codec2
+fdmdv_get_test_bits:codec2
+fdmdv_mod:codec2
+fdmdv_put_test_bits:codec2
 fdp:graphviz
 ff_ci_pr_build:conda-forge-ci-setup
 ffgbsa:ambertools
@@ -819,6 +829,7 @@ flock:util-linux
 fltk-config:fltk
 fluid:fltk
 flux:dftbplus
+fm_demod:codec2
 fmt:coreutils
 fmtutil:texlive-core
 fmtutil-sys:texlive-core
@@ -839,6 +850,7 @@ frm_admin:xrootd
 frm_purged:xrootd
 frm_xfragent:xrootd
 frm_xfrd:xrootd
+fsk_mod:codec2
 funpack:cfitsio
 funzip:unzip
 futurize:future
@@ -1346,6 +1358,7 @@ infotocap:ncurses
 initdb:postgresql
 initex:texlive-core
 innochecksum:mysql-server
+insert_errors:codec2
 install:coreutils
 install-info:texinfo
 install_compass:mongodb
@@ -1532,6 +1545,7 @@ link:coreutils
 linkicc:lcms2
 linux32:util-linux
 linux64:util-linux
+list_cpu_features:volk
 listbib:texlive-core
 listg:nauty
 listgeo:geotiff
@@ -1653,6 +1667,7 @@ llvm-xray:llvmdev
 lmanal:ambertools
 ln:coreutils
 log2graph:octomap
+log4cpp-config:log4cpp
 logger:util-linux
 logname:coreutils
 look:util-linux
@@ -2040,11 +2055,13 @@ ompi-server:openmpi
 ompi_info:openmpi
 onelab.py:gmsh
 onig-config:oniguruma
+onnxruntime_test:onnxruntime
 opal_wrapper:openmpi
 openPMD_notebook:openpmd-viewer
 openai:openai
 opencv_annotation:libopencv
 opencv_interactive-calibration:libopencv
+opencv_model_diagnostics:libopencv
 opencv_version:libopencv
 opencv_visualisation:libopencv
 opencv_waldboost_detector:libopencv
@@ -2503,6 +2520,7 @@ pwd:coreutils
 pwdx:procps-ng
 py.test:pytest
 py.test-benchmark:pytest-benchmark
+py_resp.py:ambertools
 pybind11-config:pybind11
 pycc:numba
 pydoc:python
@@ -2612,6 +2630,7 @@ residuegen:ambertools
 resp:ambertools
 respgen:ambertools
 rev:util-linux
+rfnoc_image_builder:uhd
 rg:ripgrep
 rgb2pct.py:gdal
 rhash:rhash
@@ -3011,6 +3030,14 @@ uasubscribe:opcua
 uawrite:opcua
 ucpp:ambertools
 udunits2:udunits2
+uhd_cal_rx_iq_balance:uhd
+uhd_cal_tx_dc_offset:uhd
+uhd_cal_tx_iq_balance:uhd
+uhd_config_info:uhd
+uhd_find_devices:uhd
+uhd_image_loader:uhd
+uhd_images_downloader:uhd
+uhd_usrp_probe:uhd
 ul:util-linux
 ulqda:texlive-core
 umount:util-linux
@@ -3051,6 +3078,7 @@ urdf_mem_test:urdfdom
 urdf_to_graphiz:urdfdom
 urlbst:texlive-core
 users:coreutils
+usrp2_card_burner:uhd
 utmpdump:util-linux
 uuclient:krb5
 uuidgen:util-linux
@@ -3072,6 +3100,9 @@ viztracer:viztracer
 vizviewer:viztracer
 vmstat:procps-ng
 volint:astropy
+volk-config-info:volk
+volk_modtool:volk
+volk_profile:volk
 volslice:ambertools
 voms-proxy-destroy:voms
 voms-proxy-fake:voms

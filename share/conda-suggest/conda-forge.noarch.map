@@ -133,6 +133,7 @@ binpacking:binpacking
 binstar:anaconda-client
 birdy:birdy
 black:black
+black-primer:black
 blackbook:blackbook
 blackd:black
 blackd:blackd
@@ -168,6 +169,9 @@ bundle:rb-bundler
 bundler:rb-bundler
 byteSigmaScale.py:hyp3lib
 ca:spacy-lookups-data
+caelus:caelus
+caelus_sim:caelus
+caelus_tutorials:caelus
 cairosvg:cairosvg
 cake:coffeescript
 calamari-cross-fold-train:calamari_ocr
@@ -312,6 +316,7 @@ couchdb-load-design-doc:python-couchdb
 couchdb-replicate:python-couchdb
 couchpy:python-couchdb
 coursera-dl:coursera-dl
+cover:pyrate-limiter
 coverage-badge:coverage-badge
 coverage-fixpaths:coverage-fixpaths
 coveralls:coveralls
@@ -392,6 +397,7 @@ dagster-graphql:dagster_graphql
 dagstermill:dagstermill
 daphne:daphne
 darglint:darglint
+darker:darker
 dask-cuda-worker:dask-cuda
 dask-drmaa:dask-drmaa
 dask-ec2:dask-ec2
@@ -1137,6 +1143,7 @@ lhcb-proxy-init:lbdiracwrappers
 libdoc:robotframework
 lidar:lidar
 ligo-proxy-init:ligo-proxy-utils
+lint:pyrate-limiter
 listen:rb-listen
 lit:lit
 livereload:livereload
@@ -1248,6 +1255,7 @@ mofchecker:mofchecker
 molecule:molecule
 monkeytype:monkeytype
 morecantile:morecantile
+morfeus:morfeus-ml
 moses-detokenizer:mosestokenizer
 moses-punct-normalizer:mosestokenizer
 moses-sent-splitter:mosestokenizer
@@ -1274,6 +1282,7 @@ multisheller:multisheller
 mutatest:mutatest
 mv_regex:mv_regex
 mycli:mycli
+myproxyclient:myproxyclient
 mypy:mypy
 myst-benchmark:myst-parser
 napari:napari
@@ -1471,6 +1480,7 @@ pkcasascript:pwkit
 pkenvtool:pwkit
 pkginfo:pkginfo
 planet:planet
+planetarycomputer:planetary-computer
 platformio:platformio
 plip:plip
 plot_features:geometric_features
@@ -1708,6 +1718,8 @@ robotframework_ls:robotframework-lsp
 roifile:roifile
 rollbar:rollbar
 roman:roman
+rosdep:rosdep
+rosdep-source:rosdep
 rosinstall_generator:rosinstall_generator
 roslibpy:roslibpy
 rosversion:rospkg
@@ -1763,6 +1775,8 @@ scattertext:scattertext
 sceptre:sceptre
 schema-salad-doc:schema-salad
 schema-salad-tool:schema-salad
+scitokens-admin-create-key:scitokens
+scitokens-admin-create-token:scitokens
 sciunit:sciunit
 scour:scour
 scramble:pwntools
@@ -1841,6 +1855,8 @@ sphinx-autobuild:sphinx-autobuild
 sphinx-autogen:sphinx
 sphinx-build:sphinx
 sphinx-build-confluence:sphinxcontrib-confluencebuilder
+sphinx-etoc:sphinx-external-toc
+sphinx-intl:sphinx-intl
 sphinx-quickstart:sphinx
 sphinx-versioning:sphinxcontrib-versioning
 spleeter:spleeter-gpu
@@ -1857,6 +1873,7 @@ sregistry:sregistry
 sridentify:sridentify
 sshtunnel:sshtunnel
 sshuttle:sshuttle
+stac-client:pystac-client
 stack-docs:documenteer
 stakesign:stakesign
 standardise-mols:standardiser
@@ -1883,9 +1900,11 @@ summaryclassification:pesummary
 summaryclean:pesummary
 summarycombine:pesummary
 summarycombine_metafiles:pesummary
+summarycombine_posteriors:pesummary
 summarycompare:pesummary
 summaryconvert:pesummary
 summarydetchar:pesummary
+summaryextract:pesummary
 summarygracedb:pesummary
 summaryjscompare:pesummary
 summarymodify:pesummary
@@ -1897,6 +1916,7 @@ summarypublication:pesummary
 summaryrecreate:pesummary
 summaryreview:pesummary
 summarytest:pesummary
+summarytgr:pesummary
 summaryversion:pesummary
 supermercado:supermercado
 superset:superset
@@ -1927,12 +1947,14 @@ template:pwntools
 tensorboard:tensorboard
 termgraph:termgraph
 terraformspawner:jupyterhub-terraformspawner
+test:pyrate-limiter
 test-openmm-platforms:openmmtools
 test.pyutilib:pyutilib
 testflo:testflo
 testrios.py:rios
 texplain:texplain
 textnets:textnets
+tfds:tensorflow-datasets
 thor:rb-thor
 tibanna:tibanna
 tifffile:tifffile
@@ -1982,6 +2004,7 @@ ttx:fonttools
 tuna:tuna
 twine:twine
 twoncrier:towncrier
+tx:transifex-client
 typer:typer-cli
 typestubs:pytypes
 typhon:typhos
@@ -2044,6 +2067,7 @@ virtualenv:virtualenv
 virtualenv-clone:virtualenv-clone
 viz_server:xpdan
 voila:voila
+volk_modtool:volk-modtool
 vose-sampler:vose-alias-method
 vulture:vulture
 vyper:vyper
@@ -2069,6 +2093,7 @@ watchme:watchme
 watchmedo:watchdog
 wb:wandb
 wddump:wetterdienst
+wdf-export:renishaw_wire
 wdl-aid:wdl-aid
 wdl-packager:wdl-packager
 weasyprint:weasyprint

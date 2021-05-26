@@ -34,11 +34,14 @@ acme_diags:e3sm_diags
 acpype:acpype
 acs_destripe:acstools
 acs_destripe_plus:acstools
+actions_include:actions-includes
+actions_include_check:actions-includes
 ads2inspire:ads2inspire
 adstex:adstex
 advbumpversion:advbumpversion
 aimsgb:aimsgb
 aiozmq-proxy:aiozmq
+akernel:akernel
 alchemical_analysis:alchemical-analysis
 alembic:alembic
 alphashape:alphashape
@@ -58,6 +61,9 @@ aodh:aodhclient
 apply_wb_mask.py:hyp3lib
 arc2warc:warctools
 archspec:archspec
+argos:argos
+argos_make_wrappers:argos
+argosw:argos
 argparse-manpage:argparse-manpage
 arq:arq
 arxiv-collector:arxiv-collector
@@ -194,6 +200,7 @@ caproto-monitor:caproto
 caproto-put:caproto
 caproto-repeater:caproto
 caproto-spoof-beamline:caproto
+carbonboard:codecarbon
 cartes:cartes
 casatask:pwkit
 cashocs-convert:cashocs
@@ -239,6 +246,7 @@ chevron:chevron
 cinder:python-cinderclient
 ciocheck:ciocheck
 cite:cite
+ckanapi:ckanapi
 cleanlatex:ligotools-scripts
 cli4:cloudflare
 cliche:cliche
@@ -257,6 +265,7 @@ cmake-genparsers:cmake-format
 cmake-lint:cmake-format
 cmakelint:cmakelint
 cmark:commonmark
+cmlib_demo:cmlib
 cmr:cmasher
 coco:country_converter
 codebraid:codebraid
@@ -276,6 +285,7 @@ conan:conan
 conan_build_info:conan
 conan_server:conan
 conda-build-all:conda-build-all
+conda-content-trust:conda-content-trust
 conda-devenv:conda-devenv
 conda-docker:conda-docker
 conda-execute:conda-execute
@@ -443,6 +453,7 @@ diff-cover:diff-cover
 diff-quality:diff-cover
 difference_features:geometric_features
 diffoscope:diffoscope
+diffpriv:diffpriv
 diffractometeralignment:sardana
 dir2pi:pip2pi
 dirac-accounting-decode-fileid:dirac-grid
@@ -561,6 +572,7 @@ dsl-compile-tekton:kfp-tekton
 dtale:dtale
 dtool_publish_dataset:dtool_http
 dtool_serve_directory:dtool_http
+dunamai:dunamai
 dw:datadotworld-py
 dx2cube:pdb2pqr
 dxfaudit:ezdxf
@@ -613,6 +625,7 @@ esmcol-validator:esmcol-validator
 espei:espei
 esprima:esprima-python
 ete3:ete3
+euporie:euporie
 evalml:evalml-core
 evalml:evaml-core
 evv:evv4esm
@@ -1013,7 +1026,9 @@ jupyter-notebook:notebook
 jupyter-nteract:nteract_on_jupyter
 jupyter-qtconsole:qtconsole
 jupyter-repo2docker:jupyter-repo2docker
+jupyter-retro:retrolab
 jupyter-run:jupyter_client
+jupyter-server:jupyter_server
 jupyter-serverextension:notebook
 jupyter-theme:jupyterthemes
 jupyter-themer:jupyter-themer
@@ -1023,6 +1038,7 @@ jupyter_to_medium:jupyter_to_medium
 jupyterhub-idle-culler:jupyterhub-idle-culler
 jupyterlab-translate:jupyterlab-translate
 jupytext:jupytext
+jws:josepy
 k2g:kml2geojson
 kedro:kedro
 kernda:kernda
@@ -1140,6 +1156,7 @@ lessc:less.js
 lesscpy:lesscpy
 lhcb-proxy-info:lbdiracwrappers
 lhcb-proxy-init:lbdiracwrappers
+lhcbstyle:lhcbstyle
 libdoc:robotframework
 lidar:lidar
 ligo-proxy-init:ligo-proxy-utils
@@ -1200,6 +1217,7 @@ make_masks:solaris
 mako-render:mako
 manila:python-manilaclient
 maps:maps-cli
+mapshader:mapshader
 margins:xlutils
 markdown-it:markdown-it-py
 markdown-it-bench:markdown-it-py
@@ -1208,6 +1226,7 @@ markdown_py:markdown
 mask_to_polygons:solaris
 max-rect:maxrect
 md_toc:md-toc
+mdformat:mdformat
 memestra:memestra
 memestra-cache:memestra
 mercantile:mercantile
@@ -1231,11 +1250,13 @@ minitar:rb-archive-tar-minitar
 miniwdl:miniwdl
 mistletoe:mistletoe-ebp
 mistletoe-bench:mistletoe-ebp
+mistral:python-mistralclient
 mkapi:mkapi
 mkdocs:mkdocs
 mlconjug:mlconjug
 mlconjug3:mlconjug3
 mlflow:mlflow
+mlforecast:mlforecast
 mlhub:radiant-mlhub
 mmd:model_metadata
 mmd-dump:model_metadata
@@ -1392,6 +1413,13 @@ orca-server:orca
 osf:osfclient
 osprofiler:osprofiler
 owlrl:owlrl
+oxasl:oxasl
+oxasl_basil:oxasl
+oxasl_calib:oxasl
+oxasl_gui:oxasl
+oxasl_mask:oxasl
+oxasl_preproc:oxasl
+oxasl_reg:oxasl
 p2cif:pdielec
 p_astro_compute_means:p_astro
 p_astro_histogram_by_bin:p_astro
@@ -1422,6 +1450,7 @@ parliament:parliament
 parrec2nii:nibabel
 parselglossy:parselglossy
 parsl-globus-auth:parsl
+paster:pastescript
 patch-ng:patch-ng
 pathy:pathy
 pbr:pbr
@@ -1454,10 +1483,12 @@ pewtwo:pipenv
 pfinterp:pyfesom2
 pfplot:pyfesom2
 pgcli:pgcli
+pgcolorbar_demo:pgcolorbar
 pgsanity:pgsanity
 phd:pwntools
 pheasant:pheasant
 phil:freephil
+pickled_reader:pdielec
 pidcalib2.make_eff_hists:pidcalib2
 pidcalib2.merge_trees:pidcalib2
 pidcalib2.ref_calib:pidcalib2
@@ -1490,6 +1521,7 @@ png2mp4:pysw4
 podman-compose:podman-compose
 poet:homebrew-pypi-poet
 poet_lint:homebrew-pypi-poet
+poetry-dynamic-versioning:poetry-dynamic-versioning
 polar2grid:polar2grid
 poly-intersect:maxrect
 portable_db_server:xpdan
@@ -1549,6 +1581,7 @@ pySW4-create-plots:pysw4
 pySW4-plot-image:pysw4
 pyaeroeval:pyaerocom
 pyaerotrends:pyaerocom
+pyauthenticator:pyauthenticator
 pybabel:babel
 pybidi:python-bidi
 pyboat:pyboat
@@ -1666,6 +1699,7 @@ quick_add_keys_to_file.py:msumastro
 radian:radian
 radon:radon
 rafem:rafem
+randomfiletree:randomfiletree
 rasterMask.py:hyp3lib
 raster_boundary2shape.py:hyp3lib
 raven:raven
@@ -1743,8 +1777,10 @@ rteqcorrscan-reactor:rt-eqcorrscan
 rteqcorrscan-real-time-match:rt-eqcorrscan
 rteqcorrscan-simulation:rt-eqcorrscan
 rubicon:rubicon-ml
+rubicon_ml:rubicon-ml
 run_astrometry.py:msumastro
 run_config:atomic-hpc
+run_flowchart:seamm
 run_nwchem:custodian
 run_om_test:openmdao
 run_patch.py:msumastro
@@ -1768,6 +1804,8 @@ sat-search:satsearch
 sat-stac:sat-stac
 save_server:xpdan
 saws:saws
+sbt:sbt
+sbt-launch.jar:sbt
 scald:ligo-scald
 scapy:scapy
 scatter:bashplotlib
@@ -1784,6 +1822,8 @@ screed:screed
 scss:rb-sass
 se:standardebooks
 seabird:seabird
+seamm:seamm
+seamm-installer:seamm-installer
 search_zenodo:pyzenodo3
 seed-isort-config:seed-isort-config
 segdiff:ligotools-scripts
@@ -1803,6 +1843,7 @@ serve:sagemaker-pytorch-serving-container
 serve-from-template:lume-epics
 set_group_name:geometric_features
 setup:rb-wisper
+sgqlc-codegen:sgqlc
 shelephant_checksum:shelephant
 shelephant_cp:shelephant
 shelephant_dump:shelephant
@@ -1990,6 +2031,7 @@ tq:yq
 tqdm:tqdm
 tr:spacy-lookups-data
 traceback-with-variables:traceback-with-variables
+trailscraper:trailscraper
 tranquilizer:tranquilizer
 transformers:transformers
 transonic:transonic
@@ -2144,6 +2186,7 @@ yaqd-acton-2150i:yaqd-acton
 yaqd-ads1115:yaqd-ti
 yaqd-base:yaqd-core
 yaqd-continuous-hardware:yaqd-core
+yaqd-edaq-isopod:yaqd-edaq
 yaqd-fake-continuous-hardware:yaqd-fakes
 yaqd-fake-discrete-hardware:yaqd-fakes
 yaqd-fake-triggered-sensor:yaqd-fakes
@@ -2158,6 +2201,7 @@ yaqd-mcp3428:yaqd-microchip
 yaqd-mcp9600:yaqd-microchip
 yaqd-micro-hr:yaqd-horiba
 yaqd-mqtt-homie-sensor:yaqd-mqtt
+yaqd-new-era-ne1000:yaqd-new-era
 yaqd-newport-conex-agp:yaqd-newport
 yaqd-newport-smc100:yaqd-newport
 yaqd-pmc:yaqd-pmc

@@ -2406,6 +2406,9 @@ opencv_version:libopencv
 opencv_visualisation:libopencv
 opencv_waldboost_detector:libopencv
 openpmd-ls:openpmd-api
+openslide-quickhash1sum:openslide
+openslide-show-properties:openslide
+openslide-write-png:openslide
 openssl:openssl
 opj_compress:openjpeg
 opj_decompress:openjpeg
@@ -2807,6 +2810,7 @@ pyinstaller:pyinstaller
 pylint:pylint
 pyls:python-language-server
 pylupdate5:pyqt-impl
+pyproj:pyproj
 pypy:pypy3.6
 pypy:pypy3.7
 pypy:python
@@ -3059,6 +3063,7 @@ sage:sagelib
 sage-cachegrind:sagelib
 sage-callgrind:sagelib
 sage-cleaner:sagelib
+sage-config:sagelib
 sage-coverage:sagelib
 sage-coverageall:sagelib
 sage-cython:sagelib
@@ -3097,6 +3102,7 @@ sage-update-src:sagelib
 sage-update-version:sagelib
 sage-upgrade:sagelib
 sage-valgrind:sagelib
+sage-venv-config:sagelib
 sage-version.sh:sagelib
 samp_hub:astropy
 sancov:llvm-tools
@@ -3158,6 +3164,7 @@ sha256sum:coreutils
 sha384sum:coreutils
 sha512sum:coreutils
 shasum:perl
+shellcheck:shellcheck
 shortg:nauty
 showg:nauty
 showtable:astropy

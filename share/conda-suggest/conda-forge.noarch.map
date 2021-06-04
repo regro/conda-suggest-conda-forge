@@ -39,6 +39,7 @@ actions_include_check:actions-includes
 ads2inspire:ads2inspire
 adstex:adstex
 advbumpversion:advbumpversion
+ags4_cli:python-ags4
 aimsgb:aimsgb
 aiozmq-proxy:aiozmq
 akernel:akernel
@@ -190,6 +191,7 @@ calc-prorate:tempora
 calculate_rmsd:rmsd
 calliope:calliope
 camelot:camelot-py
+camply:camply
 cancompare:canmatrix
 canconvert:canmatrix
 caniusepython3:caniusepython3
@@ -221,6 +223,7 @@ cdp-distrib:cdp
 cdsutils:cdsutils
 celery:celery
 cellpy:cellpy
+cement:cement
 certipy:certipy
 cfchecks:cfchecker
 cfgrib:cfgrib
@@ -408,6 +411,7 @@ dagstermill:dagstermill
 daphne:daphne
 darglint:darglint
 darker:darker
+darwin:darwin-py
 dask-cuda-worker:dask-cuda
 dask-drmaa:dask-drmaa
 dask-ec2:dask-ec2
@@ -442,6 +446,8 @@ dcm2bids_helper:dcm2bids
 dcm2bids_scaffold:dcm2bids
 de:spacy-lookups-data
 debug:pwntools
+decrypt:pyquickhelper
+decrypt_file:pyquickhelper
 deid:deid
 dem2isce.py:hyp3lib
 depfinder:depfinder
@@ -581,6 +587,7 @@ dynaconf:dynaconf
 dynoviz:dynophores
 e3sm_diags:e3sm_diags
 e3sm_diags_vars:e3sm_diags
+e3sm_to_cmip:e3sm_to_cmip
 earthengine:earthengine-api
 earthsim:earthsim
 easydev_buildPackage:easydev
@@ -610,6 +617,8 @@ em_bright_train:p_astro
 email_validator:email-validator
 email_validator:email_validator
 en:spacy-lookups-data
+encrypt:pyquickhelper
+encrypt_file:pyquickhelper
 enh_lee_filter.py:hyp3lib
 ensureconda:ensureconda
 envs:envs
@@ -811,7 +820,11 @@ ggrc:ginga
 ghp-import:ghp-import
 gilt:python-gilt
 ginga:ginga
+girder:girder
 girder-cli:girder-client
+girder-server:girder
+girder-sftpd:girder
+girder-shell:girder
 gist:python-gist
 git-annex-remote-datalad:datalad
 git-annex-remote-datalad-archives:datalad
@@ -915,6 +928,7 @@ hydromt:hydromt
 hypercorn:hypercorn
 hyperspyui:hyperspyui
 hypnotoad-gui:hypnotoad
+hypnotoad_circular:hypnotoad
 hypnotoad_geqdsk:hypnotoad
 hypnotoad_torpex:hypnotoad
 hypothesis:hypothesis
@@ -1306,6 +1320,7 @@ mycli:mycli
 myproxyclient:myproxyclient
 mypy:mypy
 myst-benchmark:myst-parser
+name-that-hash:name_that_hash
 napari:napari
 natsort:natsort
 nb:spacy-lookups-data
@@ -1375,6 +1390,7 @@ nspyre:nspyre
 nspyre-config:nspyre
 nspyre-inserv:nspyre
 nspyre-mongodb:nspyre
+nth:name_that_hash
 nuitka:nuitka
 nuitka-run:nuitka
 nvd3:python-nvd3
@@ -1452,6 +1468,10 @@ parselglossy:parselglossy
 parsl-globus-auth:parsl
 paster:pastescript
 patch-ng:patch-ng
+patchnetvlad-download-models:patchnetvlad
+patchnetvlad-feature-extract:patchnetvlad
+patchnetvlad-feature-match:patchnetvlad
+patchnetvlad-match-two:patchnetvlad
 pathy:pathy
 pbr:pbr
 pcreate:pyramid
@@ -1523,6 +1543,7 @@ poet:homebrew-pypi-poet
 poet_lint:homebrew-pypi-poet
 poetry-dynamic-versioning:poetry-dynamic-versioning
 polar2grid:polar2grid
+policy_sentry:policy_sentry
 poly-intersect:maxrect
 portable_db_server:xpdan
 post-knitty:knitty
@@ -1621,6 +1642,7 @@ pymedphys:pymedphys
 pymodbus.console:pymodbus
 pymorphy:pymorphy2
 pyngrok:pyngrok
+pynguin:pynguin
 pyperformance:performance
 pypi_downloads:pyutilib
 pyppdf:pyppdf
@@ -1631,6 +1653,7 @@ pyprof2calltree:pyprof2calltree
 pyproject-build:build
 pypublish:pweave
 pypugjs:pypugjs
+pyq-sync:pyquickhelper
 pyqode-console:pyqode.core
 pyquil-config-setup:pyquil
 pyro4-check-config:pyro4
@@ -1678,6 +1701,7 @@ pytmc:pytmc
 pyupgrade:pyupgrade
 pyutilib_test_driver:pyutilib
 pyvol:bio-pyvol
+pywhat:pywhat
 pyxrf:pyxrf
 qarrayrun:qarrayrun
 qcfractal-dashboard:qcfractal
@@ -2038,6 +2062,7 @@ transonic:transonic
 travis-encrypt:travis-encrypt
 tree_html_at_level:dautilpy
 trodi:trodi
+trove:python-troveclient
 tsc:typescript
 tsserver:typescript
 tsunzip:tszip
@@ -2130,9 +2155,11 @@ warcindex:warctools
 warclinks:warctools
 warcpayload:warctools
 warcvalid:warctools
+ward:ward
 watchgod:watchgod
 watchme:watchme
 watchmedo:watchdog
+waybackpack:waybackpack
 wb:wandb
 wddump:wetterdienst
 wdf-export:renishaw_wire
@@ -2142,6 +2169,7 @@ weasyprint:weasyprint
 webdrivermanager:webdrivermanager
 webview:openmdao
 wetterdienst:wetterdienst
+what:pywhat
 wheel:wheel
 whitebox:whitebox
 windse:windse
@@ -2189,6 +2217,9 @@ yaqd-continuous-hardware:yaqd-core
 yaqd-edaq-isopod:yaqd-edaq
 yaqd-fake-continuous-hardware:yaqd-fakes
 yaqd-fake-discrete-hardware:yaqd-fakes
+yaqd-fake-has-turret:yaqd-fakes
+yaqd-fake-sensor:yaqd-fakes
+yaqd-fake-spectrometer:yaqd-fakes
 yaqd-fake-triggered-sensor:yaqd-fakes
 yaqd-gage-compuscope:yaqd-gage
 yaqd-gdrive:yaqd-gdrive
@@ -2232,6 +2263,8 @@ you-get:you-get
 youtube-dl:youtube-dl
 youtube-to-anki:youtube-to-anki
 youtube_transcript_api:youtube-transcript-api
+yoyo:yoyo-migrations
+yoyo-migrate:yoyo-migrations
 yq:yq
 zconfig:zconfig
 zconfig_schema2html:zconfig

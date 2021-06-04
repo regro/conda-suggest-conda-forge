@@ -896,6 +896,8 @@ ckeygen-script.py:twisted
 ckeygen.exe:twisted
 classifier2info:mallet
 clcache-script.py:clcache
+clcache-server-script.py:clcache
+clcache-server.exe:clcache
 clcache.exe:clcache
 clcache.py:clcache
 clear_comtypes_cache.py:comtypes
@@ -1582,6 +1584,7 @@ drf_sound.py:digital_rf
 drf_sti.py:digital_rf
 dscheduler-script.py:distributed
 dscheduler.exe:distributed
+dttr.exe:pygrametl
 dtw-script.py:dtw-python
 dtw.exe:dtw-python
 dudley.dll:esys-escript
@@ -2867,6 +2870,8 @@ kakasi-script.py:pykakasi
 kakasi.exe:pykakasi
 kastore-script.py:kastore
 kastore.exe:kastore
+kat3-script.py:finesse
+kat3.exe:finesse
 kernda-script.py:kernda
 kernda.exe:kernda
 kernprof-script.py:line_profiler
@@ -5782,6 +5787,7 @@ terraform-provider-aws_v3.4.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.40.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.41.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.42.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.43.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4.exe:terraform-provider-aws
@@ -5874,6 +5880,7 @@ terraform-provider-azurerm_v2.58.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.59.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.6.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.60.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.61.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4.exe:terraform-provider-azurerm
@@ -6136,6 +6143,7 @@ terraform-provider-google_v3.66.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.66.1_x4.exe:terraform-provider-google
 terraform-provider-google_v3.67.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.68.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.70.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6227,6 +6235,7 @@ terraform-provider-kubernetes_v2.0.1_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.0.2_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.0.3_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.2.0_x4.exe:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.3.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-librato_v0.1.0_x4.exe:terraform-provider-librato
 terraform-provider-local_v1.1.0_x4.exe:terraform-provider-local
 terraform-provider-local_v1.2.0_x4.exe:terraform-provider-local
@@ -6606,6 +6615,7 @@ terraform-provider-vsphere_v1.25.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.26.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.0_x4.exe:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.1_x4.exe:terraform-provider-vsphere
+terraform-provider-vsphere_v2.0.0_x4.exe:terraform-provider-vsphere
 terraform.exe:terraform
 terraformspawner.exe:jupyterhub-terraformspawner
 terragrunt.exe:terragrunt
@@ -6765,6 +6775,8 @@ tripod.exe:jigsaw
 trollius-to-async-script.py:asyncio-helpers
 trollius-to-async.exe:asyncio-helpers
 truncate_fhd_files.pro:pyuvdata
+tsinfer-script.py:tsinfer
+tsinfer.exe:tsinfer
 tskit-script.py:tskit
 tskit.exe:tskit
 ttf2afm.bat:miktex

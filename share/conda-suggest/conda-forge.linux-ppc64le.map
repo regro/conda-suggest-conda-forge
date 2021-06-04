@@ -2201,6 +2201,9 @@ opencv_version:libopencv
 opencv_visualisation:libopencv
 opencv_waldboost_detector:libopencv
 openpmd-ls:openpmd-api
+openslide-quickhash1sum:openslide
+openslide-show-properties:openslide
+openslide-write-png:openslide
 openssl:openssl
 opj_compress:openjpeg
 opj_decompress:openjpeg

@@ -174,6 +174,9 @@
 7za:p7zip
 7zr:p7zip
 AddToBox:ambertools
+Alarm:gds-services
+AlarmCtrl:gds-services
+AlarmMgr:gds-services
 AnalyzeMap:tempest-remap
 ApplyOfflineMap:tempest-remap
 Assistant.app:qt
@@ -215,6 +218,9 @@ Designerapp:qt
 DetectBlobs:tempest-extremes
 DetectNodes:tempest-extremes
 DllPlugInTester:cppunit
+DpushM:gds-lowlatency-tools
+DpushRT:gds-lowlatency-tools
+DpushTease:gds-lowlatency-tools
 ESMF_Info:esmf
 ESMF_InfoC:esmf
 ESMF_PrintInfo:esmf
@@ -267,12 +273,16 @@ FrCopy:framel
 FrCopy:libframe
 FrDiff:framel
 FrDiff:libframe
+FrDir:gds-frameio-base
 FrDump:framel
 FrDump:libframe
+FrTest:gds-frameio-base
 FrTrend:framel
 FrTrend:libframe
 FrameDataDump:framel
 FrameDataDump:libframe
+FrameDump:gds-frameio-base
+Frame_Log:gds-lowlatency-tools
 FreeCAD:freecad
 FreeCADCmd:freecad
 FshowGO:pyferret
@@ -414,12 +424,16 @@ MakeInputFile.py:forcebalance
 MakeNcl:ncl
 Matrix-config:clhep
 MemParse:xerces-c
+MergeTrends:gds-frameio-base
 MeshToTxt:tempest-remap
 MonitorCpciData.py:mdsplus
 MpasCellCuller.x:mpas_tools
 MpasMaskCreator.x:mpas_tools
 MpasMeshConverter.x:mpas_tools
+NDS2Frame:gds-frameio-base
 NRswitchg:nauty
+NameCtrl:gds-services
+NameServer:gds-services
 Nerve:gudhi
 Netgen1:netgen
 Nion Swift.app:nionswift-tool
@@ -486,6 +500,7 @@ SEnumVal:xerces-c
 SIFT:uwsift
 SetMdsplusFileProtection:mdsplus
 ShpToMesh:tempest-remap
+SimList:gds-frameio-base
 Singular:singular
 SoapySDRServer:soapysdr-module-remote
 SoapySDRUtil:soapysdr
@@ -513,6 +528,8 @@ TSingular:singular
 TestReferenceHarmonicBondForce:openmm
 TidyOutput:forcebalance
 TransverseMercatorProj:geographiclib-cpp
+TrigMgr:gds-services
+TrigRndm:gds-services
 TxtToFrame:gwollum
 TxtToTree:gwollum
 TxtToTriggers:gwollum
@@ -600,6 +617,7 @@ acpl:scotch
 acs2d.e:hstcal
 acsccd.e:hstcal
 acscte.e:hstcal
+acscteforwardmodel.e:hstcal
 acsforwardmodel.e:hstcal
 acsrej.e:hstcal
 acssum.e:hstcal
@@ -956,6 +974,8 @@ astropy-package-template-example:omnifit
 astropy-package-template-example:pycraf
 astropy-package-template-example:stingray
 astrotool:pwkit
+astscript-ds9-region:gnuastro
+astscript-radial-profile:gnuastro
 astscript-sort-by-night:gnuastro
 astsegment:gnuastro
 aststatistics:gnuastro
@@ -1309,6 +1329,8 @@ c2enc:codec2
 c2ph:perl
 c_rehash:openssl
 cabextract:cabextract
+cache_util:gds-base-frameio
+cache_util:gds-frameio-base
 cachepic:texlive-core
 cadabra-jupyter-kernel:cadabra2-jupyter-kernel
 cadabra-server:cadabra2
@@ -2708,6 +2730,7 @@ dtd2rng:mono
 dtd2xsd:mono
 dtr-compress:desres-msys
 dtr-validate:desres-msys
+dttr:pygrametl
 dtw:dtw-python
 dtxgen:texlive-core
 du:coreutils
@@ -3120,6 +3143,8 @@ fcaps:ncl
 fcbuild:siesta
 fd:fd-find
 fdf2grimme:siesta
+fdir:gds-base-frameio
+fdir:gds-frameio-base
 fdmdv_demod:codec2
 fdmdv_get_test_bits:codec2
 fdmdv_mod:codec2
@@ -3224,6 +3249,8 @@ fermipy-wcsview:fermipy
 ferret:pyferret
 ferret_paths_template.csh:pyferret
 ferret_paths_template.sh:pyferret
+fextract:gds-base-frameio
+fextract:gds-frameio-base
 ff_ci_pr_build:conda-forge-build-setup
 ff_ci_pr_build:conda-forge-ci-setup
 ffc:fenics
@@ -3273,6 +3300,8 @@ findg:ncl
 findhyph:texlive-core
 findid:libcomcat
 findmeastable:casacore
+finfo:gds-base-frameio
+finfo:gds-frameio-base
 fio:fiona
 firecrown:firecrown
 firefox:firefox
@@ -3405,6 +3434,7 @@ fr_cas_help:giac
 fractal_tracker:aruco
 fractional:siesta
 fragmaster:texlive-core
+framecmp:gds-frameio-base
 framecpp_checksum:ldas-tools-framecpp
 framecpp_compare:ldas-tools-framecpp
 framecpp_compressor:ldas-tools-framecpp
@@ -3417,6 +3447,8 @@ framecpp_query:ldas-tools-framecpp
 framecpp_sample:ldas-tools-framecpp
 framecpp_transform:ldas-tools-framecpp
 framecpp_verify:ldas-tools-framecpp
+framelink:gds-lowlatency-tools
+frcompress:gds-frameio-base
 freebcp:freetds
 freecad:freecad
 freecadcmd:freecad
@@ -3442,6 +3474,8 @@ fs.x:qe
 fs_filepicker:fs_filepicker
 fsdump:desres-msys
 fsdump:zodb
+fsettime:gds-base-frameio
+fsettime:gds-frameio-base
 fsk_mod:codec2
 fsleyes:fsleyes
 fsleyes_unfiltered:fsleyes
@@ -3504,6 +3538,7 @@ funzip:unzip
 fusesoc:fusesoc
 future-fstrings-show:future_fstrings
 futurize:future
+fxpktdump:gds-lowlatency-tools
 fzf:fzf
 g-ir-annotation-tool:gobject-introspection
 g-ir-compiler:gobject-introspection
@@ -5175,6 +5210,7 @@ kanji-config-updmap-sys:texlive-core
 kanji-config-updmap-user:texlive-core
 kanji-fontmap-creator:texlive-core
 kastore:kastore
+kat3:finesse
 kbxutil:gnupg
 kdestroy:krb5
 kea-config:kealib
@@ -6182,6 +6218,7 @@ lsdtt-cosmo-tool:lsdtopotools
 lsdtt-hillslope-channel-coupling:lsdtopotools
 lsm2bin:tifffile
 lsmf:casacore
+lsmp_xmit:gds-lowlatency-tools
 lst:aipy
 lstopo:libhwloc
 lstopo-no-graphics:libhwloc
@@ -7405,6 +7442,7 @@ nmedit:cxx-compiler
 nmode:ambertools
 nnalg:ncl
 nnbathy:nn
+no_insert:gds-base-runtime
 nocmodl:neuron
 node:nodejs
 node-gyp:node-gyp
@@ -8239,6 +8277,7 @@ perror:mysql
 perror:mysql-connector-c
 perror:mysql-server
 petl:petl
+petpvc:petpvc
 pevaluate:alps
 peverify:mono
 pf2afm:ghostscript
@@ -8947,6 +8986,19 @@ pv:pv
 pvagw:p4p
 pvbatch:paraview
 pvbatch:tomviz
+pvc_diy:petpvc
+pvc_gtm:petpvc
+pvc_iy:petpvc
+pvc_labbe:petpvc
+pvc_make4d:petpvc
+pvc_mg:petpvc
+pvc_mtc:petpvc
+pvc_rbv:petpvc
+pvc_relabel:petpvc
+pvc_rl:petpvc
+pvc_simulate:petpvc
+pvc_stc:petpvc
+pvc_vc:petpvc
 pvdataserver:paraview
 pvdataserver:tomviz
 pview:panda3d
@@ -9207,6 +9259,7 @@ pycbc_single_template_plot:pycbc
 pycbc_sngl_minifollowup:pycbc
 pycbc_sngls_findtrigs:pycbc
 pycbc_sngls_pastro:pycbc
+pycbc_source_probability_offline:pycbc
 pycbc_split_inspinj:pycbc
 pycbc_splitbank:pycbc
 pycbc_stageout_failed_workflow:pycbc
@@ -9809,6 +9862,7 @@ renderClass:scorec
 render_ascii:scorec
 renumber_ants.py:pyuvdata
 reorder:scorec
+repack:lbl-repack
 repartition:scorec
 repc:qt
 replace:libtiledb-sql
@@ -10207,6 +10261,7 @@ sage-cachegrind:sagelib
 sage-callgrind:sagelib
 sage-cleaner:sagelib
 sage-clone-source:sagelib
+sage-config:sagelib
 sage-coverage:sagelib
 sage-coverageall:sagelib
 sage-cython:sagelib
@@ -10263,6 +10318,7 @@ sage-update-src:sagelib
 sage-update-version:sagelib
 sage-upgrade:sagelib
 sage-valgrind:sagelib
+sage-venv-config:sagelib
 sage-version.sh:sagelib
 sagemaker:sagemaker-python-sdk
 sagemaker-upgrade-v2:sagemaker-python-sdk
@@ -10616,17 +10672,28 @@ smTestDriver-pv5.7:paraview
 smTestDriver-pv5.8:paraview
 smTestDriver-pv5.9:paraview
 smTestDriver-tpv5.7:tomviz
+smartctl:smartmontools
+smartd:smartmontools
 smartypants:smartypants
+smcreate:gds-lsmp
+smdump:gds-lsmp
 smem:cfitsio
 smif:smif
 smina:smina
 smint:psrchive
 smith.pyre:pyre
+smkill:gds-lsmp
+smlatency:gds-lsmp
+smlist:gds-lsmp
 smog_p_spectrum:gnuradio-satellites
 smog_p_spectrum.py:gnuradio-satellites
 smoothfits:fitstools
 smoothing_cxx:healpix_cxx
 smpeg2-config:smpeg2
+smraw:gds-lsmp
+smrepair:gds-lsmp
+smspew:gds-lsmp
+smstat:gds-lsmp
 smtbx.absolute_structure:cctbx-base
 smtbx.anom_refine:cctbx-base
 smtbx.benchmark_refinement:cctbx-base
@@ -11205,6 +11272,7 @@ terraform-provider-aws_v3.4.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.40.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.41.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.42.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.43.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
@@ -11303,6 +11371,7 @@ terraform-provider-azurerm_v2.57.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.58.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.59.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.60.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.61.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4:terraform-provider-azurerm
@@ -11605,6 +11674,7 @@ terraform-provider-google_v3.66.0_x4:terraform-provider-google
 terraform-provider-google_v3.66.1_x4:terraform-provider-google
 terraform-provider-google_v3.67.0_x4:terraform-provider-google
 terraform-provider-google_v3.68.0_x4:terraform-provider-google
+terraform-provider-google_v3.70.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -11714,6 +11784,7 @@ terraform-provider-kubernetes_v2.0.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.0.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.0.3_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.2.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.3.0_x4:terraform-provider-kubernetes
 terraform-provider-librato_v0.1.0_x4:terraform-provider-librato
 terraform-provider-local_v1.1.0_x4:terraform-provider-local
 terraform-provider-local_v1.2.0_x4:terraform-provider-local
@@ -12159,6 +12230,7 @@ terraform-provider-vsphere_v1.7.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.8.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.1_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v2.0.0_x4:terraform-provider-vsphere
 terraformspawner:jupyterhub-terraformspawner
 terragrunt:terragrunt
 tesseract:tesseract
@@ -12407,12 +12479,15 @@ tred:graphviz
 tree:tree
 tree2part:topicmapping
 treepoem:treepoem
+trender:gds-frameio-base
+trendtable:gds-frameio-base
 trial:twisted
 triangle:triangle
 triangle_geometry:embree
 triangle_geometry_ispc:embree
 triangle_to_netcdf:mpas_tools
 triangulate:latte-integrale
+trigRmNode:gds-services
 triggermerge:gwollum
 tripod:jigsaw
 triqs++:triqs
@@ -12428,6 +12503,7 @@ ts_poisson:sisl
 tselecs.sh:siesta
 tset:ncurses
 tshs2tshs:siesta
+tsinfer:tsinfer
 tskit:tskit
 tsort:coreutils
 tsql:freetds
@@ -12566,6 +12642,7 @@ unzzip:zziplib
 unzzip-big:zziplib
 unzzip-mem:zziplib
 unzzip-mix:zziplib
+update-smart-drivedb:smartmontools
 updatedatastore:lhcb-simpletools
 updatedb:findutils
 updmap:texlive-core
@@ -13170,6 +13247,8 @@ webpmux:libwebp
 webpmux:libwebp-base
 webpng:libgd
 websockify:websockify
+webview:gds-base-web
+webxmledit:gds-base-web
 weighted_alpha_complex_3d_persistence:gudhi
 weighted_periodic_alpha_complex_3d_persistence:gudhi
 wf32d.e:hstcal

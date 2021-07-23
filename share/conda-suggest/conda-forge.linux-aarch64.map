@@ -314,6 +314,7 @@ apu-1-config:libaprutil
 ar:binutils
 ar:binutils-meta
 arara:texlive-core
+arc:poco
 arc-job-cgroup:nordugrid-arc
 arccat:nordugrid-arc
 arcclean:nordugrid-arc
@@ -349,6 +350,7 @@ aserver:alsa-lib
 assistant:qt
 atst:scotch
 attr:attr
+aurora_bist_test.py:uhd
 austin:austin
 authorindex:texlive-core
 autoconf:autoconf
@@ -369,6 +371,10 @@ aws_completer:awscli
 aws_zsh_completer.sh:awscli
 b2sum:coreutils
 backend-test-tools:onnx
+barvinok_count:barvinok
+barvinok_ehrhart:barvinok
+barvinok_enumerate:barvinok
+barvinok_enumerate_e:barvinok
 base32:coreutils
 base64:coreutils
 basename:coreutils
@@ -412,6 +418,7 @@ bpsplit:adios
 brief:cspice
 broot:broot
 brotli:brotli
+brotli:brotli-bin
 bsdcat:libarchive
 bsdcpio:libarchive
 bsdtar:libarchive
@@ -442,6 +449,7 @@ c-index-test:clang-tools
 c-index-test:clangdev
 c2dec:codec2
 c2enc:codec2
+c2p:barvinok
 c89:c-compiler
 c89:fortran-compiler
 c89:gcc_bootstrap_linux-aarch64
@@ -491,6 +499,9 @@ certtool:gnutls
 certutil:nss
 cfn-lint:cfn-lint
 cftp:twisted
+cgal_create_CMakeLists:cgal-cpp
+cgal_create_cmake_script:cgal-cpp
+cgal_make_macosx_app:cgal-cpp
 chardetect:chardet
 chcon:coreutils
 check-model:onnx
@@ -575,6 +586,7 @@ clear:ncurses
 clhep-config:clhep
 clinfo:clinfo
 cling:cling
+cling-config:cppyy-cling
 clippy-driver:rust
 cluster:graphviz
 clusterdb:postgresql
@@ -588,6 +600,7 @@ code-server:code-server
 coin-config:coin3d
 col:util-linux
 colcrt:util-linux
+coloredlogs:coloredlogs
 colrm:util-linux
 column:util-linux
 combine:moreutils
@@ -643,6 +656,7 @@ cpp:c-compiler
 cpp:fortran-compiler
 cppcheck:cppcheck
 cppcheck-htmlreport:cppcheck
+cppyy-generator:cppyy-cling
 cpspc:poco
 createdb:postgresql
 createuser:postgresql
@@ -773,6 +787,8 @@ dircolors:coreutils
 directg:nauty
 dirname:coreutils
 disco:mono
+disjoint_union_adj:barvinok
+disjoint_union_sep:barvinok
 django-admin:django
 django-admin.py:django
 djpeg:jpeg
@@ -809,6 +825,7 @@ dtd2xsd:mono
 dtw:dtw-python
 dtxgen:texlive-core
 du:coreutils
+dumpsexp:libgcrypt
 dumpsolv:libsolv
 dumpsolv:libsolv-static
 dvi2fax:texlive-core
@@ -825,6 +842,7 @@ dwebp:libwebp
 dwp:binutils
 dwp:binutils-meta
 e2pall:texlive-core
+e320_bist:uhd
 easy_install:setuptools
 ebb:texlive-core
 ebong:texlive-core
@@ -839,6 +857,11 @@ edgepaint:graphviz
 edit_octree:octomap
 edonr256-hash:rhash
 edonr512-hash:rhash
+ehrhart_lower_bound:barvinok
+ehrhart_quick_apx:barvinok
+ehrhart_rankinggmp:barvinok
+ehrhart_uniongmp:barvinok
+ehrhart_upper_bound:barvinok
 eject:util-linux
 elfedit:binutils
 elfedit:binutils-meta
@@ -846,6 +869,7 @@ en_cas_help:giac
 enc2xs:perl
 encguess:perl
 env:coreutils
+env.fakechroot:fakechroot
 env.sh:occt
 envsubst:gettext
 epsg_tr.py:gdal
@@ -878,6 +902,11 @@ eu-strings:elfutils
 eu-strip:elfutils
 eu-unstrip:elfutils
 eval_octree_accuracy:octomap
+eventio_cut_file:eventio
+eventio_plot_histograms:eventio
+eventio_print_object_information:eventio
+eventio_print_simtel_history:eventio
+eventio_print_structure:eventio
 exa:exa
 exceltex:texlive-core
 expand:coreutils
@@ -903,6 +932,7 @@ f2py3.8:numpy
 f2py3.9:numpy
 f95:fortran-compiler
 factor:coreutils
+fakechroot:fakechroot
 fallocate:util-linux
 false:coreutils
 fastavro:fastavro
@@ -939,6 +969,7 @@ find-all-symbols:clang-tools
 findent:findent
 findhyph:texlive-core
 findmnt:util-linux
+findv:barvinok
 fits2bitmap:astropy
 fitscheck:astropy
 fitscopy:cfitsio
@@ -993,6 +1024,7 @@ g-ir-inspect:gobject-introspection
 g-ir-scanner:gobject-introspection
 gacutil:mono
 gacutil2:mono
+gammapy:gammapy
 gap:gap-core
 gapplication:glib
 gapplication:libglib
@@ -1076,6 +1108,7 @@ gdlib-config:libgd
 gdparttopng:libgd
 gdtopng:libgd
 gem:ruby
+gen-bazel-toolchain:bazel-toolchain
 gen-ctl-io:libctl
 genbg:nauty
 genbgL:nauty
@@ -1092,6 +1125,7 @@ genpng:lcov
 genquarticg:nauty
 genrang:nauty
 genrb:icu
+genreflex:cppyy-cling
 genreflex:root-binaries
 genreflex:root_base
 genspecialg:nauty
@@ -1292,6 +1326,7 @@ gotst:scotch
 gout:scotch
 gp:pari
 gp-2.11:pari
+gp-2.13:pari
 gpart:scotch
 gperf:gperf
 gperl:groff
@@ -1373,6 +1408,7 @@ gst-inspect-1.0:gstreamer
 gst-launch-1.0:gstreamer
 gst-play-1.0:gst-plugins-base
 gst-stats-1.0:gstreamer
+gst-transcoder-1.0:gst-plugins-bad
 gst-typefind-1.0:gstreamer
 gtester:glib
 gtester-report:glib
@@ -1475,6 +1511,7 @@ hexdump:util-linux
 hexyl:hexyl
 hist2workspace:root-binaries
 hist2workspace:root_base
+hmac256:libgcrypt
 hmaptool:clang-tools
 hmaptool:clangdev
 hostid:coreutils
@@ -1486,6 +1523,7 @@ hsc2hs:ghc
 htop:htop
 httpcfg:mono
 hub:hub
+humanfriendly:humanfriendly
 hwloc-annotate:libhwloc
 hwloc-assembler:libhwloc
 hwloc-assembler-remote:libhwloc
@@ -1581,6 +1619,7 @@ ipython:ipython
 ipython3:ipython
 irb:ruby
 irqtop:util-linux
+iscc:barvinok
 isort:isort
 isosize:util-linux
 isql:unixodbc
@@ -1758,6 +1797,7 @@ ld.gold:binutils
 ld.gold:binutils-meta
 ld.lld:lld
 ld64.lld:lld
+ld64.lld.darwinnew:lld
 ldapadd:openldap
 ldapcompare:openldap
 ldapdelete:openldap
@@ -1768,11 +1808,13 @@ ldappasswd:openldap
 ldapsearch:openldap
 ldapurl:openldap
 ldapwhoami:openldap
+ldd.fakechroot:fakechroot
 ldid:ldid
 libAnalysis.so:hepmc3
 libassuan-config:libassuan
 libdeflate-gunzip:libdeflate
 libdeflate-gzip:libdeflate
+libgcrypt-config:libgcrypt
 libnetcfg:perl
 libpng-config:libpng
 libpng16-config:libpng
@@ -2055,6 +2097,8 @@ mft:texlive-core
 micro:micro
 micromamba:micromamba
 miri:rust
+mirror_server:hdf5
+mirror_server_stop:hdf5
 mispipe:moreutils
 mkbundle:mono
 mkdir:coreutils
@@ -2144,6 +2188,7 @@ mpb-data:mpb
 mpiCC:openmpi
 mpic++:mpich
 mpic++:openmpi
+mpicalc:libgcrypt
 mpicc:mpich
 mpicc:openmpi
 mpichversion:mpich
@@ -2442,6 +2487,7 @@ pack200:openjdk
 pal2rgb:libtiff
 paltohdf:hdf4
 pango-list:pango
+pango-segmentation:pango
 pango-view:pango
 parallel:moreutils
 parkill:mpich
@@ -2600,6 +2646,7 @@ perl:perl
 perl5.26.2:perl
 perl5.30.3:perl
 perl5.32.0:perl
+perl5.32.1:perl
 perlbug:perl
 perldoc:perl
 perlivp:perl
@@ -2663,6 +2710,9 @@ planarity:planarity
 plasma-store-server:arrow-cpp
 plasma_store:pyarrow
 pltotf:texlive-core
+plumed:plumed
+plumed-config:plumed
+plumed-patch:plumed
 pmap:procps-ng
 pmxchords:texlive-core
 pn2pdf:texlive-core
@@ -2686,6 +2736,7 @@ poly-4d.x:palp
 poly-5d.x:palp
 poly-6d.x:palp
 poly.x:palp
+polytope_scan:barvinok
 polyvalue:dftbplus
 pometis:parmetis
 pooltype:texlive-core
@@ -2731,6 +2782,7 @@ powerpc64le-conda_cos7-linux-gnu-size:binutils_impl_linux-ppc64le
 powerpc64le-conda_cos7-linux-gnu-strings:binutils_impl_linux-ppc64le
 powerpc64le-conda_cos7-linux-gnu-strip:binutils_impl_linux-ppc64le
 pp-trace:clang-tools
+ppgmp:barvinok
 ppl-config:ppl
 ppl_lcdd:ppl
 ppl_lpsol:ppl
@@ -2847,6 +2899,8 @@ python3.8-config:python
 python3.9:python
 python3.9-config:python
 pythontex:texlive-core
+pythran:pythran
+pythran-config:pythran
 pyuic5:pyqt-impl
 pyvenv:python
 pyvenv-3.6:python
@@ -2889,6 +2943,7 @@ qtplugininfo:qt
 qvkgen:qt
 qvoronoi:qhull
 qwebengine_convert_dict:qt
+r2p:barvinok
 r8tohdf:hdf4
 racc:ruby
 racc2y:ruby
@@ -2973,6 +3028,7 @@ rootbrowse:root-binaries
 rootbrowse:root_base
 rootcint:root-binaries
 rootcint:root_base
+rootcling:cppyy-cling
 rootcling:root-binaries
 rootcling:root_base
 rootcp:root-binaries
@@ -3051,6 +3107,7 @@ runghc-8.2.2:ghc
 rungs:texlive-core
 runhaskell:ghc
 rust-analyzer:rust
+rust-demangler:rust
 rust-gdb:rust
 rust-gdbgui:rust
 rust-lldb:rust
@@ -3059,6 +3116,42 @@ rustdoc:rust
 rustfmt:rust
 rw:rw
 s-dftd3:simple-dftd3
+s390x-conda-linux-gnu-addr2line:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ar:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-as:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-c++filt:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-dwp:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-elfedit:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-gprof:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ld:ld_impl_linux-s390x
+s390x-conda-linux-gnu-ld.bfd:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ld.gold:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-nm:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-objcopy:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-objdump:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ranlib:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-readelf:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-size:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-strings:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-strip:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-addr2line:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ar:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-as:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-c++filt:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-dwp:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-elfedit:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-gprof:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld:ld_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld.bfd:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld.gold:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-nm:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-objcopy:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-objdump:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ranlib:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-readelf:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-size:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-strings:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-strip:binutils_impl_linux-s390x
 sage:sagelib
 sage-cachegrind:sagelib
 sage-callgrind:sagelib
@@ -3291,6 +3384,7 @@ testcdd1:cddlib
 testcdd1_gmp:cddlib
 testcdd2:cddlib
 testcdd2_gmp:cddlib
+testehrhartgmp:barvinok
 testepsg:libgdal
 testlp1:cddlib
 testlp1_gmp:cddlib
@@ -3418,6 +3512,7 @@ uaserver:opcua
 uasubscribe:opcua
 uawrite:opcua
 udunits2:udunits2
+uhd_adc_self_cal:uhd
 uhd_cal_rx_iq_balance:uhd
 uhd_cal_tx_dc_offset:uhd
 uhd_cal_tx_iq_balance:uhd
@@ -3474,6 +3569,8 @@ urdf_to_graphiz:urdfdom
 urlbst:texlive-core
 users:coreutils
 usrp2_card_burner:uhd
+usrp_hwd.py:uhd
+usrp_update_fs:uhd
 utmpdump:util-linux
 uuclient:krb5
 uuidgen:util-linux

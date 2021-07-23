@@ -1,5 +1,7 @@
 3digrid_explore:threedigrid
 3digrid_export:threedigrid
+CLINAME:openmichrom
+EDR_Stats:hiproc
 G5check:goosehdf5
 G5compare:goosehdf5
 G5list:goosehdf5
@@ -13,6 +15,18 @@ GbibList:goosebib
 GbibParse:goosebib
 GbibSelect:goosebib
 GbibSelectAlias:goosebib
+HiBeautify:hiproc
+HiCal:hiproc
+HiColorInit:hiproc
+HiColorNorm:hiproc
+HiJACK:hiproc
+HiJitReg:hiproc
+HiNoProj:hiproc
+HiPrecisionInit:hiproc
+HiSlither:hiproc
+HiStitch:hiproc
+HiccdStitch:hiproc
+JitPlot:hiproc
 Lbglimpse:lbscriptslegacy
 MacroServer:sardana
 Pool:sardana
@@ -25,6 +39,7 @@ SEIR:seir
 SLC_copy_S1_fullSW.py:hyp3lib
 Sardana:sardana
 Single Cell:orange3-singlecell
+SlitherStats:hiproc
 Text2Vest:fslpy
 UTscapy:scapy
 Vest2Text:fslpy
@@ -82,6 +97,7 @@ asm:pwntools
 asr:asr
 assembly_stats:assembly_stats
 astpretty:astpretty
+astropy-package-template-example:jazz-hands
 astrotool:pwkit
 astsearch:astsearch
 atlasq:fslpy
@@ -101,12 +117,14 @@ awslogs:awslogs
 awsv2:awscliv2
 babelize:babelizer
 backtrace:python-backtrace
+balance_images:spymicmac
 bandit:bandit
 bandit-baseline:bandit
 bandit-config-generator:bandit
 base58:base58
 bdbag:bdbag
 bdbag-utils:bdbag
+beakerx:beakerx
 beautysh:beautysh
 beempy:beem
 benchmark-alchemy:openmmtools
@@ -138,7 +156,9 @@ bilby_result:bilby
 binner:pyaxiom
 binpacking:binpacking
 binstar:anaconda-client
+bioimageio:bioimageio.spec
 birdy:birdy
+bitflips:hiproc
 black:black
 black-primer:black
 blackbook:blackbook
@@ -156,7 +176,12 @@ boa:boa
 bokeh-root-cmd:bokeh-root-cmd
 boss:aalto-boss
 bowler:bowler
+box:boxlang
 bpytop:bpytop
+breadability:breadability
+breadability-3.8:breadability
+breadability_test:breadability
+breadability_test-3.8:breadability
 browse:easydev
 bruker:brukerapi
 bse:basis_set_exchange
@@ -176,6 +201,7 @@ bundle:rb-bundler
 bundler:rb-bundler
 byteSigmaScale.py:hyp3lib
 ca:spacy-lookups-data
+cadd:api2db
 caelus:caelus
 caelus_sim:caelus
 caelus_tutorials:caelus
@@ -243,6 +269,12 @@ chembl_sim:chembl_webresource_client
 chembl_sub:chembl_webresource_client
 chembl_t2m:chembl_webresource_client
 chemex:chemex
+chemprop_fingerprint:chemprop
+chemprop_hyperopt:chemprop
+chemprop_interpret:chemprop
+chemprop_predict:chemprop
+chemprop_train:chemprop
+chemprop_web:chemprop
 cheroot:cheroot
 cherryd:cherrypy
 chevron:chevron
@@ -250,9 +282,11 @@ cinder:python-cinderclient
 ciocheck:ciocheck
 cite:cite
 ckanapi:ckanapi
+clab:api2db
 cleanlatex:ligotools-scripts
 cli4:cloudflare
 cliche:cliche
+clist:api2db
 closure:closure
 cm2html:recommonmark
 cm2latex:recommonmark
@@ -277,8 +311,10 @@ codedeploy-agent:rb-aws-codedeploy-agent
 codedeploy-local:rb-aws-codedeploy-agent
 codespell:codespell
 coffee:coffeescript
+cogeo-mosaic:cogeo-mosaic
 color:colorpedia
 colorpedia:colorpedia
+combine_auto_measures:spymicmac
 combine_features:geometric_features
 common:pwntools
 compact:compaction
@@ -292,6 +328,7 @@ conda-content-trust:conda-content-trust
 conda-devenv:conda-devenv
 conda-docker:conda-docker
 conda-execute:conda-execute
+conda-export:conda-export
 conda-gitenv:conda-gitenv
 conda-lock:conda-lock
 conda-mambabuild:boa
@@ -321,6 +358,7 @@ convertlalcache.pl:ligotools-cache
 convertldascache.sh:ligotools-cache
 cookiecutter:cookiecutter
 copy_metadata.py:hyp3lib
+coregister:intensity-normalization
 corral:corral-pipeline
 cosapp:cosapp_lab
 couchdb-dump:python-couchdb
@@ -342,6 +380,7 @@ create-wrappers:exec-wrappers
 createAmp.py:hyp3lib
 createframecache.pl:ligotools-cache
 credstash:credstash
+crem:api2db
 crepe:crepe
 crispy:crispy
 cruft:cruft
@@ -419,6 +458,7 @@ dask-ecs:dask-cloudprovider
 dask-mpi:distributed
 dask-remote:distributed
 dask-scheduler:distributed
+dask-slurm-cluster:atsas-pipelines
 dask-ssh:distributed
 dask-submit:distributed
 dask-worker:distributed
@@ -439,6 +479,7 @@ datasette:datasette
 datashader:datashader
 dateadd:dateutils
 datediff:dateutils
+dav:webdav4
 db_server:xpdan
 dbfs:databricks-cli
 dcm2bids:dcm2bids
@@ -453,6 +494,7 @@ dem2isce.py:hyp3lib
 depfinder:depfinder
 descarteslabs:descarteslabs
 detect_missing_track_type:dautilpy
+detectree:detectree
 dials.data:dials-data
 diceware:diceware
 diff-cover:diff-cover
@@ -570,12 +612,14 @@ dpgen:dpgen
 dramatiq:dramatiq
 draw_polygon_on_raster.py:hyp3lib
 dremio_client:python-dremio-client
+drfp:drfp
 dsc:dsc
 dsc-io:dsc
 dsc-query:dsc
 dsl-compile:kfp
 dsl-compile-tekton:kfp-tekton
 dtale:dtale
+dtool:dtool_cli
 dtool_publish_dataset:dtool_http
 dtool_serve_directory:dtool_http
 dunamai:dunamai
@@ -620,6 +664,7 @@ en:spacy-lookups-data
 encrypt:pyquickhelper
 encrypt_file:pyquickhelper
 enh_lee_filter.py:hyp3lib
+enpt:enpt
 ensureconda:ensureconda
 envs:envs
 eodag:eodag
@@ -627,6 +672,7 @@ eodms:eodms-api-client
 eof:sentineleof
 epacems_to_parquet:catalystcoop.pudl
 ephyviewer:ephyviewer
+epylint:pylint
 erdantic:erdantic
 errno:pwntools
 es:spacy-lookups-data
@@ -654,6 +700,8 @@ fanstatic-compile:fanstatic
 fast_dp:fast_dp
 fast_rdp:fast_dp
 fastep:fastentrypoints
+fcm-normalize:intensity-normalization
+fds:fastds
 featuretools:featuretools
 feedstocks:conda-smithy
 ferc1_to_sqlite:catalystcoop.pudl
@@ -728,6 +776,7 @@ fermipy-vstack-diffuse-sg:fermipy
 fermipy-wcsview:fermipy
 filesdb:filesdb
 find-kedro:find-kedro
+find_reseau_grid:spymicmac
 findid:libcomcat
 fix_features_at_antimeridian:geometric_features
 flake8:flake8
@@ -776,6 +825,7 @@ fstail:zodb
 ftfy:ftfy
 funpack:fmrib-unpack
 funpack_demo:fmrib-unpack
+future_typing:future_typing
 fypp:fypp
 g2e:tatsu
 gator:mamba_gator
@@ -788,6 +838,7 @@ geemap:geemap
 gemoji:rb-gemoji
 gen_client:google-apitools
 generate-paintera-bash-completion:paintera
+generate_micmac_measures:spymicmac
 genson:genson
 geo2grid:polar2grid
 geobuf:geobuf
@@ -853,6 +904,7 @@ globus:globus-cli
 glom:glom
 glom_yaml:dautilpy
 glotaran:pyglotaran
+gmm-normalize:intensity-normalization
 google-oauthlib-tool:google-auth-oauthlib
 gprof2dot:gprof2dot
 gpsclock:ligotools-tconvert
@@ -877,6 +929,8 @@ gsutil:gsutil
 gtabview:gtabview
 gulp:gulp
 gw_data_find:gwdatafind
+gw_summary:gwsumm
+gw_summary_pipe:gwsumm
 gwcelery:gwcelery
 gwdetchar-conlog:gwdetchar
 gwdetchar-lasso-correlation:gwdetchar
@@ -891,6 +945,8 @@ gwdetchar-slow-correlation:gwdetchar
 gwdetchar-software-saturations:gwdetchar
 gwinc:gwinc
 gwpy-plot:gwpy
+gwsumm-plot-guardian:gwsumm
+gwsumm-plot-triggers:gwsumm
 gwtrigfind:gwtrigfind
 h5link_recursive:dautilpy
 handlebars:handlebars.js
@@ -905,6 +961,7 @@ hg-nbdiff:nbdime
 hg-nbdiffweb:nbdime
 hg-nbmerge:nbdime
 hg-nbmergeweb:nbdime
+hiproc:hiproc
 hist:bashplotlib
 hist:hist
 histoprint:histoprint
@@ -941,6 +998,7 @@ ics_diff:vobject
 id:spacy-lookups-data
 identify-cli:identify
 ietf-leap-seconds:gpstime
+ifermi:ifermi
 igorbinarywave:igor
 igorpackedexperiment:igor
 image_to_iq:xpdtools
@@ -1002,8 +1060,10 @@ jhubctl:jhub-client
 jirashell:jira
 jlab-forward:jupyter-forward
 jlpm:jupyterlab
+jnbv:jnbv
 jobs_done:jobs_done10
 johnnydep:johnnydep
+join_hexagon:spymicmac
 jp2dump:glymur
 json:json-spec
 json-lsp:json-lsp
@@ -1054,6 +1114,7 @@ jupyterlab-translate:jupyterlab-translate
 jupytext:jupytext
 jws:josepy
 k2g:kml2geojson
+kde-normalize:intensity-normalization
 kedro:kedro
 kernda:kernda
 kfp:kfp
@@ -1175,6 +1236,7 @@ libdoc:robotframework
 lidar:lidar
 ligo-proxy-init:ligo-proxy-utils
 lint:pyrate-limiter
+lisfix:hiproc
 listen:rb-listen
 lit:lit
 livereload:livereload
@@ -1206,6 +1268,7 @@ lsdtt-polyfits:lsdtopytools
 lsdtt-remove-seas:lsdtopytools
 lsdtt-topomap:lsdtopytools
 lsm2bin:tifffile
+lsq-normalize:intensity-normalization
 lt:spacy-lookups-data
 ltd:ltd-conveyor
 lucid:lucid
@@ -1241,6 +1304,7 @@ mask_to_polygons:solaris
 max-rect:maxrect
 md_toc:md-toc
 mdformat:mdformat
+mdr2cub:hiproc
 memestra:memestra
 memestra-cache:memestra
 mercantile:mercantile
@@ -1267,6 +1331,7 @@ mistletoe-bench:mistletoe-ebp
 mistral:python-mistralclient
 mkapi:mkapi
 mkdocs:mkdocs
+mlab:api2db
 mlconjug:mlconjug
 mlconjug3:mlconjug3
 mlflow:mlflow
@@ -1297,6 +1362,7 @@ moses-sent-splitter:mosestokenizer
 moses-tokenizer:mosestokenizer
 moto_server:moto
 motuclient:motuclient
+move_bad_tapas:spymicmac
 mpas_analysis:mpas-analysis
 mprof:memory_profiler
 mrcfile-header:mrcfile
@@ -1320,8 +1386,14 @@ mycli:mycli
 myproxyclient:myproxyclient
 mypy:mypy
 myst-benchmark:myst-parser
+n2sn_add_user:n2snusertools
+n2sn_list_users:n2snusertools
+n2sn_remove_user:n2snusertools
+n2sn_search_user:n2snusertools
 name-that-hash:name_that_hash
 napari:napari
+napkin:napkin
+napkin_plantuml:napkin
 natsort:natsort
 nb:spacy-lookups-data
 nbautoexport:nbautoexport
@@ -1379,6 +1451,8 @@ nionui:nionui
 nl:spacy-lookups-data
 nltk:nltk
 nodeenv:nodeenv
+norm-quality:intensity-normalization
+normalizer:charset-normalizer
 nose2:nose2
 nose2-3.6:nose2
 nosetests:nose
@@ -1397,6 +1471,7 @@ nvd3:python-nvd3
 nwebassets:webassets
 nxduplicate:nexusformat
 nxstack:nexusformat
+nyul-normalize:intensity-normalization
 obspyck:obspyck
 ocrmypdf:ocrmypdf
 offset_xml.py:hyp3lib
@@ -1407,9 +1482,11 @@ omicron-process:pyomicron
 omicron-root-merge:pyomicron
 omicron-show:pyomicron
 omicron-status:pyomicron
+omx-validate:openmatrix
 open-fonts-css:py-open-fonts
 openapi-spec-validator:openapi-spec-validator
 openmdao:openmdao
+openml:openml
 openmm-setup:openmm-setup
 openpathsampling:openpathsampling-cli
 opensesame:opensesame
@@ -1446,6 +1523,7 @@ paintera-conversion-helper:paintera-conversion-helper
 paintera-convert:paintera-conversion-helper
 paintera-show-container:paintera
 pancritic:pancritic
+pandablocks:pandablocks
 pandoc-filter-arg:knitty
 pandoc-filter-arg:pandoctools
 pandoctools:pandoctools
@@ -1474,6 +1552,8 @@ patchnetvlad-feature-match:patchnetvlad
 patchnetvlad-match-two:patchnetvlad
 pathy:pathy
 pbr:pbr
+pclear:api2db
+pcpp:pcpp
 pcreate:pyramid
 pdb2pqr30:pdb2pqr
 pdb2pqr_cli:htmd-pdb2pqr
@@ -1485,6 +1565,7 @@ pdfmorph:diffpy.pdfmorph
 pdfnofonts:pdfnofonts
 pdfplumber:pdfplumber
 pdfshrink:pdfshrink
+pdfstream:pdfstream
 pdgui:pdielec
 pdistreport:pyramid
 pdoc:pdoc3
@@ -1534,9 +1615,14 @@ planet:planet
 planetarycomputer:planetary-computer
 platformio:platformio
 plip:plip
+ploomber:ploomber
+plot-hists:intensity-normalization
 plot_features:geometric_features
 plotlydash-tornado-cmd:plotlydash-tornado-cmd
+pmake:api2db
 pmapper_speed_test:pmapper
+pmgrLauncher.sh:pmgr
+pmgrUtils.sh:pmgr
 png2mp4:pysw4
 podman-compose:podman-compose
 poet:homebrew-pypi-poet
@@ -1557,9 +1643,12 @@ pre-knitty:knitty
 pre-sugartex:sugartex
 preader:pdielec
 prefect:prefect
+preprocess:intensity-normalization
 prequest:pyramid
+print_server_config_dir:pdfstream
 prism:cfg-cli
 profimp:profimp
+propconv:jproperties
 propka31:propka
 proselint:proselint
 prospector:prospector
@@ -1584,6 +1673,7 @@ pudb:pudb
 pudl_data:catalystcoop.pudl
 pudl_etl:catalystcoop.pudl
 pudl_setup:catalystcoop.pudl
+punx:punx
 putup:pyscaffold
 pviews:pyramid
 pweave:pweave
@@ -1597,7 +1687,9 @@ py.test:pytest
 py2neo:py2neo
 py2swagger:py2swagger
 py3:pyflyby
+py3dep:py3dep
 py4DSTEM:py4dstem
+py7zr:py7zr
 pySW4-create-plots:pysw4
 pySW4-plot-image:pysw4
 pyaeroeval:pyaerocom
@@ -1605,10 +1697,12 @@ pyaerotrends:pyaerocom
 pyauthenticator:pyauthenticator
 pybabel:babel
 pybidi:python-bidi
+pybind11-stubgen:pybind11-stubgen
 pyboat:pyboat
 pycodestyle:pycodestyle
 pycondor:pycondor
 pydap:pydap
+pydaymet:pydaymet
 pydm:pydm
 pydocstyle:pydocstyle
 pydruid:pydruid
@@ -1636,9 +1730,11 @@ pyjson5:json5
 pyjwt:pyjwt
 pykwalify:pykwalify
 pylama:pylama
+pylint:pylint
 pyls:python-language-server
 pylsp:python-lsp-server
 pymedphys:pymedphys
+pyment:pyment
 pymodbus.console:pymodbus
 pymorphy:pymorphy2
 pyngrok:pyngrok
@@ -1656,6 +1752,7 @@ pypugjs:pypugjs
 pyq-sync:pyquickhelper
 pyqode-console:pyqode.core
 pyquil-config-setup:pyquil
+pyreverse:pylint
 pyro4-check-config:pyro4
 pyro4-flameserver:pyro4
 pyro4-httpgateway:pyro4
@@ -1684,6 +1781,7 @@ pyspark_yarn_client_conda:spylon
 pyspark_yarn_cluster_conda:spylon
 pystache:pystache
 pystache-test:pystache
+pystitcher:pystitcher
 pytail:tailer
 pyterate:pyterate
 pyterate-rst-api:pyterate
@@ -1702,6 +1800,7 @@ pyupgrade:pyupgrade
 pyutilib_test_driver:pyutilib
 pyvol:bio-pyvol
 pywhat:pywhat
+pyxel:pyxel-sim
 pyxrf:pyxrf
 qarrayrun:qarrayrun
 qcfractal-dashboard:qcfractal
@@ -1718,6 +1817,7 @@ qtpy-uic:qtpy-uic
 qtsass:qtsass
 quart:quart
 qubekit:qubekit
+quetz:quetz
 quetz-client:quetz-client
 quick_add_keys_to_file.py:msumastro
 radian:radian
@@ -1726,6 +1826,9 @@ rafem:rafem
 randomfiletree:randomfiletree
 rasterMask.py:hyp3lib
 raster_boundary2shape.py:hyp3lib
+rastervision:rastervision-core
+rastervision:rastervision-pipeline
+ravel-normalize:intensity-normalization
 raven:raven
 rayoptics:rayoptics
 rdf2dot:neurdflib
@@ -1740,9 +1843,12 @@ reducer:reducer
 refresh-lsst-bib:documenteer
 regex-replace:pandoctools
 register-runner:gitlab-runner-api
+register_ortho:spymicmac
 rehttpfs:htmllistparse
 reindent:reindent
+remove_crosses:spymicmac
 remove_ext:fslpy
+remove_measures:spymicmac
 removestar:removestar
 render:fsleyes
 render-from-template:lume-epics
@@ -1754,6 +1860,8 @@ requirements-compare:pcdsutils
 requirements-from-conda:pcdsutils
 resample_geotiff.py:hyp3lib
 resample_image:fslpy
+reset_notebook:openmdao
+resolve_jitter:hiproc
 responder:responder
 restructuredtext-lint:restructuredtext_lint
 restview:restview
@@ -1768,7 +1876,9 @@ rfi-file-monitor:rfi-file-monitor
 rflint:robotframework-lint
 rioscalcstats.py:rios
 riosprintstats.py:rios
+rlab:api2db
 ro:spacy-lookups-data
+robex:pyrobex
 robocop:robotframework-robocop
 robocrys:robocrys
 robot:robotframework
@@ -1808,6 +1918,7 @@ run_flowchart:seamm
 run_nwchem:custodian
 run_om_test:openmdao
 run_patch.py:msumastro
+run_server:pdfstream
 run_standard_header_process.py:msumastro
 run_test:openmdao
 run_triage.py:msumastro
@@ -1831,6 +1942,8 @@ saws:saws
 sbt:sbt
 sbt-launch.jar:sbt
 scald:ligo-scald
+scanapi:scanapi
+scanpy:scanpy
 scapy:scapy
 scatter:bashplotlib
 scattertext:scattertext
@@ -1844,6 +1957,7 @@ scour:scour
 scramble:pwntools
 screed:screed
 scss:rb-sass
+sdf:fastds
 se:standardebooks
 seabird:seabird
 seamm:seamm
@@ -1855,12 +1969,14 @@ segexpr:ligotools-scripts
 segmenter:segtok
 segsum:ligotools-scripts
 semantic-release:python-semantic-release
+send2trash:send2trash
 sensorml2iso:sensorml2iso
 sentinelhub:sentinelhub
 sentinelhub.aws:sentinelhub
 sentinelhub.config:sentinelhub
 sentinelhub.download:sentinelhub
 sentinelsat:sentinelsat
+sequence:sequence-model
 sequencer:sardana
 serve:sagemaker-mxnet-serving-container
 serve:sagemaker-pytorch-serving-container
@@ -1896,6 +2012,8 @@ skan-gui:skan
 skein:skein
 skijumpdesign:skijumpdesign
 skinny-wms:skinnywms
+sklearn_predict:chemprop
+sklearn_train:chemprop
 skued:scikit-ued
 skypy:skypy
 slugify:python-slugify
@@ -1983,6 +2101,10 @@ summaryreview:pesummary
 summarytest:pesummary
 summarytgr:pesummary
 summaryversion:pesummary
+sumy:sumy
+sumy-3.8:sumy
+sumy_eval:sumy
+sumy_eval-3.8:sumy
 supermercado:supermercado
 superset:superset
 sv:spacy-lookups-data
@@ -1991,6 +2113,7 @@ swift:python-swiftclient
 switch:switch_model
 swot_simulator:swot_simulator
 sygma:sygma
+symilar:pylint
 symstore:symstore
 tableschema:tableschema
 tableschema:tableschema-py
@@ -2008,6 +2131,7 @@ tconvert:ligotools-tconvert
 tdameritrade-auth:tdameritrade
 tdmsinfo:nptdms
 telegram-send:telegram-send
+telingo:telingo
 template:pwntools
 tensorboard:tensorboard
 termgraph:termgraph
@@ -2026,7 +2150,9 @@ tifffile:tifffile
 tika-python:tika
 tileList2shape.py:hyp3lib
 timechart:timechart
+tinuous:tinuous
 tiohd:torchio
+tissue-mask:intensity-normalization
 titlecase:titlecase
 tl:spacy-lookups-data
 tldextract:tldextract
@@ -2061,8 +2187,10 @@ transformers:transformers
 transonic:transonic
 travis-encrypt:travis-encrypt
 tree_html_at_level:dautilpy
+treon:treon
 trodi:trodi
 trove:python-troveclient
+tryceratops:tryceratops
 tsc:typescript
 tsserver:typescript
 tsunzip:tszip
@@ -2094,6 +2222,7 @@ uncommitted:uncommitted
 uncurl:uncurl
 unhex:pwntools
 unidecode:unidecode
+unify:unify
 unit2:unittest2
 unittest2pytest:unittest2pytest
 universions:universions
@@ -2171,15 +2300,18 @@ webview:openmdao
 wetterdienst:wetterdienst
 what:pywhat
 wheel:wheel
+whip_csv:pywhip
 whitebox:whitebox
 windse:windse
 windse_driver:windse
 wingproj:openmdao
+wms-tile-get:wms-tile-get
 woodwork:woodwork
 workdir:pyworkdir
 workflows.validate_recipe:workflows
 wormhole:magic-wormhole
 wrapout:pwkit
+ws-normalize:intensity-normalization
 wt-tree:wrighttools
 wwtdatatool:wwt_data_formats
 xcover:nosexcover
@@ -2236,6 +2368,7 @@ yaqd-new-era-ne1000:yaqd-new-era
 yaqd-newport-conex-agp:yaqd-newport
 yaqd-newport-smc100:yaqd-newport
 yaqd-pmc:yaqd-pmc
+yaqd-rgb-qmini:yaqd-rgb
 yaqd-scpi-sensor:yaqd-scpi
 yaqd-scpi-set-continuous:yaqd-scpi
 yaqd-scpi-set-discrete:yaqd-scpi
@@ -2275,3 +2408,4 @@ zeopack:zeo
 zocalo.go:zocalo
 zocalo.service:zocalo
 zocalo.wrap:zocalo
+zscore-normalize:intensity-normalization

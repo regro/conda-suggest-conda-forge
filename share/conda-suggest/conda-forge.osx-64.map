@@ -14,6 +14,7 @@
 .conda-wrappers-post-link.sh:conda-wrappers
 .conda-wrappers-pre-unlink.sh:conda-wrappers
 .coq-jupyter-post-link.sh:coq-jupyter
+.cryptoauthlib-post-link.sh:cryptoauthlib
 .cudatoolkit-dev-post-link.sh:cudatoolkit-dev
 .dbus-post-link.sh:dbus
 .drmaa-post-link.sh:drmaa
@@ -114,6 +115,7 @@
 .ngspice-post-link.sh:ngspice
 .nwchem-post-link.sh:nwchem
 .octave_kernel-post-link.sh:octave_kernel
+.oracle-instant-client-pre-unlink.sh:oracle-instant-client
 .potranslator-pre-link.bat:potranslator
 .potranslator-pre-link.sh:potranslator
 .pyopengl-post-link.sh:pyopengl
@@ -315,6 +317,8 @@ GenerateOfflineMap:tempest-remap
 GenerateOverlapMesh:tempest-remap
 GenerateOverlapMesh_v1:tempest-remap
 GenerateRLLMesh:tempest-remap
+GenerateRectilinearMeshFromFile:tempest-remap
+GenerateStereographicMesh:tempest-remap
 GenerateTestData:tempest-remap
 GenerateTransectMesh:tempest-remap
 GenerateTransposeMap:tempest-remap
@@ -378,6 +382,8 @@ IDTFGen:u3d
 IPMach.py:ambertools
 ImpactTexe:impact-t
 ImpactTexe-mpi:impact-t
+ImpactZexe:impact-z
+ImpactZexe-mpi:impact-z
 Infomap:infomap
 Infomap:topicmapping
 IntegrateDimension:tempest-extremes
@@ -487,6 +493,7 @@ Redirect:xerces-c
 RefCount-config:clhep
 Report_Metaheuristics.py:pychemia
 Report_Orbital.py:pychemia
+RestructureData:tempest-remap
 RhumbSolve:geographiclib-cpp
 Rscript:r-base
 RuNNer.mpi.x:runner
@@ -678,6 +685,7 @@ ahost:c-ares-static
 aib:vlfeat
 aida2flat:yoda
 aida2yoda:yoda
+aim:aim
 aipy_version.py:aipy
 airflow:airflow
 al:mono
@@ -696,6 +704,7 @@ allec:texlive-core
 allfaces:cddlib
 allfaces_gmp:cddlib
 allneeded:texlive-core
+alm:alamode
 alm2map_cxx:healpix_cxx
 aloe:aloe
 alpha2f.x:qe
@@ -735,7 +744,10 @@ anaconda:anaconda-client
 anaconda-project:anaconda-project
 anaconda-verify:anaconda-verify
 anafast_cxx:healpix_cxx
+analisi:analisi
+analisi_serial:analisi
 analyze:hunspell
+analyze_phonons:alamode
 andes:andes
 andesplot:andes
 animate:imagemagick
@@ -746,6 +758,7 @@ annlib.python:cctbx-base
 annotate:libgd
 annotate-ast:pytype
 anonymize_twix:suspect
+anphon:alamode
 ansi2html:ansi2html
 ansible:ansible
 ansible-config:ansible
@@ -800,6 +813,7 @@ ar:clang_bootstrap_osx-64
 ar:cxx-compiler
 arara:texlive-core
 arc:go-archiver
+arc:poco
 arc2warc:warctools
 archive:alps
 archivecat:alps
@@ -995,10 +1009,13 @@ audiogrep:audiogrep
 augmatch:libaugeas
 augparse:libaugeas
 augtool:libaugeas
+aurora_bist_test.py:uhd
 austin:austin
 austin-tui:austin
 austin-web:austin
 austin2speedscope:austin
+autcross:spot
+autfilt:spot
 authorindex:texlive-core
 autoconf:autoconf
 autoheader:autoconf
@@ -1065,6 +1082,10 @@ bandplot:phonopy
 bands.x:qe
 bar_pbsa.py:ambertools
 barnaba:barnaba
+barvinok_count:barvinok
+barvinok_ehrhart:barvinok
+barvinok_enumerate:barvinok
+barvinok_enumerate_e:barvinok
 base32:coreutils
 base64:coreutils
 basename:coreutils
@@ -1127,6 +1148,7 @@ behave:behave
 bench_udatetime.py:udatetime
 benchmark:embree
 benchmark-alchemy:openmmtools
+benchmark_Predictor:psrchive
 bfg:bfg
 bgenix:bgenix
 bib2gls:texlive-core
@@ -1221,6 +1243,7 @@ brief:cspice
 bro:brotli
 broot:broot
 brotli:brotli
+brotli:brotli-bin
 browse:easydev
 bruco:bruco
 bruker2dicom:dicomifier
@@ -1324,9 +1347,14 @@ c-index-test:clang
 c-index-test:clang-tools
 c-index-test:clang_bootstrap_osx-64
 c-index-test:clangdev
+c2d:convert3d
 c2dec:codec2
 c2enc:codec2
+c2p:barvinok
 c2ph:perl
+c3d:convert3d
+c3d_affine_tool:convert3d
+c4d:convert3d
 c_rehash:openssl
 cabextract:cabextract
 cache_util:gds-base-frameio
@@ -1701,6 +1729,8 @@ clang-11:clang-11
 clang-11:clang_bootstrap_osx-64
 clang-11:clang_bootstrap_osx-arm64
 clang-12:clang-12
+clang-12:clang_bootstrap_osx-64
+clang-12:clang_bootstrap_osx-arm64
 clang-3.8:clangdev
 clang-3.9:clangdev
 clang-4.0:clang
@@ -1796,6 +1826,7 @@ clblast_tuner_xger:clblast
 cleanlatex:ligotools-scripts
 cleanlinks:xorg-imake
 clear:ncurses
+clearh5.py:proteus
 clease:clease
 clhep-config:clhep
 clhsdb:openjdk
@@ -1804,7 +1835,9 @@ cli_st:zookeeper-c
 clinfo:clinfo
 cling:cling
 cling-config:cppyy-cling
+clingcon:clingcon
 clingo:clingo
+clingo-dl:clingo-dl
 clipfits:fitstools
 clippy-driver:rust
 cloog:cloog
@@ -1812,6 +1845,7 @@ clp:coin-or-clp
 clp:coincbc
 clp:coinmp
 cluster:graphviz
+cluster_profiles:imp
 clusterdb:postgres-xl
 clusterdb:postgresql
 cma_es.python:cctbx-base
@@ -1837,6 +1871,7 @@ cmsRunJE:fwlite
 cmsRunPyDev:fwlite
 cmsRunTC:fwlite
 cmsRunVDT:fwlite
+cmsShow:fwlite
 cmsShow.exe:fwlite
 cmsShowSendReport:fwlite
 cms_adler32:fwlite
@@ -1928,6 +1963,7 @@ coloredlogs:coloredlogs
 columnmaker:lhcb-simpletools
 combine:moreutils
 combine_freqs.py:aipy
+combine_scores:imp
 comet-sendvo:comet
 comm:coreutils
 commnt:cspice
@@ -1951,12 +1987,14 @@ compas_rpc:compas
 compile-et.pl:nspr
 compile_et:krb5
 complete-ant-cmd.pl:apache-ant
+complex_to_anchor_graph:imp
 complg:nauty
 compliance-checker:compliance-checker
 composite:imagemagick
 compress_uv.py:aipy
 compute_birth_death_range_in_persistence_diagram:gudhi
 compute_bottleneck_distance:gudhi
+compute_chi:imp
 compute_distance_of_landscapes:gudhi
 compute_distance_of_landscapes_on_grid:gudhi
 compute_distance_of_persistence_heat_maps:gudhi
@@ -1967,11 +2005,13 @@ compute_mpas_region_masks:mpas_tools
 compute_mpas_transect_masks:mpas_tools
 compute_number_of_dominant_intervals:gudhi
 compute_projection_region_masks:mpas_tools
+compute_rg:imp
 compute_scalar_product_of_landscapes:gudhi
 compute_scalar_product_of_landscapes_on_grid:gudhi
 compute_scalar_product_of_persistence_heat_maps:gudhi
 compute_scalar_product_of_persistence_vectors:gudhi
 compute_templates:pydl
+compute_vr:imp
 computeconf:pyomo
 conan:conan
 conan_build_info:conan
@@ -2052,6 +2092,7 @@ conv-template:numpy
 convbkmk:texlive-core
 convergence_test_samples.py:rift
 converseg:nauty
+convert:carve
 convert:embree
 convert:imagemagick
 convert-caffe2-to-onnx:onnx-caffe2
@@ -2082,6 +2123,7 @@ convert_output_format_allnet2xml:rift
 convert_output_format_ile2inference:rift
 convert_output_format_inference2ile:rift
 convert_psd_ascii2xml:rift
+convert_spider_to_jpg:imp
 convert_to_uvfits.py:pyuvdata
 convertcdms:cdat-lite
 convertcdms.py:cdms2
@@ -2130,10 +2172,16 @@ corr:lhcb-simpletools
 corr2:treecorr
 corr3:treecorr
 cosmicfits:fitstools
+cosmosis:cosmosis
 cosmosis:cosmosis-standalone
+cosmosis-build-standard-library:cosmosis-build-standard-library
+cosmosis-configure:cosmosis
+cosmosis-extract:cosmosis
 cosmosis-ini-from-output:cosmosis-standalone
+cosmosis-postprocess:cosmosis
 cosmosis-py2:cosmosis-standalone
 cosmosis-py3:cosmosis-standalone
+cosmosis-sample-fisher:cosmosis
 cosmosis-sample-fisher:cosmosis-standalone
 couchdb-dump:python-couchdb
 couchdb-load:python-couchdb
@@ -2154,6 +2202,7 @@ cowpy.bat:cowpy
 cp:coreutils
 cp.dll:ampl-mp
 cp.x:qe
+cp2analisi:analisi
 cp2k.sopt:cp2k
 cp2k.ssmp:cp2k
 cp2k_shell.sopt:cp2k
@@ -2202,6 +2251,7 @@ create_persistence_heat_maps:gudhi
 create_persistence_vectors:gudhi
 create_postprocessing_event_dag.py:rift
 create_pssk:gudhi
+create_single_particle_images:imp
 create_surface.py:pychemia
 createdata.exe:gdal-csharp
 createdb:postgres-xl
@@ -2223,6 +2273,8 @@ croco-0.6-config:libcroco
 cromwell:cromwell
 crop:lhcb-simpletools
 cross_compile_support.sh:conda-forge-ci-setup
+cross_links_score:imp
+cross_links_single_score:imp
 crossmul.py:isce3
 cryptominisat:cryptominisat
 cryptominisat5:cryptominisat
@@ -2375,8 +2427,10 @@ datacube-search:datacube
 datacube-simple-replica:datacube
 datacube-stacker:datacube
 datacube-worker:datacube
+dataformat:ncbi-datasets-cli
 datalad:datalad
 datamash:datamash
+datasets:ncbi-datasets-cli
 date:coreutils
 dateadd:dateutils
 datediff:dateutils
@@ -2391,6 +2445,7 @@ davix-put:davix
 davix-rm:davix
 davix-tester:davix
 davix-unit-tests:davix
+dazzle-list-counters:libdazzle
 db_archive:libdb
 db_checkpoint:libdb
 db_convert:libdb
@@ -2410,6 +2465,10 @@ dbfadd:shapelib
 dbfcreate:shapelib
 dbfdump:shapelib
 dbrunsli:brunsli
+dbsp_adjust_splicing:dbsp_drp
+dbsp_ql:dbsp_drp
+dbsp_reduce:dbsp_drp
+dbsp_show:dbsp_drp
 dbt:dbt
 dbuck:python-hostlist
 dbus-cleanup-sockets:dbus
@@ -2471,6 +2530,7 @@ demo_sre_yield:sre_yield
 demodata:mss
 demoshell:demoshell
 denchar:siesta
+densify-Bragg:fabio
 dep:go-dep
 depend.x:nwchem
 depend.x.dSYM:nwchem
@@ -2503,6 +2563,7 @@ detector2nexus:pyfai
 detector2nexus:pyfai-base
 deweb:chktex
 df:coreutils
+dfc2:alamode
 dftb+:dftbplus
 dftd4:dftd4
 dggath:ptscotch
@@ -2592,6 +2653,8 @@ dirmngr:gnupg
 dirmngr-client:gnupg
 dirname:coreutils
 disco:mono
+disjoint_union_adj:barvinok
+disjoint_union_sep:barvinok
 disk_allocator:ndcctools
 disk_model.py:pdspy
 disk_model_powerlaw.py:pdspy
@@ -2720,6 +2783,7 @@ dscheduler:distributed
 dsdp5:dsdp
 dskbrief:cspice
 dskexp:cspice
+dstar2tgba:spot
 dstat:dsub
 dsub:dsub
 dsymutil:clang_bootstrap_osx-64
@@ -2792,8 +2856,11 @@ dynaphopy:dynaphopy
 dynasor:dynasor
 dynmat.x:qe
 e2pall:texlive-core
+e320_bist:uhd
 e3sm_to_cmip:e3sm_to_cmip
 earthquake:sedflux
+eastlake-src-extractor:des-eastlake
+eastlake-swarp:des-eastlake
 easy_install:setuptools
 easy_install-2.7:meshpy
 easy_install-2.7:setuptools
@@ -2845,15 +2912,32 @@ edgepaint:graphviz
 edges2pajek:topicmapping
 edit-bgen:bgenix
 edit_octree:octomap
+edmAddClassVersion:fwlite
 edmBranchStorageSize:fwlite
+edmCheckClassTransients:fwlite
+edmCheckClassVersion:fwlite
+edmCheckMultithreading:fwlite
 edmClassStorageSize:fwlite
+edmConfigDump:fwlite
 edmConfigHash:fwlite
 edmConfigHashPSR:fwlite
+edmConfigIncludeChecker:fwlite
+edmConfigSplit:fwlite
+edmConfigTree:fwlite
+edmCopyPickMerge:fwlite
+edmFjrDump:fwlite
+edmLumisInFiles.py:fwlite
+edmMLParser:fwlite
 edmParameterSetDump:fwlite
 edmParameterSetDumpPSR:fwlite
+edmPickEvents.py:fwlite
 edmPluginDump:fwlite
 edmPluginHelp:fwlite
 edmPluginRefresh:fwlite
+edmPythonConfigToCppValidation:fwlite
+edmPythonSearch:fwlite
+edmPythonTree:fwlite
+edmStreamStallGrapher.py:fwlite
 edmToFriendlyClassName:fwlite
 edmWriteConfigs:fwlite
 edonr256-hash:rhash
@@ -2883,6 +2967,11 @@ eggboxC++:multinest
 eggcacher:panda3d
 ehrhart:latte-integrale
 ehrhart3:latte-integrale
+ehrhart_lower_bound:barvinok
+ehrhart_quick_apx:barvinok
+ehrhart_rankinggmp:barvinok
+ehrhart_uniongmp:barvinok
+ehrhart_upper_bound:barvinok
 eht_bind:yaehmop
 eidos:slim
 eiger-mask:pyfai
@@ -2902,10 +2991,15 @@ eliot-prettyprint:eliot
 eliot-tree:eliot-tree
 elixir:elixir
 elixirc:elixir
+ellc_emcee:ellc
 elm:elm
 elsize:ambertools
 em++:emscripten
 em-config:emscripten
+em2d_score:imp
+em2d_single_score:imp
+em3d_score:imp
+em3d_single_score:imp
 emacs:emacs
 emacs-25.1:emacs
 emacs-25.3:emacs
@@ -2915,6 +3009,10 @@ emacs-26.3:emacs
 emacs-27.1:emacs
 emacs-27.2:emacs
 emacsclient:emacs
+emagefit:imp
+emagefit_cluster:imp
+emagefit_dock:imp
+emagefit_score:imp
 emar:emscripten
 embuilder:emscripten
 emcc:emscripten
@@ -2936,6 +3034,7 @@ enhancer.py:pillow
 enhancer.pyc:pillow
 entk-version:radical.entk
 entwine:entwine
+enum.x:enumlib
 env:coreutils
 env.sh:occt
 env_parallel:parallel
@@ -2993,6 +3092,7 @@ esprima:esprima-python
 espsecure.py:esptool
 esptool.py:esptool
 esri2wkt.py:gdal
+estimate_threshold_from_molecular_mass:imp
 estimator_ckpt_converter:tensorflow-base
 etags:emacs
 etcd:etcd
@@ -3001,6 +3101,7 @@ etex:texlive-core
 euphonic-dispersion:euphonic
 euphonic-dos:euphonic
 euphonic-intensity-map:euphonic
+euphonic-optimise-dipole-parameter:euphonic
 euphonic-optimise-eta:euphonic
 euphonic-powder-map:euphonic
 euphonic-show-sampling:euphonic
@@ -3053,6 +3154,7 @@ exrstdattr:openexr
 extcheck:openjdk
 external_stat:psearch
 extract-to-scalar:paintera-conversion-helper
+extract_metadata:readstat
 extractbb:texlive-core
 extractfits:fitstools
 extractgp:alps
@@ -3139,6 +3241,7 @@ fc-pattern:fontconfig
 fc-query:fontconfig
 fc-scan:fontconfig
 fc-validate:fontconfig
+fc_virtual:alamode
 fcaps:ncl
 fcbuild:siesta
 fd:fd-find
@@ -3269,6 +3372,7 @@ fftw-wisdom:fftw
 fftw-wisdom-to-conf:fftw
 fftwf-wisdom:fftw
 fftwl-wisdom:fftw
+fg_simulation:imp
 fhd_batch_convert.py:pyuvdata
 fiascotopnm:netpbm
 fig2dev:fig2dev
@@ -3292,6 +3396,7 @@ find-spark-home:pyspark
 find-spark-home.cmd:pyspark
 find2perl:perl
 find_delay.py:aipy
+find_orb:findorb
 find_similar_images.py:imagehash
 find_spark_home.py:pyspark
 finddgref.py:ambertools
@@ -3300,6 +3405,7 @@ findg:ncl
 findhyph:texlive-core
 findid:libcomcat
 findmeastable:casacore
+findv:barvinok
 finfo:gds-base-frameio
 finfo:gds-frameio-base
 fio:fiona
@@ -3341,6 +3447,8 @@ fixlayer:scorec
 fixqt4headers.pl:qt
 fixremdcouts.py:ambertools
 fixshape:scorec
+fixup_translate_v3_keywords.py:google-cloud-translate
+fixup_translate_v3beta1_keywords.py:google-cloud-translate
 flac:libflac
 flake8:flake8
 flamegraph.pl:pyspark-flame
@@ -3414,6 +3522,7 @@ fmt:coreutils
 fmtutil:texlive-core
 fmtutil-sys:texlive-core
 fmtutil-user:texlive-core
+fo:findorb
 fold:coreutils
 followup_InspiralDataMover.sh:lalapps
 font2c:ghostscript
@@ -3425,10 +3534,13 @@ forestdb:forest
 fossil:fossil
 fourier:cddlib
 fourier_gmp:cddlib
+foxs:imp
 fpack:cfitsio
+fpart:fpart
 fplll:fplll
 fpm:fpm
 fpocket:fpocket
+fpsync:fpart
 fqha.x:qe
 fr_cas_help:giac
 fractal_tracker:aruco
@@ -3457,6 +3569,8 @@ freetype-config:freetype
 freeze_graph:tensorflow
 freeze_graph:tensorflow-base
 frequency_map:bmad
+fretraj:fretraj
+fretraj_gui:fretraj
 fribidi:fribidi
 frictionless:frictionless
 frm_admin:xrootd
@@ -3582,6 +3696,8 @@ gammapy-test:gammapy
 gap:gap
 gap:gap-core
 gapplication:glib
+gatherArchives.py:proteus
+gatherTimes:proteus
 gauss_shell:multinest
 gaussian:multinest
 gaussian_analyzer:pymatgen
@@ -3600,6 +3716,8 @@ gazebo-11.3.0:gazebo
 gazebo-11.4.0:gazebo
 gazebo-11.5.0:gazebo
 gazebo-11.5.1:gazebo
+gazebo-11.6.0:gazebo
+gazebo-11.7.0:gazebo
 gazebo-9.15.0:gazebo
 gbase:ptscotch
 gbase:scotch
@@ -3661,6 +3779,7 @@ gdaltransform:libgdal
 gdalwarp:libgdal
 gdb:gdb
 gdb-add-index:gdb
+gdb-backtrace.sh:fwlite
 gdbm_dump:gdbm
 gdbm_load:gdbm
 gdbmtool:gdbm
@@ -3691,9 +3810,11 @@ gemseo-study:gemseo
 gemseo-template-grammar-editor:gemseo
 gemtopbm:netpbm
 gemtopnm:netpbm
+gen-bazel-toolchain:bazel-toolchain
 gen-ctl-io:libctl
 gen_conf:psearch
 gen_stereo:psearch
+genaut:spot
 genbg:nauty
 genbgL:nauty
 genbrk:icu
@@ -3711,6 +3832,7 @@ gengetopt:gengetopt
 genhtml:lcov
 geninfo:lcov
 genior:omniorb
+genltl:spot
 genmap:root5
 genmodel:4ti2
 genocat:genozip
@@ -3777,6 +3899,7 @@ getproduct:libcomcat
 gettext:gettext
 gettext.sh:gettext
 gettextize:gettext
+gf2poly:proteus
 gfal-cat:gfal2-util
 gfal-chmod:gfal2-util
 gfal-copy:gfal2-util
@@ -4055,6 +4178,7 @@ gout:scotch
 gox:go-gox
 gp:pari
 gp-2.11:pari
+gp-2.13:pari
 gp-2.9:pari
 gpart:ptscotch
 gpart:scotch
@@ -4213,6 +4337,7 @@ grpc_ruby_plugin:grpc-cpp
 grun:antlr
 gruneisen:phonopy
 gs:ghostscript
+gsbatch_topng:gsbatch
 gsbj:ghostscript
 gscat:ptscotch
 gscat:scotch
@@ -4494,6 +4619,8 @@ gz-11.3.0:gazebo
 gz-11.4.0:gazebo
 gz-11.5.0:gazebo
 gz-11.5.1:gazebo
+gz-11.6.0:gazebo
+gz-11.7.0:gazebo
 gz-9.15.0:gazebo
 gzclient:gazebo
 gzclient-11.0.0:gazebo
@@ -4503,6 +4630,8 @@ gzclient-11.3.0:gazebo
 gzclient-11.4.0:gazebo
 gzclient-11.5.0:gazebo
 gzclient-11.5.1:gazebo
+gzclient-11.6.0:gazebo
+gzclient-11.7.0:gazebo
 gzclient-9.15.0:gazebo
 gzexe:gzip
 gzip:gzip
@@ -4515,6 +4644,8 @@ gzserver-11.3.0:gazebo
 gzserver-11.4.0:gazebo
 gzserver-11.5.0:gazebo
 gzserver-11.5.1:gazebo
+gzserver-11.6.0:gazebo
+gzserver-11.7.0:gazebo
 gzserver-9.15.0:gazebo
 h264dec:openh264
 h264enc:openh264
@@ -4671,6 +4802,7 @@ hugin_lensdb:hugin-base
 hugin_stacker:hugin-base
 humanfriendly:humanfriendly
 hunspell:hunspell
+hunter-trace:hunter
 hunzip:hunspell
 hveto:hveto
 hveto-cache-events:hveto
@@ -4756,6 +4888,7 @@ idle3.9:python
 idlj:openjdk
 idn:libidn11
 idn2:libidn2
+idock:imp
 idq-batch:idq
 idq-calibrate:idq
 idq-check_config:idq
@@ -4782,6 +4915,8 @@ idq-train:idq
 idraw:neuron
 idraw.sh:neuron
 idt:ncl
+idyntree-model-info:idyntree
+idyntree-model-view:idyntree
 ietf-leap-seconds:gpstime
 iex:elixir
 ifdata:moreutils
@@ -4846,6 +4981,7 @@ img2xpm:wxpython
 imgcmp:jasper
 imginfo:jasper
 imgtoppm:netpbm
+imp_sampcon:imp
 import:imagemagick
 import-timeseries:ixmp
 import_pb_to_tensorboard:tensorflow-base
@@ -4920,11 +5056,14 @@ integrate_likelihood_extrinsic_batchmode:rift
 integrate_likelihood_extrinsic_no-op:rift
 integvalue:dftbplus
 interaction:alps
+interface_cross_links:imp
+interface_rtc:imp
 interpolate_to_mpasli_grid.py:mpas_tools
 interpolation:embree
 interpolation_ispc:embree
 interrogate:panda3d
 interrogate_module:panda3d
+intersect:carve
 intersection_filter:embree
 intersection_filter_ispc:embree
 intltool-extract:intltool
@@ -5026,6 +5165,7 @@ ird-tform:imreg_dft
 ireaktoro:reaktoro
 iris:iris-ued
 ironic:python-ironicclient
+iscc:barvinok
 iset_analyze:limix
 iset_postprocess:limix
 isisnet2socet:plio
@@ -5205,6 +5345,7 @@ kafkacat:kafkacat
 kaggle:kaggle
 kakasi:pykakasi
 kaleido:kaleido-core
+kanapy:kanapy
 kanji-config-updmap:texlive-core
 kanji-config-updmap-sys:texlive-core
 kanji-config-updmap-user:texlive-core
@@ -5266,6 +5407,7 @@ kvno:krb5
 l3build:texlive-core
 lab:go-lab
 label-maker:label-maker
+labelImg:labelimg
 labelg:nauty
 labelit.png:cctbx-base
 labelme:labelme
@@ -5565,6 +5707,7 @@ lalsimulation_version:lalsimulation
 lalxml_version:lalxml
 lambda.x:qe
 lame:lame
+lammps2analisi:analisi
 landlab:landlab
 landsat:landsat_util
 larray-editor:larray-editor
@@ -5604,6 +5747,7 @@ lattice-preview:alps
 lattice2xml:alps
 lattice_cleaner:bmad
 latticegen:fplll
+launch-monitor-server.sh:monitor-server-api
 launch_pyro_mip_servers:pyomo
 law:law
 lazy_geometry:embree
@@ -5631,6 +5775,7 @@ ld:ld64
 ld.lld:lld
 ld1.x:qe
 ld64.lld:lld
+ld64.lld.darwinnew:lld
 ldapadd:openldap
 ldapcompare:openldap
 ldapdelete:openldap
@@ -5811,6 +5956,8 @@ libtool:cxx-compiler
 libtool:libtool
 libtoolize:libtool
 libxsmm_gemm_generator:libxsmm
+ligand_score:imp
+ligand_score_multiple:imp
 light_correct:libvips
 lightning_predict:sklearn-contrib-lightning
 lightning_train:sklearn-contrib-lightning
@@ -5940,6 +6087,8 @@ llvm-bcanalyzer:clang_bootstrap_osx-arm64
 llvm-bcanalyzer:llvm
 llvm-bcanalyzer:llvm-tools
 llvm-bcanalyzer:llvmdev
+llvm-bitcode-strip:clang_bootstrap_osx-64
+llvm-bitcode-strip:clang_bootstrap_osx-arm64
 llvm-bitcode-strip:llvm-tools
 llvm-c-test:clang_bootstrap_osx-64
 llvm-c-test:clang_bootstrap_osx-arm64
@@ -6037,6 +6186,8 @@ llvm-lib:clang_bootstrap_osx-arm64
 llvm-lib:llvm
 llvm-lib:llvm-tools
 llvm-lib:llvmdev
+llvm-libtool-darwin:clang_bootstrap_osx-64
+llvm-libtool-darwin:clang_bootstrap_osx-arm64
 llvm-libtool-darwin:llvm-tools
 llvm-link:clang_bootstrap_osx-64
 llvm-link:clang_bootstrap_osx-arm64
@@ -6109,6 +6260,8 @@ llvm-profdata:clang_bootstrap_osx-arm64
 llvm-profdata:llvm
 llvm-profdata:llvm-tools
 llvm-profdata:llvmdev
+llvm-profgen:clang_bootstrap_osx-64
+llvm-profgen:clang_bootstrap_osx-arm64
 llvm-profgen:llvm-tools
 llvm-ranlib:clang_bootstrap_osx-64
 llvm-ranlib:clang_bootstrap_osx-arm64
@@ -6183,6 +6336,7 @@ lmfit:psrchive
 lmp_mpi:lammps
 lmp_serial:lammps
 ln:coreutils
+lndoctor:lndoctor
 load-spark-env.cmd:pyspark
 load-spark-env.sh:pyspark
 load_gen:zookeeper-c
@@ -6216,6 +6370,7 @@ lsdtt-channel-extraction:lsdtopotools
 lsdtt-chi-mapping:lsdtopotools
 lsdtt-cosmo-tool:lsdtopotools
 lsdtt-hillslope-channel-coupling:lsdtopotools
+lslver:liblsl
 lsm2bin:tifffile
 lsmf:casacore
 lsmp_xmit:gds-lowlatency-tools
@@ -6231,6 +6386,13 @@ lt_radec:linetools
 lt_solabnd:linetools
 lt_xabssys:linetools
 lt_xspec:linetools
+ltl2tgba:spot
+ltl2tgta:spot
+ltlcross:spot
+ltldo:spot
+ltlfilt:spot
+ltlgrind:spot
+ltlsynt:spot
 ltx2crossrefxml:texlive-core
 ltxfileinfo:texlive-core
 ltximg:texlive-core
@@ -6425,11 +6587,13 @@ mallethon:mallet
 mamba:mamba
 mangle_compiler:conda-forge-ci-setup
 mangle_homebrew:conda-forge-ci-setup
+manhole-cli:manhole
 manifest:byobu
 manweb:netpbm
 manycp.x:qe
 map2asc:pcraster
 map2col:pcraster
+map2pca:imp
 map2tga:healpix_cxx
 mapattr:pcraster
 mapd-1.0-SNAPSHOT-jar-with-dependencies.jar:omniscidb-cpu
@@ -6495,6 +6659,9 @@ maxima:maxima
 mayavi2:mayavi
 mbaddchunk:moab
 mbaddnc:moab
+mbcleantags:moab
+mbcmpfiles:moab
+mbcmpmaps:moab
 mbconvert:moab
 mbdepth:moab
 mbgsets:moab
@@ -6588,6 +6755,46 @@ med:ncl
 medconforme:libmed
 median_filter_cxx:healpix_cxx
 medimport:libmed
+medpy_anisotropic_diffusion.py:medpy
+medpy_apparent_diffusion_coefficient.py:medpy
+medpy_binary_resampling.py:medpy
+medpy_convert.py:medpy
+medpy_create_empty_volume_by_example.py:medpy
+medpy_dicom_slices_to_volume.py:medpy
+medpy_dicom_to_4D.py:medpy
+medpy_diff.py:medpy
+medpy_extract_contour.py:medpy
+medpy_extract_min_max.py:medpy
+medpy_extract_sub_volume.py:medpy
+medpy_extract_sub_volume_auto.py:medpy
+medpy_extract_sub_volume_by_example.py:medpy
+medpy_fit_into_shape.py:medpy
+medpy_gradient.py:medpy
+medpy_graphcut_label.py:medpy
+medpy_graphcut_label_bgreduced.py:medpy
+medpy_graphcut_label_w_regional.py:medpy
+medpy_graphcut_label_wsplit.py:medpy
+medpy_graphcut_voxel.py:medpy
+medpy_grid.py:medpy
+medpy_info.py:medpy
+medpy_intensity_range_standardization.py:medpy
+medpy_intersection.py:medpy
+medpy_join_masks.py:medpy
+medpy_join_xd_to_xplus1d.py:medpy
+medpy_label_count.py:medpy
+medpy_label_fit_to_mask.py:medpy
+medpy_label_superimposition.py:medpy
+medpy_merge.py:medpy
+medpy_morphology.py:medpy
+medpy_resample.py:medpy
+medpy_reslice_3d_to_4d.py:medpy
+medpy_set_pixel_spacing.py:medpy
+medpy_shrink_image.py:medpy
+medpy_split_xd_to_xminus1d.py:medpy
+medpy_stack_sub_volumes.py:medpy
+medpy_swap_dimensions.py:medpy
+medpy_watershed.py:medpy
+medpy_zoom_image.py:medpy
 meds-compare:meds
 meds-extract-catalog:meds
 meds-extract-range:meds
@@ -6678,6 +6885,7 @@ mgbuild-tbx:pymatgen-db
 mgdb:pymatgen-db
 mgrtopbm:netpbm
 mgvv:pymatgen-db
+mhm:mhm
 mhm_collector.py:pychemia
 micromamba:micromamba
 micropython:micropython
@@ -6697,6 +6905,8 @@ minimize:4ti2
 miniterm.py:pyserial
 miri:rust
 miriad_to_uvfits.py:pyuvdata
+mirror_server:hdf5
+mirror_server_stop:hdf5
 misaka:misaka
 mispipe:moreutils
 mit_gcm_detiding.py:pytide
@@ -6858,6 +7068,7 @@ modulecmd:environment-modules
 moggsplit:mutagen
 mogrify:imagemagick
 mol:molecule
+mol2pca:imp
 mol2rtf.py:ambertools
 molecularpdos.x:qe
 molecule:molecule
@@ -6884,6 +7095,7 @@ mongorestore:mongo-tools
 mongos:mongodb
 mongostat:mongo-tools
 mongotop:mongo-tools
+monitor-server:monitor-server-api
 monkeytype:monkeytype
 mono:mono
 mono-api-html:mono
@@ -7012,6 +7224,7 @@ ms_print:valgrind
 mscolab:mss
 mscolab_add_permissions:mss
 mscolab_demodata:mss
+mscx-manager:mscxyz
 mser:vlfeat
 mset_gen:numcosmo
 msgattrib:gettext
@@ -7075,8 +7288,10 @@ mu:mu_repo
 muds:sedflux
 multShiftImg:match-series
 mult_alm:healpix_cxx
+multi_foxs:imp
 multibibliography:texlive-core
 multicolumnmaker:lhcb-simpletools
+multifit:imp
 multify:panda3d
 multig:nauty
 multigifview:multigifview
@@ -7345,6 +7560,7 @@ neurotic:neurotic
 new-wcs:astrometry
 new.gnubands:siesta
 new2oldparm:ambertools
+newFWLiteAna.py:fwlite
 new_crd_to_dyn:ambertools
 new_data:sympow
 new_to_old_crd:ambertools
@@ -7440,6 +7656,7 @@ nmedit:cctools
 nmedit:clang_bootstrap_osx-64
 nmedit:cxx-compiler
 nmode:ambertools
+nmr_rtc_score:imp
 nnalg:ncl
 nnbathy:nn
 no_insert:gds-base-runtime
@@ -7658,6 +7875,13 @@ ogrmerge.py:gdal
 ogrtindex:libgdal
 oid2name:postgres-xl
 oid2name:postgresql
+oidc-add:oidc-agent
+oidc-agent:oidc-agent
+oidc-agent-server:oidc-agent
+oidc-gen:oidc-agent
+oidc-keychain:oidc-agent
+oidc-prompt:oidc-agent
+oidc-token:oidc-agent
 oldcalc:pcraster
 olebrowse:oletools
 oledir:oletools
@@ -7784,6 +8008,8 @@ optcomplete.bash:easybuild-framework
 optcomplete.bash:vsc-base
 optimal:rubiks
 optscript:universal-ctags
+optview:pyoptsparse
+optview_dash:pyoptsparse
 opusdec:opus-tools
 opusenc:opus-tools
 opusinfo:opus-tools
@@ -7953,6 +8179,7 @@ pandoc-plot:pandoc-plot
 pandoctools:pandoctools
 pandoctools-resolve:pandoctools
 pango-list:pango
+pango-segmentation:pango
 pango-view:pango
 pano_modify:hugin-base
 pano_trafo:hugin-base
@@ -7989,6 +8216,7 @@ parrec2nii:nibabel
 parse_file:panda3d
 parset:parallel
 parsort:parallel
+parun:proteus
 pas:psrchive
 paste:coreutils
 paster:pastescript
@@ -8188,6 +8416,8 @@ pdal:pdal
 pdal-config:pdal
 pdb2mdb:mono
 pdb4amber:ambertools
+pdb_check:imp
+pdb_rmf:imp
 pdbimgtopam:netpbm
 pdecrypt:panda3d
 pdf180:texlive-core
@@ -8266,6 +8496,7 @@ perl5.22.2:perl
 perl5.26.2:perl
 perl5.30.3:perl
 perl5.32.0:perl
+perl5.32.1:perl
 perlbug:perl
 perldoc:perl
 perlivp:perl
@@ -8402,6 +8633,7 @@ photospline-eval:photospline
 photospline-inspect:photospline
 phs2src.py:aipy
 phsolverserver:pyomo
+phtrans:siesta
 pi1toppm:netpbm
 pi3topbm:netpbm
 pic:groff
@@ -8418,6 +8650,7 @@ pilconvert.py:pillow
 pilconvert.pyc:pillow
 pildriver.py:pillow
 pildriver.pyc:pillow
+pileupDistInMC.py:fwlite
 pilfile.py:pillow
 pilfile.pyc:pillow
 pilfont.py:pillow
@@ -8597,8 +8830,10 @@ poly-4d.x:palp
 poly-5d.x:palp
 poly-6d.x:palp
 poly.x:palp
+polya.x:enumlib
 polycap:polycap
 polyhedron-to-cones:latte-integrale
+polytope_scan:barvinok
 polyvalue:dftbplus
 pometis:parmetis
 pooltype:texlive-core
@@ -8617,6 +8852,7 @@ postprocessing_benchmark:libraw
 postw90.x:qe
 postw90.x:wannier90
 poutput:alps
+povgen.py:proteus
 powerline:powerline-status
 powerline-config:powerline-status
 powerline-daemon:powerline-status
@@ -8703,6 +8939,7 @@ ppci-wasm2wat:ppci
 ppci-wasmcompile:ppci
 ppci-wat2wasm:ppci
 ppci-yacc:ppci
+ppgmp:barvinok
 pphs:ghostscript
 ppi:4ti2
 ppl-config:ppl
@@ -8808,6 +9045,7 @@ prerr.properties:nspr
 present3D:openscenegraph
 prettier:prettier
 primesieve:primesieve
+print_Predictor:psrchive
 printafm:ghostscript
 printchannels:gwollum
 printdetresponse:gwollum
@@ -8893,6 +9131,7 @@ psplit:ncl
 psql:postgres-xl
 psql:postgresql
 psr4th:psrchive
+psr4th2txt:psrchive
 psradd:psrchive
 psrchive:psrchive
 psrchive_config:psrchive
@@ -9381,6 +9620,7 @@ pymcabatch:pymca
 pymcapostbatch:pymca
 pymcaroitool:pymca
 pymdpbsa:ambertools
+pymol_vis:fretraj
 pymor-demo:pymor
 pymvpa2:pymvpa2
 pymvpa2-prep-afni-surf:pymvpa2
@@ -9414,6 +9654,7 @@ pypeit_flux_setup:pypeit
 pypeit_identify:pypeit
 pypeit_lowrdx_pixflat:pypeit
 pypeit_lowrdx_skyspec:pypeit
+pypeit_multislit_flexure:pypeit
 pypeit_obslog:pypeit
 pypeit_qa_html:pypeit
 pypeit_ql_keck_mosfire:pypeit
@@ -9567,6 +9808,7 @@ pythontex:texlive-core
 pythonw:python.app
 pythran:pythran
 pythran-config:pythran
+pytimem:timemory
 pytkdocs:pytkdocs
 pytleap:ambertools
 pytype:pytype
@@ -9616,6 +9858,7 @@ qdistancefieldgenerator:qt
 qdoc:qt
 qds.py:qds-sdk
 qds.pyc:qds-sdk
+qe2alm:alamode
 qgis:qgis
 qgis_process.app:qgis
 qgltf:qt
@@ -9648,10 +9891,12 @@ qsolve:4ti2
 qt.conf:qt
 qtattributionsscanner:qt
 qtdiag:qt
+qtm:proteus
 qtpaths:qt
 qtplugininfo:qt
 quakemap.cfg:ogre
 quantiphyse:quantiphyse
+quartet:quartet
 quasih:ambertools
 query-starkd:astrometry
 quest:xapian-core
@@ -9669,6 +9914,7 @@ qvoronoi:qhull
 qwebengine_convert_dict:qt
 qwl:alps
 qwl_evaluate:alps
+r2p:barvinok
 r2s.py:pyne
 r8tohdf:hdf4
 rabbitmq-defaults:rabbitmq-server
@@ -9732,6 +9978,8 @@ rage-keygen:rage
 ragel:ragel
 rake:ruby
 randSpg:randspg
+randaut:spot
+randltl:spot
 randvec:ambertools
 range-detector:imutils
 rangefinder:lhcb-simpletools
@@ -9798,6 +10046,7 @@ read_usgs:sedflux
 readlink:coreutils
 readms:casacore
 readsol:pyomo
+readstat:readstat
 readtags:universal-ctags
 readwf:siesta
 readwfx:siesta
@@ -9808,6 +10057,7 @@ rebuild_halo_table_cache_log.py:halotools
 rebuild_ptcl_table_cache_log.py:halotools
 rec:sox
 recode-sr-latin:gettext
+recompute_zscore:imp
 records:records
 red:bake
 redcheck:cddlib
@@ -9877,6 +10127,7 @@ reprozip-jupyter:reprozip-jupyter
 repstopdf:texlive-core
 resampSlc.py:isce3
 resample:pcraster
+resample_density:imp
 reset:ncurses
 resgen:mono
 resgen2:mono
@@ -9890,6 +10141,7 @@ resources.cfg:ogre
 resp:ambertools
 respgen:ambertools
 responder:responder
+restic:restic
 restructuredtext-lint:restructuredtext_lint
 resttest.py:pyresttest
 results_schema:pyomo
@@ -9938,12 +10190,14 @@ rmaxima:maxima
 rmdir:coreutils
 rmf3_dump:rmf
 rmf_cat:rmf
+rmf_display:imp
 rmf_frames:rmf
 rmf_info:rmf
 rmf_interpolate:rmf
 rmf_pdb:rmf
 rmf_show:rmf
 rmf_signature:rmf
+rmf_simplify:imp
 rmf_slice:rmf
 rmf_transform:rmf
 rmf_update:rmf
@@ -9960,7 +10214,9 @@ rmkdepend:root_base
 rmnan:fitstools
 rmrot:psrchive
 rmscorr:ambertools
+rmsd_cluster:imp
 rnano:nano
+robottestingframework-testrunner:robot-testing-framework
 roff2dvi:groff
 roff2html:groff
 roff2pdf:groff
@@ -10140,6 +10396,14 @@ rrdcreate:rrdtool
 rrdinfo:rrdtool
 rrdtool:rrdtool
 rrdupdate:rrdtool
+rrt_ccd:imp
+rrt_sample:imp
+rs-convert:librealsense
+rs-enumerate-devices:librealsense
+rs-fw-logger:librealsense
+rs-fw-update:librealsense
+rs-record:librealsense
+rs-terminal:librealsense
 rsgis-config:rsgislib
 rsgisENVIPlot2MTXT.py:rsgislib
 rsgisapplycmd.py:rsgislib
@@ -10200,6 +10464,7 @@ rubibtex:texlive-core
 rubikrotation:texlive-core
 ruby:ruby
 rumakeindex:texlive-core
+run-eastlake-sim:des-eastlake
 run-example:pyspark
 run-example.cmd:pyspark
 run-metadetect-on-coadd-sim:des-pizza-cutter
@@ -10207,6 +10472,7 @@ run-metadetect-on-slices:des-pizza-cutter
 run-metadetect-on-slices:des-pizza-cutter-metadetect
 run-swmm:swmm
 runFormulaEvaluator:fwlite
+runSWEs.py:proteus
 run_all_cpptests:nest-simulator
 run_bmigipl_model:gipl
 run_bmisnow_model:ecsimplesnow
@@ -10222,6 +10488,11 @@ run_ps2ff_single_event:ps2ff
 run_pycbc_inference:pycbc
 run_pypeit:pypeit
 run_python_with_conduit.sh:conduit
+run_script_diamond:proteus
+run_script_garnet:proteus
+run_script_lonestar:proteus
+run_script_mpiexec:proteus
+run_script_ranger:proteus
 run_snow_model:ecsimplesnow
 runaiida:aiida-core
 runant.pl:apache-ant
@@ -10237,9 +10508,11 @@ runrc.cmd:apache-ant
 runxlrd.py:xlrd
 runzeo:zeo
 rust-analyzer:rust
+rust-demangler:rust
 rust-gdb:rust
 rust-gdbgui:rust
 rust-lldb:rust
+rust-script:rust-script
 rustc:rust
 rustdoc:rust
 rustfmt:rust
@@ -10250,6 +10523,42 @@ rw:rw
 s-dftd3:simple-dftd3
 s-tui:s-tui
 s2p:perl
+s390x-conda-linux-gnu-addr2line:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ar:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-as:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-c++filt:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-dwp:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-elfedit:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-gprof:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ld:ld_impl_linux-s390x
+s390x-conda-linux-gnu-ld.bfd:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ld.gold:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-nm:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-objcopy:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-objdump:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-ranlib:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-readelf:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-size:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-strings:binutils_impl_linux-s390x
+s390x-conda-linux-gnu-strip:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-addr2line:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ar:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-as:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-c++filt:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-dwp:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-elfedit:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-gprof:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld:ld_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld.bfd:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ld.gold:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-nm:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-objcopy:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-objdump:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-ranlib:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-readelf:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-size:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-strings:binutils_impl_linux-s390x
+s390x-conda_cos7-linux-gnu-strip:binutils_impl_linux-s390x
 sad_to_bmad_postprocess:bmad
 safer.py:safer
 sagapython-version:saga-python
@@ -10359,11 +10668,14 @@ sassc:libsass
 sassc:signac-dashboard
 sassc.py:libsass
 sasview:sasview
+sat_id:findorb
 saved_model_cli:tensorflow
 saved_model_cli:tensorflow-base
 saws:saws
 saxs_md:ambertools
+saxs_merge:imp
 saxs_rism:ambertools
+saxs_score:imp
 sbank:sbank
 sbank_choose_mchirp_boundaries:sbank
 sbank_hdf5_bankcombiner:sbank
@@ -10626,6 +10938,7 @@ simplepbsa:ambertools
 simplesearch:xapian-core
 simpol:psrchive
 simulate:raspa2
+simulate_density_from_pdb:imp
 sip:alpenglow
 sip:pyqt
 sip:pyqt5-sip
@@ -10659,6 +10972,7 @@ sldtoppm:netpbm
 sleep:coreutils
 slencheck:unixodbc
 sli:nest-simulator
+slice:carve
 slice2py:zeroc-ice
 slim:refnx
 slim:slim
@@ -10723,6 +11037,7 @@ snowflake-dump-ocsp-response:snowflake-connector-python
 snowflake-dump-ocsp-response-cache:snowflake-connector-python
 snowflake-export-certs:snowflake-connector-python
 snzip:snzip
+soap_score:imp
 soapcpp2:gsoap
 soapsuds:mono
 socat:socat
@@ -10765,6 +11080,11 @@ sparkR2.cmd:pyspark
 sparse_rips_persistence:gudhi
 sparsediag:alps
 sparsify-Bragg:pyfai-base
+spb:imp
+spb_analysis:imp
+spb_cluster:imp
+spb_density_perbead:imp
+spb_test_score:imp
 spctoppm:netpbm
 spd-config:spdlib
 spdbatchgen.py:spdlib
@@ -10837,6 +11157,8 @@ splaunch:splauncher
 spleeter:spleeter
 split:coreutils
 split:scorec
+split-file:clang_bootstrap_osx-64
+split-file:clang_bootstrap_osx-arm64
 split-file:llvm-tools
 split_grids:mpas_tools
 splitindex:texlive-core
@@ -11273,7 +11595,15 @@ terraform-provider-aws_v3.40.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.41.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.42.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.43.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.44.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.45.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.46.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.47.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.48.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.49.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.50.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.51.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4:terraform-provider-aws
@@ -11372,6 +11702,15 @@ terraform-provider-azurerm_v2.58.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.59.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.60.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.61.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.62.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.62.1_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.63.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.64.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.65.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.66.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.67.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.68.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.69.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4:terraform-provider-azurerm
@@ -11495,6 +11834,8 @@ terraform-provider-dns_v2.2.0_x4:terraform-provider-dns
 terraform-provider-dns_v3.0.0_x4:terraform-provider-dns
 terraform-provider-dns_v3.0.1_x4:terraform-provider-dns
 terraform-provider-dns_v3.1.0_x4:terraform-provider-dns
+terraform-provider-dns_v3.2.0_x4:terraform-provider-dns
+terraform-provider-dns_v3.2.1_x4:terraform-provider-dns
 terraform-provider-dnsimple_v0.1.0_x4:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.2.0_x4:terraform-provider-dnsimple
 terraform-provider-dnsimple_v0.3.0_x4:terraform-provider-dnsimple
@@ -11521,6 +11862,8 @@ terraform-provider-docker_v2.7.2_x4:terraform-provider-docker
 terraform-provider-dyn_v1.1.0_x4:terraform-provider-dyn
 terraform-provider-dyn_v1.2.0_x4:terraform-provider-dyn
 terraform-provider-ec_v0.1.1_x4:terraform-provider-ec
+terraform-provider-ec_v0.2.0_x4:terraform-provider-ec
+terraform-provider-ec_v0.2.1_x4:terraform-provider-ec
 terraform-provider-external_v1.0.0_x4:terraform-provider-external
 terraform-provider-external_v1.1.0_x4:terraform-provider-external
 terraform-provider-external_v1.1.1_x4:terraform-provider-external
@@ -11675,6 +12018,12 @@ terraform-provider-google_v3.66.1_x4:terraform-provider-google
 terraform-provider-google_v3.67.0_x4:terraform-provider-google
 terraform-provider-google_v3.68.0_x4:terraform-provider-google
 terraform-provider-google_v3.70.0_x4:terraform-provider-google
+terraform-provider-google_v3.71.0_x4:terraform-provider-google
+terraform-provider-google_v3.72.0_x4:terraform-provider-google
+terraform-provider-google_v3.73.0_x4:terraform-provider-google
+terraform-provider-google_v3.74.0_x4:terraform-provider-google
+terraform-provider-google_v3.75.0_x4:terraform-provider-google
+terraform-provider-google_v3.76.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -11699,6 +12048,7 @@ terraform-provider-helm_v1.3.2_x4:terraform-provider-helm
 terraform-provider-helm_v2.0.1_x4:terraform-provider-helm
 terraform-provider-helm_v2.0.2_x4:terraform-provider-helm
 terraform-provider-helm_v2.1.2_x4:terraform-provider-helm
+terraform-provider-helm_v2.2.0_x4:terraform-provider-helm
 terraform-provider-heroku_v0.1.2_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.0_x4:terraform-provider-heroku
 terraform-provider-heroku_v1.0.1_x4:terraform-provider-heroku
@@ -11757,6 +12107,9 @@ terraform-provider-keycloak_v2.2.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v2.3.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.0.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.0.1_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v3.1.0_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v3.1.1_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v3.2.0_x4:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.0.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.1.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.0_x4:terraform-provider-kubernetes
@@ -11785,6 +12138,8 @@ terraform-provider-kubernetes_v2.0.2_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.0.3_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.3.1_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.3.2_x4:terraform-provider-kubernetes
 terraform-provider-librato_v0.1.0_x4:terraform-provider-librato
 terraform-provider-local_v1.1.0_x4:terraform-provider-local
 terraform-provider-local_v1.2.0_x4:terraform-provider-local
@@ -12189,6 +12544,8 @@ terraform-provider-vault_v2.19.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.19.1_x4:terraform-provider-vault
 terraform-provider-vault_v2.2.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.20.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.21.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.22.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
 terraform-provider-vcd_v1.0.0_x4:terraform-provider-vcd
@@ -12231,6 +12588,8 @@ terraform-provider-vsphere_v1.8.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.0_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v1.9.1_x4:terraform-provider-vsphere
 terraform-provider-vsphere_v2.0.0_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v2.0.1_x4:terraform-provider-vsphere
+terraform-provider-vsphere_v2.0.2_x4:terraform-provider-vsphere
 terraformspawner:jupyterhub-terraformspawner
 terragrunt:terragrunt
 tesseract:tesseract
@@ -12260,6 +12619,7 @@ testcdd2:cddlib
 testcdd2_gmp:cddlib
 testcflags.sh:sagelib
 testcxx.sh:sagelib
+testehrhartgmp:barvinok
 testepsg:libgdal
 testlp1:cddlib
 testlp1_gmp:cddlib
@@ -12393,6 +12753,15 @@ tile-join:tippecanoe
 tiller:kubernetes-helm
 tilt:tilt
 time:time
+timem:timemory
+timemory-analyze:timemory
+timemory-avail:timemory
+timemory-pid:timemory
+timemory-plotter:timemory
+timemory-python-line-profiler:timemory
+timemory-python-profiler:timemory
+timemory-python-trace:timemory
+timemory-roofline:timemory
 timeout:coreutils
 tinker_to_amber:ambertools
 tippecanoe:tippecanoe
@@ -12486,6 +12855,7 @@ triangle:triangle
 triangle_geometry:embree
 triangle_geometry_ispc:embree
 triangle_to_netcdf:mpas_tools
+triangulate:carve
 triangulate:latte-integrale
 trigRmNode:gds-services
 triggermerge:gwollum
@@ -12581,6 +12951,7 @@ uftp_keymgt:uftp
 uftpd:uftp
 uftpproxyd:uftp
 ugrid_wx:pyugrid
+uhd_adc_self_cal:uhd
 uhd_cal_rx_iq_balance:uhd
 uhd_cal_tx_dc_offset:uhd
 uhd_cal_tx_iq_balance:uhd
@@ -12669,6 +13040,8 @@ user_geometry:embree
 user_geometry_ispc:embree
 users:coreutils
 usgs:usgs
+usrp_hwd.py:uhd
+usrp_update_fs:uhd
 util_AdaptiveExponent.py:rift
 util_CIPdagPostprocess.sh:rift
 util_CacheFileConvert.py:rift
@@ -12748,6 +13121,7 @@ valgrind:valgrind
 valgrind-di-server:valgrind
 valgrind-listener:valgrind
 validate_kml:pykml
+validate_profile:imp
 validate_recipe_outputs:conda-forge-ci-setup
 vap:psrchive
 varstocuts:lhcb-simpletools
@@ -12760,6 +13134,7 @@ vcf_melt:pyvcf
 vcf_sample_filter.py:pyvcf
 vcolg:nauty
 vcpkg:vcpkg
+vcpkg:vcpkg-tool
 vd:visidata
 vdb:viztracer
 vdir:coreutils
@@ -12769,6 +13144,7 @@ vectors2classify:mallet
 vectors2info:mallet
 vectors2topics:mallet
 vectors2vectors:mallet
+velocity2xmf:proteus
 verdandi:hugin-base
 verdi:aiida-core
 verdi-plug:aiida-core
@@ -12799,6 +13175,7 @@ vibra:siesta
 videogrep:videogrep
 vidir:moreutils
 view:vim
+view_density_header:imp
 viewer:embree
 viewer.py:pillow
 viewer.pyc:pillow
@@ -12823,6 +13200,7 @@ vip:psrchive
 vipe:moreutils
 vips:libvips
 vips-8.10:libvips
+vips-8.11:libvips
 vips-8.8:libvips
 vipsedit:libvips
 vipsheader:libvips
@@ -12843,6 +13221,7 @@ vl2png:vega-lite-cli
 vl2svg:vega-lite-cli
 vl2vg:vega-lite-cli
 vmake:hdf4
+vmd_vis:fretraj
 vmprofshow:vmprof
 vmtouch:vmtouch
 volint:astropy
@@ -12995,6 +13374,7 @@ watchmedo:watchdog
 watercluster2:nauty
 waveplot:dftbplus
 waves:cem
+waves2xmf:proteus
 wavespectra:wavespectra
 waybackpack:waybackpack
 wb-AbsoluteValue:whitebox_tools
@@ -13249,6 +13629,7 @@ webpng:libgd
 websockify:websockify
 webview:gds-base-web
 webxmledit:gds-base-web
+weight_profiles:imp
 weighted_alpha_complex_3d_persistence:gudhi
 weighted_periodic_alpha_complex_3d_persistence:gudhi
 wf32d.e:hstcal
@@ -13563,6 +13944,7 @@ xenv:xenv
 xerox:xerox
 xetex:texlive-core
 xeus-cling:xeus-cling
+xeus-octave:xeus_octave
 xfig:xfig
 xgboost:libxgboost
 xgettext:gettext
@@ -13578,6 +13960,8 @@ xmdump:libmed
 xmdump2:libmed
 xmdump3:libmed
 xmkmf:xorg-imake
+xml-rpc-api2cpp:xmlrpc-c
+xml-rpc-api2txt:xmlrpc-c
 xml2-config:libxml2
 xml2archive:alps
 xml2odf:odfpy
@@ -13585,6 +13969,13 @@ xmlcatalog:libxml2
 xmllint:libxml2
 xmlpatterns:qt
 xmlpatternsvalidator:qt
+xmlrpc:xmlrpc-c
+xmlrpc-c-config:xmlrpc-c
+xmlrpc_cpp_proxy:xmlrpc-c
+xmlrpc_dumpserver:xmlrpc-c
+xmlrpc_parsecall:xmlrpc-c
+xmlrpc_pstream:xmlrpc-c
+xmlrpc_transport:xmlrpc-c
 xmlsec1:libxmlsec1
 xmlsec1-config:libxmlsec1
 xmlwf:expat
@@ -13804,6 +14195,7 @@ zstdcat:zstd
 zstdgrep:zstd
 zstdless:zstd
 zstdmt:zstd
+zxpy:zxpy
 zzcat:zziplib
 zzdir:zziplib
 zzxorcat:zziplib

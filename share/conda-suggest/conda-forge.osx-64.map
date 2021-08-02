@@ -688,6 +688,19 @@ aida2yoda:yoda
 aim:aim
 aipy_version.py:aipy
 airflow:airflow
+airspy_gpio:airspy
+airspy_gpiodir:airspy
+airspy_info:airspy
+airspy_lib_version:airspy
+airspy_r820t:airspy
+airspy_rx:airspy
+airspy_si5351c:airspy
+airspy_spiflash:airspy
+airspyhf_calibrate:airspyhf
+airspyhf_gpio:airspyhf
+airspyhf_info:airspyhf
+airspyhf_lib_version:airspyhf
+airspyhf_rx:airspyhf
 al:mono
 al2:mono
 alea_clean:openalea.deploy
@@ -1348,6 +1361,7 @@ c-index-test:clang-tools
 c-index-test:clang_bootstrap_osx-64
 c-index-test:clangdev
 c2d:convert3d
+c2d:matscipy
 c2dec:codec2
 c2enc:codec2
 c2p:barvinok
@@ -1958,6 +1972,7 @@ col1:byobu
 col2map:pcraster
 colcon:colcon-core
 collapse:scorec
+colmap:colmap
 color:rio-color
 coloredlogs:coloredlogs
 columnmaker:lhcb-simpletools
@@ -5335,6 +5350,7 @@ jupyterhub-singleuser:jupyterhub-base
 jwt:pyjwt
 jx2env:ndcctools
 jx2json:ndcctools
+jx_repl:ndcctools
 jy1sat_ssdv:gnuradio-satellites
 jy1sat_ssdv.py:gnuradio-satellites
 k5srvutil:krb5
@@ -6580,6 +6596,7 @@ makerelocs:cctools
 makerelocs:clang_bootstrap_osx-64
 makerelocs:cxx-compiler
 makeself:makeself
+makestr.x:enumlib
 mako-render:mako
 mallet:mallet
 mallet.bat:mallet
@@ -6641,6 +6658,7 @@ markov:4ti2
 maskfits:fitstools
 mat2exo:pytrilinos
 mat2exo:trilinos
+mat2npz:libcnpy
 matchSeismicSeries:match-series
 matchSeries:match-series
 match_filter.py:eqcorrscan
@@ -7683,6 +7701,8 @@ npm:nodejs
 nproc:coreutils
 npth-config:npth
 npx:nodejs
+npy2mat:libcnpy
+npz2mat:libcnpy
 nr:nr
 nrndiagnose.sh:neuron
 nrngui:neuron
@@ -7988,6 +8008,7 @@ openmc-voxel-to-silovtk:openmc
 openmc-voxel-to-vtk:openmc
 openneuro-py:openneuro-py
 openpmd-ls:openpmd-api
+openpmd-pipe:openpmd-api
 openslide-quickhash1sum:openslide
 openslide-show-properties:openslide
 openslide-write-png:openslide
@@ -8812,6 +8833,7 @@ pnmtosir:netpbm
 pnmtotiff:netpbm
 pnmtotiffcmyk:netpbm
 pnmtoxwd:netpbm
+pnp:matscipy
 pocl-standalone:pocl
 poclcc:pocl
 pod2html:perl
@@ -10776,6 +10798,7 @@ scrapy:scrapy
 screen_db:psearch
 scrip_check_input:ncl
 scrip_from_mpas:mpas_tools
+sd:sd
 sdata:sisl
 sdiff:diffutils
 sdl-config:sdl
@@ -11224,6 +11247,7 @@ statuspage:statuspage
 stdbuf:coreutils
 steempy:steem
 steemtail:steem
+stericify:matscipy
 stiff:astromatic-stiff
 stkcache-modify:desres-msys
 stl:numpy-stl
@@ -11604,6 +11628,7 @@ terraform-provider-aws_v3.49.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.50.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.51.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.52.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4:terraform-provider-aws
@@ -11712,6 +11737,7 @@ terraform-provider-azurerm_v2.67.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.68.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.69.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.70.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4:terraform-provider-azurerm
 terraform-provider-bitbucket_v1.0.0_x4:terraform-provider-bitbucket
@@ -12024,6 +12050,7 @@ terraform-provider-google_v3.73.0_x4:terraform-provider-google
 terraform-provider-google_v3.74.0_x4:terraform-provider-google
 terraform-provider-google_v3.75.0_x4:terraform-provider-google
 terraform-provider-google_v3.76.0_x4:terraform-provider-google
+terraform-provider-google_v3.77.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -12110,6 +12137,7 @@ terraform-provider-keycloak_v3.0.1_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.1.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.1.1_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.2.0_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v3.2.1_x4:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.0.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.1.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.0_x4:terraform-provider-kubernetes
@@ -12546,6 +12574,7 @@ terraform-provider-vault_v2.2.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.20.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.21.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.22.0_x4:terraform-provider-vault
+terraform-provider-vault_v2.22.1_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
 terraform-provider-vcd_v1.0.0_x4:terraform-provider-vcd

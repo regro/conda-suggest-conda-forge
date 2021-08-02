@@ -245,6 +245,7 @@ ccget:cclib
 ccwrite:cclib
 cda:cclib
 cde:chemdataextractor
+cdiff:colordiff
 cdp-distrib:cdp
 cdsutils:cdsutils
 celery:celery
@@ -313,6 +314,7 @@ codespell:codespell
 coffee:coffeescript
 cogeo-mosaic:cogeo-mosaic
 color:colorpedia
+colordiff:colordiff
 colorpedia:colorpedia
 combine_auto_measures:spymicmac
 combine_features:geometric_features
@@ -464,6 +466,8 @@ dask-submit:distributed
 dask-worker:distributed
 daskctl:dask-ctl
 databricks:databricks-cli
+databroker-pack:databroker-pack
+databroker-unpack:databroker-pack
 datacube:datacube
 datacube-fixer:datacube
 datacube-ncml:datacube
@@ -491,6 +495,7 @@ decrypt:pyquickhelper
 decrypt_file:pyquickhelper
 deid:deid
 dem2isce.py:hyp3lib
+demesdraw:demesdraw
 depfinder:depfinder
 descarteslabs:descarteslabs
 detect_missing_track_type:dautilpy
@@ -1067,6 +1072,7 @@ join_hexagon:spymicmac
 jp2dump:glymur
 json:json-spec
 json-lsp:json-lsp
+json2tango:dsconfig
 jsondiff:jsondiff
 jsonpath.py:jsonpath-ng
 jsonrpc:jsonrpcclient
@@ -1084,6 +1090,7 @@ jupyter-contrib:jupyter_contrib_core
 jupyter-contrib-nbextension:jupyter_contrib_nbextensions
 jupyter-enterprisegateway:jupyter_enterprise_gateway
 jupyter-forward:jupyter-forward
+jupyter-ipydrawio:ipydrawio
 jupyter-ipydrawio-export:ipydrawio-export
 jupyter-kernel:jupyter_client
 jupyter-kernelgateway:jupyter_kernel_gateway
@@ -1900,6 +1907,7 @@ rsconnect:rsconnect-python
 rse:rse
 rshiny-server-cmd:rshiny-server-cmd
 rst-lint:restructuredtext_lint
+rst2html5:rst2html5
 rst2pdf:rst2pdf
 rstcheck:rstcheck
 rtc2color.py:hyp3lib
@@ -2156,6 +2164,7 @@ tissue-mask:intensity-normalization
 titlecase:titlecase
 tl:spacy-lookups-data
 tldextract:tldextract
+tldr:tldr
 tokenize-rt:tokenize-rt
 tokenizer:segtok
 tomo_server:xpdan
@@ -2181,6 +2190,7 @@ tq:yq
 tqdm:tqdm
 tr:spacy-lookups-data
 traceback-with-variables:traceback-with-variables
+tracevalidate:fractopo
 trailscraper:trailscraper
 tranquilizer:tranquilizer
 transformers:transformers
@@ -2322,12 +2332,14 @@ xcube_standard:xcube
 xdoctest:xdoctest
 xenon:xenon
 xenv:xenv
+xls2json:dsconfig
 xmldiff:xmldiff
 xmlpatch:xmldiff
 xnat_cp_project:xnat
 xo:xo
 xq:yq
 xrspatial:xarray-spatial
+xrt:xrt
 xsdata:xsdata
 yacron:yacron
 yagmail:yagmail

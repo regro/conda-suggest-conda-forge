@@ -714,6 +714,7 @@ alice3:healpix_cxx
 align_image_stack:hugin-base
 allcm:texlive-core
 allec:texlive-core
+allennlp:allennlp
 allfaces:cddlib
 allfaces_gmp:cddlib
 allneeded:texlive-core
@@ -1287,6 +1288,7 @@ bugpoint:llvm-tools
 bugpoint:llvmdev
 build-astrometry-index:astrometry
 build_fonts:pyferret
+build_interface.py:rvlib
 build_mesh:mpas_tools
 build_obb:dagmc
 build_patch:panda3d
@@ -1366,6 +1368,7 @@ c2dec:codec2
 c2enc:codec2
 c2p:barvinok
 c2ph:perl
+c2sim:codec2
 c3d:convert3d
 c3d_affine_tool:convert3d
 c4d:convert3d
@@ -1433,6 +1436,8 @@ cartesian_map_fit:bmad
 cartographer_autogenerate_ground_truth:cartographer
 cartographer_compute_relations_metrics:cartographer
 cartographer_migrate_serialization_format:cartographer
+cartographer_pbstream:cartographer
+cartographer_print_configuration:cartographer
 cas_help:giac
 casahdf5support:casacore
 casatask:pwkit
@@ -1516,6 +1521,7 @@ cctbx.image_viewer:cctbx-base
 cctbx.isomorphous_difference_patterson:cctbx-base
 cctbx.lattice_symmetry:cctbx-base
 cctbx.loggraph:cctbx-base
+cctbx.make_install_HKLviewer_ChimeraX:cctbx-base
 cctbx.multiplicity_viewer:cctbx-base
 cctbx.patterson_map:cctbx-base
 cctbx.plot_anomalous_scattering:cctbx-base
@@ -1862,12 +1868,15 @@ cluster:graphviz
 cluster_profiles:imp
 clusterdb:postgres-xl
 clusterdb:postgresql
+clyc:cylc-flow
 cma_es.python:cctbx-base
 cmake:cmake
 cmake:cmake-no-system
 cmakedoxyxml:doxyrest
 cmakexbuild:cmake
 cmark:commonmark
+cmdstan:cmdstan
+cmdstan_model:cmdstan
 cmfgen2tardis:tardis-sn
 cmp:diffutils
 cmpdylib:cctools
@@ -1949,6 +1958,12 @@ coconut-v1.5:coconut
 coconut-v1.5-run:coconut
 coconut-v1.5.0:coconut
 coconut-v1.5.0-run:coconut
+codacheck:coda
+codacmp:coda
+codadd:coda
+codadump:coda
+codaeval:coda
+codafind:coda
 code-server:code-server
 codecov:codecov
 codes_bufr_filter:eccodes
@@ -1967,6 +1982,11 @@ codesign_allocate:clang_bootstrap_osx-64
 codesign_allocate:cxx-compiler
 cog:cogapp
 cog.py:cogapp
+cohpsk_ch:codec2
+cohpsk_demod:codec2
+cohpsk_get_test_bits:codec2
+cohpsk_mod:codec2
+cohpsk_put_test_bits:codec2
 coin-config:coin3d
 col1:byobu
 col2map:pcraster
@@ -2400,6 +2420,7 @@ cyclus_unit_tests:cyclus
 cycpp.py:cyclus
 cycstub:cyclus
 cygdb:cython
+cylc:cylc-flow
 cymetric:cymetric
 cysignals-CSI:cysignals
 cysignals-CSI-helper.py:cysignals
@@ -2526,6 +2547,7 @@ decorate:datamash
 define_cullMask.py:mpas_tools
 defncopy:freetds
 deformQuoc2D:match-series
+deframer:codec2
 deghosting_mask:hugin-base
 degtohms:astrometry
 deicode:deicode
@@ -2616,6 +2638,7 @@ dimacs-solver:lemon
 dimacs-to-lgf:lemon
 dimple2ispyb.py:ispyb
 dioptas:dioptas
+dioptas_larch:xraylarch
 dipy_align_affine:dipy
 dipy_align_syn:dipy
 dipy_apply_transform:dipy
@@ -2727,6 +2750,7 @@ dms-tile:desres-msys
 dms-validate:desres-msys
 dms-version:desres-msys
 dms2mae:desres-msys
+dmt_nameserver:gds-services
 dmtdq_seg_insert:lscsoft-glue
 dmypy:mypy
 doc8:doc8
@@ -3263,6 +3287,7 @@ fd:fd-find
 fdf2grimme:siesta
 fdir:gds-base-frameio
 fdir:gds-frameio-base
+fdmdv_channel:codec2
 fdmdv_demod:codec2
 fdmdv_get_test_bits:codec2
 fdmdv_mod:codec2
@@ -3274,6 +3299,8 @@ fdupes:fdupes
 feam_driver:openfast
 feedstockrot:feedstockrot
 feedstocks:conda-smithy
+feff6l:xraylarch
+feff8l:xraylarch
 feff_input_generation:pymatgen
 feff_plot_cross_section:pymatgen
 feff_plot_dos:pymatgen
@@ -3464,6 +3491,7 @@ fixremdcouts.py:ambertools
 fixshape:scorec
 fixup_translate_v3_keywords.py:google-cloud-translate
 fixup_translate_v3beta1_keywords.py:google-cloud-translate
+fizi:pyfizi
 flac:libflac
 flake8:flake8
 flamegraph.pl:pyspark-flame
@@ -3531,6 +3559,8 @@ fmask_usgsLandsatMakeAnglesImage.py:python-fmask
 fmask_usgsLandsatSaturationMask.py:python-fmask
 fmask_usgsLandsatStacked.py:python-fmask
 fmask_usgsLandsatTOA.py:python-fmask
+fmfsk_demod:codec2
+fmfsk_mod:codec2
 fmpy:fmpy
 fmpy:fmpy-base
 fmt:coreutils
@@ -3575,11 +3605,20 @@ framecpp_sample:ldas-tools-framecpp
 framecpp_transform:ldas-tools-framecpp
 framecpp_verify:ldas-tools-framecpp
 framelink:gds-lowlatency-tools
+framer:codec2
 frcompress:gds-frameio-base
 freebcp:freetds
 freecad:freecad
 freecadcmd:freecad
 freediscovery:freediscovery
+freedv_data_raw_rx:codec2
+freedv_data_raw_tx:codec2
+freedv_data_rx:codec2
+freedv_data_tx:codec2
+freedv_mixed_rx:codec2
+freedv_mixed_tx:codec2
+freedv_rx:codec2
+freedv_tx:codec2
 freetype-config:freetype
 freeze_graph:tensorflow
 freeze_graph:tensorflow-base
@@ -3605,7 +3644,11 @@ fsdump:desres-msys
 fsdump:zodb
 fsettime:gds-base-frameio
 fsettime:gds-frameio-base
+fsk_demod:codec2
+fsk_get_test_bits:codec2
 fsk_mod:codec2
+fsk_mod_ext_vco:codec2
+fsk_put_test_bits:codec2
 fsleyes:fsleyes
 fsleyes_unfiltered:fsleyes
 fsoids:zodb
@@ -3733,6 +3776,7 @@ gazebo-11.5.0:gazebo
 gazebo-11.5.1:gazebo
 gazebo-11.6.0:gazebo
 gazebo-11.7.0:gazebo
+gazebo-11.8.0:gazebo
 gazebo-9.15.0:gazebo
 gbase:ptscotch
 gbase:scotch
@@ -4359,6 +4403,8 @@ gscat:scotch
 gsd:gsd
 gsdj:ghostscript
 gsdj500:ghostscript
+gse_dtcorrect:xraylarch
+gse_mapviewer:xraylarch
 gsettings:glib
 gsf:libgsf
 gsf-office-thumbnailer:libgsf
@@ -4621,6 +4667,14 @@ gwdetchar-scattering-simple:gwdetchar
 gwdetchar-slow-correlation:gwdetchar
 gwdetchar-software-saturations:gwdetchar
 gwh:ambertools
+gwl-print-channels:gwollum
+gwl-print-detector-response:gwollum
+gwl-print-livetime:gwollum
+gwl-print-psd:gwollum
+gwl-trigger-merge:gwollum
+gwl-txt-to-frame:gwollum
+gwl-txt-to-tree:gwollum
+gwl-txt-to-triggers:gwollum
 gwpy-plot:gwpy
 gwsumm-plot-guardian:gwsumm
 gwsumm-plot-triggers:gwsumm
@@ -4636,6 +4690,7 @@ gz-11.5.0:gazebo
 gz-11.5.1:gazebo
 gz-11.6.0:gazebo
 gz-11.7.0:gazebo
+gz-11.8.0:gazebo
 gz-9.15.0:gazebo
 gzclient:gazebo
 gzclient-11.0.0:gazebo
@@ -4647,6 +4702,7 @@ gzclient-11.5.0:gazebo
 gzclient-11.5.1:gazebo
 gzclient-11.6.0:gazebo
 gzclient-11.7.0:gazebo
+gzclient-11.8.0:gazebo
 gzclient-9.15.0:gazebo
 gzexe:gzip
 gzip:gzip
@@ -4661,6 +4717,7 @@ gzserver-11.5.0:gazebo
 gzserver-11.5.1:gazebo
 gzserver-11.6.0:gazebo
 gzserver-11.7.0:gazebo
+gzserver-11.8.0:gazebo
 gzserver-9.15.0:gazebo
 h264dec:openh264
 h264enc:openh264
@@ -4726,6 +4783,11 @@ hamheuristic:nauty
 hangar:hangar
 hardness.py:pychemia
 harminv:harminv
+harpcheck:harp
+harpcollocate:harp
+harpconvert:harp
+harpdump:harp
+harpmerge:harp
 has160-hash:rhash
 hb-ot-shape-closure:harfbuzz
 hb-shape:harfbuzz
@@ -5369,6 +5431,7 @@ kanji-fontmap-creator:texlive-core
 kastore:kastore
 kat3:finesse
 kbxutil:gnupg
+kcat:kafkacat
 kdestroy:krb5
 kea-config:kealib
 kernda:kernda
@@ -5726,6 +5789,8 @@ lame:lame
 lammps2analisi:analisi
 landlab:landlab
 landsat:landsat_util
+larch:xraylarch
+larch_server:xraylarch
 larray-editor:larray-editor
 las2las:lastools
 las2txt:lastools
@@ -5829,6 +5894,9 @@ ldid:clang_bootstrap_osx-64
 ldid:clang_bootstrap_osx-arm64
 ldid:ldid
 ldmd2:ldc
+ldpc_dec:codec2
+ldpc_enc:codec2
+ldpc_noise:codec2
 leaftoppm:netpbm
 legend:pcraster
 legit:legit
@@ -5873,6 +5941,7 @@ libtbx.bibtex:cctbx-base
 libtbx.bootstrap:cctbx-base
 libtbx.bundle_as_exe:cctbx-base
 libtbx.bundle_as_selfx:cctbx-base
+libtbx.check_libcpp:cctbx-base
 libtbx.chunk:cctbx-base
 libtbx.clean_clutter:cctbx-base
 libtbx.clear_paths:cctbx-base
@@ -6824,6 +6893,7 @@ megaradrp-heal_traces:megaradrp
 megaradrp-overplot_traces:megaradrp
 megasky.py:bayeswaveutils
 megasky.pyc:bayeswaveutils
+meggie:meggie
 mem_image:libraw
 memacs:neuron
 memcapable:libmemcached
@@ -6953,6 +7023,7 @@ mkoctfile:octave
 mkoctfile-4.2.1:octave
 mkoctfile-6.1.0:octave
 mkoctfile-6.2.0:octave
+mkoctfile-6.3.0:octave
 mkofm:texlive-core
 mkpasswd:whois
 mkpic:texlive-core
@@ -7860,14 +7931,17 @@ octave:octave
 octave-4.2.1:octave
 octave-6.1.0:octave
 octave-6.2.0:octave
+octave-6.3.0:octave
 octave-cli:octave
 octave-cli-4.2.1:octave
 octave-cli-6.1.0:octave
 octave-cli-6.2.0:octave
+octave-cli-6.3.0:octave
 octave-config:octave
 octave-config-4.2.1:octave
 octave-config-6.1.0:octave
 octave-config-6.2.0:octave
+octave-config-6.3.0:octave
 octopus_get_vars.py:pychemia
 od:coreutils
 odbc_config:unixodbc
@@ -7885,6 +7959,10 @@ odil:odil
 odo:odo
 odvicopy:texlive-core
 odvitype:texlive-core
+ofdm_demod:codec2
+ofdm_get_test_bits:codec2
+ofdm_mod:codec2
+ofdm_put_test_bits:codec2
 off_file_from_shape_generator:gudhi
 ofm2opl:texlive-core
 ogr2ogr:libgdal
@@ -8014,6 +8092,8 @@ openslide-show-properties:openslide
 openslide-write-png:openslide
 openssl:openssl
 openstack-inventory:openstacksdk
+opentrons_execute:opentrons
+opentrons_simulate:opentrons
 openturns-config:openturns
 opj_compress:openjpeg
 opj_decompress:openjpeg
@@ -9238,6 +9318,8 @@ pull_ants.py:aipy
 pull_pol.py:aipy
 pulpdoctest:pulp
 pulptest:pulp
+pumaGUI:puma
+pumaX_testing:puma
 punzip:panda3d
 purge-old-kernels:byobu
 purifyeps:texlive-core
@@ -9318,6 +9400,7 @@ pyFAI-saxs:pyfai-base
 pyFAI-waxs:pyfai
 pyFAI-waxs:pyfai-base
 py_resp.py:ambertools
+pyannote-database:pyannote.database
 pyav:av
 pyb:pybuilder
 pyb_:pybuilder
@@ -9674,6 +9757,8 @@ pypeit_find_objects:pypeit
 pypeit_flux_calib:pypeit
 pypeit_flux_setup:pypeit
 pypeit_identify:pypeit
+pypeit_install_ql_masters:pypeit
+pypeit_install_telluric:pypeit
 pypeit_lowrdx_pixflat:pypeit
 pypeit_lowrdx_skyspec:pypeit
 pypeit_multislit_flexure:pypeit
@@ -9745,6 +9830,7 @@ pysassc:libsass
 pysassc:signac-dashboard
 pyscss:pyscss
 pyshell:wxpython
+pyshortcut:pyshortcuts
 pyside-lupdate:pyside
 pyside-rcc:pyside
 pyside-uic:pyside
@@ -10350,6 +10436,7 @@ rose-metadata-graph:metomi-rose
 rose-mpi-launch:metomi-rose
 rose-namelist-dump:metomi-rose
 rose-resource:metomi-rose
+rose-stem:cylc-rose
 rose-stem:metomi-rose
 rose-task-env:metomi-rose
 rose-task-run:metomi-rose
@@ -11198,6 +11285,7 @@ spyder:spyder
 spyder3:spyder
 sql:parallel
 sql2csv:csvkit
+sqlacodegen:sqlacodegen
 sqlformat:sqlparse
 sqlite3:sqlite
 sqlite3_analyzer:tk
@@ -11629,6 +11717,9 @@ terraform-provider-aws_v3.5.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.50.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.51.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.52.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.53.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.54.0_x4:terraform-provider-aws
+terraform-provider-aws_v3.55.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4:terraform-provider-aws
@@ -11738,6 +11829,9 @@ terraform-provider-azurerm_v2.68.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.69.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.70.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.71.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.72.0_x4:terraform-provider-azurerm
+terraform-provider-azurerm_v2.73.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4:terraform-provider-azurerm
 terraform-provider-bitbucket_v1.0.0_x4:terraform-provider-bitbucket
@@ -11796,6 +11890,7 @@ terraform-provider-consul_v2.1.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.10.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.10.1_x4:terraform-provider-consul
 terraform-provider-consul_v2.12.0_x4:terraform-provider-consul
+terraform-provider-consul_v2.13.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.2.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.3.0_x4:terraform-provider-consul
 terraform-provider-consul_v2.5.0_x4:terraform-provider-consul
@@ -12051,6 +12146,10 @@ terraform-provider-google_v3.74.0_x4:terraform-provider-google
 terraform-provider-google_v3.75.0_x4:terraform-provider-google
 terraform-provider-google_v3.76.0_x4:terraform-provider-google
 terraform-provider-google_v3.77.0_x4:terraform-provider-google
+terraform-provider-google_v3.78.0_x4:terraform-provider-google
+terraform-provider-google_v3.79.0_x4:terraform-provider-google
+terraform-provider-google_v3.80.0_x4:terraform-provider-google
+terraform-provider-google_v3.81.0_x4:terraform-provider-google
 terraform-provider-grafana_v1.0.1_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.0.2_x4:terraform-provider-grafana
 terraform-provider-grafana_v1.1.0_x4:terraform-provider-grafana
@@ -12138,6 +12237,7 @@ terraform-provider-keycloak_v3.1.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.1.1_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.2.0_x4:terraform-provider-keycloak
 terraform-provider-keycloak_v3.2.1_x4:terraform-provider-keycloak
+terraform-provider-keycloak_v3.3.0_x4:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.0.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.1.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.0_x4:terraform-provider-kubernetes
@@ -12168,6 +12268,8 @@ terraform-provider-kubernetes_v2.2.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.0_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.1_x4:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.2_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.4.0_x4:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.4.1_x4:terraform-provider-kubernetes
 terraform-provider-librato_v0.1.0_x4:terraform-provider-librato
 terraform-provider-local_v1.1.0_x4:terraform-provider-local
 terraform-provider-local_v1.2.0_x4:terraform-provider-local
@@ -12575,6 +12677,7 @@ terraform-provider-vault_v2.20.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.21.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.22.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.22.1_x4:terraform-provider-vault
+terraform-provider-vault_v2.23.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4:terraform-provider-vault
 terraform-provider-vcd_v1.0.0_x4:terraform-provider-vcd
@@ -12844,6 +12947,7 @@ tofucalc:tofu
 tofuplot:tofu
 tokei:tokei
 tokenize-rt:tokenize-rt
+tollr:codec2
 tomf:casacore
 top-ehrhart-knapsack:latte-integrale
 topicmap:topicmapping
@@ -12859,6 +12963,8 @@ tput:ncurses
 tqdm:tqdm
 tr:coreutils
 train:sagemaker_containers
+tramway:tramway
+tramway-browse:tramway
 transfig:fig2dev
 transform:gts
 transicc:lcms2
@@ -13200,6 +13306,8 @@ vg2pdf:vega-cli
 vg2png:vega-cli
 vg2svg:vega-cli
 vgdb:valgrind
+vhf_deframe_c2:codec2
+vhf_frame_c2:codec2
 vibra:siesta
 videogrep:videogrep
 vidir:moreutils
@@ -13958,6 +14066,7 @@ xapian-replicate:xapian-core
 xapian-replicate-server:xapian-core
 xapian-tcpsrv:xapian-core
 xargs:findutils
+xas_viewer:xraylarch
 xattr:xattr
 xbmtopbm:netpbm
 xbuild:mono
@@ -14039,6 +14148,8 @@ xpython:xeus-python
 xq:yq
 xraylib:xraylib
 xrd:xrootd
+xrd1d_viewer:xraylarch
+xrd2d_viewer:xraylarch
 xrdacctest:xrootd
 xrdadler32:xrootd
 xrdcopy:xrootd
@@ -14053,6 +14164,8 @@ xrdpinls:xrootd
 xrdpwdadmin:xrootd
 xrdsssadmin:xrootd
 xrdstagetool:xrootd
+xrfdisplay:xraylarch
+xrfdisplay_epics:xraylarch
 xrfi.py:aipy
 xrfi_simple.py:aipy
 xrobot:xeus-robot

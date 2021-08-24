@@ -399,7 +399,9 @@ ablog-script.py:ablog
 ablog.exe:ablog
 activate:conda
 activate-global-python-argcomplete-script.py:argcomplete
+activate-global-python-argcomplete-script.py:nbtutor
 activate-global-python-argcomplete.exe:argcomplete
+activate-global-python-argcomplete.exe:nbtutor
 activate.bat:conda
 acyclic.bat:graphviz
 addr2line.exe:mingwpy
@@ -707,6 +709,7 @@ breathe-apidoc.exe:breathe
 broot.exe:broot
 browse-script.py:easydev
 browse.exe:easydev
+build_interface.py:rvlib
 buildbot-script.py:buildbot
 buildbot-worker-script.py:buildbot-worker
 buildbot-worker.exe:buildbot-worker
@@ -1399,6 +1402,7 @@ dimple2ispyb.py:ispyb
 dimple2ispyb.pyc:ispyb
 dioptas-script.py:dioptas
 dioptas.exe:dioptas
+dioptas_larch.exe:xraylarch
 dipy_align_affine-script.py:dipy
 dipy_align_affine.bat:dipy
 dipy_align_affine.exe:dipy
@@ -1883,6 +1887,10 @@ feedstockrot-script.pyc:feedstockrot
 feedstockrot.exe:feedstockrot
 feedstocks-script.py:conda-smithy
 feedstocks.exe:conda-smithy
+feff6l-script.py:xraylarch
+feff6l.exe:xraylarch
+feff8l-script.py:xraylarch
+feff8l.exe:xraylarch
 feff_input_generation-script.py:pymatgen
 feff_input_generation.exe:pymatgen
 feff_plot_cross_section-script.py:pymatgen
@@ -2390,6 +2398,9 @@ gsdj.bat:miktex
 gsdj.exe:miktex
 gsdj500.bat:miktex
 gsdj500.exe:miktex
+gse_dtcorrect.exe:xraylarch
+gse_mapviewer-script.py:xraylarch
+gse_mapviewer.exe:xraylarch
 gsf2pk.bat:miktex
 gsf2pk.exe:miktex
 gslj.bat:miktex
@@ -2945,6 +2956,10 @@ landlab-script.py:landlab
 landlab.exe:landlab
 landsat-script.py:landsat_util
 landsat.exe:landsat_util
+larch-script.py:xraylarch
+larch.exe:xraylarch
+larch_server-script.py:xraylarch
+larch_server.exe:xraylarch
 larray-editor-script.pyw:larray-editor
 larray-editor.exe:larray-editor
 latex-git-log.bat:miktex
@@ -3326,6 +3341,7 @@ medpy_zoom_image.py:medpy
 megaradrp-cube.exe:megaradrp
 megaradrp-heal_traces.exe:megaradrp
 megaradrp-overplot_traces.exe:megaradrp
+meggie.exe:meggie
 menuinst-script.py:menuinst
 menuinst.exe:menuinst
 mercantile-script.py:mercantile
@@ -4031,6 +4047,10 @@ openneuro-py-script.py:openneuro-py
 openneuro-py.exe:openneuro-py
 openstack-inventory-script.py:openstacksdk
 openstack-inventory.exe:openstacksdk
+opentrons_execute-script.py:opentrons
+opentrons_execute.exe:opentrons
+opentrons_simulate-script.py:opentrons
+opentrons_simulate.exe:opentrons
 opl2ofm.bat:miktex
 opl2ofm.exe:miktex
 opus.txt:ffmpeg
@@ -4638,6 +4658,8 @@ pyFAI-waxs.exe:pyfai
 pyFAI-waxs.exe:pyfai-base
 pyami_sendmail-script.py:gensim
 pyami_sendmail.exe:gensim
+pyannote-database-script.py:pyannote.database
+pyannote-database.exe:pyannote.database
 pyav-script.py:av
 pyav.exe:av
 pyb-script.py:pybuilder
@@ -4930,6 +4952,8 @@ pypeit_flux_setup-script.py:pypeit
 pypeit_flux_setup.exe:pypeit
 pypeit_identify-script.py:pypeit
 pypeit_identify.exe:pypeit
+pypeit_install_ql_masters.exe:pypeit
+pypeit_install_telluric.exe:pypeit
 pypeit_lowrdx_pixflat-script.py:pypeit
 pypeit_lowrdx_pixflat.exe:pypeit
 pypeit_lowrdx_skyspec-script.py:pypeit
@@ -5037,6 +5061,8 @@ pyscss-script.py:pyscss
 pyscss.exe:pyscss
 pyshell-script.py:wxpython
 pyshell.exe:wxpython
+pyshortcut-script.py:pyshortcuts
+pyshortcut.exe:pyshortcuts
 pyslices-script.py:wxpython
 pyslices.exe:wxpython
 pyslicesshell-script.py:wxpython
@@ -5079,7 +5105,9 @@ pytest.exe:pytest
 pytest11-script.py:pytest-django
 pytest11.exe:pytest-django
 python-argcomplete-check-easy-install-script-script.py:argcomplete
+python-argcomplete-check-easy-install-script-script.py:nbtutor
 python-argcomplete-check-easy-install-script.exe:argcomplete
+python-argcomplete-check-easy-install-script.exe:nbtutor
 python-argcomplete-tcsh:argcomplete
 python-modernize-script.py:modernize
 python-modernize.exe:modernize
@@ -5195,7 +5223,9 @@ reentry.exe:reentry
 refnx-script.pyw:refnx
 refnx.exe:refnx
 register-python-argcomplete-script.py:argcomplete
+register-python-argcomplete-script.py:nbtutor
 register-python-argcomplete.exe:argcomplete
+register-python-argcomplete.exe:nbtutor
 regolith-script.py:regolith
 regolith.exe:regolith
 reindent-script.py:reindent
@@ -5632,6 +5662,8 @@ spyder_light.ico:spyder
 spyder_reset.ico:spyder
 sql2csv-script.py:csvkit
 sql2csv.exe:csvkit
+sqlacodegen-script.py:sqlacodegen
+sqlacodegen.exe:sqlacodegen
 sqlformat-script.py:sqlparse
 sqlformat.exe:sqlparse
 srcredact.bat:miktex
@@ -5898,6 +5930,9 @@ terraform-provider-aws_v3.5.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.50.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.51.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.52.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.53.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.54.0_x4.exe:terraform-provider-aws
+terraform-provider-aws_v3.55.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.6.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.7.0_x4.exe:terraform-provider-aws
 terraform-provider-aws_v3.8.0_x4.exe:terraform-provider-aws
@@ -6001,6 +6036,9 @@ terraform-provider-azurerm_v2.68.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.69.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.7.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.70.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.71.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.72.0_x4.exe:terraform-provider-azurerm
+terraform-provider-azurerm_v2.73.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.8.0_x4.exe:terraform-provider-azurerm
 terraform-provider-azurerm_v2.9.0_x4.exe:terraform-provider-azurerm
 terraform-provider-bitbucket_v1.0.0_x4.exe:terraform-provider-bitbucket
@@ -6045,6 +6083,7 @@ terraform-provider-cobbler_v1.1.0_x4.exe:terraform-provider-cobbler
 terraform-provider-consul_v2.10.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.10.1_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.12.0_x4.exe:terraform-provider-consul
+terraform-provider-consul_v2.13.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.2.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.3.0_x4.exe:terraform-provider-consul
 terraform-provider-consul_v2.5.0_x4.exe:terraform-provider-consul
@@ -6274,6 +6313,10 @@ terraform-provider-google_v3.74.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.75.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.76.0_x4.exe:terraform-provider-google
 terraform-provider-google_v3.77.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.78.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.79.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.80.0_x4.exe:terraform-provider-google
+terraform-provider-google_v3.81.0_x4.exe:terraform-provider-google
 terraform-provider-grafana_v1.3.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.4.0_x4.exe:terraform-provider-grafana
 terraform-provider-grafana_v1.5.0_x4.exe:terraform-provider-grafana
@@ -6347,6 +6390,7 @@ terraform-provider-keycloak_v3.1.0_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v3.1.1_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v3.2.0_x4.exe:terraform-provider-keycloak
 terraform-provider-keycloak_v3.2.1_x4.exe:terraform-provider-keycloak
+terraform-provider-keycloak_v3.3.0_x4.exe:terraform-provider-keycloak
 terraform-provider-kubernetes_v1.11.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.1_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v1.11.2_x4.exe:terraform-provider-kubernetes
@@ -6373,6 +6417,8 @@ terraform-provider-kubernetes_v2.2.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.0_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.1_x4.exe:terraform-provider-kubernetes
 terraform-provider-kubernetes_v2.3.2_x4.exe:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.4.0_x4.exe:terraform-provider-kubernetes
+terraform-provider-kubernetes_v2.4.1_x4.exe:terraform-provider-kubernetes
 terraform-provider-librato_v0.1.0_x4.exe:terraform-provider-librato
 terraform-provider-local_v1.1.0_x4.exe:terraform-provider-local
 terraform-provider-local_v1.2.0_x4.exe:terraform-provider-local
@@ -6721,6 +6767,7 @@ terraform-provider-vault_v2.20.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.21.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.22.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.22.1_x4.exe:terraform-provider-vault
+terraform-provider-vault_v2.23.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.3.0_x4.exe:terraform-provider-vault
 terraform-provider-vault_v2.4.0_x4.exe:terraform-provider-vault
 terraform-provider-vcd_v1.0.0_x4.exe:terraform-provider-vcd
@@ -6917,6 +6964,10 @@ tpot-script.py:tpot
 tpot.exe:tpot
 tqdm-script.py:tqdm
 tqdm.exe:tqdm
+tramway-browse-script.py:tramway
+tramway-browse.exe:tramway
+tramway-script.py:tramway
+tramway.exe:tramway
 transmart-batch-script.py:tmtk
 transmart-batch.exe:tmtk
 transonic-script.py:transonic
@@ -7256,6 +7307,8 @@ wxget.exe:wxpython
 x264.txt:ffmpeg
 x265.txt:ffmpeg
 x64:vs2008_express_vc_python_patch
+xas_viewer-script.py:xraylarch
+xas_viewer.exe:xraylarch
 xavs.txt:ffmpeg
 xbb.bat:miktex
 xbb.exe:miktex
@@ -7297,6 +7350,12 @@ xonsh-script.pyc:xonsh
 xonsh.bat:xonsh
 xonsh.exe:xonsh
 xparmed.exe:parmed
+xrd1d_viewer.exe:xraylarch
+xrd2d_viewer.exe:xraylarch
+xrfdisplay-script.py:xraylarch
+xrfdisplay.exe:xraylarch
+xrfdisplay_epics-script.py:xraylarch
+xrfdisplay_epics.exe:xraylarch
 xsv.exe:xsv
 xvid.txt:ffmpeg
 xz.txt:ffmpeg

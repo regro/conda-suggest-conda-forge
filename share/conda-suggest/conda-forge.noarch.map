@@ -1,6 +1,7 @@
 3digrid_explore:threedigrid
 3digrid_export:threedigrid
 CLINAME:openmichrom
+CLINAME:opensmog
 EDR_Stats:hiproc
 G5check:goosehdf5
 G5compare:goosehdf5
@@ -51,6 +52,7 @@ acs_destripe:acstools
 acs_destripe_plus:acstools
 actions_include:actions-includes
 actions_include_check:actions-includes
+activitysim:activitysim
 ads2inspire:ads2inspire
 adstex:adstex
 advbumpversion:advbumpversion
@@ -105,10 +107,12 @@ atlasquery:fslpy
 autoflake:autoflake
 automat-visualize:automat
 autopep8:autopep8
+autopxd:autopxd2
 autowrap:autowrap
 aws-configure-sso-profile:aws-sso-credential-process
 aws-sso-configure-profile:aws-sso-credential-process
 aws-sso-credential-process:aws-sso-credential-process
+aws-sso-util:aws-sso-util
 aws.rb:rb-aws-sdk-core
 aws_okta_keyman:aws-okta-keyman
 awscliv2:awscliv2
@@ -167,6 +171,7 @@ blackd:blackd
 blackdoc:blackdoc
 blacken-docs:blacken-docs
 blark:blark
+blossalg:blossalg
 blpk:bloscpack
 bmi-test:bmi-tester
 bmi-topography:bmi-topography
@@ -242,6 +247,8 @@ catkin_tag_changelog:catkin_pkg
 catkin_test_changelog:catkin_pkg
 ccframe:cclib
 ccget:cclib
+ccp3d:seispy
+ccp_profile:seispy
 ccwrite:cclib
 cda:cclib
 cde:chemdataextractor
@@ -251,6 +258,7 @@ cdsutils:cdsutils
 celery:celery
 cellpy:cellpy
 cement:cement
+censusdp1tract_to_sqlite:catalystcoop.pudl
 certipy:certipy
 cfchecks:cfchecker
 cfgrib:cfgrib
@@ -261,6 +269,7 @@ chalice:pytest-chalice
 change_tz:vobject
 chardetect:chardet
 check-manifest:check-manifest
+check_species:vasppy
 checkcopyright:pyutilib
 checksec:pwntools
 chembl_act:chembl_webresource_client
@@ -307,6 +316,7 @@ cmlib_demo:cmlib
 cmr:cmasher
 coco:country_converter
 codebraid:codebraid
+codeclimate-test-reporter:codeclimate-test-reporter
 codecov:codecov
 codedeploy-agent:rb-aws-codedeploy-agent
 codedeploy-local:rb-aws-codedeploy-agent
@@ -331,6 +341,7 @@ conda-devenv:conda-devenv
 conda-docker:conda-docker
 conda-execute:conda-execute
 conda-export:conda-export
+conda-flow:conda-flow
 conda-gitenv:conda-gitenv
 conda-lock:conda-lock
 conda-mambabuild:boa
@@ -478,6 +489,7 @@ dataframe_image:dataframe_image
 datalad:datalad
 datapackage:datapackage
 datapane:datapane
+datapkg_to_rst:catalystcoop.pudl
 datapkg_to_sqlite:catalystcoop.pudl
 datasette:datasette
 datashader:datashader
@@ -599,6 +611,8 @@ doc2dash:doc2dash
 doc8:doc8
 docformatter:docformatter
 docs-versions-menu:docs-versions-menu
+docspec:docspec
+docspec-python:docspec-python
 doctr:doctr
 doctr-versions-menu:doctr-versions-menu
 dods:pydap
@@ -646,6 +660,7 @@ ecp-curl:ciecplib
 ecp-get-cert:ciecplib
 ecp-get-cookie:ciecplib
 edit-distance:edit_distance
+effective_mass:vasppy
 eido:eido
 eio:elevation
 el:spacy-lookups-data
@@ -705,6 +720,7 @@ fanstatic-compile:fanstatic
 fast_dp:fast_dp
 fast_rdp:fast_dp
 fastep:fastentrypoints
+fat_bands:vasppy
 fcm-normalize:intensity-normalization
 fds:fastds
 featuretools:featuretools
@@ -842,6 +858,7 @@ geehydro:geehydro
 geemap:geemap
 gemoji:rb-gemoji
 gen_client:google-apitools
+gen_rayp_lib:seispy
 generate-paintera-bash-completion:paintera
 generate_micmac_measures:spymicmac
 genson:genson
@@ -864,6 +881,7 @@ get_bounding.py:hyp3lib
 get_dem.py:hyp3lib
 get_orb.py:hyp3lib
 get_pharm_counts:pmapper
+get_pierce_points:seispy
 getcsv:libcomcat
 geteventhist:libcomcat
 getmags:libcomcat
@@ -970,6 +988,7 @@ hiproc:hiproc
 hist:bashplotlib
 hist:hist
 histoprint:histoprint
+hk:seispy
 hklscan:sardana
 holoviews:holoviews
 hookee:hookee
@@ -998,7 +1017,9 @@ iapsg:apsg
 ibrowse:easydev
 icdiff:icdiff
 icepap:icepap
+icepapcms:icepapcms
 icepapctl:icepap
+icepaposc:icepaposc
 ics_diff:vobject
 id:spacy-lookups-data
 identify-cli:identify
@@ -1036,7 +1057,11 @@ iota.filter_pickles:iota
 iota.run:iota
 iota.single_image:iota
 iota.track_images:iota
+ipapconsole:icepapcms
+ipcluster:ipyparallel
+ipcontroller:ipyparallel
 ipdb:ipdb
+ipengine:ipyparallel
 ipubpandoc:ipypublish
 ipynb-py-convert:ipynb-py-convert
 iris:iris-ued
@@ -1055,6 +1080,7 @@ itango3-qt:itango
 ixmp:ixmp
 ixmp-config:ixmp
 j2:j2cli
+jake:jake
 jb:jupyter-book
 jcache:jupyter-cache
 jdiff:jsondiff
@@ -1136,6 +1162,7 @@ kubessh:kubessh
 label-maker:label-maker
 labours:labours
 lambda-builders:aws_lambda_builders
+lammps-interface:lammps-interface
 lantz:lantz
 lantz-config:lantz
 lantz-ino:lantz
@@ -1318,6 +1345,7 @@ mercantile:mercantile
 merge_features:geometric_features
 mesa:mesa
 meshcat-server:meshcat-python
+meshio:meshio
 meshio-ascii:meshio
 meshio-binary:meshio
 meshio-compress:meshio
@@ -1387,6 +1415,7 @@ multimech-gridgui:multi-mechanize
 multimech-newproject:multi-mechanize
 multimech-run:multi-mechanize
 multisheller:multisheller
+murnfit:vasppy
 mutatest:mutatest
 mv_regex:mv_regex
 mycli:mycli
@@ -1411,6 +1440,7 @@ nbdiff:nbdime
 nbdiff-web:nbdime
 nbdime:nbdime
 nbdoctest:importnb
+nbgitpuller-link:nbgitpuller-link
 nbgrep:nbcommands
 nbhead:nbcommands
 nbjuniper:nbjuniper
@@ -1433,6 +1463,7 @@ ncdiff:recursive_diff
 ncem2png:ncempy
 ncflag:ncflag
 ndg_httpclient:ndg-httpsclient
+ndk2dat:seispy
 ndscope:ndscope
 neptune:neptune-client
 neptune_notebooks:neptune-notebooks
@@ -1484,6 +1515,8 @@ ocrmypdf:ocrmypdf
 offset_xml.py:hyp3lib
 oidc-register:flask-oidc
 olivaw:ligo-asimov
+olog:pyolog
+ologgui:pyolog
 omicron-hdf5-merge:pyomicron
 omicron-process:pyomicron
 omicron-root-merge:pyomicron
@@ -1491,6 +1524,7 @@ omicron-show:pyomicron
 omicron-status:pyomicron
 omx-validate:openmatrix
 open-fonts-css:py-open-fonts
+openapi-python-client:openapi-python-client
 openapi-spec-validator:openapi-spec-validator
 openmdao:openmdao
 openml:openml
@@ -1548,6 +1582,7 @@ parallel_bilby_generation:parallel-bilby
 parallel_bilby_ptemcee_analysis:parallel-bilby
 param:earthsim
 parliament:parliament
+parquet-tools:parquet-tools
 parrec2nii:nibabel
 parselglossy:parselglossy
 parsl-globus-auth:parsl
@@ -1593,14 +1628,18 @@ pfplot:pyfesom2
 pgcli:pgcli
 pgcolorbar_demo:pgcolorbar
 pgsanity:pgsanity
+pgsu:pgsu
 phd:pwntools
 pheasant:pheasant
 phil:freephil
 pickled_reader:pdielec
+pickrf:seispy
 pidcalib2.make_eff_hists:pidcalib2
 pidcalib2.merge_trees:pidcalib2
 pidcalib2.ref_calib:pidcalib2
 piecash:piecash
+pimaim_to_poscar:vasppy
+pimaim_to_xtl:vasppy
 pio:platformio
 piodebuggdb:platformio
 pip:pip
@@ -1614,6 +1653,7 @@ pipenv:pipenv
 pipenv-resolver:pipenv
 pipper:johnnydep
 pipreqs:pipreqs
+pisces:pisces-db
 pj:javascripthon
 pkcasascript:pwkit
 pkenvtool:pwkit
@@ -1623,9 +1663,12 @@ planetarycomputer:planetary-computer
 platformio:platformio
 plip:plip
 ploomber:ploomber
+plot-histograms:intensity-normalization
 plot-hists:intensity-normalization
 plot_features:geometric_features
 plotlydash-tornado-cmd:plotlydash-tornado-cmd
+plotr:seispy
+plotrt:seispy
 pmake:api2db
 pmapper_speed_test:pmapper
 pmgrLauncher.sh:pmgr
@@ -1639,8 +1682,13 @@ polar2grid:polar2grid
 policy_sentry:policy_sentry
 poly-intersect:maxrect
 portable_db_server:xpdan
+poscar_sort:vasppy
+poscar_to_cif:vasppy
+poscar_to_pimaim:vasppy
+poscar_to_xtl:vasppy
 post-knitty:knitty
 potable:atsim-potentials
+potcar_spec:vasppy
 potranslator:potranslator
 pre-commit:pre_commit
 pre-commit-mirror:pre-commit-mirror-maker
@@ -1652,8 +1700,10 @@ preader:pdielec
 prefect:prefect
 preprocess:intensity-normalization
 prequest:pyramid
+prf:seispy
 print_server_config_dir:pdfstream
 prism:cfg-cli
+proc_poscar:vasppy
 profimp:profimp
 propconv:jproperties
 propka31:propka
@@ -1678,8 +1728,10 @@ ptvpy:ptvpy
 ptweens:pyramid
 pudb:pudb
 pudl_data:catalystcoop.pudl
+pudl_datastore:catalystcoop.pudl
 pudl_etl:catalystcoop.pudl
 pudl_setup:catalystcoop.pudl
+pudl_territories:catalystcoop.pudl
 punx:punx
 putup:pyscaffold
 pviews:pyramid
@@ -1701,6 +1753,7 @@ pySW4-create-plots:pysw4
 pySW4-plot-image:pysw4
 pyaeroeval:pyaerocom
 pyaerotrends:pyaerocom
+pyannote-metrics:pyannote.metrics
 pyauthenticator:pyauthenticator
 pybabel:babel
 pybidi:python-bidi
@@ -1711,6 +1764,7 @@ pycondor:pycondor
 pydap:pydap
 pydaymet:pydaymet
 pydm:pydm
+pydoc-markdown:pydoc-markdown
 pydocstyle:pydocstyle
 pydruid:pydruid
 pydv:pydv
@@ -1737,6 +1791,7 @@ pyjson5:json5
 pyjwt:pyjwt
 pykwalify:pykwalify
 pylama:pylama
+pylammps:pymatgen-lammps
 pylint:pylint
 pyls:python-language-server
 pylsp:python-lsp-server
@@ -1786,6 +1841,7 @@ pyserial-ports:pyserial
 pyshacl:pyshacl
 pyspark_yarn_client_conda:spylon
 pyspark_yarn_cluster_conda:spylon
+pyspelling:pyspelling
 pystache:pystache
 pystache-test:pystache
 pystitcher:pystitcher
@@ -1842,6 +1898,7 @@ rdf2dot:neurdflib
 rdfgraphisomorphism:neurdflib
 rdfpipe:neurdflib
 rdfs2dot:neurdflib
+read_zbar:pyzbar
 rebot:robotframework
 recharge:openff-recharge
 records:records
@@ -1879,6 +1936,8 @@ retype:retype
 reuse:fsfe-reuse
 reuse:reuse
 rever:rever
+rf2depth:seispy
+rfani:seispy
 rfi-file-monitor:rfi-file-monitor
 rflint:robotframework-lint
 rioscalcstats.py:rios
@@ -1898,6 +1957,7 @@ rosdep-source:rosdep
 rosinstall_generator:rosinstall_generator
 roslibpy:roslibpy
 rosversion:rospkg
+rotate_poscar:vasppy
 rougify:rb-rouge
 rq:rq
 rqinfo:rq
@@ -1990,6 +2050,7 @@ serve:sagemaker-mxnet-serving-container
 serve:sagemaker-pytorch-serving-container
 serve-from-template:lume-epics
 set_group_name:geometric_features
+setpar:seispy
 setup:rb-wisper
 sgqlc-codegen:sgqlc
 shelephant_checksum:shelephant
@@ -2039,6 +2100,7 @@ sort_files.py:msumastro
 sort_wsdl:spyne
 sos:sos
 sos-runner:sos
+spacegroup:vasppy
 spacenet_eval:solaris
 spec2nii:spec2nii
 sphinx-apidoc:sphinx
@@ -2161,6 +2223,7 @@ timechart:timechart
 tinuous:tinuous
 tiohd:torchio
 tissue-mask:intensity-normalization
+tissue-membership:intensity-normalization
 titlecase:titlecase
 tl:spacy-lookups-data
 tldextract:tldextract
@@ -2237,6 +2300,7 @@ unit2:unittest2
 unittest2pytest:unittest2pytest
 universions:universions
 update:pwntools
+updatecatalog:seispy
 upload_zenodo:pyzenodo3
 ur:spacy-lookups-data
 urlchecker:urlchecker
@@ -2244,6 +2308,8 @@ ursabot:ursabot
 userpath:userpath
 usgs:usgs
 utm2dem.py:hyp3lib
+vasp_grid:vasppy
+vasp_summary:vasppy
 vcftutorials:orange3-singlecell
 vcs:vcstool
 vcs-branch:vcstool
@@ -2329,6 +2395,9 @@ xcube:xcube
 xcube-gen:xcube
 xcube-restime:xcube
 xcube_standard:xcube
+xdatcar_to_disp:vasppy
+xdatcar_to_poscart:vasppy
+xdatcar_to_rdf:vasppy
 xdoctest:xdoctest
 xenon:xenon
 xenv:xenv
